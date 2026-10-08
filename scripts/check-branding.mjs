@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';import * as cheerio from 'cheerio';
+let count=0;const failures=[];
+async function walk(dir){for(const file of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,file.name);if(file.isDirectory())await walk(p);else if(file.name.endsWith('.html')){const $=cheerio.load(await fs.readFile(p,'utf8'));$('script,style').remove();const text=[$('body').text(),$('title').text(),...$('img').map((_,e)=>$(e).attr('alt')).get(),...$('meta[name="description"],meta[property^="og:"],meta[name^="twitter:"]').map((_,e)=>$(e).attr('content')).get()].join(' ');if(/powergen|indian utility week/i.test(text))failures.push(p);count++;}}}
+await walk('out');assert.deepEqual(failures,[],'Old event branding in rendered text or metadata');console.log(JSON.stringify({htmlPages:count,oldBrandReferences:failures.length}));

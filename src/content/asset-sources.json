@@ -1,13 +1,5 @@
 [
   {
-    "file": "June-Header.jpg",
-    "url": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/June-Header.jpg",
-    "dimensions": [
-      2234,
-      671
-    ]
-  },
-  {
     "file": "Banner.png",
     "url": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Banner.png",
     "dimensions": [
@@ -165,6 +157,19 @@
     "dimensions": [
       766,
       263
+    ]
+  },
+  {
+    "file": "bharat-electricity-logo-original.png",
+    "source": "User-supplied Bharat Electricity logo TM.png",
+    "dimensions": [
+      7925,
+      2195
+    ],
+    "optimizedFile": "bharat-electricity-logo.webp",
+    "optimizedDimensions": [
+      1600,
+      443
     ]
   }
 ]

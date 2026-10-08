@@ -1,4 +1,4 @@
-# Bharat Electricity website
+# BHARAT ELECTRICITY website
 
 Next.js 16 App Router, TypeScript and Tailwind CSS. All event content is local; there is no database, Strapi or admin panel.
 
@@ -12,6 +12,10 @@ Use Node.js 22.19+ and npm.
 - npm run preview (serves the production export on http://localhost:4173)
 - npm run typecheck
 - npm run check
+
+## Brand and appearance
+
+The supplied BHARAT ELECTRICITY logo is used in the header and footer. The website uses white backgrounds with orange and green accents, including when the operating system requests dark mode. The exact user-supplied Lottie plays once on first visit; Skip introduction bypasses it. Orange/green energy graphics and scroll reveals respect reduced motion. See docs/REBRAND.md for the branding, animation, image and canonical-route changes.
 
 ## Edit content and editions
 
