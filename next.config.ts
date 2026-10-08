@@ -1,0 +1,1 @@
+import type {NextConfig} from 'next';const config:NextConfig={output:'export',trailingSlash:true,images:{loader:'custom',loaderFile:'./src/lib/image-loader.ts',deviceSizes:[480,768,1200,1800],imageSizes:[160,320]},poweredByHeader:false};export default config;

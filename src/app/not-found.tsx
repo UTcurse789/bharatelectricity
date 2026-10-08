@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <div className="wrap empty-state not-found"><p className="eyebrow">Page not found</p><h1>Let’s get you back<br/>to the event.</h1><p>This page isn’t part of the published archive.</p><Link className="button" href="/">Return home</Link></div>}

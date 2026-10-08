@@ -1,0 +1,1 @@
+import type {ImageLoaderProps} from 'next/image';export default function imageLoader({src,width}:ImageLoaderProps){if(/^\/assets\/exhibition-2025-\d+\.webp$/.test(src))return src.replace('.webp','-'+width+'.webp');return src;}

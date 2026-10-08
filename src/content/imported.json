@@ -1,0 +1,4336 @@
+{
+  "companies": [
+    {
+      "id": "63sats-cybertech-limited",
+      "name": "63SATS Cybertech Limited",
+      "logo": "/assets/logos/63sats-cybertech-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/63sats-cybertech-limited",
+      "website": "https://63sats.com/"
+    },
+    {
+      "id": "agk-infratech-pvt",
+      "name": "AGK Infratech Pvt. Ltd",
+      "logo": "/assets/logos/agk-infratech-pvt.webp",
+      "source": "https://www.powergen-india.com/exhibitors/agk-infratech-pvt",
+      "website": "https://www.agkinfratech.in/"
+    },
+    {
+      "id": "airnord-india-private-limited",
+      "name": "Airnord India Private Limited",
+      "logo": "/assets/logos/airnord-india-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/airnord-india-private-limited",
+      "website": "https://airnord.com/"
+    },
+    {
+      "id": "alphageek-enterprises-private-limited",
+      "name": "Alphageek Enterprises Private Limited",
+      "logo": "/assets/logos/alphageek-enterprises-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/alphageek-enterprises-private-limited"
+    },
+    {
+      "id": "arcturus-business-solutions",
+      "name": "Arcturus Business Solutions",
+      "logo": "/assets/logos/arcturus-business-solutions.webp",
+      "source": "https://www.powergen-india.com/exhibitors/arcturus-business-solutions",
+      "website": "https://www.arcturusbusiness.in/"
+    },
+    {
+      "id": "automoto-genset-sales-services-llp",
+      "name": "Automoto Genset Solutions LLP",
+      "logo": "/assets/logos/automoto-genset-sales-services-llp.webp",
+      "source": "https://www.powergen-india.com/exhibitors/automoto-genset-sales-services-llp",
+      "website": "https://www.automotosolutions.com/"
+    },
+    {
+      "id": "beck-actuators-india-private-limited",
+      "name": "Beck Actuators India Private Limited",
+      "logo": "/assets/logos/beck-actuators-india-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/beck-actuators-india-private-limited",
+      "website": "https://haroldbeck.com/beck_locations/beck-actuato"
+    },
+    {
+      "id": "bell-cooling-towers",
+      "name": "Bell Cooling Towers",
+      "logo": "/assets/logos/bell-cooling-towers.webp",
+      "source": "https://www.powergen-india.com/exhibitors/bell-cooling-towers",
+      "website": "https://www.bellct.com/"
+    },
+    {
+      "id": "better-drones-knifedge-lab-technologies",
+      "name": "BETTER DRONES (Knifedge Lab Technologies)",
+      "logo": "/assets/logos/better-drones-knifedge-lab-technologies.webp",
+      "source": "https://www.powergen-india.com/exhibitors/better-drones-knifedge-lab-technologies",
+      "website": "https://betterdrones.in/"
+    },
+    {
+      "id": "bses-rajdhani-power-limited",
+      "name": "BSES Rajdhani Power Limited",
+      "logo": "/assets/logos/bses-rajdhani-power-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/bses-rajdhani-power-limited",
+      "website": "https://www.bsesdelhi.com/web/brpl/home"
+    },
+    {
+      "id": "bses-yamuna-power-limited",
+      "name": "BSES Yamuna Power Limited",
+      "logo": "/assets/logos/bses-yamuna-power-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/bses-yamuna-power-limited",
+      "website": "https://www.bsesdelhi.com/web/bypl"
+    },
+    {
+      "id": "capgen-nergy-private-limited",
+      "name": "Capgen Nergy Private Limited",
+      "logo": "/assets/logos/capgen-nergy-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/capgen-nergy-private-limited"
+    },
+    {
+      "id": "cell-com-teleservices-pvt-",
+      "name": "Cell Com Teleservices Pvt. Ltd.",
+      "logo": "/assets/logos/cell-com-teleservices-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/cell-com-teleservices-pvt-",
+      "website": "https://www.cellcom.in/"
+    },
+    {
+      "id": "codalien-technologies-private-limited",
+      "name": "Codalien Technologies Private Limited",
+      "logo": "/assets/logos/codalien-technologies-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/codalien-technologies-private-limited",
+      "website": "https://codalien.com/"
+    },
+    {
+      "id": "constromech-engineering-solution",
+      "name": "Constromech Engineering Solution",
+      "logo": "/assets/logos/constromech-engineering-solution.webp",
+      "source": "https://www.powergen-india.com/exhibitors/constromech-engineering-solution",
+      "website": "https://constromechsolution.com/"
+    },
+    {
+      "id": "cospower-engineering-limited",
+      "name": "Cospower Engineering Limited",
+      "logo": "/assets/logos/cospower-engineering-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/cospower-engineering-limited"
+    },
+    {
+      "id": "crimson-energy-experts-private-limited",
+      "name": "Crimson Energy Experts Private Limited",
+      "logo": "/assets/logos/crimson-energy-experts-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/crimson-energy-experts-private-limited",
+      "website": "https://crimsonenergy.in/"
+    },
+    {
+      "id": "doyen-metal-international-co-",
+      "name": "Doyen Metal International Co., Ltd.",
+      "logo": "/assets/logos/doyen-metal-international-co-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/doyen-metal-international-co-"
+    },
+    {
+      "id": "eci-consulting-engineers-private-limited",
+      "name": "ECI Consulting Engineers Private Limited",
+      "logo": "/assets/logos/eci-consulting-engineers-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/eci-consulting-engineers-private-limited",
+      "website": "https://www.ecigroup.in/"
+    },
+    {
+      "id": "enersol-systems-private-limited",
+      "name": "Enersol Systems Private Limited",
+      "logo": "/assets/logos/enersol-systems-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/enersol-systems-private-limited",
+      "website": "https://enersolsystems.com/"
+    },
+    {
+      "id": "eplan-software-pvt-",
+      "name": "Eplan Software Pvt. Ltd.",
+      "logo": "/assets/logos/eplan-software-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/eplan-software-pvt-"
+    },
+    {
+      "id": "g-sons-power-transformers-pvt-",
+      "name": "G Sons Power Transformers Pvt. Ltd.",
+      "logo": "/assets/logos/g-sons-power-transformers-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/g-sons-power-transformers-pvt-"
+    },
+    {
+      "id": "gautam-solar-ptzl",
+      "name": "Gautam Solar",
+      "logo": "/assets/logos/gautam-solar-ptzl.webp",
+      "source": "https://www.powergen-india.com/exhibitors/gautam-solar-ptzl"
+    },
+    {
+      "id": "gladius-technologies",
+      "name": "Gladius Technologies",
+      "logo": "/assets/logos/gladius-technologies.webp",
+      "source": "https://www.powergen-india.com/exhibitors/gladius-technologies"
+    },
+    {
+      "id": "green-power-international",
+      "name": "Green Power International",
+      "logo": "/assets/logos/green-power-international.webp",
+      "source": "https://www.powergen-india.com/exhibitors/green-power-international"
+    },
+    {
+      "id": "grid-controller-india",
+      "name": "Grid Controller of India",
+      "logo": "/assets/logos/grid-controller-india.webp",
+      "source": "https://www.powergen-india.com/exhibitors/grid-controller-india"
+    },
+    {
+      "id": "gujarat-energy-development-agency",
+      "name": "Gujarat Energy Development Agency",
+      "logo": "/assets/logos/gujarat-energy-development-agency.webp",
+      "source": "https://www.powergen-india.com/exhibitors/gujarat-energy-development-agency"
+    },
+    {
+      "id": "gujarat-industries-power-company",
+      "name": "Gujarat Industries Power Company Ltd",
+      "logo": "/assets/logos/gujarat-industries-power-company.webp",
+      "source": "https://www.powergen-india.com/exhibitors/gujarat-industries-power-company"
+    },
+    {
+      "id": "gujarat-power-corporation-limited",
+      "name": "Gujarat Power Corporation Limited",
+      "logo": "/assets/logos/gujarat-power-corporation-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/gujarat-power-corporation-limited"
+    },
+    {
+      "id": "gujarat-industries-power-company-1",
+      "name": "Gujarat State Petroleum Corporation",
+      "logo": "/assets/logos/gujarat-industries-power-company-1.webp",
+      "source": "https://www.powergen-india.com/exhibitors/gujarat-industries-power-company-1"
+    },
+    {
+      "id": "gujrat-urja-vikas-nigam-limited-government-gujarat",
+      "name": "Gujrat Urja Vikas Nigam Limited, Government Of Gujarat",
+      "logo": "/assets/logos/gujrat-urja-vikas-nigam-limited-government-gujarat.webp",
+      "source": "https://www.powergen-india.com/exhibitors/gujrat-urja-vikas-nigam-limited-government-gujarat"
+    },
+    {
+      "id": "haiyan-weijia-electric-technology-co-",
+      "name": "Haiyan Weijia Electric Technology Co., Ltd.",
+      "logo": "/assets/logos/haiyan-weijia-electric-technology-co-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/haiyan-weijia-electric-technology-co-"
+    },
+    {
+      "id": "hangzhou-wall-esoft-digital-technology-co",
+      "name": "Hangzhou Wall-Esoft Digital Technology Co., Ltd",
+      "logo": "/assets/logos/hangzhou-wall-esoft-digital-technology-co.webp",
+      "source": "https://www.powergen-india.com/exhibitors/hangzhou-wall-esoft-digital-technology-co"
+    },
+    {
+      "id": "hytorc-tools-india-pvt-",
+      "name": "Hytorc Tools India Pvt. Ltd.",
+      "logo": "/assets/logos/hytorc-tools-india-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/hytorc-tools-india-pvt-"
+    },
+    {
+      "id": "imeco-overseas-private-limited",
+      "name": "IMECO Overseas Private Limited",
+      "logo": "/assets/logos/imeco-overseas-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/imeco-overseas-private-limited"
+    },
+    {
+      "id": "indian-rubber-products",
+      "name": "Indian Rubber Products",
+      "logo": "/assets/logos/indian-rubber-products.webp",
+      "source": "https://www.powergen-india.com/exhibitors/indian-rubber-products"
+    },
+    {
+      "id": "invest-uttar-pradesh-government-uttar-pradesh",
+      "name": "Invest Uttar Pradesh (Government of Uttar Pradesh)",
+      "logo": "/assets/logos/invest-uttar-pradesh-government-uttar-pradesh.webp",
+      "source": "https://www.powergen-india.com/exhibitors/invest-uttar-pradesh-government-uttar-pradesh"
+    },
+    {
+      "id": "jaewoo-sf-corporation",
+      "name": "Jaewoo SF Corporation",
+      "logo": "/assets/logos/jaewoo-sf-corporation.webp",
+      "source": "https://www.powergen-india.com/exhibitors/jaewoo-sf-corporation"
+    },
+    {
+      "id": "jemkon-private-limited",
+      "name": "Jemkon Private Limited",
+      "logo": "/assets/logos/jemkon-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/jemkon-private-limited"
+    },
+    {
+      "id": "jiangsu-jingyi-electrical-appliance-co",
+      "name": "Jiangsu Jingyi Electrical Appliance Co. Ltd",
+      "logo": "/assets/logos/jiangsu-jingyi-electrical-appliance-co.webp",
+      "source": "https://www.powergen-india.com/exhibitors/jiangsu-jingyi-electrical-appliance-co"
+    },
+    {
+      "id": "china-exhibition-world-co",
+      "name": "Jiangxi Leierdunwei Electric Co. Ltd.",
+      "logo": "/assets/logos/china-exhibition-world-co.webp",
+      "source": "https://www.powergen-india.com/exhibitors/china-exhibition-world-co"
+    },
+    {
+      "id": "jmk-research-analytics-private-limited",
+      "name": "JMK Research And Analytics Private Limited",
+      "logo": "/assets/logos/jmk-research-analytics-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/jmk-research-analytics-private-limited"
+    },
+    {
+      "id": "kakati-karshak-industries-private-limited",
+      "name": "Kakati Karshak Industries Private Limited",
+      "logo": "/assets/logos/kakati-karshak-industries-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/kakati-karshak-industries-private-limited"
+    },
+    {
+      "id": "kalpana-industries",
+      "name": "Kalpana Industries",
+      "logo": "/assets/logos/kalpana-industries.webp",
+      "source": "https://www.powergen-india.com/exhibitors/kalpana-industries"
+    },
+    {
+      "id": "js-trafoenergy",
+      "name": "Kinergy Renewable",
+      "logo": "/assets/logos/js-trafoenergy.webp",
+      "source": "https://www.powergen-india.com/exhibitors/js-trafoenergy"
+    },
+    {
+      "id": "kintech-greenurja-private-limited",
+      "name": "Kintech Greenurja Private Limited",
+      "logo": "/assets/logos/kintech-greenurja-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/kintech-greenurja-private-limited"
+    },
+    {
+      "id": "kirloskar-brothers-",
+      "name": "Kirloskar Brothers Ltd.",
+      "logo": "/assets/logos/kirloskar-brothers-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/kirloskar-brothers-"
+    },
+    {
+      "id": "kraftpowercon-power-products-private-limited",
+      "name": "Kraftpowercon Power Products Private Limited",
+      "logo": "/assets/logos/kraftpowercon-power-products-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/kraftpowercon-power-products-private-limited"
+    },
+    {
+      "id": "lisega-india-private-limited-xf7d",
+      "name": "Lisega India Private Limited",
+      "logo": "/assets/logos/lisega-india-private-limited-xf7d.webp",
+      "source": "https://www.powergen-india.com/exhibitors/lisega-india-private-limited-xf7d"
+    },
+    {
+      "id": "longhua-technology-group-luoyang-co-",
+      "name": "Longhua Technology Group (Luoyang) Co., Ltd.",
+      "logo": "/assets/logos/longhua-technology-group-luoyang-co-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/longhua-technology-group-luoyang-co-"
+    },
+    {
+      "id": "madhura-power-technologies-pvt-",
+      "name": "Madhura Power Technologies Pvt. Ltd.",
+      "logo": "/assets/logos/madhura-power-technologies-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/madhura-power-technologies-pvt-"
+    },
+    {
+      "id": "magaldi-power-sp",
+      "name": "Magaldi Power S.P.A.",
+      "logo": "/assets/logos/magaldi-power-sp.webp",
+      "source": "https://www.powergen-india.com/exhibitors/magaldi-power-sp"
+    },
+    {
+      "id": "marsulex-environmental-technologies-india-private-limited",
+      "name": "Marsulex Environmental Technologies India Private Limited",
+      "logo": "/assets/logos/marsulex-environmental-technologies-india-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/marsulex-environmental-technologies-india-private-limited"
+    },
+    {
+      "id": "master-control-india-pvt-",
+      "name": "Master Control India Pvt. Ltd.",
+      "logo": "/assets/logos/master-control-india-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/master-control-india-pvt-"
+    },
+    {
+      "id": "matalytics",
+      "name": "Matalytics Ltd",
+      "logo": "/assets/logos/matalytics.webp",
+      "source": "https://www.powergen-india.com/exhibitors/matalytics"
+    },
+    {
+      "id": "mcb-controls",
+      "name": "MCB Electro Controls",
+      "logo": "/assets/logos/mcb-controls.webp",
+      "source": "https://www.powergen-india.com/exhibitors/mcb-controls"
+    },
+    {
+      "id": "mech-well-industries-limited-zrng",
+      "name": "Mech Well Industries Limited",
+      "logo": "/assets/logos/mech-well-industries-limited-zrng.webp",
+      "source": "https://www.powergen-india.com/exhibitors/mech-well-industries-limited-zrng"
+    },
+    {
+      "id": "michell-bearings-india-llp",
+      "name": "Michell Bearings (India) LLP",
+      "logo": "/assets/logos/michell-bearings-india-llp.webp",
+      "source": "https://www.powergen-india.com/exhibitors/michell-bearings-india-llp"
+    },
+    {
+      "id": "millennium-energy-global-private-limited",
+      "name": "Millennium Energy Global Private Limited",
+      "logo": "/assets/logos/millennium-energy-global-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/millennium-energy-global-private-limited"
+    },
+    {
+      "id": "minilec-india-pvt-",
+      "name": "Minilec India Pvt. Ltd.",
+      "logo": "/assets/logos/minilec-india-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/minilec-india-pvt-"
+    },
+    {
+      "id": "multi-commodity-exchange-india-limited",
+      "name": "Multi Commodity Exchange of India Limited",
+      "logo": "/assets/logos/multi-commodity-exchange-india-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/multi-commodity-exchange-india-limited"
+    },
+    {
+      "id": "multispan-control-instruments-pvt-",
+      "name": "Multispan Control Instruments Pvt. Ltd.",
+      "logo": "/assets/logos/multispan-control-instruments-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/multispan-control-instruments-pvt-"
+    },
+    {
+      "id": "national-switchgears",
+      "name": "National Switchgears",
+      "logo": "/assets/logos/national-switchgears.webp",
+      "source": "https://www.powergen-india.com/exhibitors/national-switchgears"
+    },
+    {
+      "id": "nexgen-consultancy-private-limited",
+      "name": "Nexgen Consultancy Private Limited",
+      "logo": "/assets/logos/nexgen-consultancy-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/nexgen-consultancy-private-limited"
+    },
+    {
+      "id": "paltech-cooling-towers-equipments-limited",
+      "name": "Paltech Cooling Towers & Equipments Limited",
+      "logo": "/assets/logos/paltech-cooling-towers-equipments-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/paltech-cooling-towers-equipments-limited"
+    },
+    {
+      "id": "pewag-india-private-limited",
+      "name": "Pewag India Private Limited",
+      "logo": "/assets/logos/pewag-india-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/pewag-india-private-limited"
+    },
+    {
+      "id": "phytec-embedded-pvt-",
+      "name": "PHYTEC Embedded Pvt. Ltd.",
+      "logo": "/assets/logos/phytec-embedded-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/phytec-embedded-pvt-"
+    },
+    {
+      "id": "powerstar-engineers-consultants-private-limited",
+      "name": "Powerstar Engineers And Consultants Private Limited",
+      "logo": "/assets/logos/powerstar-engineers-consultants-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/powerstar-engineers-consultants-private-limited"
+    },
+    {
+      "id": "renviro-systems-ue-systems-imena-pvt-",
+      "name": "Renviro Systems (UE Systems IMENA Pvt Ltd)",
+      "logo": "/assets/logos/renviro-systems-ue-systems-imena-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/renviro-systems-ue-systems-imena-pvt-"
+    },
+    {
+      "id": "rpsg-group",
+      "name": "RPSG Group",
+      "logo": "/assets/logos/rpsg-group.webp",
+      "source": "https://www.powergen-india.com/exhibitors/rpsg-group"
+    },
+    {
+      "id": "sanelec-excitation-systems-private",
+      "name": "Sanelec Excitation Systems Private Ltd",
+      "logo": "/assets/logos/sanelec-excitation-systems-private.webp",
+      "source": "https://www.powergen-india.com/exhibitors/sanelec-excitation-systems-private"
+    },
+    {
+      "id": "sharajman-technologies-pvt",
+      "name": "Sharajman Technologies Pvt. Ltd",
+      "logo": "/assets/logos/sharajman-technologies-pvt.webp",
+      "source": "https://www.powergen-india.com/exhibitors/sharajman-technologies-pvt"
+    },
+    {
+      "id": "sisco-energy-private-limited",
+      "name": "SISCO Energy Private Limited",
+      "logo": "/assets/logos/sisco-energy-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/sisco-energy-private-limited"
+    },
+    {
+      "id": "smart-charging-solutions",
+      "name": "Smart Charging Solutions",
+      "logo": "/assets/logos/smart-charging-solutions.webp",
+      "source": "https://www.powergen-india.com/exhibitors/smart-charging-solutions"
+    },
+    {
+      "id": "srj-engineering-trading-pvt-",
+      "name": "SRJ Engineering And Trading Pvt. Ltd.",
+      "logo": "/assets/logos/srj-engineering-trading-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/srj-engineering-trading-pvt-"
+    },
+    {
+      "id": "standard-transfer-specification-association",
+      "name": "Standard Transfer Specification Association",
+      "logo": "/assets/logos/standard-transfer-specification-association.webp",
+      "source": "https://www.powergen-india.com/exhibitors/standard-transfer-specification-association"
+    },
+    {
+      "id": "star-cooler-condensers-pvt",
+      "name": "Star Cooler And Condensers Pvt Ltd",
+      "logo": "/assets/logos/star-cooler-condensers-pvt.webp",
+      "source": "https://www.powergen-india.com/exhibitors/star-cooler-condensers-pvt"
+    },
+    {
+      "id": "svurg-digital-system-solutions-pvt-",
+      "name": "Svurg Digital System Solutions Pvt. Ltd.",
+      "logo": "/assets/logos/svurg-digital-system-solutions-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/svurg-digital-system-solutions-pvt-"
+    },
+    {
+      "id": "syskey-softlabs-private-limited",
+      "name": "Syskey Softlabs Private Limited",
+      "logo": "/assets/logos/syskey-softlabs-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/syskey-softlabs-private-limited"
+    },
+    {
+      "id": "tech-servers-infra-private-limited",
+      "name": "Tech Servers Infra Private Limited",
+      "logo": "/assets/logos/tech-servers-infra-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/tech-servers-infra-private-limited"
+    },
+    {
+      "id": "tejshri-renewable-solutions-pvt",
+      "name": "Tejshri Renewable Solutions Pvt Ltd",
+      "logo": "/assets/logos/tejshri-renewable-solutions-pvt.webp",
+      "source": "https://www.powergen-india.com/exhibitors/tejshri-renewable-solutions-pvt"
+    },
+    {
+      "id": "durgapur-projects-limited",
+      "name": "The Durgapur Projects Limited",
+      "logo": "/assets/logos/durgapur-projects-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/durgapur-projects-limited"
+    },
+    {
+      "id": "toshiba-jsw-power-systems-private-limited",
+      "name": "Toshiba Jsw Power Systems Private Limited",
+      "logo": "/assets/logos/toshiba-jsw-power-systems-private-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/toshiba-jsw-power-systems-private-limited"
+    },
+    {
+      "id": "tranter-india-pvt",
+      "name": "Tranter India Pvt Ltd",
+      "logo": "/assets/logos/tranter-india-pvt.webp",
+      "source": "https://www.powergen-india.com/exhibitors/tranter-india-pvt"
+    },
+    {
+      "id": "turbo-engineering-services-tes-private-limited-1",
+      "name": "Turbo Engineering Services (TES) Private Limited",
+      "logo": "/assets/logos/turbo-engineering-services-tes-private-limited-1.webp",
+      "source": "https://www.powergen-india.com/exhibitors/turbo-engineering-services-tes-private-limited-1"
+    },
+    {
+      "id": "tycon-automation-pvt",
+      "name": "Tycon Automation Pvt Ltd",
+      "logo": "/assets/logos/tycon-automation-pvt.webp",
+      "source": "https://www.powergen-india.com/exhibitors/tycon-automation-pvt"
+    },
+    {
+      "id": "v-automat-instruments-pvt-",
+      "name": "V Automat And Instruments Pvt. Ltd.",
+      "logo": "/assets/logos/v-automat-instruments-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/v-automat-instruments-pvt-"
+    },
+    {
+      "id": "veerabhadra-elite-electrodynamic-solutions-llp",
+      "name": "Veerabhadra Elite Electrodynamic Solutions LLP",
+      "logo": "/assets/logos/veerabhadra-elite-electrodynamic-solutions-llp.webp",
+      "source": "https://www.powergen-india.com/exhibitors/veerabhadra-elite-electrodynamic-solutions-llp"
+    },
+    {
+      "id": "vertex-power-controls-pvt-",
+      "name": "Vertex Power Controls Pvt. Ltd.",
+      "logo": "/assets/logos/vertex-power-controls-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/vertex-power-controls-pvt-"
+    },
+    {
+      "id": "vidhyut-control-pvt-",
+      "name": "Vidhyut Control (I) Pvt. Ltd.",
+      "logo": "/assets/logos/vidhyut-control-pvt-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/vidhyut-control-pvt-"
+    },
+    {
+      "id": "west-bengal-power-development-corporation-limited",
+      "name": "West Bengal Power Development Corporation Limited",
+      "logo": "/assets/logos/west-bengal-power-development-corporation-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/west-bengal-power-development-corporation-limited"
+    },
+    {
+      "id": "west-bengal-state-electricity-distribution-company-limited",
+      "name": "West Bengal State Electricity Distribution Company Limited",
+      "logo": "/assets/logos/west-bengal-state-electricity-distribution-company-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/west-bengal-state-electricity-distribution-company-limited"
+    },
+    {
+      "id": "west-bengal-state-electricity-transmission-company-limited",
+      "name": "West Bengal State Electricity Transmission Company Limited",
+      "logo": "/assets/logos/west-bengal-state-electricity-transmission-company-limited.webp",
+      "source": "https://www.powergen-india.com/exhibitors/west-bengal-state-electricity-transmission-company-limited"
+    },
+    {
+      "id": "wog-technologies-limited-z067",
+      "name": "WOG Technologies Limited",
+      "logo": "/assets/logos/wog-technologies-limited-z067.webp",
+      "source": "https://www.powergen-india.com/exhibitors/wog-technologies-limited-z067"
+    },
+    {
+      "id": "wte-infra-projects-pvt",
+      "name": "WTE Infra Projects Pvt Ltd",
+      "logo": "/assets/logos/wte-infra-projects-pvt.webp",
+      "source": "https://www.powergen-india.com/exhibitors/wte-infra-projects-pvt"
+    },
+    {
+      "id": "zhejiang-fanhar-electronics-co-",
+      "name": "Zhejiang Fanhar Electronics Co., Ltd.",
+      "logo": "/assets/logos/zhejiang-fanhar-electronics-co-.webp",
+      "source": "https://www.powergen-india.com/exhibitors/zhejiang-fanhar-electronics-co-"
+    },
+    {
+      "id": "zhejiang-great-electrical-co",
+      "name": "Zhejiang Great Electrical Co., Ltd",
+      "logo": "/assets/logos/zhejiang-great-electrical-co.webp",
+      "source": "https://www.powergen-india.com/exhibitors/zhejiang-great-electrical-co"
+    },
+    {
+      "id": "zhejiang-jungong-precision-metal-co",
+      "name": "Zhejiang Jungong Precision Metal Co., Ltd",
+      "logo": "/assets/logos/zhejiang-jungong-precision-metal-co.webp",
+      "source": "https://www.powergen-india.com/exhibitors/zhejiang-jungong-precision-metal-co"
+    },
+    {
+      "id": "zoonaysha-international",
+      "name": "Zoonaysha International",
+      "logo": "/assets/logos/zoonaysha-international.webp",
+      "source": "https://www.powergen-india.com/exhibitors/zoonaysha-international"
+    }
+  ],
+  "participations": [
+    {
+      "companyId": "63sats-cybertech-limited",
+      "edition": 2026,
+      "stand": "E47",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "agk-infratech-pvt",
+      "edition": 2026,
+      "stand": "G46",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "airnord-india-private-limited",
+      "edition": 2026,
+      "stand": "B20",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "alphageek-enterprises-private-limited",
+      "edition": 2026,
+      "stand": "G43",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "arcturus-business-solutions",
+      "edition": 2026,
+      "stand": "E34",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "automoto-genset-sales-services-llp",
+      "edition": 2026,
+      "stand": "F39",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "beck-actuators-india-private-limited",
+      "edition": 2026,
+      "stand": "B40",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "bell-cooling-towers",
+      "edition": 2026,
+      "stand": "F09",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "better-drones-knifedge-lab-technologies",
+      "edition": 2026,
+      "stand": "G37",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "bses-rajdhani-power-limited",
+      "edition": 2026,
+      "stand": "D15",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "bses-yamuna-power-limited",
+      "edition": 2026,
+      "stand": "D15",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "capgen-nergy-private-limited",
+      "edition": 2026,
+      "stand": "B28",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "cell-com-teleservices-pvt-",
+      "edition": 2026,
+      "stand": "A26",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "codalien-technologies-private-limited",
+      "edition": 2026,
+      "stand": "G38",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "constromech-engineering-solution",
+      "edition": 2026,
+      "stand": "G39",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "cospower-engineering-limited",
+      "edition": 2026,
+      "stand": "A01",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "crimson-energy-experts-private-limited",
+      "edition": 2026,
+      "stand": "F47",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "doyen-metal-international-co-",
+      "edition": 2026,
+      "stand": "C33",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "eci-consulting-engineers-private-limited",
+      "edition": 2026,
+      "stand": "G32",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "enersol-systems-private-limited",
+      "edition": 2026,
+      "stand": "F21",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "eplan-software-pvt-",
+      "edition": 2026,
+      "stand": "E48",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "g-sons-power-transformers-pvt-",
+      "edition": 2026,
+      "stand": "F46",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "gautam-solar-ptzl",
+      "edition": 2026,
+      "stand": "C09",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "gladius-technologies",
+      "edition": 2026,
+      "stand": "F27",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "green-power-international",
+      "edition": 2026,
+      "stand": "F15",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "grid-controller-india",
+      "edition": 2026,
+      "stand": "G10",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "gujarat-energy-development-agency",
+      "edition": 2026,
+      "stand": "B01",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "gujarat-industries-power-company",
+      "edition": 2026,
+      "stand": "B01",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "gujarat-power-corporation-limited",
+      "edition": 2026,
+      "stand": "B01",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "gujarat-industries-power-company-1",
+      "edition": 2026,
+      "stand": "B01",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "gujrat-urja-vikas-nigam-limited-government-gujarat",
+      "edition": 2026,
+      "stand": "B01",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "haiyan-weijia-electric-technology-co-",
+      "edition": 2026,
+      "stand": "C31",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "hangzhou-wall-esoft-digital-technology-co",
+      "edition": 2026,
+      "stand": "E22",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "hytorc-tools-india-pvt-",
+      "edition": 2026,
+      "stand": "F26",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "imeco-overseas-private-limited",
+      "edition": 2026,
+      "stand": "F40",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "indian-rubber-products",
+      "edition": 2026,
+      "stand": "F34B",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "invest-uttar-pradesh-government-uttar-pradesh",
+      "edition": 2026,
+      "stand": "D01",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "jaewoo-sf-corporation",
+      "edition": 2026,
+      "stand": "A34",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "jemkon-private-limited",
+      "edition": 2026,
+      "stand": "G20",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "jiangsu-jingyi-electrical-appliance-co",
+      "edition": 2026,
+      "stand": "F19",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "china-exhibition-world-co",
+      "edition": 2026,
+      "stand": "B15",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "jmk-research-analytics-private-limited",
+      "edition": 2026,
+      "stand": "F44",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "kakati-karshak-industries-private-limited",
+      "edition": 2026,
+      "stand": "B27",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "kalpana-industries",
+      "edition": 2026,
+      "stand": "G15",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "js-trafoenergy",
+      "edition": 2026,
+      "stand": "F33",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "kintech-greenurja-private-limited",
+      "edition": 2026,
+      "stand": "B22",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "kirloskar-brothers-",
+      "edition": 2026,
+      "stand": "B09",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "kraftpowercon-power-products-private-limited",
+      "edition": 2026,
+      "stand": "F10",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "lisega-india-private-limited-xf7d",
+      "edition": 2026,
+      "stand": "A27",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "longhua-technology-group-luoyang-co-",
+      "edition": 2026,
+      "stand": "A21",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "madhura-power-technologies-pvt-",
+      "edition": 2026,
+      "stand": "F34A",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "magaldi-power-sp",
+      "edition": 2026,
+      "stand": "C39",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "marsulex-environmental-technologies-india-private-limited",
+      "edition": 2026,
+      "stand": "G07",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "master-control-india-pvt-",
+      "edition": 2026,
+      "stand": "G40",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "matalytics",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "mcb-controls",
+      "edition": 2026,
+      "stand": "A28",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "mech-well-industries-limited-zrng",
+      "edition": 2026,
+      "stand": "E32",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "michell-bearings-india-llp",
+      "edition": 2026,
+      "stand": "A19",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "millennium-energy-global-private-limited",
+      "edition": 2026,
+      "stand": "C47",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "minilec-india-pvt-",
+      "edition": 2026,
+      "stand": "E40",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "multi-commodity-exchange-india-limited",
+      "edition": 2026,
+      "stand": "B33",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "multispan-control-instruments-pvt-",
+      "edition": 2026,
+      "stand": "A39",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "national-switchgears",
+      "edition": 2026,
+      "stand": "A40",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "nexgen-consultancy-private-limited",
+      "edition": 2026,
+      "stand": "G16",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "paltech-cooling-towers-equipments-limited",
+      "edition": 2026,
+      "stand": "A32",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "pewag-india-private-limited",
+      "edition": 2026,
+      "stand": "G22",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "phytec-embedded-pvt-",
+      "edition": 2026,
+      "stand": "B26",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "powerstar-engineers-consultants-private-limited",
+      "edition": 2026,
+      "stand": "F22",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "renviro-systems-ue-systems-imena-pvt-",
+      "edition": 2026,
+      "stand": "G48",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "rpsg-group",
+      "edition": 2026,
+      "stand": "D21",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "sanelec-excitation-systems-private",
+      "edition": 2026,
+      "stand": "F48",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "sharajman-technologies-pvt",
+      "edition": 2026,
+      "stand": "G33",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "sisco-energy-private-limited",
+      "edition": 2026,
+      "stand": "F25",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "smart-charging-solutions",
+      "edition": 2026,
+      "stand": "F31",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "srj-engineering-trading-pvt-",
+      "edition": 2026,
+      "stand": "B20",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "standard-transfer-specification-association",
+      "edition": 2026,
+      "stand": "A15",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "star-cooler-condensers-pvt",
+      "edition": 2026,
+      "stand": "B34",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "svurg-digital-system-solutions-pvt-",
+      "edition": 2026,
+      "stand": "G45",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "syskey-softlabs-private-limited",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "tech-servers-infra-private-limited",
+      "edition": 2026,
+      "stand": "G47",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "tejshri-renewable-solutions-pvt",
+      "edition": 2026,
+      "stand": "F42",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "durgapur-projects-limited",
+      "edition": 2026,
+      "stand": "D27",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "toshiba-jsw-power-systems-private-limited",
+      "edition": 2026,
+      "stand": "E15",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "tranter-india-pvt",
+      "edition": 2026,
+      "stand": "G27",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "turbo-engineering-services-tes-private-limited-1",
+      "edition": 2026,
+      "stand": "B48",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "tycon-automation-pvt",
+      "edition": 2026,
+      "stand": "B39",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "v-automat-instruments-pvt-",
+      "edition": 2026,
+      "stand": "F34",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "veerabhadra-elite-electrodynamic-solutions-llp",
+      "edition": 2026,
+      "stand": "G31",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "vertex-power-controls-pvt-",
+      "edition": 2026,
+      "stand": "A22",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "vidhyut-control-pvt-",
+      "edition": 2026,
+      "stand": "F37",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "west-bengal-power-development-corporation-limited",
+      "edition": 2026,
+      "stand": "D27",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "west-bengal-state-electricity-distribution-company-limited",
+      "edition": 2026,
+      "stand": "D27",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "west-bengal-state-electricity-transmission-company-limited",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "wog-technologies-limited-z067",
+      "edition": 2026,
+      "stand": "F09",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "wte-infra-projects-pvt",
+      "edition": 2026,
+      "stand": "A47",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "zhejiang-fanhar-electronics-co-",
+      "edition": 2026,
+      "stand": "E20",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "zhejiang-great-electrical-co",
+      "edition": 2026,
+      "stand": "E26",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "zhejiang-jungong-precision-metal-co",
+      "edition": 2026,
+      "stand": "E28",
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "zoonaysha-international",
+      "edition": 2026,
+      "stand": "C15",
+      "sector": null,
+      "country": null
+    }
+  ],
+  "people": [
+    {
+      "id": "shri-bhupinder-singh-bhalla-ias-retd",
+      "name": "Shri Bhupinder Singh Bhalla, IAS (Retd.)",
+      "photo": "/assets/Bhalla-Ji-9.webp",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-alok-kumar-ias-retd",
+      "name": "Shri Alok Kumar, IAS (Retd.)",
+      "photo": "/assets/Alok-Kumar-9.webp",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-gaurav-gupta-ias",
+      "name": "Shri Gaurav Gupta, IAS",
+      "photo": "/assets/Gaurav-Gupta-9.webp",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-ghanshyam-prasad",
+      "name": "Shri Ghanshyam Prasad",
+      "photo": "/assets/Ghanshyam-prasad-9.webp",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-arun-goyal-ias-retd",
+      "name": "Shri Arun Goyal, IAS (Retd.)",
+      "photo": "/assets/Arun-Goyal-9.webp",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-samir-chandra-saxena",
+      "name": "Shri Samir Chandra Saxena",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-ravindra-kumar",
+      "name": "Shri Ravindra Kumar",
+      "photo": "/assets/Ravindra-Kumar-9.webp",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-saurav-kumar-shah-ips",
+      "name": "Shri Saurav Kumar Shah IPS",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-jeevan-kumar-jethani",
+      "name": "Shri Jeevan Kumar Jethani",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-ashish-khanna",
+      "name": "Shri Ashish Khanna",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-sanjay-sharma",
+      "name": "Shri Sanjay Sharma",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-atul-kumar-bali",
+      "name": "Shri Atul Kumar Bali",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-vinod-kumar-n",
+      "name": "Shri Vinod Kumar N",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-pratik-agarwal",
+      "name": "Shri Pratik Agarwal",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-sanjay-banga",
+      "name": "Shri Sanjay Banga",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "dr-kalirajan-sivagnana",
+      "name": "Dr. Kalirajan Sivagnana",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-brajesh-singh",
+      "name": "Shri Brajesh Singh",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-abhishek-ranjan",
+      "name": "Shri Abhishek Ranjan",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-sandeep-kashyap",
+      "name": "Shri Sandeep Kashyap",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-akshay-hiranandani",
+      "name": "Shri Akshay Hiranandani",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-vijay-joshi",
+      "name": "Shri Vijay Joshi",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-sanil-c-namboodiripad",
+      "name": "Shri Sanil C Namboodiripad",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-manish-karna",
+      "name": "Shri Manish Karna",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-vikram-kapur",
+      "name": "Shri Vikram Kapur",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-derek-m-shah",
+      "name": "Shri Derek. M. Shah",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-venu-nuguri",
+      "name": "Shri Venu Nuguri",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-rpv-prasad",
+      "name": "Shri RPV Prasad",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-rajesh-k-mediratta",
+      "name": "Shri Rajesh K Mediratta",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-anurag-johri",
+      "name": "Shri Anurag Johri",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-rohit-bajaj",
+      "name": "Shri Rohit Bajaj",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-prashant-sinha",
+      "name": "Shri Prashant Sinha",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-amit-kumar",
+      "name": "Shri Amit Kumar",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-abhishek-srivastava",
+      "name": "Shri Abhishek Srivastava",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-anup-bhargava",
+      "name": "Shri Anup Bhargava",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-sunil-singhvi",
+      "name": "Shri Sunil Singhvi",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "dr-r-k-malhotra",
+      "name": "Dr. R. K. Malhotra",
+      "photo": "/assets/R-K-malhotra-9.webp",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "dr-vibha-dhawan",
+      "name": "Dr. Vibha Dhawan",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-rahul-sharma",
+      "name": "Shri Rahul Sharma",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-madhav-pai",
+      "name": "Shri Madhav Pai",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "dr-abhilasha-gaur",
+      "name": "Dr. Abhilasha Gaur",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-aditya-pyasi",
+      "name": "Shri Aditya Pyasi",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-subrahmanyam-pulipaka",
+      "name": "Shri Subrahmanyam Pulipaka",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-francis-jayasurya",
+      "name": "Shri Francis Jayasurya",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-jagjeet-sareen",
+      "name": "Shri Jagjeet Sareen",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "shri-nishaanth-balashanmugam",
+      "name": "Shri Nishaanth Balashanmugam",
+      "photo": "",
+      "source": "https://www.powergen-india.com/"
+    },
+    {
+      "id": "naveen-srivastava",
+      "name": "Naveen Srivastava",
+      "photo": "",
+      "source": "https://www.powergen-india.com/2025-speakers"
+    },
+    {
+      "id": "abhay-bakre",
+      "name": "Abhay Bakre",
+      "photo": "",
+      "source": "https://www.powergen-india.com/2025-speakers"
+    }
+  ],
+  "appearances": [
+    {
+      "personId": "shri-bhupinder-singh-bhalla-ias-retd",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Honorary Chairperson",
+      "designation": "Former Secretary, MNRE, Government of India"
+    },
+    {
+      "personId": "shri-alok-kumar-ias-retd",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Honorary Co-chairman",
+      "designation": "Director General, All India Discom Association"
+    },
+    {
+      "personId": "shri-gaurav-gupta-ias",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Honorary Co-chairman",
+      "designation": "ACS, Department of Energy, Govt. of Karnataka"
+    },
+    {
+      "personId": "shri-ghanshyam-prasad",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Honorary Co-chairman",
+      "designation": "Chairperson, Central Electricity Authority"
+    },
+    {
+      "personId": "shri-arun-goyal-ias-retd",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Former Member, CERC"
+    },
+    {
+      "personId": "shri-samir-chandra-saxena",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chairman & Managing Director, Grid Controller of India"
+    },
+    {
+      "personId": "shri-ravindra-kumar",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Director (Operations), NTPC Limited"
+    },
+    {
+      "personId": "shri-saurav-kumar-shah-ips",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Executive Director - RDSS, Power Finance Corporation"
+    },
+    {
+      "personId": "shri-jeevan-kumar-jethani",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Executive Director, AREAS"
+    },
+    {
+      "personId": "shri-ashish-khanna",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Director General, Internatational Solar Alliance"
+    },
+    {
+      "personId": "shri-sanjay-sharma",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Director-Solar, SECI"
+    },
+    {
+      "personId": "shri-atul-kumar-bali",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMEBR",
+      "designation": "Director, National Smart Grid Mission"
+    },
+    {
+      "personId": "shri-vinod-kumar-n",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Senior Director, Austrade"
+    },
+    {
+      "personId": "shri-pratik-agarwal",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chairman, Serentica Renewables, &, MD, Sterlite Electric Ltd."
+    },
+    {
+      "personId": "shri-sanjay-banga",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "CEO & MD, Tata Power Renewables"
+    },
+    {
+      "personId": "dr-kalirajan-sivagnana",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Managing Director, EDF Nuclear Projects India Ltd."
+    },
+    {
+      "personId": "shri-brajesh-singh",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "MD (Generation), CESC Ltd."
+    },
+    {
+      "personId": "shri-abhishek-ranjan",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chief Executive Officer, BSES Rajdhani Power Ltd"
+    },
+    {
+      "personId": "shri-sandeep-kashyap",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "CEO, Purvah Green Power, Private Limited"
+    },
+    {
+      "personId": "shri-akshay-hiranandani",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "CEO, Serentica Renewables, India Pvt. Ltd."
+    },
+    {
+      "personId": "shri-vijay-joshi",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Deputy CEO, Rosatom South Asia, International Marketing Ltd."
+    },
+    {
+      "personId": "shri-sanil-c-namboodiripad",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chief Operating Officer, Indigrid"
+    },
+    {
+      "personId": "shri-manish-karna",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chief Project Officer, Adani Green Energy Ltd"
+    },
+    {
+      "personId": "shri-vikram-kapur",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Group President, ReNew"
+    },
+    {
+      "personId": "shri-derek-m-shah",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "CEO & MD, L&T Energy GreeTech"
+    },
+    {
+      "personId": "shri-venu-nuguri",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "MD and CEO, Hitachi Energy, India & South Asia"
+    },
+    {
+      "personId": "shri-rpv-prasad",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "MD - India Region, Envision Energy"
+    },
+    {
+      "personId": "shri-rajesh-k-mediratta",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "CEO & MD, India Gas Exchange"
+    },
+    {
+      "personId": "shri-anurag-johri",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "MD & Lead - Utilities, Accenture in India"
+    },
+    {
+      "personId": "shri-rohit-bajaj",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Joint Managing Director, Indian Energy Exchange (IEX)"
+    },
+    {
+      "personId": "shri-prashant-sinha",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chief Executive Officer, Resonia"
+    },
+    {
+      "personId": "shri-amit-kumar",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "VP & Head Metering & Protection Systems, Schneider Electric India Pvt. Ltd."
+    },
+    {
+      "personId": "shri-abhishek-srivastava",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "India Leader - Grid System, Integration, GE Vernova"
+    },
+    {
+      "personId": "shri-anup-bhargava",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Senior Vice President, Invest India"
+    },
+    {
+      "personId": "shri-sunil-singhvi",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Group Head - Public Policy, Secure Meters Ltd."
+    },
+    {
+      "personId": "dr-r-k-malhotra",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "President, Hydrogen Association of India"
+    },
+    {
+      "personId": "dr-vibha-dhawan",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Director General, TERI"
+    },
+    {
+      "personId": "shri-rahul-sharma",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Managing Director, USIBC"
+    },
+    {
+      "personId": "shri-madhav-pai",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chief Executive Officer, WRI India"
+    },
+    {
+      "personId": "dr-abhilasha-gaur",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chief Executive Officer - SSC, NASSCOM"
+    },
+    {
+      "personId": "shri-aditya-pyasi",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chief Executive Officer, IWTMA"
+    },
+    {
+      "personId": "shri-subrahmanyam-pulipaka",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "Chief Executive Officer, NSEFI"
+    },
+    {
+      "personId": "shri-francis-jayasurya",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "India Head, Global Wind Energy Council"
+    },
+    {
+      "personId": "shri-jagjeet-sareen",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "India Head, Dalberg Advisors"
+    },
+    {
+      "personId": "shri-nishaanth-balashanmugam",
+      "edition": 2026,
+      "kind": "council",
+      "role": "MEMBER",
+      "designation": "CEO and Director, Gh2, India"
+    },
+    {
+      "personId": "shri-bhupinder-singh-bhalla-ias-retd",
+      "edition": 2025,
+      "kind": "speaker",
+      "role": "Speaker",
+      "designation": "Honorary Chairman, Governing Council, Bharat Electricity, and Former Secretary, MNRE, Government of India"
+    },
+    {
+      "personId": "shri-arun-goyal-ias-retd",
+      "edition": 2025,
+      "kind": "speaker",
+      "role": "Speaker",
+      "designation": "Former Member, Central Electricity Regulatory Commission"
+    },
+    {
+      "personId": "shri-alok-kumar-ias-retd",
+      "edition": 2025,
+      "kind": "speaker",
+      "role": "Speaker",
+      "designation": "Director General, All India Discom Association, and Former Secretary, Ministry of Power, Govt. of India"
+    },
+    {
+      "personId": "shri-ghanshyam-prasad",
+      "edition": 2025,
+      "kind": "speaker",
+      "role": "Speaker",
+      "designation": "Chairperson, Central Electricity Authority"
+    },
+    {
+      "personId": "shri-ravindra-kumar",
+      "edition": 2025,
+      "kind": "speaker",
+      "role": "Speaker",
+      "designation": "Director Operations, NTPC Ltd"
+    },
+    {
+      "personId": "naveen-srivastava",
+      "edition": 2025,
+      "kind": "speaker",
+      "role": "Speaker",
+      "designation": "Director Operations, Power Grid Corporation of India Ltd"
+    },
+    {
+      "personId": "abhay-bakre",
+      "edition": 2025,
+      "kind": "speaker",
+      "role": "Speaker",
+      "designation": "Mission Director, National Green Hydrogen Mission"
+    },
+    {
+      "personId": "dr-r-k-malhotra",
+      "edition": 2025,
+      "kind": "speaker",
+      "role": "Speaker",
+      "designation": "Director & Co-founder, Carbon U Turn Pvt. Ltd."
+    }
+  ],
+  "sessions": [
+    {
+      "id": "session-1-0-0",
+      "day": 1,
+      "time": "10:00",
+      "title": "Welcome Tea/Coﬀee",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/networking-tea-coffee-break"
+    },
+    {
+      "id": "session-1-1-0",
+      "day": 1,
+      "time": "11:00",
+      "title": "Inaugural Session : Energy Sovereignty for a Climate-Resilient Viksit Bharat",
+      "duration": "75 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/leadership-plenary-india-electricity-roadmap-2035-energy-outlook-2047-priorities-pathways-partnerships"
+    },
+    {
+      "id": "session-1-2-0",
+      "day": 1,
+      "time": "12:15",
+      "title": "Opening Plenary : India’s Power System Roadmap 2047: Security, Scale & Sustainability",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/international-plenary-regional-bonds-global-goals-collaborations-electrifying-future"
+    },
+    {
+      "id": "session-1-3-0",
+      "day": 1,
+      "time": "13:15",
+      "title": "Networking Lunch",
+      "duration": "45 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/networking-tea-coffee-break-ay91"
+    },
+    {
+      "id": "session-1-4-0",
+      "day": 1,
+      "time": "14:00",
+      "title": "Delhi State Session: Powering the Capital: Delhi's Roadmap for Clean Energy, Smart Grids & Sustainable Urban Growth",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/markets-plenary-electricity-markets-2030-digital-decentralized-decarbonized"
+    },
+    {
+      "id": "session-1-5-0",
+      "day": 1,
+      "time": "15:00",
+      "title": "International Plenary : Energy Diplomacy 2.0: Strategic Alliances for the Net-Zero Era",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/nuclear-energy-plenary-reinventing-atomic-energy-net-zero-future"
+    },
+    {
+      "id": "session-1-6-0",
+      "day": 1,
+      "time": "16:00",
+      "title": "Networking Tea/Coﬀee",
+      "duration": "30 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/2nd-bharat-electricity-awards-followed-networking-reception"
+    },
+    {
+      "id": "session-1-7-0",
+      "day": 1,
+      "time": "16:30",
+      "title": "Markets Plenary : Reimagining Electricity Markets: Enabling Flexibility, Investment & Grid Stability",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/networking-lunch-xofq"
+    },
+    {
+      "id": "session-1-8-0",
+      "day": 1,
+      "time": "18:00",
+      "title": "Bharat Electricity Awards Followed by Networking Reception",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/leadership-panel-1a-accelerating-renewables-scaling-solar-wind-hybrid-storage"
+    },
+    {
+      "id": "session-2-0-0",
+      "day": 2,
+      "time": "10:30",
+      "title": "Networking Tea/Coﬀee",
+      "duration": "30 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/energy-ceo-forum-powering-indias-growth-ceo-insights-generation-strategy-risk-regulation"
+    },
+    {
+      "id": "session-2-1-0",
+      "day": 2,
+      "time": "11:00",
+      "title": "Energy CEO Forum: Generation at the Crossroads: Scaling Capacity While Delivering Reliable, Affordable & Clean Power",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/utility-ceo-forum-charting-pathways-sustainable-future-ready-utilities-electric-gas-water"
+    },
+    {
+      "id": "session-2-1-1",
+      "day": 2,
+      "time": "11:00",
+      "title": "Focus State Session - Gujarat: Powering Industrial Growth: Gujarat’s Energy Transition, Grid Strength & Clean Manufacturing Leadership",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/networking-tea-coffee-break-40ye"
+    },
+    {
+      "id": "session-2-2-0",
+      "day": 2,
+      "time": "12:00",
+      "title": "Energy CXO Forum: Digital & Technology Transformation in Generation",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/energy-cxo-forum-digital-twins-ai-cybersecurity-gencos"
+    },
+    {
+      "id": "session-2-2-1",
+      "day": 2,
+      "time": "12:00",
+      "title": "Focus State Session- Karnataka: Enabling Clean Energy Leadership: Karnataka’s Renewable Expansion, Grid Modernisation & Digital Energy Future",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/utility-cxo-forum-building-digital-energy-grid-power-systems-future"
+    },
+    {
+      "id": "session-2-3-0",
+      "day": 2,
+      "time": "13:00",
+      "title": "Networking Lunch",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/leadership-panel-2a-operational-excellence-asset-optimization-safety-predictive-maintenance"
+    },
+    {
+      "id": "session-2-4-0",
+      "day": 2,
+      "time": "14:00",
+      "title": "Focus State Session - Maharashtra: Powering India’s Economic Engine: Maharashtra’s Energy Demand Growth, Grid Expansion & Market Evolution",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/leadership-panel-2b-smart-grid-powerplay-scaling-grid-integration-ev-charging-solutions"
+    },
+    {
+      "id": "session-2-4-1",
+      "day": 2,
+      "time": "14:00",
+      "title": "Utility CEO Forum: Utility Outlook: Grids, Growth & System Resilience",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/leadership-panel-3a-climate-finance-green-bonds-unlocking-capital-clean-energy-projects"
+    },
+    {
+      "id": "session-2-5-0",
+      "day": 2,
+      "time": "15:00",
+      "title": "Focus State Session- Uttar Pradesh: Powering India's Growth Engine: Uttar Pradesh's Energy Expansion, Industrial Transformation & Future-Ready Infrastructure",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/leadership-panel-3b-smart-metering-demand-side-management-towards-intelligent-energy-consumption"
+    },
+    {
+      "id": "session-2-5-1",
+      "day": 2,
+      "time": "15:00",
+      "title": "Utility CXO Forum: India Energy Stack: Data Platforms, Interoperability, Trust & Enabling Digital Infrastructure",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/utility-cxo-forum-india-energy-stack-data-platforms-interoperability-trust-enabling-digital-infrastructure"
+    },
+    {
+      "id": "session-2-6-0",
+      "day": 2,
+      "time": "16:00",
+      "title": "Networking Tea/Coﬀee",
+      "duration": "30 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/networking-tea-coffee-break-g6i6"
+    },
+    {
+      "id": "session-2-7-0",
+      "day": 2,
+      "time": "16:30",
+      "title": "Leadership Panel 1A: Renewables for Energy Sovereignty: Scaling Clean Power, Supply Chains & System Flexibility",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/leadership-panel-4a-plant-flexibilisation-adapting-coal-gas-fleets-re-rich-grids"
+    },
+    {
+      "id": "session-2-7-1",
+      "day": 2,
+      "time": "16:30",
+      "title": "Leadership Panel 1B: AMI & Smart Metering: From Rollout to Real Value",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/leadership-panel-4b-re-integration-distribution-networks-dynamic-load-balancing-grid-resilience"
+    },
+    {
+      "id": "session-2-7-2",
+      "day": 2,
+      "time": "16:30",
+      "title": "Focus State Session: Bihar Viksit Bharat Samriddh Bihar: Investment Innovation and Growth",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/focus-state-session-bihar-viksit-bharat-samriddh-bihar-investment-innovation-growth"
+    },
+    {
+      "id": "session-3-0-0",
+      "day": 3,
+      "time": "10:30",
+      "title": "Networking Tea/Coﬀee Break",
+      "duration": "30 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/lunch-break-42qr"
+    },
+    {
+      "id": "session-3-1-0",
+      "day": 3,
+      "time": "11:00",
+      "title": "Leadership Panel 2A : Hydrogen Reality Check: From Policy to Profitable Projects",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/closing-panel-fgd-emissions-control-sox-nox-particulate-management-compliance"
+    },
+    {
+      "id": "session-3-1-1",
+      "day": 3,
+      "time": "11:00",
+      "title": "Leadership Panel 2B: Powering Grid Reliability: Transmission, DISCOM Reform & Renewable Integration",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/closing-panel-b-entrepreneurship-skilling-catalyzing-indias-workforce-viksit-bharat"
+    },
+    {
+      "id": "session-3-1-2",
+      "day": 3,
+      "time": "11:00",
+      "title": "Focus State Session: West Bengal Viksit Bharat Samriddh Bihar: Investment Innovation and Growth",
+      "duration": "-660 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/focus-state-session-west-bengal-viksit-bharat-samriddh-bihar-investment-innovation-growth"
+    },
+    {
+      "id": "session-3-2-0",
+      "day": 3,
+      "time": "12:00",
+      "title": "Closing Panel: Future-Ready Bharat: Skills, Startups & Innovation for Energy Sovereignty",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/closing-panel-future-ready-bharat-skills-startups-innovation-energy-sovereignty"
+    },
+    {
+      "id": "session-3-3-0",
+      "day": 3,
+      "time": "13:00",
+      "title": "Networking Lunch",
+      "duration": "60 mins",
+      "tracks": [
+        "Bharat Electricity",
+        "POWERGEN India Summit",
+        "Indian Utility Week Summit"
+      ],
+      "description": "",
+      "source": "https://www.powergen-india.com/summit/networking-lunch-1td2"
+    }
+  ],
+  "articles": [
+    {
+      "id": "bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/WEB.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "ani-news-asias-premier-news-agency-publishing-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Business Standard | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Untitled-2.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/ani-news-asias-premier-news-agency-publishing-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "ani-news-asias-premier-news-agency-publishing-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition-wbav",
+      "title": "ANI News: Asia's Premier News Agency | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Untitled-1.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/ani-news-asias-premier-news-agency-publishing-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition-wbav"
+    },
+    {
+      "id": "print-publishing-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "The Print | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Untitled-3.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/print-publishing-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "latestly-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "LatestLY | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Untitled-5.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/latestly-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "lokmat-times-publishing-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Lokmat Times | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Untitled-6.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/lokmat-times-publishing-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "energetica-india-magazine-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Energetica India Magazine | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Energetica.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/energetica-india-magazine-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "business-news-profit-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Business News for Profit | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "08 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Business-News-for-Profit.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/business-news-profit-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "pulse-expert-tech-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Pulse Expert Tech | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "08 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Pulse-Expert.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/pulse-expert-tech-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "biz-news-daily-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Biz News Daily | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "08 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Biz-News-Daily.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/biz-news-daily-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "cine-buzz-news-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Cine Buzz News | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "08 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/CINE-BUZZ.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/cine-buzz-news-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "couture-fashion-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Couture Fashion | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "08 Aug 2024",
+      "summary": "National [08.08.2024] - The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's power ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Couture-Fashion.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/couture-fashion-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "sportsz-news-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Sportsz News | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "08 Aug 2024",
+      "summary": "National [08.08.2024] - The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's power ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Sportz-News.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/sportsz-news-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "ten-news-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Ten News | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "08 Aug 2024",
+      "summary": "National 8. 8.2024 - The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's power se ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Ten-News.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/ten-news-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "one-israel-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "One For Israel | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "08 Aug 2024",
+      "summary": "August 8: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's power sector over t ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/ONE-FOR.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/one-israel-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "apn-news-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "APN News | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/APN-News.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/apn-news-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "smart-halchal-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Smart Halchal | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Smart-Halchal.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/smart-halchal-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "consumer-infoline-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Consumer Infoline | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "09 Aug 2024",
+      "summary": "Delhi -NCR [India], August 9: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India's ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Consumer-Online.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/consumer-infoline-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    },
+    {
+      "id": "times-india-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition",
+      "title": "Times of india | Bharat Electricity to Celebrate India's Awe-inspiring Journey of Resilience, Progress, and Clean Energy Transition",
+      "date": "10 Aug 2024",
+      "summary": "Delhi -NCR [India], August 10: The Energy & Climate Initiatives Society (ENCIS) announced the launch of \"Bharat Electricity\" - A landmark initiative to showcase the remarkable transformation of India' ...",
+      "image": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/libraries/industry-news/Times-of-INDIA.jpg/fit-in/500x500/filters:no_upscale()",
+      "source": "https://www.powergen-india.com/industry-news/times-india-bharat-electricity-celebrate-indias-awe-inspiring-journey-resilience-progress-clean-energy-transition"
+    }
+  ],
+  "partnerCompanies": [
+    {
+      "id": "partner-policy-governance-partner-2026-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-policy-governance-partner-2026-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-policy-governance-partner-2026-2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-policy-governance-partner-2026-2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-policy-governance-partner-2026-3-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-policy-governance-partner-2026-3-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-1-focus-state-partner-2026-revised-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-1-focus-state-partner-2026-revised-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-2-focus-state-partner-2026-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-2-focus-state-partner-2026-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-3-focus-state-partner-2026-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-3-focus-state-partner-2026-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-4-focus-state-partner-2026-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-4-focus-state-partner-2026-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-5-focus-state-partner-2026-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-5-focus-state-partner-2026-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-7-focus-state-partner-2026-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-7-focus-state-partner-2026-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-6-focus-state-partner-2026-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-6-focus-state-partner-2026-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-cybersecurity-partner2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-cybersecurity-partner2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-host-utility-2026-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-host-utility-2026-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-host-utility-2026-2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-host-utility-2026-2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-web-partner-utility2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-web-partner-utility2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-web-solar-eco3-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-web-solar-eco3-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-renewable-energy-partner3333-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-renewable-energy-partner3333-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-lanyard-partner-2026-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-lanyard-partner-2026-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-kbl-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-kbl-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-toshiba2-2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-toshiba2-2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-etapro-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-etapro-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-bell-cooling-tower-2026-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-bell-cooling-tower-2026-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-wog-2026-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-wog-2026-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-exchange-partner2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-exchange-partner2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-web-2026-exchange-partner-2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-web-2026-exchange-partner-2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-investment-facilitation-partner3-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-investment-facilitation-partner3-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-knoweldge-partner-2026-6-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-knoweldge-partner-2026-6-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-knoweldge-partner-2026-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-knoweldge-partner-2026-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-knoweldge-partner-2026-2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-knoweldge-partner-2026-2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-knoweldge-partner-2026-3-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-knoweldge-partner-2026-3-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-knoweldge-partner-2026-4-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-knoweldge-partner-2026-4-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-knoweldge-partner-2026-5-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-knoweldge-partner-2026-5-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-strategic-partner-3-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-strategic-partner-3-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-strategic-partner-1-2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-strategic-partner-1-2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-strategic-partner-9-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-strategic-partner-9-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-strategic-partner-4-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-strategic-partner-4-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-strategic-partner-6-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-strategic-partner-6-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-strategic-partner-2-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-strategic-partner-2-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-strategic-partner-8-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-strategic-partner-8-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-strategic-partner-7-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-strategic-partner-7-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-strategic-partner-5-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-strategic-partner-5-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-63-sats-png-fit-in-500x9999-filters-no-upscale",
+      "name": "63SATS Cybertech Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-63-sats-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-agk-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "AGK Infratech Pvt. Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-agk-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-airnord-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Airnord India Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-airnord-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-alpha-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Alphageek Enterprises Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-alpha-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-arcturus-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Arcturus Business Solutions",
+      "logo": "/assets/logos/partner-libraries-exhibitors-arcturus-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-automoto-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Automoto Genset Solutions LLP",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-automoto-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-bech-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Beck Actuators India Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-bech-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-bell-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Bell Cooling Towers",
+      "logo": "/assets/logos/partner-libraries-exhibitors-bell-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-better-drones-png-fit-in-500x9999-filters-no-upscale",
+      "name": "BETTER DRONES (Knifedge Lab Technologies)",
+      "logo": "/assets/logos/partner-libraries-exhibitors-better-drones-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-brpl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "BSES Rajdhani Power Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-brpl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-bypl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "BSES Yamuna Power Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-bypl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-capgen-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Capgen Nergy Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-capgen-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-cell-com-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Cell Com Teleservices Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-cell-com-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-codalien-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Codalien Technologies Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-codalien-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-constromech-engineering-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Constromech Engineering Solution",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-constromech-engineering-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-cos-power-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Cospower Engineering Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-cos-power-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-crimson-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Crimson Energy Experts Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-crimson-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-doyan-metal-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Doyen Metal International Co., Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-doyan-metal-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-eci-png-fit-in-500x9999-filters-no-upscale",
+      "name": "ECI Consulting Engineers Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-eci-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-enersol-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Enersol Systems Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-enersol-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-eplan-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Eplan Software Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-eplan-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-g-sons-png-fit-in-500x9999-filters-no-upscale",
+      "name": "G Sons Power Transformers Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-g-sons-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-gautam-solar-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Gautam Solar",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-gautam-solar-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-gladious-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Gladius Technologies",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-gladious-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-green-power-interntional-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Green Power International",
+      "logo": "/assets/logos/partner-libraries-exhibitors-green-power-interntional-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-grid-india1-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Grid Controller of India",
+      "logo": "/assets/logos/partner-libraries-exhibitors-grid-india1-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-gujarat-logo-4-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Gujarat Energy Development Agency",
+      "logo": "/assets/logos/partner-libraries-exhibitors-gujarat-logo-4-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-gujarat-logo-3-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Gujarat Industries Power Company Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-gujarat-logo-3-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-gujarat-logo-1-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Gujarat Power Corporation Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-gujarat-logo-1-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-gujarat-logo-5-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Gujarat State Petroleum Corporation",
+      "logo": "/assets/logos/partner-libraries-exhibitors-gujarat-logo-5-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-guvnl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Gujrat Urja Vikas Nigam Limited, Government Of Gujarat",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-guvnl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-haiyan-weija-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Haiyan Weijia Electric Technology Co., Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-haiyan-weija-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-hangzhou-wall-esoft-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Hangzhou Wall-Esoft Digital Technology Co., Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-hangzhou-wall-esoft-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-hytorc-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Hytorc Tools India Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-hytorc-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-imeco-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "IMECO Overseas Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-imeco-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-indian-rubber-products-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Indian Rubber Products",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-indian-rubber-products-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-uttar-pradesh-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Invest Uttar Pradesh (Government of Uttar Pradesh)",
+      "logo": "/assets/logos/partner-libraries-exhibitors-uttar-pradesh-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-jaewoo-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Jaewoo SF Corporation",
+      "logo": "/assets/logos/partner-libraries-exhibitors-jaewoo-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-jemkon-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Jemkon Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-jemkon-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-jiangsu-jingyi-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Jiangsu Jingyi Electrical Appliance Co. Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-jiangsu-jingyi-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-jiangxi-leierdunwei-electric-co-ltd-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Jiangxi Leierdunwei Electric Co. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-jiangxi-leierdunwei-electric-co-ltd-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-jmk-png-fit-in-500x9999-filters-no-upscale",
+      "name": "JMK Research And Analytics Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-jmk-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-kakati-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Kakati Karshak Industries Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-kakati-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-kalpana-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Kalpana Industries",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-kalpana-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-kinergy-renewable-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Kinergy Renewable",
+      "logo": "/assets/logos/partner-libraries-exhibitors-kinergy-renewable-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-kintech-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Kintech Greenurja Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-kintech-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-kbl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Kirloskar Brothers Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-kbl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-kraft-powercon-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Kraftpowercon Power Products Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-kraft-powercon-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-lisega-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Lisega India Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-lisega-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-longhua-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Longhua Technology Group (Luoyang) Co., Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-longhua-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-madhura-power-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Madhura Power Technologies Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-madhura-power-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-magaldi-group-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Magaldi Power S.P.A.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-magaldi-group-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-marsulex1-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Marsulex Environmental Technologies India Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-marsulex1-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-master-control-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Master Control India Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-master-control-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-matalytics-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Matalytics Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-matalytics-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-mcb-control-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "MCB Electro Controls",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-mcb-control-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-mechwell-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Mech Well Industries Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-mechwell-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-michel-bearings-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Michell Bearings (India) LLP",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-michel-bearings-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-millunium-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Millennium Energy Global Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-millunium-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-minilec-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Minilec India Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-minilec-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-mcx-exhibitor-2026-2-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Multi Commodity Exchange of India Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-mcx-exhibitor-2026-2-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-multispan-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Multispan Control Instruments Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-multispan-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-national-switchgears-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "National Switchgears",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-national-switchgears-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-nexgen-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Nexgen Consultancy Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-nexgen-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-paltech-exhibitor-2026-2-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Paltech Cooling Towers & Equipments Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-paltech-exhibitor-2026-2-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-powag-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Pewag India Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-powag-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-phytec-png-fit-in-500x9999-filters-no-upscale",
+      "name": "PHYTEC Embedded Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-phytec-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-powerstar-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Powerstar Engineers And Consultants Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-powerstar-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-renviro-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Renviro Systems (UE Systems IMENA Pvt Ltd)",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-renviro-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-rpsg-group-png-fit-in-500x9999-filters-no-upscale",
+      "name": "RPSG Group",
+      "logo": "/assets/logos/partner-libraries-exhibitors-rpsg-group-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-sanlec-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Sanelec Excitation Systems Private Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-sanlec-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-stpl-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Sharajman Technologies Pvt. Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-stpl-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-sisco-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "SISCO Energy Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-sisco-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-smart-charging-solution-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Smart Charging Solutions",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-smart-charging-solution-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-srj-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "SRJ Engineering And Trading Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-srj-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-stsa-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Standard Transfer Specification Association",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-stsa-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-star-cooler-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Star Cooler And Condensers Pvt Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-star-cooler-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-svurg-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Svurg Digital System Solutions Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-svurg-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-syskey-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Syskey Softlabs Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-syskey-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-tech-server-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Tech Servers Infra Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-tech-server-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-tejshri-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Tejshri Renewable Solutions Pvt Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-tejshri-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-west-bengal-4-png-fit-in-500x9999-filters-no-upscale",
+      "name": "The Durgapur Projects Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-west-bengal-4-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-toshiba2-2-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Toshiba Jsw Power Systems Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-toshiba2-2-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-without-logo-18-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Tranter India Pvt Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-without-logo-18-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-turbo-engineering-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Turbo Engineering Services (TES) Private Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-turbo-engineering-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-tycon-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Tycon Automation Pvt Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-tycon-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-vautomat-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "V Automat And Instruments Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-vautomat-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-veerbhadra-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Veerabhadra Elite Electrodynamic Solutions LLP",
+      "logo": "/assets/logos/partner-libraries-exhibitors-veerbhadra-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-vertex-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Vertex Power Controls Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-vertex-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-vidhyut-control-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Vidhyut Control (I) Pvt. Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-vidhyut-control-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-west-bengal-1-png-fit-in-500x9999-filters-no-upscale",
+      "name": "West Bengal Power Development Corporation Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-west-bengal-1-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-west-bengal-2-png-fit-in-500x9999-filters-no-upscale",
+      "name": "West Bengal State Electricity Distribution Company Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-west-bengal-2-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-west-bengal-3-png-fit-in-500x9999-filters-no-upscale",
+      "name": "West Bengal State Electricity Transmission Company Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-west-bengal-3-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-wog-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "WOG Technologies Limited",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-wog-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-wte-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "WTE Infra Projects Pvt Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-wte-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-fanhar-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Zhejiang Fanhar Electronics Co., Ltd.",
+      "logo": "/assets/logos/partner-libraries-exhibitors-fanhar-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-great-electrical-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Zhejiang Great Electrical Co., Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-great-electrical-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-metal-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Zhejiang Jungong Precision Metal Co., Ltd",
+      "logo": "/assets/logos/partner-libraries-exhibitors-metal-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-libraries-exhibitors-1-zoonyasha-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "name": "Zoonaysha International",
+      "logo": "/assets/logos/partner-libraries-exhibitors-1-zoonyasha-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-6-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-6-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-4-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-4-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-21-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-21-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-22-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-22-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-12-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-12-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-7-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-7-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-14-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-14-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-24-2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-24-2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-9-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-9-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-18-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-18-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-1-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-1-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-23-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-23-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-2-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-2-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-15-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-15-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-17-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-17-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-20-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-20-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-3-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-3-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-10-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-10-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-19-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-19-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-13-2-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-13-2-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-5-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-5-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-11-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-11-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-8-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-8-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-media-partner-16-1-png",
+      "name": "Published partner logo",
+      "logo": "/assets/logos/partner-media-partner-16-1-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    },
+    {
+      "id": "partner-host-publication-4-png",
+      "name": "Host Publiaction",
+      "logo": "/assets/logos/partner-host-publication-4-png.webp",
+      "source": "https://www.powergen-india.com/partners-2026-o1rs"
+    }
+  ],
+  "partnerships": [
+    {
+      "companyId": "partner-policy-governance-partner-2026-png",
+      "edition": 2026,
+      "role": "POLICY & GOVERNANCE PARTNERS"
+    },
+    {
+      "companyId": "partner-policy-governance-partner-2026-2-png",
+      "edition": 2026,
+      "role": "POLICY & GOVERNANCE PARTNERS"
+    },
+    {
+      "companyId": "partner-policy-governance-partner-2026-3-1-png",
+      "edition": 2026,
+      "role": "POLICY & GOVERNANCE PARTNERS"
+    },
+    {
+      "companyId": "partner-1-focus-state-partner-2026-revised-png",
+      "edition": 2026,
+      "role": "FOCUS STATE 2026"
+    },
+    {
+      "companyId": "partner-2-focus-state-partner-2026-png",
+      "edition": 2026,
+      "role": "FOCUS STATE 2026"
+    },
+    {
+      "companyId": "partner-3-focus-state-partner-2026-png",
+      "edition": 2026,
+      "role": "FOCUS STATE 2026"
+    },
+    {
+      "companyId": "partner-4-focus-state-partner-2026-png",
+      "edition": 2026,
+      "role": "FOCUS STATE 2026"
+    },
+    {
+      "companyId": "partner-5-focus-state-partner-2026-png",
+      "edition": 2026,
+      "role": "FOCUS STATE 2026"
+    },
+    {
+      "companyId": "partner-7-focus-state-partner-2026-png",
+      "edition": 2026,
+      "role": "FOCUS STATE 2026"
+    },
+    {
+      "companyId": "partner-6-focus-state-partner-2026-png",
+      "edition": 2026,
+      "role": "FOCUS STATE 2026"
+    },
+    {
+      "companyId": "partner-cybersecurity-partner2-png",
+      "edition": 2026,
+      "role": "CYBERSECURITY PARTNER 2026"
+    },
+    {
+      "companyId": "partner-host-utility-2026-1-png",
+      "edition": 2026,
+      "role": "HOST UTILITIES 2026"
+    },
+    {
+      "companyId": "partner-host-utility-2026-2-png",
+      "edition": 2026,
+      "role": "HOST UTILITIES 2026"
+    },
+    {
+      "companyId": "partner-web-partner-utility2-png",
+      "edition": 2026,
+      "role": "PARTNER UTILITY 2026"
+    },
+    {
+      "companyId": "partner-web-solar-eco3-png",
+      "edition": 2026,
+      "role": "SOLAR ECOSYSTEM PARTNER 2026"
+    },
+    {
+      "companyId": "partner-renewable-energy-partner3333-png",
+      "edition": 2026,
+      "role": "RENEWABLE ENERGY PARTNER 2026"
+    },
+    {
+      "companyId": "partner-lanyard-partner-2026-png",
+      "edition": 2026,
+      "role": "LANYARD PARTNER 2026"
+    },
+    {
+      "companyId": "partner-kbl-png",
+      "edition": 2026,
+      "role": "ASSOCIATE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-toshiba2-2-png",
+      "edition": 2026,
+      "role": "ASSOCIATE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-etapro-png",
+      "edition": 2026,
+      "role": "ASSOCIATE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-bell-cooling-tower-2026-1-png",
+      "edition": 2026,
+      "role": "ASSOCIATE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-wog-2026-1-png",
+      "edition": 2026,
+      "role": "ASSOCIATE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-exchange-partner2-png",
+      "edition": 2026,
+      "role": "EXCHANGE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-web-2026-exchange-partner-2-png",
+      "edition": 2026,
+      "role": "EXCHANGE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-investment-facilitation-partner3-png",
+      "edition": 2026,
+      "role": "INVESTMENT FACILITATION PARTNER 2026"
+    },
+    {
+      "companyId": "partner-knoweldge-partner-2026-6-png",
+      "edition": 2026,
+      "role": "KNOWLEDGE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-knoweldge-partner-2026-1-png",
+      "edition": 2026,
+      "role": "KNOWLEDGE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-knoweldge-partner-2026-2-png",
+      "edition": 2026,
+      "role": "KNOWLEDGE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-knoweldge-partner-2026-3-1-png",
+      "edition": 2026,
+      "role": "KNOWLEDGE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-knoweldge-partner-2026-4-png",
+      "edition": 2026,
+      "role": "KNOWLEDGE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-knoweldge-partner-2026-5-png",
+      "edition": 2026,
+      "role": "KNOWLEDGE PARTNERS 2026"
+    },
+    {
+      "companyId": "partner-strategic-partner-3-png",
+      "edition": 2026,
+      "role": "STRATEGIC PARTNERS"
+    },
+    {
+      "companyId": "partner-strategic-partner-1-2-png",
+      "edition": 2026,
+      "role": "STRATEGIC PARTNERS"
+    },
+    {
+      "companyId": "partner-strategic-partner-9-png",
+      "edition": 2026,
+      "role": "STRATEGIC PARTNERS"
+    },
+    {
+      "companyId": "partner-strategic-partner-4-png",
+      "edition": 2026,
+      "role": "STRATEGIC PARTNERS"
+    },
+    {
+      "companyId": "partner-strategic-partner-6-png",
+      "edition": 2026,
+      "role": "STRATEGIC PARTNERS"
+    },
+    {
+      "companyId": "partner-strategic-partner-2-1-png",
+      "edition": 2026,
+      "role": "STRATEGIC PARTNERS"
+    },
+    {
+      "companyId": "partner-strategic-partner-8-png",
+      "edition": 2026,
+      "role": "STRATEGIC PARTNERS"
+    },
+    {
+      "companyId": "partner-strategic-partner-7-png",
+      "edition": 2026,
+      "role": "STRATEGIC PARTNERS"
+    },
+    {
+      "companyId": "partner-strategic-partner-5-png",
+      "edition": 2026,
+      "role": "STRATEGIC PARTNERS"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-63-sats-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-agk-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-airnord-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-alpha-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-arcturus-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-automoto-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-bech-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-bell-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-better-drones-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-brpl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-bypl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-capgen-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-cell-com-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-codalien-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-constromech-engineering-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-cos-power-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-crimson-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-doyan-metal-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-eci-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-enersol-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-eplan-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-g-sons-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-gautam-solar-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-gladious-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-green-power-interntional-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-grid-india1-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-gujarat-logo-4-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-gujarat-logo-3-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-gujarat-logo-1-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-gujarat-logo-5-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-guvnl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-haiyan-weija-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-hangzhou-wall-esoft-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-hytorc-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-imeco-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-indian-rubber-products-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-uttar-pradesh-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-jaewoo-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-jemkon-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-jiangsu-jingyi-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-jiangxi-leierdunwei-electric-co-ltd-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-jmk-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-kakati-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-kalpana-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-kinergy-renewable-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-kintech-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-kbl-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-kraft-powercon-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-lisega-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-longhua-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-madhura-power-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-magaldi-group-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-marsulex1-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-master-control-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-matalytics-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-mcb-control-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-mechwell-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-michel-bearings-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-millunium-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-minilec-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-mcx-exhibitor-2026-2-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-multispan-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-national-switchgears-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-nexgen-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-paltech-exhibitor-2026-2-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-powag-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-phytec-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-powerstar-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-renviro-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-rpsg-group-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-sanlec-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-stpl-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-sisco-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-smart-charging-solution-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-srj-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-stsa-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-star-cooler-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-svurg-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-syskey-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-tech-server-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-tejshri-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-west-bengal-4-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-toshiba2-2-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-without-logo-18-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-turbo-engineering-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-tycon-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-vautomat-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-veerbhadra-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-vertex-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-vidhyut-control-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-west-bengal-1-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-west-bengal-2-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-west-bengal-3-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-wog-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-wte-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-fanhar-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-great-electrical-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-metal-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-libraries-exhibitors-1-zoonyasha-exhibitor-2026-png-fit-in-500x9999-filters-no-upscale",
+      "edition": 2026,
+      "role": "PARTICIPATING COMPANIES 2026"
+    },
+    {
+      "companyId": "partner-media-partner-6-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-4-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-21-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-22-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-12-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-7-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-14-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-24-2-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-9-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-18-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-1-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-23-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-2-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-15-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-17-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-20-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-3-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-10-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-19-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-13-2-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-5-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-11-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-8-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-media-partner-16-1-png",
+      "edition": 2026,
+      "role": "MEDIA PARTNERS"
+    },
+    {
+      "companyId": "partner-host-publication-4-png",
+      "edition": 2026,
+      "role": "HOST PUBLICATION"
+    }
+  ]
+}
