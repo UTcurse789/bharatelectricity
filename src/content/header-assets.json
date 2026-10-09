@@ -1,0 +1,18 @@
+{
+  "banner": {
+    "src": "/assets/government-support-banner.webp",
+    "width": 1457,
+    "height": 317,
+    "source": "User supplied government support banner: Screenshot 2026-10-09 111246.png"
+  },
+  "favicon": {
+    "source": "User supplied Fevicon.png",
+    "sizes": [
+      16,
+      32,
+      48,
+      64,
+      180
+    ]
+  }
+}

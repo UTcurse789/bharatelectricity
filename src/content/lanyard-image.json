@@ -1,0 +1,18 @@
+{
+  "siddhartha": {
+    "src": "/assets/contact-lanyard-c8be77f073.webp",
+    "width": 768,
+    "height": 1024
+  },
+  "hansika": {
+    "src": "/assets/contact-hansika-a8706d31ac.webp",
+    "width": 500,
+    "height": 500,
+    "source": "https://www.itenmedia.in/assets/images/leadership/hansika-gupta.png"
+  },
+  "amit": {
+    "src": "/assets/contact-amit-59635a1506.webp",
+    "width": 425,
+    "height": 426
+  }
+}

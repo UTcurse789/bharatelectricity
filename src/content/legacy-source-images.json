@@ -1,0 +1,27 @@
+{
+  "demographics": {
+    "src": "/assets/legacy-2024/source-demographics.webp",
+    "width": 1332,
+    "height": 840
+  },
+  "feedback-1": {
+    "src": "/assets/legacy-2024/source-feedback-1.webp",
+    "width": 1327,
+    "height": 805
+  },
+  "feedback-2": {
+    "src": "/assets/legacy-2024/source-feedback-2.webp",
+    "width": 1322,
+    "height": 822
+  },
+  "msme": {
+    "src": "/assets/legacy-2024/source-msme.webp",
+    "width": 1327,
+    "height": 865
+  },
+  "startup": {
+    "src": "/assets/legacy-2024/source-startup.webp",
+    "width": 1345,
+    "height": 873
+  }
+}

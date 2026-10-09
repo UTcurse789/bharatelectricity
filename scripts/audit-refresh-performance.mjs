@@ -1,0 +1,4 @@
+import lighthouse from 'lighthouse';import {launch} from 'chrome-launcher';import fs from 'node:fs/promises';
+const chrome=await launch({chromePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',chromeFlags:['--headless','--no-sandbox']});
+try{for(const route of (process.argv[2]==='home'?['']:['stand-options',''])){const result=await lighthouse('http://localhost:4173/'+route,{port:chrome.port,output:'json',logLevel:'error',onlyCategories:['performance','accessibility','best-practices','seo']});await fs.writeFile('research/qa/site-refresh/lighthouse-'+(route||'home')+'.json',result.report);console.log(JSON.stringify({route,scores:Object.fromEntries(Object.entries(result.lhr.categories).map(([k,v])=>[k,v.score*100])),lcp:result.lhr.audits['largest-contentful-paint'].numericValue,cls:result.lhr.audits['cumulative-layout-shift'].numericValue,tbt:result.lhr.audits['total-blocking-time'].numericValue}));}}
+finally{await chrome.kill();}

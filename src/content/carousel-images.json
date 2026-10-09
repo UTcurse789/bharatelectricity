@@ -1,0 +1,38 @@
+{
+  "report": {
+    "src": "/assets/carousel/report-stack-311fcabbe1.webp",
+    "width": 1200,
+    "height": 800,
+    "source": "User-supplied 2025 post-show report artwork"
+  },
+  "reportBackground": {
+    "src": "/assets/carousel/earth-background-9ce0937935.webp",
+    "width": 1800,
+    "height": 447,
+    "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/2.2-26-SLIDER.png"
+  },
+  "awardsBackground": {
+    "src": "/assets/carousel/awards-background-71786e662b.webp",
+    "width": 1800,
+    "height": 705,
+    "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/3-26-SLIDER.png"
+  },
+  "powerBackground": {
+    "src": "/assets/carousel/exhibition-background-2304756c94.webp",
+    "width": 1800,
+    "height": 705,
+    "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/4-26-SLIDER.png"
+  },
+  "opportunitiesBackground": {
+    "src": "/assets/carousel/council-background-871eed28fa.webp",
+    "width": 1800,
+    "height": 705,
+    "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/5-26-SLIDER.png"
+  },
+  "exhibitBackground": {
+    "src": "/assets/carousel/summit-background-b438107c2b.webp",
+    "width": 1800,
+    "height": 705,
+    "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/6-26-SLIDER.png"
+  }
+}

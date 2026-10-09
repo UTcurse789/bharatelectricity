@@ -1,0 +1,596 @@
+[
+  {
+    "name": "63SATS Cybertech Limited",
+    "stand": "E47",
+    "image": "/assets/site-refresh/03eae4fce3ab7c.webp",
+    "source": "javascript:openRemoteModal('exhibitors/63sats-cybertech-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/63sats-cybertech-limited\"});"
+  },
+  {
+    "name": "AGK Infratech Pvt. Ltd",
+    "stand": "G46",
+    "image": "/assets/site-refresh/ea1c0a3501b8dc.webp",
+    "source": "javascript:openRemoteModal('exhibitors/agk-infratech-pvt','ajax',{},false,'',{\"dimension15\":\"exhibitors/agk-infratech-pvt\"});"
+  },
+  {
+    "name": "Airnord India Private Limited",
+    "stand": "B20",
+    "image": "/assets/site-refresh/d1f80a03eb88c2.webp",
+    "source": "javascript:openRemoteModal('exhibitors/airnord-india-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/airnord-india-private-limited\"});"
+  },
+  {
+    "name": "Alphageek Enterprises Private Limited",
+    "stand": "G43",
+    "image": "/assets/site-refresh/093d52dac13e09.webp",
+    "source": "javascript:openRemoteModal('exhibitors/alphageek-enterprises-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/alphageek-enterprises-private-limited\"});"
+  },
+  {
+    "name": "Arcturus Business Solutions",
+    "stand": "E34",
+    "image": "/assets/site-refresh/9359f263a1fac3.webp",
+    "source": "javascript:openRemoteModal('exhibitors/arcturus-business-solutions','ajax',{},false,'',{\"dimension15\":\"exhibitors/arcturus-business-solutions\"});"
+  },
+  {
+    "name": "Automoto Genset Solutions LLP",
+    "stand": "F39",
+    "image": "/assets/site-refresh/97de89a6bbcae2.webp",
+    "source": "javascript:openRemoteModal('exhibitors/automoto-genset-sales-services-llp','ajax',{},false,'',{\"dimension15\":\"exhibitors/automoto-genset-sales-services-llp\"});"
+  },
+  {
+    "name": "Beck Actuators India Private Limited",
+    "stand": "B40",
+    "image": "/assets/site-refresh/3b2a6601399f83.webp",
+    "source": "javascript:openRemoteModal('exhibitors/beck-actuators-india-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/beck-actuators-india-private-limited\"});"
+  },
+  {
+    "name": "Bell Cooling Towers",
+    "stand": "F09",
+    "image": "/assets/site-refresh/1fc6939c169fb6.webp",
+    "source": "javascript:openRemoteModal('exhibitors/bell-cooling-towers','ajax',{},false,'',{\"dimension15\":\"exhibitors/bell-cooling-towers\"});"
+  },
+  {
+    "name": "BETTER DRONES (Knifedge Lab Technologies)",
+    "stand": "G37",
+    "image": "/assets/site-refresh/367c5fae4e80d4.webp",
+    "source": "javascript:openRemoteModal('exhibitors/better-drones-knifedge-lab-technologies','ajax',{},false,'',{\"dimension15\":\"exhibitors/better-drones-knifedge-lab-technologies\"});"
+  },
+  {
+    "name": "BSES Rajdhani Power Limited",
+    "stand": "D15",
+    "image": "/assets/site-refresh/eab4b8c2253a35.webp",
+    "source": "javascript:openRemoteModal('exhibitors/bses-rajdhani-power-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/bses-rajdhani-power-limited\"});"
+  },
+  {
+    "name": "BSES Yamuna Power Limited",
+    "stand": "D15",
+    "image": "/assets/site-refresh/4ee7905d8bfb39.webp",
+    "source": "javascript:openRemoteModal('exhibitors/bses-yamuna-power-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/bses-yamuna-power-limited\"});"
+  },
+  {
+    "name": "Capgen Nergy Private Limited",
+    "stand": "B28",
+    "image": "/assets/site-refresh/c5d2282351083a.webp",
+    "source": "javascript:openRemoteModal('exhibitors/capgen-nergy-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/capgen-nergy-private-limited\"});"
+  },
+  {
+    "name": "Cell Com Teleservices Pvt. Ltd.",
+    "stand": "A26",
+    "image": "/assets/site-refresh/0b74d0b23861d6.webp",
+    "source": "javascript:openRemoteModal('exhibitors/cell-com-teleservices-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/cell-com-teleservices-pvt-\"});"
+  },
+  {
+    "name": "Codalien Technologies Private Limited",
+    "stand": "G38",
+    "image": "/assets/site-refresh/fa55317068bfc0.webp",
+    "source": "javascript:openRemoteModal('exhibitors/codalien-technologies-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/codalien-technologies-private-limited\"});"
+  },
+  {
+    "name": "Constromech Engineering Solution",
+    "stand": "G39",
+    "image": "/assets/site-refresh/209ab9a2a178fa.webp",
+    "source": "javascript:openRemoteModal('exhibitors/constromech-engineering-solution','ajax',{},false,'',{\"dimension15\":\"exhibitors/constromech-engineering-solution\"});"
+  },
+  {
+    "name": "Cospower Engineering Limited",
+    "stand": "A01",
+    "image": "/assets/site-refresh/b4c7048f1622b4.webp",
+    "source": "javascript:openRemoteModal('exhibitors/cospower-engineering-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/cospower-engineering-limited\"});"
+  },
+  {
+    "name": "Crimson Energy Experts Private Limited",
+    "stand": "F47",
+    "image": "/assets/site-refresh/cc766a723a3bca.webp",
+    "source": "javascript:openRemoteModal('exhibitors/crimson-energy-experts-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/crimson-energy-experts-private-limited\"});"
+  },
+  {
+    "name": "Doyen Metal International Co., Ltd.",
+    "stand": "C33",
+    "image": "/assets/site-refresh/53739e9d92478d.webp",
+    "source": "javascript:openRemoteModal('exhibitors/doyen-metal-international-co-','ajax',{},false,'',{\"dimension15\":\"exhibitors/doyen-metal-international-co-\"});"
+  },
+  {
+    "name": "ECI Consulting Engineers Private Limited",
+    "stand": "G32",
+    "image": "/assets/site-refresh/9cb230455adbbe.webp",
+    "source": "javascript:openRemoteModal('exhibitors/eci-consulting-engineers-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/eci-consulting-engineers-private-limited\"});"
+  },
+  {
+    "name": "Enersol Systems Private Limited",
+    "stand": "F21",
+    "image": "/assets/site-refresh/262d45f973134b.webp",
+    "source": "javascript:openRemoteModal('exhibitors/enersol-systems-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/enersol-systems-private-limited\"});"
+  },
+  {
+    "name": "Eplan Software Pvt. Ltd.",
+    "stand": "E48",
+    "image": "/assets/site-refresh/f137f885a8a1e7.webp",
+    "source": "javascript:openRemoteModal('exhibitors/eplan-software-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/eplan-software-pvt-\"});"
+  },
+  {
+    "name": "G Sons Power Transformers Pvt. Ltd.",
+    "stand": "F46",
+    "image": "/assets/site-refresh/ddf9216b0c08fb.webp",
+    "source": "javascript:openRemoteModal('exhibitors/g-sons-power-transformers-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/g-sons-power-transformers-pvt-\"});"
+  },
+  {
+    "name": "Gautam Solar",
+    "stand": "C09",
+    "image": "/assets/site-refresh/9f0d239fdb4ef7.webp",
+    "source": "javascript:openRemoteModal('exhibitors/gautam-solar-ptzl','ajax',{},false,'',{\"dimension15\":\"exhibitors/gautam-solar-ptzl\"});"
+  },
+  {
+    "name": "Gladius Technologies",
+    "stand": "F27",
+    "image": "/assets/site-refresh/9026faa35617eb.webp",
+    "source": "javascript:openRemoteModal('exhibitors/gladius-technologies','ajax',{},false,'',{\"dimension15\":\"exhibitors/gladius-technologies\"});"
+  },
+  {
+    "name": "Green Power International",
+    "stand": "F15",
+    "image": "/assets/site-refresh/f531b193a82ad5.webp",
+    "source": "javascript:openRemoteModal('exhibitors/green-power-international','ajax',{},false,'',{\"dimension15\":\"exhibitors/green-power-international\"});"
+  },
+  {
+    "name": "Grid Controller of India",
+    "stand": "G10",
+    "image": "/assets/site-refresh/61fe8f4c69864d.webp",
+    "source": "javascript:openRemoteModal('exhibitors/grid-controller-india','ajax',{},false,'',{\"dimension15\":\"exhibitors/grid-controller-india\"});"
+  },
+  {
+    "name": "Gujarat Energy Development Agency",
+    "stand": "B01",
+    "image": "/assets/site-refresh/c5f06f1ef7de04.webp",
+    "source": "javascript:openRemoteModal('exhibitors/gujarat-energy-development-agency','ajax',{},false,'',{\"dimension15\":\"exhibitors/gujarat-energy-development-agency\"});"
+  },
+  {
+    "name": "Gujarat Industries Power Company Ltd",
+    "stand": "B01",
+    "image": "/assets/site-refresh/21b606c6173f1b.webp",
+    "source": "javascript:openRemoteModal('exhibitors/gujarat-industries-power-company','ajax',{},false,'',{\"dimension15\":\"exhibitors/gujarat-industries-power-company\"});"
+  },
+  {
+    "name": "Gujarat Power Corporation Limited",
+    "stand": "B01",
+    "image": "/assets/site-refresh/7532c9dc80b7ad.webp",
+    "source": "javascript:openRemoteModal('exhibitors/gujarat-power-corporation-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/gujarat-power-corporation-limited\"});"
+  },
+  {
+    "name": "Gujarat State Petroleum Corporation",
+    "stand": "B01",
+    "image": "/assets/site-refresh/3b6c0226f923ad.webp",
+    "source": "javascript:openRemoteModal('exhibitors/gujarat-industries-power-company-1','ajax',{},false,'',{\"dimension15\":\"exhibitors/gujarat-industries-power-company-1\"});"
+  },
+  {
+    "name": "Gujrat Urja Vikas Nigam Limited, Government Of Gujarat",
+    "stand": "B01",
+    "image": "/assets/site-refresh/48f65d790a3554.webp",
+    "source": "javascript:openRemoteModal('exhibitors/gujrat-urja-vikas-nigam-limited-government-gujarat','ajax',{},false,'',{\"dimension15\":\"exhibitors/gujrat-urja-vikas-nigam-limited-government-gujarat\"});"
+  },
+  {
+    "name": "Haiyan Weijia Electric Technology Co., Ltd.",
+    "stand": "C31",
+    "image": "/assets/site-refresh/31f4a1ccba33bd.webp",
+    "source": "javascript:openRemoteModal('exhibitors/haiyan-weijia-electric-technology-co-','ajax',{},false,'',{\"dimension15\":\"exhibitors/haiyan-weijia-electric-technology-co-\"});"
+  },
+  {
+    "name": "Hangzhou Wall-Esoft Digital Technology Co., Ltd",
+    "stand": "E22",
+    "image": "/assets/site-refresh/e7d895dcbe074a.webp",
+    "source": "javascript:openRemoteModal('exhibitors/hangzhou-wall-esoft-digital-technology-co','ajax',{},false,'',{\"dimension15\":\"exhibitors/hangzhou-wall-esoft-digital-technology-co\"});"
+  },
+  {
+    "name": "Hytorc Tools India Pvt. Ltd.",
+    "stand": "F26",
+    "image": "/assets/site-refresh/a953a87163b57c.webp",
+    "source": "javascript:openRemoteModal('exhibitors/hytorc-tools-india-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/hytorc-tools-india-pvt-\"});"
+  },
+  {
+    "name": "IMECO Overseas Private Limited",
+    "stand": "F40",
+    "image": "/assets/site-refresh/54edb81cd8d3c4.webp",
+    "source": "javascript:openRemoteModal('exhibitors/imeco-overseas-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/imeco-overseas-private-limited\"});"
+  },
+  {
+    "name": "Indian Rubber Products",
+    "stand": "F34B",
+    "image": "/assets/site-refresh/9dd4a1b25d31a3.webp",
+    "source": "javascript:openRemoteModal('exhibitors/indian-rubber-products','ajax',{},false,'',{\"dimension15\":\"exhibitors/indian-rubber-products\"});"
+  },
+  {
+    "name": "Invest Uttar Pradesh (Government of Uttar Pradesh)",
+    "stand": "D01",
+    "image": "/assets/site-refresh/6ed0c7083e4450.webp",
+    "source": "javascript:openRemoteModal('exhibitors/invest-uttar-pradesh-government-uttar-pradesh','ajax',{},false,'',{\"dimension15\":\"exhibitors/invest-uttar-pradesh-government-uttar-pradesh\"});"
+  },
+  {
+    "name": "Jaewoo SF Corporation",
+    "stand": "A34",
+    "image": "/assets/site-refresh/904c9c005131ec.webp",
+    "source": "javascript:openRemoteModal('exhibitors/jaewoo-sf-corporation','ajax',{},false,'',{\"dimension15\":\"exhibitors/jaewoo-sf-corporation\"});"
+  },
+  {
+    "name": "Jemkon Private Limited",
+    "stand": "G20",
+    "image": "/assets/site-refresh/f60fd7ccb08fa7.webp",
+    "source": "javascript:openRemoteModal('exhibitors/jemkon-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/jemkon-private-limited\"});"
+  },
+  {
+    "name": "Jiangsu Jingyi Electrical Appliance Co. Ltd",
+    "stand": "F19",
+    "image": "/assets/site-refresh/a50ae8f6a82a2c.webp",
+    "source": "javascript:openRemoteModal('exhibitors/jiangsu-jingyi-electrical-appliance-co','ajax',{},false,'',{\"dimension15\":\"exhibitors/jiangsu-jingyi-electrical-appliance-co\"});"
+  },
+  {
+    "name": "Jiangxi Leierdunwei Electric Co. Ltd.",
+    "stand": "B15",
+    "image": "/assets/site-refresh/95a6644f4720f8.webp",
+    "source": "javascript:openRemoteModal('exhibitors/china-exhibition-world-co','ajax',{},false,'',{\"dimension15\":\"exhibitors/china-exhibition-world-co\"});"
+  },
+  {
+    "name": "JMK Research And Analytics Private Limited",
+    "stand": "F44",
+    "image": "/assets/site-refresh/b8541fa77d1ff5.webp",
+    "source": "javascript:openRemoteModal('exhibitors/jmk-research-analytics-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/jmk-research-analytics-private-limited\"});"
+  },
+  {
+    "name": "Kakati Karshak Industries Private Limited",
+    "stand": "B27",
+    "image": "/assets/site-refresh/6ce072de78e607.webp",
+    "source": "javascript:openRemoteModal('exhibitors/kakati-karshak-industries-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/kakati-karshak-industries-private-limited\"});"
+  },
+  {
+    "name": "Kalpana Industries",
+    "stand": "G15",
+    "image": "/assets/site-refresh/c164e68d1c6dd3.webp",
+    "source": "javascript:openRemoteModal('exhibitors/kalpana-industries','ajax',{},false,'',{\"dimension15\":\"exhibitors/kalpana-industries\"});"
+  },
+  {
+    "name": "Kinergy Renewable",
+    "stand": "F33",
+    "image": "/assets/site-refresh/3a36396e4e4755.webp",
+    "source": "javascript:openRemoteModal('exhibitors/js-trafoenergy','ajax',{},false,'',{\"dimension15\":\"exhibitors/js-trafoenergy\"});"
+  },
+  {
+    "name": "Kintech Greenurja Private Limited",
+    "stand": "B22",
+    "image": "/assets/site-refresh/84e0fb36a00427.webp",
+    "source": "javascript:openRemoteModal('exhibitors/kintech-greenurja-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/kintech-greenurja-private-limited\"});"
+  },
+  {
+    "name": "Kirloskar Brothers Ltd.",
+    "stand": "B09",
+    "image": "/assets/site-refresh/4a36608982f690.webp",
+    "source": "javascript:openRemoteModal('exhibitors/kirloskar-brothers-','ajax',{},false,'',{\"dimension15\":\"exhibitors/kirloskar-brothers-\"});"
+  },
+  {
+    "name": "Kraftpowercon Power Products Private Limited",
+    "stand": "F10",
+    "image": "/assets/site-refresh/9aa96a2cba7640.webp",
+    "source": "javascript:openRemoteModal('exhibitors/kraftpowercon-power-products-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/kraftpowercon-power-products-private-limited\"});"
+  },
+  {
+    "name": "Lisega India Private Limited",
+    "stand": "A27",
+    "image": "/assets/site-refresh/3ff6dc822c5ab6.webp",
+    "source": "javascript:openRemoteModal('exhibitors/lisega-india-private-limited-xf7d','ajax',{},false,'',{\"dimension15\":\"exhibitors/lisega-india-private-limited-xf7d\"});"
+  },
+  {
+    "name": "Longhua Technology Group (Luoyang) Co., Ltd.",
+    "stand": "A21",
+    "image": "/assets/site-refresh/cb5e6f2cb9532b.webp",
+    "source": "javascript:openRemoteModal('exhibitors/longhua-technology-group-luoyang-co-','ajax',{},false,'',{\"dimension15\":\"exhibitors/longhua-technology-group-luoyang-co-\"});"
+  },
+  {
+    "name": "Madhura Power Technologies Pvt. Ltd.",
+    "stand": "F34A",
+    "image": "/assets/site-refresh/819f5233cb5a7a.webp",
+    "source": "javascript:openRemoteModal('exhibitors/madhura-power-technologies-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/madhura-power-technologies-pvt-\"});"
+  },
+  {
+    "name": "Magaldi Power S.P.A.",
+    "stand": "C39",
+    "image": "/assets/site-refresh/c5e47d4f524b1e.webp",
+    "source": "javascript:openRemoteModal('exhibitors/magaldi-power-sp','ajax',{},false,'',{\"dimension15\":\"exhibitors/magaldi-power-sp\"});"
+  },
+  {
+    "name": "Marsulex Environmental Technologies India Private Limited",
+    "stand": "G07",
+    "image": "/assets/site-refresh/bf6c8a74bc2edb.webp",
+    "source": "javascript:openRemoteModal('exhibitors/marsulex-environmental-technologies-india-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/marsulex-environmental-technologies-india-private-limited\"});"
+  },
+  {
+    "name": "Master Control India Pvt. Ltd.",
+    "stand": "G40",
+    "image": "/assets/site-refresh/84fa99e75e712f.webp",
+    "source": "javascript:openRemoteModal('exhibitors/master-control-india-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/master-control-india-pvt-\"});"
+  },
+  {
+    "name": "Matalytics Ltd",
+    "stand": "",
+    "image": "/assets/site-refresh/fb2ee27a0e4297.webp",
+    "source": "javascript:openRemoteModal('exhibitors/matalytics','ajax',{},false,'',{\"dimension15\":\"exhibitors/matalytics\"});"
+  },
+  {
+    "name": "MCB Electro Controls",
+    "stand": "A28",
+    "image": "/assets/site-refresh/7746db70dde87f.webp",
+    "source": "javascript:openRemoteModal('exhibitors/mcb-controls','ajax',{},false,'',{\"dimension15\":\"exhibitors/mcb-controls\"});"
+  },
+  {
+    "name": "Mech Well Industries Limited",
+    "stand": "E32",
+    "image": "/assets/site-refresh/0e09d3b2c68184.webp",
+    "source": "javascript:openRemoteModal('exhibitors/mech-well-industries-limited-zrng','ajax',{},false,'',{\"dimension15\":\"exhibitors/mech-well-industries-limited-zrng\"});"
+  },
+  {
+    "name": "Michell Bearings (India) LLP",
+    "stand": "A19",
+    "image": "/assets/site-refresh/f01ec34b308a56.webp",
+    "source": "javascript:openRemoteModal('exhibitors/michell-bearings-india-llp','ajax',{},false,'',{\"dimension15\":\"exhibitors/michell-bearings-india-llp\"});"
+  },
+  {
+    "name": "Millennium Energy Global Private Limited",
+    "stand": "C47",
+    "image": "/assets/site-refresh/0ac10768ff3877.webp",
+    "source": "javascript:openRemoteModal('exhibitors/millennium-energy-global-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/millennium-energy-global-private-limited\"});"
+  },
+  {
+    "name": "Minilec India Pvt. Ltd.",
+    "stand": "E40",
+    "image": "/assets/site-refresh/5043ee72ac91ac.webp",
+    "source": "javascript:openRemoteModal('exhibitors/minilec-india-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/minilec-india-pvt-\"});"
+  },
+  {
+    "name": "Multi Commodity Exchange of India Limited",
+    "stand": "B33",
+    "image": "/assets/site-refresh/ac19809f7fcc23.webp",
+    "source": "javascript:openRemoteModal('exhibitors/multi-commodity-exchange-india-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/multi-commodity-exchange-india-limited\"});"
+  },
+  {
+    "name": "Multispan Control Instruments Pvt. Ltd.",
+    "stand": "A39",
+    "image": "/assets/site-refresh/c80fac03a2dc58.webp",
+    "source": "javascript:openRemoteModal('exhibitors/multispan-control-instruments-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/multispan-control-instruments-pvt-\"});"
+  },
+  {
+    "name": "National Switchgears",
+    "stand": "A40",
+    "image": "/assets/site-refresh/bfe937ad52321f.webp",
+    "source": "javascript:openRemoteModal('exhibitors/national-switchgears','ajax',{},false,'',{\"dimension15\":\"exhibitors/national-switchgears\"});"
+  },
+  {
+    "name": "Nexgen Consultancy Private Limited",
+    "stand": "G16",
+    "image": "/assets/site-refresh/f9fb38599586d7.webp",
+    "source": "javascript:openRemoteModal('exhibitors/nexgen-consultancy-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/nexgen-consultancy-private-limited\"});"
+  },
+  {
+    "name": "Paltech Cooling Towers & Equipments Limited",
+    "stand": "A32",
+    "image": "/assets/site-refresh/7726f67468df66.webp",
+    "source": "javascript:openRemoteModal('exhibitors/paltech-cooling-towers-equipments-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/paltech-cooling-towers-equipments-limited\"});"
+  },
+  {
+    "name": "Pewag India Private Limited",
+    "stand": "G22",
+    "image": "/assets/site-refresh/432b3cd85508e0.webp",
+    "source": "javascript:openRemoteModal('exhibitors/pewag-india-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/pewag-india-private-limited\"});"
+  },
+  {
+    "name": "PHYTEC Embedded Pvt. Ltd.",
+    "stand": "B26",
+    "image": "/assets/site-refresh/e56b3ab04a642e.webp",
+    "source": "javascript:openRemoteModal('exhibitors/phytec-embedded-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/phytec-embedded-pvt-\"});"
+  },
+  {
+    "name": "Powerstar Engineers And Consultants Private Limited",
+    "stand": "F22",
+    "image": "/assets/site-refresh/a04e2d140e702b.webp",
+    "source": "javascript:openRemoteModal('exhibitors/powerstar-engineers-consultants-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/powerstar-engineers-consultants-private-limited\"});"
+  },
+  {
+    "name": "Renviro Systems (UE Systems IMENA Pvt Ltd)",
+    "stand": "G48",
+    "image": "/assets/site-refresh/6183ecdbe6069c.webp",
+    "source": "javascript:openRemoteModal('exhibitors/renviro-systems-ue-systems-imena-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/renviro-systems-ue-systems-imena-pvt-\"});"
+  },
+  {
+    "name": "RPSG Group",
+    "stand": "D21",
+    "image": "/assets/site-refresh/a2e53360c025c8.webp",
+    "source": "javascript:openRemoteModal('exhibitors/rpsg-group','ajax',{},false,'',{\"dimension15\":\"exhibitors/rpsg-group\"});"
+  },
+  {
+    "name": "Sanelec Excitation Systems Private Ltd",
+    "stand": "F48",
+    "image": "/assets/site-refresh/6a12dd4231baeb.webp",
+    "source": "javascript:openRemoteModal('exhibitors/sanelec-excitation-systems-private','ajax',{},false,'',{\"dimension15\":\"exhibitors/sanelec-excitation-systems-private\"});"
+  },
+  {
+    "name": "Sharajman Technologies Pvt. Ltd",
+    "stand": "G33",
+    "image": "/assets/site-refresh/bc52d948df257c.webp",
+    "source": "javascript:openRemoteModal('exhibitors/sharajman-technologies-pvt','ajax',{},false,'',{\"dimension15\":\"exhibitors/sharajman-technologies-pvt\"});"
+  },
+  {
+    "name": "SISCO Energy Private Limited",
+    "stand": "F25",
+    "image": "/assets/site-refresh/2929efd790cab3.webp",
+    "source": "javascript:openRemoteModal('exhibitors/sisco-energy-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/sisco-energy-private-limited\"});"
+  },
+  {
+    "name": "Smart Charging Solutions",
+    "stand": "F31",
+    "image": "/assets/site-refresh/58a76c2918ccca.webp",
+    "source": "javascript:openRemoteModal('exhibitors/smart-charging-solutions','ajax',{},false,'',{\"dimension15\":\"exhibitors/smart-charging-solutions\"});"
+  },
+  {
+    "name": "SRJ Engineering And Trading Pvt. Ltd.",
+    "stand": "B20",
+    "image": "/assets/site-refresh/827fd98a78e09c.webp",
+    "source": "javascript:openRemoteModal('exhibitors/srj-engineering-trading-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/srj-engineering-trading-pvt-\"});"
+  },
+  {
+    "name": "Standard Transfer Specification Association",
+    "stand": "A15",
+    "image": "/assets/site-refresh/f2c2debae80d5f.webp",
+    "source": "javascript:openRemoteModal('exhibitors/standard-transfer-specification-association','ajax',{},false,'',{\"dimension15\":\"exhibitors/standard-transfer-specification-association\"});"
+  },
+  {
+    "name": "Star Cooler And Condensers Pvt Ltd",
+    "stand": "B34",
+    "image": "/assets/site-refresh/214e11927502e4.webp",
+    "source": "javascript:openRemoteModal('exhibitors/star-cooler-condensers-pvt','ajax',{},false,'',{\"dimension15\":\"exhibitors/star-cooler-condensers-pvt\"});"
+  },
+  {
+    "name": "Svurg Digital System Solutions Pvt. Ltd.",
+    "stand": "G45",
+    "image": "/assets/site-refresh/585d18bf8c1c5c.webp",
+    "source": "javascript:openRemoteModal('exhibitors/svurg-digital-system-solutions-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/svurg-digital-system-solutions-pvt-\"});"
+  },
+  {
+    "name": "Syskey Softlabs Private Limited",
+    "stand": "",
+    "image": "/assets/site-refresh/3cee16ef9005c8.webp",
+    "source": "javascript:openRemoteModal('exhibitors/syskey-softlabs-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/syskey-softlabs-private-limited\"});"
+  },
+  {
+    "name": "Tech Servers Infra Private Limited",
+    "stand": "G47",
+    "image": "/assets/site-refresh/7da497628304ed.webp",
+    "source": "javascript:openRemoteModal('exhibitors/tech-servers-infra-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/tech-servers-infra-private-limited\"});"
+  },
+  {
+    "name": "Tejshri Renewable Solutions Pvt Ltd",
+    "stand": "F42",
+    "image": "/assets/site-refresh/06cd0dc80dca3c.webp",
+    "source": "javascript:openRemoteModal('exhibitors/tejshri-renewable-solutions-pvt','ajax',{},false,'',{\"dimension15\":\"exhibitors/tejshri-renewable-solutions-pvt\"});"
+  },
+  {
+    "name": "The Durgapur Projects Limited",
+    "stand": "D27",
+    "image": "/assets/site-refresh/b617a1cf1d3a02.webp",
+    "source": "javascript:openRemoteModal('exhibitors/durgapur-projects-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/durgapur-projects-limited\"});"
+  },
+  {
+    "name": "Toshiba Jsw Power Systems Private Limited",
+    "stand": "E15",
+    "image": "/assets/site-refresh/15e172461a1e3e.webp",
+    "source": "javascript:openRemoteModal('exhibitors/toshiba-jsw-power-systems-private-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/toshiba-jsw-power-systems-private-limited\"});"
+  },
+  {
+    "name": "Tranter India Pvt Ltd",
+    "stand": "G27",
+    "image": "/assets/site-refresh/f90c79607d7ad3.webp",
+    "source": "javascript:openRemoteModal('exhibitors/tranter-india-pvt','ajax',{},false,'',{\"dimension15\":\"exhibitors/tranter-india-pvt\"});"
+  },
+  {
+    "name": "Turbo Engineering Services (TES) Private Limited",
+    "stand": "B48",
+    "image": "/assets/site-refresh/398a162968eb67.webp",
+    "source": "javascript:openRemoteModal('exhibitors/turbo-engineering-services-tes-private-limited-1','ajax',{},false,'',{\"dimension15\":\"exhibitors/turbo-engineering-services-tes-private-limited-1\"});"
+  },
+  {
+    "name": "Tycon Automation Pvt Ltd",
+    "stand": "B39",
+    "image": "/assets/site-refresh/222fd2e6665240.webp",
+    "source": "javascript:openRemoteModal('exhibitors/tycon-automation-pvt','ajax',{},false,'',{\"dimension15\":\"exhibitors/tycon-automation-pvt\"});"
+  },
+  {
+    "name": "V Automat And Instruments Pvt. Ltd.",
+    "stand": "F34",
+    "image": "/assets/site-refresh/17a348895ec442.webp",
+    "source": "javascript:openRemoteModal('exhibitors/v-automat-instruments-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/v-automat-instruments-pvt-\"});"
+  },
+  {
+    "name": "Veerabhadra Elite Electrodynamic Solutions LLP",
+    "stand": "G31",
+    "image": "/assets/site-refresh/7fa5a55e11d57c.webp",
+    "source": "javascript:openRemoteModal('exhibitors/veerabhadra-elite-electrodynamic-solutions-llp','ajax',{},false,'',{\"dimension15\":\"exhibitors/veerabhadra-elite-electrodynamic-solutions-llp\"});"
+  },
+  {
+    "name": "Vertex Power Controls Pvt. Ltd.",
+    "stand": "A22",
+    "image": "/assets/site-refresh/24bf1628b72e14.webp",
+    "source": "javascript:openRemoteModal('exhibitors/vertex-power-controls-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/vertex-power-controls-pvt-\"});"
+  },
+  {
+    "name": "Vidhyut Control (I) Pvt. Ltd.",
+    "stand": "F37",
+    "image": "/assets/site-refresh/d6436790db5312.webp",
+    "source": "javascript:openRemoteModal('exhibitors/vidhyut-control-pvt-','ajax',{},false,'',{\"dimension15\":\"exhibitors/vidhyut-control-pvt-\"});"
+  },
+  {
+    "name": "West Bengal Power Development Corporation Limited",
+    "stand": "D27",
+    "image": "/assets/site-refresh/e1b5374e8edac6.webp",
+    "source": "javascript:openRemoteModal('exhibitors/west-bengal-power-development-corporation-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/west-bengal-power-development-corporation-limited\"});"
+  },
+  {
+    "name": "West Bengal State Electricity Distribution Company Limited",
+    "stand": "D27",
+    "image": "/assets/site-refresh/22ed3debba6c3a.webp",
+    "source": "javascript:openRemoteModal('exhibitors/west-bengal-state-electricity-distribution-company-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/west-bengal-state-electricity-distribution-company-limited\"});"
+  },
+  {
+    "name": "West Bengal State Electricity Transmission Company Limited",
+    "stand": "",
+    "image": "/assets/site-refresh/7d49b54f610021.webp",
+    "source": "javascript:openRemoteModal('exhibitors/west-bengal-state-electricity-transmission-company-limited','ajax',{},false,'',{\"dimension15\":\"exhibitors/west-bengal-state-electricity-transmission-company-limited\"});"
+  },
+  {
+    "name": "WOG Technologies Limited",
+    "stand": "F09",
+    "image": "/assets/site-refresh/40f293c2fbe259.webp",
+    "source": "javascript:openRemoteModal('exhibitors/wog-technologies-limited-z067','ajax',{},false,'',{\"dimension15\":\"exhibitors/wog-technologies-limited-z067\"});"
+  },
+  {
+    "name": "WTE Infra Projects Pvt Ltd",
+    "stand": "A47",
+    "image": "/assets/site-refresh/b1aadc2c37fecc.webp",
+    "source": "javascript:openRemoteModal('exhibitors/wte-infra-projects-pvt','ajax',{},false,'',{\"dimension15\":\"exhibitors/wte-infra-projects-pvt\"});"
+  },
+  {
+    "name": "Zhejiang Fanhar Electronics Co., Ltd.",
+    "stand": "E20",
+    "image": "/assets/site-refresh/30b6b649945c00.webp",
+    "source": "javascript:openRemoteModal('exhibitors/zhejiang-fanhar-electronics-co-','ajax',{},false,'',{\"dimension15\":\"exhibitors/zhejiang-fanhar-electronics-co-\"});"
+  },
+  {
+    "name": "Zhejiang Great Electrical Co., Ltd",
+    "stand": "E26",
+    "image": "/assets/site-refresh/ecb84c53b69579.webp",
+    "source": "javascript:openRemoteModal('exhibitors/zhejiang-great-electrical-co','ajax',{},false,'',{\"dimension15\":\"exhibitors/zhejiang-great-electrical-co\"});"
+  },
+  {
+    "name": "Zhejiang Jungong Precision Metal Co., Ltd",
+    "stand": "E28",
+    "image": "/assets/site-refresh/b7c8387fd23ddb.webp",
+    "source": "javascript:openRemoteModal('exhibitors/zhejiang-jungong-precision-metal-co','ajax',{},false,'',{\"dimension15\":\"exhibitors/zhejiang-jungong-precision-metal-co\"});"
+  },
+  {
+    "name": "Zoonaysha International",
+    "stand": "C15",
+    "image": "/assets/site-refresh/98fd8044814f83.webp",
+    "source": "javascript:openRemoteModal('exhibitors/zoonaysha-international','ajax',{},false,'',{\"dimension15\":\"exhibitors/zoonaysha-international\"});"
+  }
+]

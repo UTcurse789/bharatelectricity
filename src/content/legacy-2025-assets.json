@@ -1,0 +1,202 @@
+{
+  "references": {
+    "government": {
+      "src": "/assets/legacy-2025/source-government.webp",
+      "width": 892,
+      "height": 622,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174306.png"
+    },
+    "focus": {
+      "src": "/assets/legacy-2025/source-focus.webp",
+      "width": 678,
+      "height": 130,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174319.png"
+    },
+    "statistics": {
+      "src": "/assets/legacy-2025/source-statistics.webp",
+      "width": 405,
+      "height": 671,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174340.png"
+    },
+    "demographics": {
+      "src": "/assets/legacy-2025/source-demographics.webp",
+      "width": 947,
+      "height": 567,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174353.png"
+    },
+    "feedback-1": {
+      "src": "/assets/legacy-2025/source-feedback-1.webp",
+      "width": 927,
+      "height": 593,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174407.png"
+    },
+    "feedback-2": {
+      "src": "/assets/legacy-2025/source-feedback-2.webp",
+      "width": 957,
+      "height": 588,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174418.png"
+    },
+    "voices": {
+      "src": "/assets/legacy-2025/source-voices.webp",
+      "width": 932,
+      "height": 547,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174504.png"
+    },
+    "chart-segments": {
+      "src": "/assets/legacy-2025/chart-segments.webp",
+      "width": 298,
+      "height": 224,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174407.png",
+      "crop": {
+        "left": 2,
+        "top": 90,
+        "width": 298,
+        "height": 224
+      }
+    },
+    "chart-aspects": {
+      "src": "/assets/legacy-2025/chart-aspects.webp",
+      "width": 300,
+      "height": 224,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174407.png",
+      "crop": {
+        "left": 314,
+        "top": 90,
+        "width": 300,
+        "height": 224
+      }
+    },
+    "chart-registration": {
+      "src": "/assets/legacy-2025/chart-registration.webp",
+      "width": 299,
+      "height": 224,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174407.png",
+      "crop": {
+        "left": 625,
+        "top": 90,
+        "width": 299,
+        "height": 224
+      }
+    },
+    "chart-panels": {
+      "src": "/assets/legacy-2025/chart-panels.webp",
+      "width": 297,
+      "height": 224,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174407.png",
+      "crop": {
+        "left": 305,
+        "top": 338,
+        "width": 297,
+        "height": 224
+      }
+    },
+    "chart-locations": {
+      "src": "/assets/legacy-2025/chart-locations.webp",
+      "width": 296,
+      "height": 224,
+      "source": "C:/Users/ASUS/OneDrive/Pictures/Screenshots/Screenshot 2026-10-09 174418.png",
+      "crop": {
+        "left": 497,
+        "top": 340,
+        "width": 296,
+        "height": 224
+      }
+    }
+  },
+  "portraits": {
+    "bhalla": {
+      "src": "/assets/legacy-2025/speaker-bhalla.webp",
+      "alt": "Shri. Bhupinder Singh Bhalla, IAS (Retd.) in the original 2025 speaker artwork",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/galleries/speakers-2025/2BA8D244-bhupinder-singh-bhalla.jpg/fit-in/500x9999/filters:no_upscale()"
+    },
+    "prasad": {
+      "src": "/assets/legacy-2025/speaker-prasad.webp",
+      "alt": "Shri Ghanshyam Prasad in the original 2025 speaker artwork",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/galleries/speakers-2025/2B9C6130-Ghanshyam-Prasad.jpg/fit-in/500x9999/filters:no_upscale()"
+    },
+    "kalirajan": {
+      "src": "/assets/legacy-2025/speaker-kalirajan.webp",
+      "alt": "Dr. Kalirajan S. in the original 2025 speaker artwork",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/galleries/speakers-2025/2B9D82A9-kalirajan.jpg/fit-in/500x9999/filters:no_upscale()"
+    },
+    "kumar": {
+      "src": "/assets/legacy-2025/speaker-kumar.webp",
+      "alt": "Shri Ravindra Kumar in the original 2025 speaker artwork",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/galleries/speakers-2025/2B9D2B2E-Ravindra-Kumar.jpg/fit-in/500x9999/filters:no_upscale()"
+    }
+  },
+  "awards": [
+    {
+      "src": "/assets/legacy-2025/awards-01.webp",
+      "alt": "Outstanding Product Showcase award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczOGeXop53nWegAdVNzSLNR1r_Cb7PksuvE69JLMSAM5TaMagdFzFlbB-ZPiN6HjdaDT4H51N36TBEBIyp8r2HkiUtN6Qj7cpj_CYxlmYQIzr9V-JlI=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-02.webp",
+      "alt": "Best Innovative Stall Design award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczN9tq8rTCx45KPT2zngWe2cFXEEdwwkHhBwViL1YQFCFYf84DCoj9klS59oQENlYhsf8xshAo0RNW7DNr-PgvEG2vLSo4dqDyf6Y-uHwQ234hrq0LI=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-03.webp",
+      "alt": "Safety Partner of the Year award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczMh34sGd8WvoWcUProkwMmrqWA_sE2uW3NSHLPJri4UzvmytDFRJ_wTNSA-x-1DC1butzv-Qa9tk5zHjV3xZwgTaCgey2fUPqI5S5Z-NEkegU-3KVw=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-04.webp",
+      "alt": "National digital skilling award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczMM-xRZwhcOCbg3GVWp-lpP1jxDTZZsDrNap1w_Ao5DHuQtVmFAQrqCZQtTPgqKRRAjezZSLGZQXE2V3Lceoy-SqbJDWp52VLIOzHV8889Do0imDYI=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-05.webp",
+      "alt": "Digital Transformation Partner award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczMeAgvgUgPKntrkYMqInnWWfcetVrLtdM7vZC_cCCvpnD4G4fPtgizMQEvF5K_BkjHJjFwNHWCv6u3MHr1Il-W-YPqNwM7X2puQZvPt7WLijeVydD4=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-06.webp",
+      "alt": "Decarbonisation Partner award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczNgq9iQSuy93l3FKCLPVbmc5_7yKMcjjSN-vVS7J_BWWD930mRGXTPk2krV1jBDEs3W-PVWFjetnzNx-rk_q1kqeXt6k4G2sT_jm3Y1jHvDzRnqc4Y=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-07.webp",
+      "alt": "EPC of the Year thermal power award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczN4vn6FGxCtLmnwOCxtjBJXj-LUgEsyATPjHuaXFvqQnJBaRXj8WjlqjX_xlEOo_wmdBA2ZqAgsq2u608kU1EAEtFJZ6kuHRV1hAcAdEl3hCsIsVPU=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-08.webp",
+      "alt": "EPC of the Year renewable energy award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczOAZVFEKJoRUtBBfv37xKHCq3AWWECOQvkqCE7TtgpcIdJuDi12QqYr5bU6jxjhome9sl6OrHtzkaPNw16qf7saffj9Nt36xKIcZ6R3A_uLcX7e06E=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-09.webp",
+      "alt": "Power Exchange of the Year award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczO7KgC4Mb1Lhd3pcn9pD_bycYATEYOftfYYYl5SQseYcpzKVai2X0oiSuGFVcrNrsm-nNAJzK_juAqNDEjTbiWURtYtheoIGokqIRklKMn0LPG9F7A=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-10.webp",
+      "alt": "State transmission company award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczMT5rdirzNLdS6SUwX4hBvrpowQJyh8K7L043ox7gTo576sugOLdDu-lPiO-G781R0CXs5aqxxHKwpwCFz32jwtF-RfFtwbUaUnu0q98UIxrCaIrCw=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-11.webp",
+      "alt": "Transmission company award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczMKulJNQKslRFPgjq_13_dcDv41J1qe0yMOXiEC6_NxSTBfhXajClFdUCsmJ__XqXeGazyrE8gGfuEz3Om2ITggWX-cdkL3s3r9xH5_KdHgvYPhqiM=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    },
+    {
+      "src": "/assets/legacy-2025/awards-12.webp",
+      "alt": "Power Grid transmission award recipients on the Bharat Electricity 2025 awards stage",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczNuNQRkMnD8ewr5iFzPUNqVzSnx5Ybw35IjO0reC3wyihj86fjmC9pw_7zxlb2viJvcHw0Iv6-E7cmDgkZfGZ6FDXGRsZBF68VGcVXN-k1Sj9-DR-U=w800-h800-no",
+      "album": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57"
+    }
+  ]
+}

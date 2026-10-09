@@ -1,0 +1,30 @@
+/* Reference: bold event typography and transparent energy artwork on a warm paper surface. */
+.energy-introduction{margin-block:0;padding-block:56px 44px;background:#fffaf2;overflow:clip}
+.energy-introduction-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:36px;align-items:center}
+.energy-introduction-copy{position:relative;min-width:0}
+.energy-introduction-edition{display:flex;align-items:center;gap:16px;font-size:.85rem;font-weight:750;letter-spacing:.16em;text-transform:uppercase;color:#c44800;margin:0 0 26px;line-height:1.6}
+.energy-introduction-edition:before{content:'';width:46px;height:2px;flex-shrink:0;background:var(--orange)}
+.home-page .energy-introduction h2{font-size:clamp(2.4rem,5vw,4.5rem);font-weight:850;line-height:1.04;letter-spacing:-.04em;text-transform:uppercase;margin:0 0 30px}
+.energy-introduction h2>span{display:block}
+.energy-introduction-accent{color:#d94b00;white-space:nowrap}
+.energy-introduction-description{max-width:62ch;font-size:1.125rem;line-height:1.6;color:#353535}
+.energy-introduction-description p{margin:0}
+.energy-introduction-description p+p{margin-top:24px}
+.energy-introduction-artwork{min-width:0;align-self:center}
+.energy-introduction-artwork img{display:block;width:112%;max-width:none;height:auto;margin-left:-6%}
+@media(max-width:1100px) and (min-width:901px){
+ .energy-introduction-layout{gap:28px}
+ .home-page .energy-introduction h2{font-size:3.9vw}
+ .energy-introduction-edition{letter-spacing:.15em;gap:12px}
+ .energy-introduction-edition:before{width:28px}
+ .energy-introduction-description{font-size:1rem}
+}
+@media(max-width:900px){
+ .energy-introduction{padding-block:36px}
+ .energy-introduction-layout{grid-template-columns:minmax(0,1fr);gap:28px}
+ .energy-introduction-edition{font-size:.75rem;letter-spacing:.13em;gap:12px;margin-bottom:22px}
+ .energy-introduction-edition:before{width:26px}
+ .home-page .energy-introduction h2{font-size:clamp(1.7rem,7.8vw,3.5rem);margin-bottom:24px}
+ .energy-introduction-description{font-size:1rem}
+ .energy-introduction-artwork img{width:100%;max-width:520px;margin-inline:auto}
+}

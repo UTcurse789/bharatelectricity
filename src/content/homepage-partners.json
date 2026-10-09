@@ -1,0 +1,1066 @@
+{
+  "source": "https://www.powergen-india.com/",
+  "edition": 2026,
+  "verifiedAt": "2026-10-09",
+  "groups": [
+    {
+      "title": "GOVERNMENT SUPPORT",
+      "logos": [
+        {
+          "file": "MNRE-Government-Support2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/MNRE-Government-Support2.png",
+          "name": "Ministry of New and Renewable Energy",
+          "href": "https://mnre.gov.in/",
+          "src": "/assets/homepage/mnre-government-support2-3e505f4936.webp",
+          "width": 432,
+          "height": 400
+        },
+        {
+          "file": "MOP-2026.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/MOP-2026.png",
+          "name": "Ministry of Power",
+          "href": "https://www.powermin.gov.in/",
+          "src": "/assets/homepage/mop-2026-7f272c8155.webp",
+          "width": 482,
+          "height": 400
+        },
+        {
+          "file": "Government-Support-MHI-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Government-Support-MHI-.png",
+          "name": "Ministry of Heavy Industries",
+          "href": "https://heavyindustries.gov.in/en",
+          "src": "/assets/homepage/government-support-mhi-b791edb053.webp",
+          "width": 546,
+          "height": 400
+        },
+        {
+          "file": "MEA-Government-Support2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/MEA-Government-Support2.png",
+          "name": "Ministry of External Affairs",
+          "href": "https://www.mea.gov.in/",
+          "src": "/assets/homepage/mea-government-support2-a763caa458.webp",
+          "width": 506,
+          "height": 400
+        },
+        {
+          "file": "Government-Support-MEITY.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Government-Support-MEITY.png",
+          "name": "Ministry of Electronics and Information Technology",
+          "href": "https://www.meity.gov.in/",
+          "src": "/assets/homepage/government-support-meity-5e8982025b.webp",
+          "width": 488,
+          "height": 400
+        },
+        {
+          "file": "Government-Support-MOEFCC-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Government-Support-MOEFCC-.png",
+          "name": "Ministry of Environment, Forest and Climate Change",
+          "href": "https://moef.gov.in/",
+          "src": "/assets/homepage/government-support-moefcc-637ff7ad71.webp",
+          "width": 472,
+          "height": 400
+        },
+        {
+          "file": "Government-Support-MOEFCC-1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Government-Support-MOEFCC-1.png",
+          "name": "Nature protects if she is protected",
+          "href": "https://moef.gov.in/",
+          "src": "/assets/homepage/government-support-moefcc-1-992fa12a92.webp",
+          "width": 377,
+          "height": 400
+        },
+        {
+          "file": "Government-Support-MOEFCC-2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Government-Support-MOEFCC-2.png",
+          "name": "Mission LiFE: Lifestyle for Environment",
+          "href": "https://moef.gov.in/",
+          "src": "/assets/homepage/government-support-moefcc-2-7df76a4b0f.webp",
+          "width": 640,
+          "height": 285
+        }
+      ]
+    },
+    {
+      "title": "Focus States",
+      "logos": [
+        {
+          "file": "Bihar-2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Bihar-2.png",
+          "name": "Government of Bihar",
+          "href": "https://state.bihar.gov.in/",
+          "src": "/assets/homepage/bihar-2-70f3a1018a.webp",
+          "width": 364,
+          "height": 400
+        },
+        {
+          "file": "Gujarat-33.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Gujarat-33.png",
+          "name": "Government of Gujarat",
+          "href": "https://guj-epd.gujarat.gov.in/Index",
+          "src": "/assets/homepage/gujarat-33-dea98d189e.webp",
+          "width": 397,
+          "height": 400
+        },
+        {
+          "file": "5-Focus-State-Partner-2026.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/5-Focus-State-Partner-2026.png",
+          "name": "Government of Karnataka",
+          "href": "https://karnataka.gov.in/english",
+          "src": "/assets/homepage/5-focus-state-partner-2026-8721c8c615.webp",
+          "width": 400,
+          "height": 400
+        },
+        {
+          "file": "maharstra-1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/maharstra-1.png",
+          "name": "Government of Maharashtra",
+          "href": "https://energy.maharashtra.gov.in/en/",
+          "src": "/assets/homepage/maharstra-1-17c9fce111.webp",
+          "width": 640,
+          "height": 337
+        },
+        {
+          "file": "3-Focus-State-Partner-2026.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/3-Focus-State-Partner-2026.png",
+          "name": "Government of Uttar Pradesh",
+          "href": "https://up.gov.in/en",
+          "src": "/assets/homepage/3-focus-state-partner-2026-f50a2cd164.webp",
+          "width": 400,
+          "height": 400
+        },
+        {
+          "file": "bengal.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/bengal.png",
+          "name": "Government of West Bengal",
+          "href": null,
+          "src": "/assets/homepage/bengal-12bd312426.webp",
+          "width": 487,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Energy Security Partner",
+      "logos": [
+        {
+          "file": "Energy-Security-Partner-20261.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Energy-Security-Partner-20261.png",
+          "name": "Coal India",
+          "href": "https://www.coalindia.in/",
+          "src": "/assets/homepage/energy-security-partner-20261-2382379bdb.webp",
+          "width": 295,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Cybersecurity Partner",
+      "logos": [
+        {
+          "file": "Cybersecurity-Partner2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Cybersecurity-Partner2.png",
+          "name": "63SATS Cybertech",
+          "href": "https://63sats.com/",
+          "src": "/assets/homepage/cybersecurity-partner2-e65ea2eb9b.webp",
+          "width": 640,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "title": "Technology Partner",
+      "logos": [
+        {
+          "file": "WEB-TECHNOLOGY-PARTNER.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/WEB-TECHNOLOGY-PARTNER.png",
+          "name": "Schneider Electric",
+          "href": "https://www.se.com/ww/en/",
+          "src": "/assets/homepage/web-technology-partner-f2a88f68fa.webp",
+          "width": 640,
+          "height": 191
+        }
+      ]
+    },
+    {
+      "title": "Host Utilities",
+      "logos": [
+        {
+          "file": "HOST-UTILITY-2026-1-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/HOST-UTILITY-2026-1-.png",
+          "name": "BSES Rajdhani Power Limited",
+          "href": "https://www.bsesdelhi.com/web/brpl",
+          "src": "/assets/homepage/host-utility-2026-1-9f7c617fca.webp",
+          "width": 640,
+          "height": 197
+        },
+        {
+          "file": "HOST-UTILITY-2026-2-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/HOST-UTILITY-2026-2-.png",
+          "name": "BSES Yamuna Power Limited",
+          "href": "https://www.bsesdelhi.com/web/bypl",
+          "src": "/assets/homepage/host-utility-2026-2-da275ba845.webp",
+          "width": 640,
+          "height": 180
+        }
+      ]
+    },
+    {
+      "title": "Co-Host Utility",
+      "logos": [
+        {
+          "file": "CO-HOST-UTILITIES1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/CO-HOST-UTILITIES1.png",
+          "name": "Tata Power-DDL",
+          "href": "https://www.tatapower-ddl.com/",
+          "src": "/assets/homepage/co-host-utilities1-66777b1e54.webp",
+          "width": 640,
+          "height": 313
+        }
+      ]
+    },
+    {
+      "title": "Partner Utility",
+      "logos": [
+        {
+          "file": "Web-Partner-Utility3.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Web-Partner-Utility3.png",
+          "name": "CESC Limited",
+          "href": "https://www.cesc.co.in/",
+          "src": "/assets/homepage/web-partner-utility3-1c3ceff29f.webp",
+          "width": 516,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Solar Ecosystem Partner",
+      "logos": [
+        {
+          "file": "Web-Solar-Eco3.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Web-Solar-Eco3.png",
+          "name": "RPSG Solvanta",
+          "href": "https://rpsgsolvanta.com/",
+          "src": "/assets/homepage/web-solar-eco3-1cb5a75742.webp",
+          "width": 490,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Renewable Energy Partner",
+      "logos": [
+        {
+          "file": "RENEWABLE-ENERGY-PARTNER3333.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/RENEWABLE-ENERGY-PARTNER3333.png",
+          "name": "Purvah Green",
+          "href": "https://purvahgreen.com/",
+          "src": "/assets/homepage/renewable-energy-partner3333-d5a7f56c25.webp",
+          "width": 499,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Lanyard & Badge Partner",
+      "logos": [
+        {
+          "file": "Lanyard-Partner-2026.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Lanyard-Partner-2026.png",
+          "name": "63SATS Cybertech",
+          "href": "https://63sats.com/",
+          "src": "/assets/homepage/lanyard-partner-2026-e65ea2eb9b.webp",
+          "width": 640,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "title": "Delegate Kit Partner",
+      "logos": [
+        {
+          "file": "Delaget-Kit-Partner.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Delaget-Kit-Partner.png",
+          "name": "Schneider Electric",
+          "href": "https://www.se.com/in/en/",
+          "src": "/assets/homepage/delaget-kit-partner-c7ff079860.webp",
+          "width": 640,
+          "height": 189
+        }
+      ]
+    },
+    {
+      "title": "Integrated Energy Security Partner",
+      "logos": [
+        {
+          "file": "Web-Integrated-Energy-Security-Partner.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Web-Integrated-Energy-Security-Partner.png",
+          "name": "NLC India",
+          "href": "https://www.nlcindia.in/",
+          "src": "/assets/homepage/web-integrated-energy-security-partner-c8153ab989.webp",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Industry Partner",
+      "logos": [
+        {
+          "file": "Web-Rec.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Web-Rec.png",
+          "name": "REC Limited",
+          "href": "https://recindia.nic.in/",
+          "src": "/assets/homepage/web-rec-8a2849f9b3.webp",
+          "width": 640,
+          "height": 378
+        },
+        {
+          "file": "NTPC-Industry-Partner.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/NTPC-Industry-Partner.png",
+          "name": "NTPC",
+          "href": "https://ntpc.co.in/",
+          "src": "/assets/homepage/ntpc-industry-partner-a5c1de237c.webp",
+          "width": 640,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "title": "Decarbonisation Partner",
+      "logos": [
+        {
+          "file": "De.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/De.png",
+          "name": "ReNew",
+          "href": "https://www.renew.com/",
+          "src": "/assets/homepage/de-bfb7442f67.webp",
+          "width": 640,
+          "height": 136
+        }
+      ]
+    },
+    {
+      "title": "VIP Elite Lounge Partner",
+      "logos": [
+        {
+          "file": "Web.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Web.png",
+          "name": ".Kreate",
+          "href": "https://kreateglobal.com/",
+          "src": "/assets/homepage/web-715e616eb6.webp",
+          "width": 640,
+          "height": 127
+        }
+      ]
+    },
+    {
+      "title": "National Skilling Partner",
+      "logos": [
+        {
+          "file": "national-skilling-partner.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/national-skilling-partner.png",
+          "name": "Ministry of Skill Development and Entrepreneurship",
+          "href": "http://msde.gov.in/",
+          "src": "/assets/homepage/national-skilling-partner-4cbd405d16.webp",
+          "width": 640,
+          "height": 232
+        }
+      ]
+    },
+    {
+      "title": "Exchange Partners",
+      "logos": [
+        {
+          "file": "RPG.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/RPG.png",
+          "name": "RPG Power Trading",
+          "href": "https://www.rpsg.in/",
+          "src": "/assets/homepage/rpg-e36f2faae7.webp",
+          "width": 640,
+          "height": 261
+        },
+        {
+          "file": "WEB-2026-EXCHANGE-PARTNER-2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/WEB-2026-EXCHANGE-PARTNER-2.png",
+          "name": "Multi Commodity Exchange of India",
+          "href": "https://www.mcxindia.com/",
+          "src": "/assets/homepage/web-2026-exchange-partner-2-818bce7bd5.webp",
+          "width": 640,
+          "height": 254
+        },
+        {
+          "file": "HPX.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/HPX.png",
+          "name": "Hindustan Power Exchange",
+          "href": "https://www.hpxindia.com/",
+          "src": "/assets/homepage/hpx-e5f0d7f0aa.webp",
+          "width": 640,
+          "height": 226
+        },
+        {
+          "file": "IEX.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/IEX.png",
+          "name": "Indian Energy Exchange",
+          "href": "https://www.iexindia.com/",
+          "src": "/assets/homepage/iex-42046698ff.webp",
+          "width": 640,
+          "height": 209
+        },
+        {
+          "file": "IGX.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/IGX.png",
+          "name": "Indian Gas Exchange",
+          "href": "https://igxindia.com/",
+          "src": "/assets/homepage/igx-e4dd72c81e.webp",
+          "width": 640,
+          "height": 310
+        }
+      ]
+    },
+    {
+      "title": "Investment Facilitation Partner",
+      "logos": [
+        {
+          "file": "Investment-Facilitation-Partner2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Investment-Facilitation-Partner2.png",
+          "name": "Invest India",
+          "href": "https://www.investindia.gov.in/",
+          "src": "/assets/homepage/investment-facilitation-partner2-c3cca4bcfb.webp",
+          "width": 640,
+          "height": 316
+        }
+      ]
+    },
+    {
+      "title": "Digital Skilling Partner",
+      "logos": [
+        {
+          "file": "Digital-Skilling-Partner.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Digital-Skilling-Partner.png",
+          "name": "nasscom FutureSkills Prime",
+          "href": "https://www.sscnasscom.com/",
+          "src": "/assets/homepage/digital-skilling-partner-dc0fc81673.webp",
+          "width": 640,
+          "height": 140
+        }
+      ]
+    },
+    {
+      "title": "Nuclear-X Partner",
+      "logos": [
+        {
+          "file": "WEB-NuclearX-PARTNER-CE.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/WEB-NuclearX-PARTNER-CE.png",
+          "name": "CEI",
+          "href": "https://crimsonenergy.in/",
+          "src": "/assets/homepage/web-nuclearx-partner-ce-4fb15afc1a.webp",
+          "width": 609,
+          "height": 400
+        },
+        {
+          "file": "WEB-NuclearX-PARTNER-EDF-2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/WEB-NuclearX-PARTNER-EDF-2.png",
+          "name": "EDF",
+          "href": "https://india.edf.com/en",
+          "src": "/assets/homepage/web-nuclearx-partner-edf-2-2c7d74b0ce.webp",
+          "width": 640,
+          "height": 273
+        }
+      ]
+    },
+    {
+      "title": "Associate Partners",
+      "logos": [
+        {
+          "file": "BELL-COOLING-TOWER-2026-1-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/BELL-COOLING-TOWER-2026-1-.png",
+          "name": "Bell Cooling Towers",
+          "href": "https://www.bellct.com/",
+          "src": "/assets/homepage/bell-cooling-tower-2026-1-27c6b95afc.webp",
+          "width": 640,
+          "height": 283
+        },
+        {
+          "file": "Etapro.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Etapro.png",
+          "name": "EtaPRO",
+          "href": "https://etapro.com/",
+          "src": "/assets/homepage/etapro-8d3ddf6853.webp",
+          "width": 640,
+          "height": 82
+        },
+        {
+          "file": "Grid-India-20261.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Grid-India-20261.png",
+          "name": "Grid Controller of India",
+          "href": "https://grid-india.in/en/",
+          "src": "/assets/homepage/grid-india-20261-c6a2713ee3.webp",
+          "width": 640,
+          "height": 210
+        },
+        {
+          "file": "Green-Power.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Green-Power.png",
+          "name": "Green Power International",
+          "href": "https://www.greenpowerintl.com/",
+          "src": "/assets/homepage/green-power-7c0f8bd0ad.webp",
+          "width": 640,
+          "height": 332
+        },
+        {
+          "file": "KBL.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/KBL.png",
+          "name": "Kirloskar Brothers",
+          "href": "https://www.kirloskarpumps.com/",
+          "src": "/assets/homepage/kbl-b8f3bb266b.webp",
+          "width": 595,
+          "height": 400
+        },
+        {
+          "file": "Toshiba2-2-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Toshiba2-2-.png",
+          "name": "Toshiba",
+          "href": "https://www.toshiba-tjps.in/",
+          "src": "/assets/homepage/toshiba2-2-93f431e87f.webp",
+          "width": 640,
+          "height": 121
+        },
+        {
+          "file": "WOG-2026-1-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/WOG-2026-1-.png",
+          "name": "WOG",
+          "href": "https://woggroup.com/",
+          "src": "/assets/homepage/wog-2026-1-fb29a2762f.webp",
+          "width": 640,
+          "height": 193
+        },
+        {
+          "file": "WOG-Carbon.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/WOG-Carbon.png",
+          "name": "WOG Green Coal",
+          "href": "https://woggroup.com/",
+          "src": "/assets/homepage/wog-carbon-447ef84672.webp",
+          "width": 640,
+          "height": 326
+        },
+        {
+          "file": "WOG-GREEN-COIL.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/WOG-GREEN-COIL.png",
+          "name": "WOG Green Coal",
+          "href": "https://woggroup.com/",
+          "src": "/assets/homepage/wog-green-coil-574fb5766b.webp",
+          "width": 640,
+          "height": 324
+        }
+      ]
+    },
+    {
+      "title": "Transition-X Partner",
+      "logos": [
+        {
+          "file": "Transition-X.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Transition-X.png",
+          "name": "Transition-X Partner published artwork",
+          "href": "https://apparentenergy.ai/",
+          "src": "/assets/homepage/transition-x-d91f38add2.webp",
+          "width": 640,
+          "height": 270
+        }
+      ]
+    },
+    {
+      "title": "Finance-X Partner",
+      "logos": [
+        {
+          "file": "Finance-X.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Finance-X.png",
+          "name": "Finance-X Partner published artwork",
+          "href": "https://www.pfcindia.co.in/hi",
+          "src": "/assets/homepage/finance-x-5a1e188fc6.webp",
+          "width": 378,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Policy & Governance Partners",
+      "logos": [
+        {
+          "file": "Policy-Governance-Partner-2026.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Policy-Governance-Partner-2026.png",
+          "name": "Policy & Governance Partners published artwork",
+          "href": "https://cea.nic.in/?lang=en",
+          "src": "/assets/homepage/policy-governance-partner-2026-dc7e2da222.webp",
+          "width": 400,
+          "height": 400
+        },
+        {
+          "file": "Policy-Governance-Partner-2026-2-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Policy-Governance-Partner-2026-2-.png",
+          "name": "Policy & Governance Partners published artwork",
+          "href": "https://niti.gov.in/",
+          "src": "/assets/homepage/policy-governance-partner-2026-2-03cda983b0.webp",
+          "width": 421,
+          "height": 400
+        },
+        {
+          "file": "Policy-Governance-Partner-2026-3.1-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Policy-Governance-Partner-2026-3.1-.png",
+          "name": "Policy & Governance Partners published artwork",
+          "href": "https://aida-india.org/",
+          "src": "/assets/homepage/policy-governance-partner-2026-3-1-27f40833b6.webp",
+          "width": 640,
+          "height": 264
+        }
+      ]
+    },
+    {
+      "title": "Knowledge Partners",
+      "logos": [
+        {
+          "file": "Knoweldge-Partner-2026-6-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Knoweldge-Partner-2026-6-.png",
+          "name": "Knowledge Partners published artwork",
+          "href": "https://dalberg.com/",
+          "src": "/assets/homepage/knoweldge-partner-2026-6-cafcc13f8a.webp",
+          "width": 640,
+          "height": 191
+        },
+        {
+          "file": "Knoweldge-Partner-2026-1-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Knoweldge-Partner-2026-1-.png",
+          "name": "Knowledge Partners published artwork",
+          "href": "https://aiaiindia.com/",
+          "src": "/assets/homepage/knoweldge-partner-2026-1-252cffb3cf.webp",
+          "width": 640,
+          "height": 158
+        },
+        {
+          "file": "Knoweldge-Partner-2026-2-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Knoweldge-Partner-2026-2-.png",
+          "name": "Knowledge Partners published artwork",
+          "href": "https://esa-uk.org/",
+          "src": "/assets/homepage/knoweldge-partner-2026-2-2d549cf72b.webp",
+          "width": 640,
+          "height": 132
+        },
+        {
+          "file": "Knoweldge-Partner-2026-3.1-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Knoweldge-Partner-2026-3.1-.png",
+          "name": "Knowledge Partners published artwork",
+          "href": "https://www.praxisga.com/",
+          "src": "/assets/homepage/knoweldge-partner-2026-3-1-692085abf3.webp",
+          "width": 608,
+          "height": 376
+        },
+        {
+          "file": "Knoweldge-Partner-2026-4-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Knoweldge-Partner-2026-4-.png",
+          "name": "Knowledge Partners published artwork",
+          "href": "https://mercadosemi.in/",
+          "src": "/assets/homepage/knoweldge-partner-2026-4-830c709bbd.webp",
+          "width": 505,
+          "height": 400
+        },
+        {
+          "file": "Knoweldge-Partner-2026-5-.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Knoweldge-Partner-2026-5-.png",
+          "name": "Knowledge Partners published artwork",
+          "href": "https://fsrglobal.org/",
+          "src": "/assets/homepage/knoweldge-partner-2026-5-52df2479eb.webp",
+          "width": 505,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Strategic Partners",
+      "logos": [
+        {
+          "file": "Strategic-Partner-3.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Strategic-Partner-3.png",
+          "name": "Strategic Partners published artwork",
+          "href": "https://aiaiindia.com/",
+          "src": "/assets/homepage/strategic-partner-3-21677122f8.webp",
+          "width": 640,
+          "height": 209
+        },
+        {
+          "file": "Strategic-Partner-1.2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Strategic-Partner-1.2.png",
+          "name": "Strategic Partners published artwork",
+          "href": "https://esa-uk.org/",
+          "src": "/assets/homepage/strategic-partner-1-2-91a5d1a290.webp",
+          "width": 400,
+          "height": 400
+        },
+        {
+          "file": "Strategic-Partner-9.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Strategic-Partner-9.png",
+          "name": "Strategic Partners published artwork",
+          "href": "https://www.gh2.org.in/",
+          "src": "/assets/homepage/strategic-partner-9-883c1994e7.webp",
+          "width": 640,
+          "height": 152
+        },
+        {
+          "file": "Strategic-Partner-4.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Strategic-Partner-4.png",
+          "name": "Strategic Partners published artwork",
+          "href": "https://www.hai.org.in/",
+          "src": "/assets/homepage/strategic-partner-4-0d4fe76215.webp",
+          "width": 640,
+          "height": 329
+        },
+        {
+          "file": "Strategic-Partner-6.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Strategic-Partner-6.png",
+          "name": "Strategic Partners published artwork",
+          "href": "https://indospanishcc.org/",
+          "src": "/assets/homepage/strategic-partner-6-5b1ed30d0a.webp",
+          "width": 640,
+          "height": 166
+        },
+        {
+          "file": "Strategic-Partner-2.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Strategic-Partner-2.1.png",
+          "name": "Strategic Partners published artwork",
+          "href": "https://indianwindpower.com/",
+          "src": "/assets/homepage/strategic-partner-2-1-aa1d1f5be2.webp",
+          "width": 640,
+          "height": 206
+        },
+        {
+          "file": "Strategic-Partner-8.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Strategic-Partner-8.png",
+          "name": "Strategic Partners published artwork",
+          "href": "https://mesia.com/",
+          "src": "/assets/homepage/strategic-partner-8-213a88f1be.webp",
+          "width": 640,
+          "height": 296
+        },
+        {
+          "file": "Strategic-Partner-7.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Strategic-Partner-7.png",
+          "name": "Strategic Partners published artwork",
+          "href": "https://mexicoindia.org/",
+          "src": "/assets/homepage/strategic-partner-7-35f7277c66.webp",
+          "width": 640,
+          "height": 197
+        },
+        {
+          "file": "Strategic-Partner-5.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Strategic-Partner-5.png",
+          "name": "Strategic Partners published artwork",
+          "href": "https://www.osgp.org/en",
+          "src": "/assets/homepage/strategic-partner-5-4e644f8761.webp",
+          "width": 600,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Media Partners",
+      "logos": [
+        {
+          "file": "Media-Partner-6.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-6.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://autoevtimes.com/",
+          "src": "/assets/homepage/media-partner-6-1-3ef9882162.webp",
+          "width": 640,
+          "height": 126
+        },
+        {
+          "file": "Media-Partner-4.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-4.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.bisinfotech.com/",
+          "src": "/assets/homepage/media-partner-4-1-fd6e2a3b31.webp",
+          "width": 640,
+          "height": 136
+        },
+        {
+          "file": "Media-Partner-21.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-21.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.energetica-india.net/",
+          "src": "/assets/homepage/media-partner-21-ef03a8332f.webp",
+          "width": 640,
+          "height": 207
+        },
+        {
+          "file": "Media-Partner-22.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-22.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.epcworld.in/",
+          "src": "/assets/homepage/media-partner-22-16335a1e5c.webp",
+          "width": 640,
+          "height": 300
+        },
+        {
+          "file": "Media-Partner-12.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-12.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.eprmagazine.com/",
+          "src": "/assets/homepage/media-partner-12-1-53147e0179.webp",
+          "width": 640,
+          "height": 285
+        },
+        {
+          "file": "Media-Partner-7.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-7.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://electronicsbuzz.in/",
+          "src": "/assets/homepage/media-partner-7-1-31184fdc9b.webp",
+          "width": 640,
+          "height": 168
+        },
+        {
+          "file": "Media-Partner-14.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-14.1.png",
+          "name": "Media Partners published artwork",
+          "href": "http://www.scorp-media.com/",
+          "src": "/assets/homepage/media-partner-14-1-e80e25d9fa.webp",
+          "width": 640,
+          "height": 116
+        },
+        {
+          "file": "Media-Partner-24.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-24.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://electricalmirror.net/",
+          "src": "/assets/homepage/media-partner-24-1-f09c81ad54.webp",
+          "width": 640,
+          "height": 79
+        },
+        {
+          "file": "Media-Partner-9.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-9.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://electricalpowerinfo.com/",
+          "src": "/assets/homepage/media-partner-9-1-907d3ae88e.webp",
+          "width": 640,
+          "height": 151
+        },
+        {
+          "file": "Media-Partner-18.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-18.png",
+          "name": "Media Partners published artwork",
+          "href": "https://energyasia.co.in/",
+          "src": "/assets/homepage/media-partner-18-a2c3269a28.webp",
+          "width": 640,
+          "height": 83
+        },
+        {
+          "file": "Media-Partner-1.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-1.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://industrialoutlook.in/",
+          "src": "/assets/homepage/media-partner-1-1-9dd1a325e9.webp",
+          "width": 640,
+          "height": 193
+        },
+        {
+          "file": "Media-Partner-23.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-23.png",
+          "name": "Media Partners published artwork",
+          "href": null,
+          "src": "/assets/homepage/media-partner-23-64c62407c9.webp",
+          "width": 640,
+          "height": 84
+        },
+        {
+          "file": "Media-Partner-2.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-2.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.mercomindia.com/",
+          "src": "/assets/homepage/media-partner-2-1-e2993e8131.webp",
+          "width": 640,
+          "height": 162
+        },
+        {
+          "file": "Media-Partner-15.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-15.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.mojo4industry.com/",
+          "src": "/assets/homepage/media-partner-15-1-5875fddad7.webp",
+          "width": 640,
+          "height": 375
+        },
+        {
+          "file": "Media-Partner-17.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-17.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.powerinfotoday.com/",
+          "src": "/assets/homepage/media-partner-17-8fc56bc26c.webp",
+          "width": 640,
+          "height": 178
+        },
+        {
+          "file": "Media-Partner-20.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-20.png",
+          "name": "Media Partners published artwork",
+          "href": null,
+          "src": "/assets/homepage/media-partner-20-612b7eaa3c.webp",
+          "width": 640,
+          "height": 119
+        },
+        {
+          "file": "Media-Partner-3.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-3.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://railanalysis.in/",
+          "src": "/assets/homepage/media-partner-3-1-19664c0f4d.webp",
+          "width": 640,
+          "height": 174
+        },
+        {
+          "file": "Media-Partner-10.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-10.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://smartenergymagazine.com/",
+          "src": "/assets/homepage/media-partner-10-1-cf28458274.webp",
+          "width": 640,
+          "height": 114
+        },
+        {
+          "file": "Media-Partner-19.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-19.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.techmezine.com/",
+          "src": "/assets/homepage/media-partner-19-b8387aca86.webp",
+          "width": 640,
+          "height": 297
+        },
+        {
+          "file": "Media-Partner-13.2.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-13.2.png",
+          "name": "Media Partners published artwork",
+          "href": "https://technologyera.co.in/",
+          "src": "/assets/homepage/media-partner-13-2-ecd14bf473.webp",
+          "width": 640,
+          "height": 148
+        },
+        {
+          "file": "Media-Partner-5.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-5.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.thebatterymagazine.com/",
+          "src": "/assets/homepage/media-partner-5-1-2ef5039768.webp",
+          "width": 640,
+          "height": 138
+        },
+        {
+          "file": "Media-Partner-11.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-11.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://thepowertimes.in/",
+          "src": "/assets/homepage/media-partner-11-1-e6919d7e4f.webp",
+          "width": 640,
+          "height": 170
+        },
+        {
+          "file": "Media-Partner-8.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-8.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://timestech.in/",
+          "src": "/assets/homepage/media-partner-8-1-f8fb74e17f.webp",
+          "width": 640,
+          "height": 235
+        },
+        {
+          "file": "Media-Partner-16.1.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Media-Partner-16.1.png",
+          "name": "Media Partners published artwork",
+          "href": "https://www.trade4asia.com/",
+          "src": "/assets/homepage/media-partner-16-1-af5696c2f8.webp",
+          "width": 399,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "title": "Host Publication",
+      "logos": [
+        {
+          "file": "Host-Publication-4.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Host-Publication-4.png",
+          "name": "ENERGDIVE",
+          "href": "https://www.energdive.com/",
+          "src": "/assets/homepage/host-publication-4-17d26596dd.webp",
+          "width": 640,
+          "height": 99
+        }
+      ]
+    },
+    {
+      "title": "Global Footprint",
+      "logos": [
+        {
+          "file": "5-Enlit-Asia.jpg",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/5-Enlit-Asia.jpg",
+          "name": "Enlit Asia",
+          "href": null,
+          "src": "/assets/homepage/5-enlit-asia-7981642b1e.webp",
+          "width": 640,
+          "height": 307
+        },
+        {
+          "file": "6-Dtech-Northeast.jpg",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/6-Dtech-Northeast.jpg",
+          "name": "DTECH Northeast",
+          "href": "https://www.enlit.world/events/enlit-africa-2024/",
+          "src": "/assets/homepage/6-dtech-northeast-14fc2a1700.webp",
+          "width": 640,
+          "height": 319
+        },
+        {
+          "file": "7-Enlit-europe.jpg",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/7-Enlit-europe.jpg",
+          "name": "Enlit Europe",
+          "href": null,
+          "src": "/assets/homepage/7-enlit-europe-6a916b0a57.webp",
+          "width": 640,
+          "height": 314
+        },
+        {
+          "file": "POWERGEN-INTERNATIONAL-2027.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/POWERGEN-INTERNATIONAL-2027.png",
+          "name": "International power generation event",
+          "href": "https://www.enlit-asia.com/",
+          "src": "/assets/homepage/powergen-international-2027-b2e2c9d4ce.webp",
+          "width": 640,
+          "height": 323
+        },
+        {
+          "file": "DTECH-2027.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/DTECH-2027.png",
+          "name": "DTECH",
+          "href": "https://www.enlit-europe.com/",
+          "src": "/assets/homepage/dtech-2027-4c0dfb4318.webp",
+          "width": 640,
+          "height": 314
+        },
+        {
+          "file": "Enlit-Africa-2027.png",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Enlit-Africa-2027.png",
+          "name": "Enlit Africa",
+          "href": "https://www.distributech.com/",
+          "src": "/assets/homepage/enlit-africa-2027-3a8c665309.webp",
+          "width": 640,
+          "height": 314
+        },
+        {
+          "file": "3-Dtech-Data-Center.jpg",
+          "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/3-Dtech-Data-Center.jpg",
+          "name": "DTECH Data Centers & AI",
+          "href": "https://www.powergen.com/",
+          "src": "/assets/homepage/3-dtech-data-center-bf08746b27.webp",
+          "width": 640,
+          "height": 318
+        }
+      ]
+    }
+  ]
+}

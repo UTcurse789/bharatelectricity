@@ -1,4 +1,4 @@
-export interface Company {id:string;name:string;logo:string;source:string;description?:string}
+export interface Company {id:string;name:string;logo:string;source:string;description?:string;website?:string}
 export interface Participation {companyId:string;edition:number;stand:string|null;sector:string|null;country:string|null}
 export interface Person {id:string;name:string;photo:string;source:string}
 export interface Appearance {personId:string;edition:number;kind:string;role:string;designation:string}

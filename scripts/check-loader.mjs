@@ -1,8 +1,72 @@
-import assert from 'node:assert/strict';import {chromium,expect} from '@playwright/test';
-const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});try{
- const p=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];p.on('pageerror',e=>errors.push(e.message));p.on('console',m=>{if(m.type()==='error')errors.push(m.text())});await p.goto('http://localhost:4173/');await expect(p.locator('.intro-dialog')).toBeVisible();await expect(p.locator('.intro-animation svg')).toBeVisible();await p.waitForTimeout(900);await p.screenshot({path:'research/qa/rebrand/loader.png'});await expect(p.locator('.intro-dialog')).toBeHidden({timeout:7000});assert.equal(await p.evaluate(()=>localStorage.getItem('bharat-introduction-v1')),'seen');await p.reload();await expect(p.locator('.intro-dialog')).toBeHidden();assert.equal(await p.locator('body').evaluate(e=>getComputedStyle(e).overflow),'visible');
- await p.evaluate(()=>localStorage.removeItem('bharat-introduction-v1'));await p.reload();await expect(p.locator('.intro-dialog')).toBeVisible();await p.getByRole('button',{name:'Skip introduction'}).click();await expect(p.locator('.intro-dialog')).toBeHidden();
- const reduced=await browser.newPage({reducedMotion:'reduce'});await reduced.goto('http://localhost:4173/');await expect(reduced.locator('.intro-dialog')).toBeHidden();await expect(reduced.locator('h1')).toBeVisible();
- const failed=await browser.newPage();await failed.route('**/animations/opening.json',r=>r.abort());await failed.goto('http://localhost:4173/');await expect(failed.locator('.intro-dialog')).toBeHidden({timeout:7000});assert.equal(await failed.locator('body').evaluate(e=>getComputedStyle(e).overflow),'visible');
- await p.evaluate(()=>scrollTo({top:document.querySelector('.council-section').offsetTop-700,behavior:'instant'}));await p.waitForTimeout(150);assert(await p.evaluate(()=>document.getAnimations().some(a=>a.effect?.target?.classList.contains('section'))),'Scroll animation did not trigger');await p.waitForTimeout(750);await p.screenshot({path:'research/qa/rebrand/scroll-council.png'});assert.deepEqual(errors,[]);console.log(JSON.stringify({firstVisit:true,repeatVisitSkipped:true,manualSkip:true,reducedMotionSkipped:true,assetFailureRecovers:true,scrollAnimations:true,errors}));
-}finally{await browser.close()}
+import assert from 'node:assert/strict';
+import {chromium, expect} from '@playwright/test';
+
+const origin = process.env.CHECK_ORIGIN || 'http://localhost:4173';
+const storageKey = 'bharat-introduction-v1';
+const browser = await chromium.launch({
+ executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
+ headless: true,
+});
+const results = [];
+try {
+ for (const scenario of [
+  {name: 'first visit'},
+  {name: 'previous visitor', seen: true},
+  {name: 'mobile', viewport: {width: 375, height: 812}},
+  {name: 'reduced motion', reducedMotion: 'reduce'},
+  {name: 'extension body attribute', extension: true},
+ ]) {
+  const context = await browser.newContext({
+   viewport: scenario.viewport || {width: 1440, height: 1000},
+   reducedMotion: scenario.reducedMotion || 'no-preference',
+  });
+  try {
+   if (scenario.extension) await context.grantPermissions(['local-network-access'], {origin});
+   if (scenario.seen) await context.addInitScript(key => localStorage.setItem(key, 'seen'), storageKey);
+   const page = await context.newPage();
+   const errors = [], animationRequests = [];
+   page.on('pageerror', error => errors.push(error.message));
+   page.on('console', message => {
+    if (message.type() === 'error' || /hydrat/i.test(message.text())) errors.push(message.text());
+   });
+   page.on('request', request => {
+    if (request.url().includes('/animations/opening.')) animationRequests.push(request.url());
+   });
+   if (scenario.extension) {
+    await page.route(origin + '/', async route => {
+     if (!route.request().isNavigationRequest()) return route.continue();
+     const response = await route.fetch();
+     const html = await response.text();
+     assert(html.includes('<body'), 'Expected server-rendered body');
+     await route.fulfill({response, body: html.replace('<body', '<body cz-shortcut-listen="true"')});
+    });
+   }
+   for (const visit of ['initial load', 'reload']) {
+    if (visit === 'initial load') await page.goto(origin + '/', {waitUntil: 'domcontentloaded'});
+    else await page.reload({waitUntil: 'domcontentloaded'});
+    await expect(page.locator('main h1')).toBeVisible();
+    await expect(page.locator('.intro-dialog')).toHaveCount(0);
+    assert.equal(await page.locator('html').getAttribute('data-intro'), null);
+    assert.equal(await page.locator('body').evaluate(el => getComputedStyle(el).overflow), 'visible');
+    await page.waitForLoadState('networkidle');
+    if (scenario.reducedMotion === 'reduce') await expect(page.locator('.energy-art').first()).toHaveCSS('transform', 'none');
+    assert.equal(await page.evaluate(key => localStorage.getItem(key), storageKey), scenario.seen ? 'seen' : null);
+    if (scenario.extension) await expect(page.locator('body')).toHaveAttribute('cz-shortcut-listen', 'true');
+   }
+   if (scenario.name === 'first visit') {
+    await page.getByRole('button', {name: 'About', exact: true}).click();
+    await expect(page.getByRole('link', {name: 'About the Event', exact: true}).first()).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(page.getByRole('link', {name: 'Previous Editions', exact: true})).toBeHidden();
+   }
+   assert.deepEqual(animationRequests, [], 'Intro animation should never be requested');
+   assert.deepEqual(errors, [], scenario.name + ': browser errors');
+   results.push(scenario.name);
+  } finally {
+   await context.close();
+  }
+ }
+ console.log(JSON.stringify({origin, passed: results, introRemoved: true, hydrationErrors: 0}));
+} finally {
+ await browser.close();
+}

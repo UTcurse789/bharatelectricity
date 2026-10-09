@@ -1,0 +1,343 @@
+{
+  "source": "https://www.powergen-india.com/",
+  "edition": 2026,
+  "verifiedAt": "2026-10-09",
+  "portraits": [
+    {
+      "personId": "shri-samir-chandra-saxena",
+      "name": "Shri Samir Chandra Saxena",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Samir-Chandra-Saxesena-2026.png",
+      "src": "/assets/homepage/shri-samir-chandra-saxena-af84816c17.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-saurav-kumar-shah-ips",
+      "name": "Shri Saurav Kumar Shah IPS",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Saurabh-Kumar-Sah2026.png",
+      "src": "/assets/homepage/shri-saurav-kumar-shah-ips-a0dcd3cec3.webp",
+      "width": 208,
+      "height": 231
+    },
+    {
+      "personId": "shri-jeevan-kumar-jethani",
+      "name": "Shri Jeevan Kumar Jethani",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Jeevan-Kumar-Jethani2026.png",
+      "src": "/assets/homepage/shri-jeevan-kumar-jethani-fc83e29d35.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-ashish-khanna",
+      "name": "Shri Ashish Khanna",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Ashish-khanna2026.png",
+      "src": "/assets/homepage/shri-ashish-khanna-e1886178ed.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-sanjay-sharma",
+      "name": "Shri Sanjay Sharma",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Sanjay-Sharma-2026.png",
+      "src": "/assets/homepage/shri-sanjay-sharma-b8003a2000.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-atul-kumar-bali",
+      "name": "Shri Atul Kumar Bali",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Atul-Kumar-Bali2026.png",
+      "src": "/assets/homepage/shri-atul-kumar-bali-77a65f25cd.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-vinod-kumar-n",
+      "name": "Shri Vinod Kumar N",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Vinok-Kumar-N2026.png",
+      "src": "/assets/homepage/shri-vinod-kumar-n-aceecd3d05.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-pratik-agarwal",
+      "name": "Shri Pratik Agarwal",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Pratik-Agarwal-2026.png",
+      "src": "/assets/homepage/shri-pratik-agarwal-b15b77c3eb.webp",
+      "width": 208,
+      "height": 231
+    },
+    {
+      "personId": "shri-sanjay-banga",
+      "name": "Shri Sanjay Banga",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Sanjay-Banga-20262.png",
+      "src": "/assets/homepage/shri-sanjay-banga-64d5cf2704.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "dr-kalirajan-sivagnana",
+      "name": "Dr. Kalirajan Sivagnana",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Kalirajan-2026.png",
+      "src": "/assets/homepage/dr-kalirajan-sivagnana-1d4269aa17.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-brajesh-singh",
+      "name": "Shri Brajesh Singh",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Brajesh-singh-20262.png",
+      "src": "/assets/homepage/shri-brajesh-singh-96b08a1d56.webp",
+      "width": 208,
+      "height": 231
+    },
+    {
+      "personId": "shri-abhishek-ranjan",
+      "name": "Shri Abhishek Ranjan",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Abhishek-Ranjan-20262.png",
+      "src": "/assets/homepage/shri-abhishek-ranjan-3e2ff6a88d.webp",
+      "width": 209,
+      "height": 232
+    },
+    {
+      "personId": "shri-sandeep-kashyap",
+      "name": "Shri Sandeep Kashyap",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Sandeep-kahsyap-2026.png",
+      "src": "/assets/homepage/shri-sandeep-kashyap-4bfc4ca50a.webp",
+      "width": 208,
+      "height": 232
+    },
+    {
+      "personId": "shri-akshay-hiranandani",
+      "name": "Shri Akshay Hiranandani",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Akshay-Hiranandani-2026.png",
+      "src": "/assets/homepage/shri-akshay-hiranandani-323630e11c.webp",
+      "width": 209,
+      "height": 232
+    },
+    {
+      "personId": "shri-vijay-joshi",
+      "name": "Shri Vijay Joshi",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Vijay-Joshi.png",
+      "src": "/assets/homepage/shri-vijay-joshi-f5d5e8a218.webp",
+      "width": 209,
+      "height": 232
+    },
+    {
+      "personId": "shri-sanil-c-namboodiripad",
+      "name": "Shri Sanil C Namboodiripad",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Sanil-C-2026.png",
+      "src": "/assets/homepage/shri-sanil-c-namboodiripad-8cae19aa03.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-manish-karna",
+      "name": "Shri Manish Karna",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Manish-Karna-2026.png",
+      "src": "/assets/homepage/shri-manish-karna-4abb6b2f75.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-vikram-kapur",
+      "name": "Shri Vikram Kapur",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Vikram-kapur.png",
+      "src": "/assets/homepage/shri-vikram-kapur-71509f8567.webp",
+      "width": 208,
+      "height": 231
+    },
+    {
+      "personId": "shri-derek-m-shah",
+      "name": "Shri Derek. M. Shah",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Derek-M-Sah-2026.png",
+      "src": "/assets/homepage/shri-derek-m-shah-ccfd6001b9.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-venu-nuguri",
+      "name": "Shri Venu Nuguri",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Venu-nagaori-2026.png",
+      "src": "/assets/homepage/shri-venu-nuguri-a9ce9a2632.webp",
+      "width": 208,
+      "height": 231
+    },
+    {
+      "personId": "shri-rpv-prasad",
+      "name": "Shri RPV Prasad",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/RVP-Prasad-2026.png",
+      "src": "/assets/homepage/shri-rpv-prasad-4f8e0de743.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-rajesh-k-mediratta",
+      "name": "Shri Rajesh K Mediratta",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/rajesh-Kumar-mediratta2026.png",
+      "src": "/assets/homepage/shri-rajesh-k-mediratta-c6611768a7.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-anurag-johri",
+      "name": "Shri Anurag Johri",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/anuraj-johri-20262.png",
+      "src": "/assets/homepage/shri-anurag-johri-c92d88f322.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-rohit-bajaj",
+      "name": "Shri Rohit Bajaj",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Rohit-bajaj-20262.png",
+      "src": "/assets/homepage/shri-rohit-bajaj-8dadf2d52a.webp",
+      "width": 209,
+      "height": 232
+    },
+    {
+      "personId": "shri-prashant-sinha",
+      "name": "Shri Prashant Sinha",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Prashant-Sinha-2026.png",
+      "src": "/assets/homepage/shri-prashant-sinha-e5ca2c4eaf.webp",
+      "width": 209,
+      "height": 232
+    },
+    {
+      "personId": "shri-amit-kumar",
+      "name": "Shri Amit Kumar",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Amit-Kumar-2026.png",
+      "src": "/assets/homepage/shri-amit-kumar-94107366db.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-abhishek-srivastava",
+      "name": "Shri Abhishek Srivastava",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Abhishek-Srivastava-2026.png",
+      "src": "/assets/homepage/shri-abhishek-srivastava-a57b9f1ea3.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-anup-bhargava",
+      "name": "Shri Anup Bhargava",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Anup-Bhargava-2026.png",
+      "src": "/assets/homepage/shri-anup-bhargava-594f323a5a.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-sunil-singhvi",
+      "name": "Shri Sunil Singhvi",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Sunil-Singhvi-2026.png",
+      "src": "/assets/homepage/shri-sunil-singhvi-4b11a2802e.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "dr-vibha-dhawan",
+      "name": "Dr. Vibha Dhawan",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Vibha-Dhawan-2026.png",
+      "src": "/assets/homepage/dr-vibha-dhawan-8e1bff7aa0.webp",
+      "width": 208,
+      "height": 231
+    },
+    {
+      "personId": "shri-rahul-sharma",
+      "name": "Shri Rahul Sharma",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Rahul-Sharma-20262.png",
+      "src": "/assets/homepage/shri-rahul-sharma-c13b773534.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-madhav-pai",
+      "name": "Shri Madhav Pai",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Madhav-Pai-Homepage1.png",
+      "src": "/assets/homepage/shri-madhav-pai-77f1901446.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "dr-abhilasha-gaur",
+      "name": "Dr. Abhilasha Gaur",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Abhilasha-Gaur-20262.png",
+      "src": "/assets/homepage/dr-abhilasha-gaur-9132c0f1ab.webp",
+      "width": 208,
+      "height": 232
+    },
+    {
+      "personId": "shri-aditya-pyasi",
+      "name": "Shri Aditya Pyasi",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Aditya-Pyasi-2026.png",
+      "src": "/assets/homepage/shri-aditya-pyasi-becc4f0f05.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-subrahmanyam-pulipaka",
+      "name": "Shri Subrahmanyam Pulipaka",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Subrahmanyam-Pulipaka-2026.png",
+      "src": "/assets/homepage/shri-subrahmanyam-pulipaka-3982aa7dad.webp",
+      "width": 209,
+      "height": 232
+    },
+    {
+      "personId": "shri-francis-jayasurya",
+      "name": "Shri Francis Jayasurya",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Francis-Jayasurya.png",
+      "src": "/assets/homepage/shri-francis-jayasurya-02068225a4.webp",
+      "width": 208,
+      "height": 231
+    },
+    {
+      "personId": "shri-jagjeet-sareen",
+      "name": "Shri Jagjeet Sareen",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/jagjeet-Sareen.png",
+      "src": "/assets/homepage/shri-jagjeet-sareen-3c9d28820c.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "shri-nishaanth-balashanmugam",
+      "name": "Shri Nishaanth Balashanmugam",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Nishaanth-Balashanmugam.png",
+      "src": "/assets/homepage/shri-nishaanth-balashanmugam-a6f7eceaf3.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "ms-suman-chandra-ias",
+      "name": "Ms. Suman Chandra, IAS",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Suman-Chandra2026.png",
+      "src": "/assets/homepage/ms-suman-chandra-ias-4862318636.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "mr-rasmus-wendt",
+      "name": "Mr. Rasmus Wendt",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Rasmus-2026.png",
+      "src": "/assets/homepage/mr-rasmus-wendt-695d953971.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "ms-praveena-rai",
+      "name": "Ms. Praveena Rai",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Praveena-Rai-2026.png",
+      "src": "/assets/homepage/ms-praveena-rai-04963f6b3f.webp",
+      "width": 209,
+      "height": 231
+    },
+    {
+      "personId": "ms-mashal-dhawan",
+      "name": "Ms. Mashal Dhawan",
+      "source": "https://cdn.asp.events/CLIENT_Synergy__560AF404_5056_B739_54C920F16E9738F6/sites/Powergen-India-2019/media/Mashal-Dhawan.png",
+      "src": "/assets/homepage/ms-mashal-dhawan-c5ed1a2678.webp",
+      "width": 209,
+      "height": 232
+    }
+  ]
+}

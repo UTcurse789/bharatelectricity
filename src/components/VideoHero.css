@@ -1,0 +1,30 @@
+/* The footage, scrim, and content form three local layers. */
+/* Preserve the event's Outfit typography. Design variance 6, motion intensity 6, visual density 3. */
+.video-hero{position:relative;isolation:isolate;overflow:hidden;background:#181818;color:#fff8f1;height:clamp(560px,calc(100svh - 160px),860px)}
+.video-hero-footage,.video-hero-shade,.video-hero-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.video-hero-footage{object-fit:cover}
+.video-hero-shade{background:linear-gradient(90deg,rgba(0,0,0,.42),rgba(0,0,0,.16) 75%),linear-gradient(0deg,rgba(0,0,0,.3),transparent 45%);pointer-events:none}
+.video-hero-layout{position:relative;height:100%;padding-block:64px 32px;display:grid;grid-template-columns:1fr auto;grid-template-rows:1fr auto;align-items:end;gap:36px}
+.video-hero-copy{grid-column:1/-1;align-self:center;max-width:1050px}
+.home-page .video-hero h1{color:inherit;font-size:clamp(3.1rem,6.6vw,6.6rem);font-weight:650;letter-spacing:-.045em;line-height:1.04;margin:0 0 26px}
+.video-hero .fold-text{line-height:1.04}
+.video-hero .fold-text-line{display:block}
+.video-hero-title-line{display:block}
+@media(min-width:768px) and (prefers-reduced-motion:no-preference){.video-hero-title-line{animation:hero-title-enter 650ms var(--motion-ease) both}.video-hero-title-line+span{animation-delay:100ms}@keyframes hero-title-enter{from{transform:translate3d(0,14px,0)}to{transform:translate3d(0,0,0)}}}
+.video-hero-tagline{font-size:clamp(.8rem,1.25vw,1.1rem);font-weight:650;letter-spacing:.1em;line-height:1.65;margin:0;max-width:44ch;text-shadow:0 1px 8px #181818}
+.video-hero-announcement{position:relative;width:132px;height:132px;justify-self:start}
+.video-hero .video-hero-circle{position:relative;width:132px;height:132px;margin:0;color:inherit;font-weight:650}
+.video-hero .video-hero-circle span{font-size:13px;font-weight:650;transition:none}
+.video-hero-circle-year{position:absolute;inset:0;display:grid;place-items:center;font-size:1.3rem;font-weight:600;pointer-events:none}
+.video-hero-playback{display:grid;place-items:center;width:48px;height:48px;border:1px solid #ffffff70;background:#181818aa;color:#fff8f1;align-self:end;justify-self:end;cursor:pointer;transition:background 180ms ease}
+.video-hero-playback:hover{background:#181818}
+.video-hero-playback:focus-visible{outline:2px solid #fff8f1;outline-offset:4px}
+@media(max-width:767px){
+ .video-hero{height:clamp(500px,calc(100svh - 145px),700px)}
+ .video-hero-layout{padding-block:42px 24px;gap:28px}
+ .home-page .video-hero h1{font-size:clamp(2.1rem,9.6vw,4.6rem);margin-bottom:22px}
+ .video-hero-tagline{max-width:30ch;letter-spacing:.075em;font-size:.79rem}
+ .video-hero-announcement,.video-hero .video-hero-circle{width:112px;height:112px}
+ .video-hero .video-hero-circle span{font-size:11px}
+ .video-hero-circle-year{font-size:1.1rem}
+}

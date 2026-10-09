@@ -2,7 +2,7 @@
 'use client';
 
 import { useInView, useMotionValue, useSpring, useReducedMotion } from 'motion/react';
-import { useCallback, useEffect, useRef } from 'react';
+import { useCallback, useEffect, useMemo, useRef } from 'react';
 
 interface CountUpProps {
   to: number;
@@ -56,21 +56,19 @@ export default function CountUp({
 
   const maxDecimals = Math.max(getDecimalPlaces(from), getDecimalPlaces(to));
 
+  const formatter = useMemo(() => new Intl.NumberFormat('en-US', {
+    useGrouping: !!separator,
+    minimumFractionDigits: maxDecimals,
+    maximumFractionDigits: maxDecimals
+  }), [maxDecimals, separator]);
+
   const formatValue = useCallback(
     (latest: number) => {
-      const hasDecimals = maxDecimals > 0;
-
-      const options: Intl.NumberFormatOptions = {
-        useGrouping: !!separator,
-        minimumFractionDigits: hasDecimals ? maxDecimals : 0,
-        maximumFractionDigits: hasDecimals ? maxDecimals : 0
-      };
-
-      const formattedNumber = Intl.NumberFormat('en-US', options).format(latest);
+      const formattedNumber = formatter.format(latest);
 
       return separator ? formattedNumber.replace(/,/g, separator) : formattedNumber;
     },
-    [maxDecimals, separator]
+    [formatter, separator]
   );
 
   useEffect(() => {
@@ -80,6 +78,7 @@ export default function CountUp({
   }, [from, to, direction, formatValue]);
 
   useEffect(() => {
+    if (reduce && ref.current) ref.current.textContent = formatValue(to);
     if (isInView && startWhen && !reduce) {
       if (typeof onStart === 'function') {
         onStart();
@@ -103,7 +102,7 @@ export default function CountUp({
         clearTimeout(durationTimeoutId);
       };
     }
-  }, [isInView, startWhen, motionValue, direction, from, to, delay, onStart, onEnd, duration, reduce]);
+  }, [isInView, startWhen, motionValue, direction, from, to, delay, onStart, onEnd, duration, reduce, formatValue]);
 
   useEffect(() => {
     const unsubscribe = springValue.on('change', (latest: number) => {
