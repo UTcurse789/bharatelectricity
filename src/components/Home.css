@@ -75,7 +75,9 @@
 .home-page .company-rail h3{font-size:1.0625rem;font-weight:600;line-height:1.5;margin-bottom:22px}
 .home-page .company-rail .card-link{font-size:.875rem;font-weight:600;color:#075e24;text-decoration:underline;text-underline-offset:4px;margin-top:auto}
 .home-page .person-card{display:flex;flex-direction:column;background:transparent}
+.home-page .person-card:hover:not(:focus-visible){outline:none}
 .home-page .person-card .portrait{filter:none;aspect-ratio:1/1.06;object-fit:cover;object-position:center top;border-bottom:3px solid #f56a16}
+.home-page .speaker-rail .portrait,.home-page .speaker-rail .portrait-missing{height:240px;aspect-ratio:auto;flex-shrink:0}
 .home-page .person-card .person-role{font-size:.8125rem;font-weight:600;color:#075e24;margin:18px 0 8px;line-height:1.6}
 .home-page .person-card h3{font-size:1.125rem;line-height:1.45;margin:0 0 12px}
 .home-page .person-card>p:not(.person-role){font-size:.875rem;line-height:1.7;color:var(--muted);margin-bottom:20px}
@@ -147,7 +149,10 @@
 
 /* Reserve directory height before loading the full lineup near the viewport. */
 .home-page .company-rail .rail-track{grid-auto-rows:380px}
-.home-page .council-rail .rail-track,.home-page .speaker-rail .rail-track{grid-auto-rows:620px}
+.home-page .council-rail .rail-track{grid-auto-rows:620px}
+.home-page .speaker-rail .rail-track{grid-auto-rows:520px}
+.home-page .council-rail .infinite-card-window,.home-page .speaker-rail .infinite-card-window,.home-page .global-rail .rail-track{scrollbar-width:none;padding-bottom:8px}
+.home-page .council-rail .infinite-card-window::-webkit-scrollbar,.home-page .speaker-rail .infinite-card-window::-webkit-scrollbar,.home-page .global-rail .rail-track::-webkit-scrollbar{display:none}
 .home-page .person-card h3,.home-page .company-card h3{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
 .home-page .person-card>p:not(.person-role){display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
 .home-page .person-card .person-role{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}

@@ -7,18 +7,22 @@
     "status": "archive-preview-available; awaiting-verified-2026-full-length-film"
   },
   "awards": {
-    "src": "/assets/legacy-2025/awards-12.webp",
-    "width": 800,
-    "height": 533,
-    "alt": "Award recipients at the 2025 Bharat Electricity awards ceremony",
-    "edition": 2025,
-    "sourceAlbum": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57",
-    "status": "awaiting-2026-awards-photograph"
+    "src": "/assets/homepage/powering-india-awards-2026.webp",
+    "width": 701,
+    "height": 496,
+    "alt": "Guests on stage at Powering India Awards 2026",
+    "edition": 2026,
+    "source": "User supplied Award.png",
+    "status": "user-supplied-2026-artwork"
   },
   "power": {
-    "src": "/assets/exhibition-2025-082.webp",
-    "alt": "Electrical control and power equipment on the exhibition floor",
-    "edition": 2025
+    "src": "/assets/homepage/power-energy-solutions-2026.webp",
+    "width": 821,
+    "height": 547,
+    "alt": "Delegates viewing power and energy technology at the 2026 exhibition",
+    "edition": 2026,
+    "source": "User supplied Power-&-Energy-SOlutions (1).png",
+    "status": "user-supplied-2026-artwork"
   },
   "photos": [
     {
@@ -51,5 +55,23 @@
       "source": "https://lh3.googleusercontent.com/pw/AP1GczNiOd9mC79rLoonsvymCQCd-_MbYE9dZI36LXwx-kDu97d3eaX4DfEqaavcPt_gr4YRP0MhrIZI5RkuwQN0ODYb_14phABMaE0Lhywqd2GZ3518SSc=w2000-h1400-no",
       "sourceAlbum": "https://photos.app.goo.gl/dkJmB5x7vYMugAsg7"
     }
-  ]
+  ],
+  "report": {
+    "src": "/assets/homepage/post-show-report-2026.webp",
+    "width": 577,
+    "height": 433,
+    "alt": "2026 Bharat Electricity Post-show Report cover artwork",
+    "edition": 2026,
+    "source": "User supplied PSR-removebg-preview.png",
+    "status": "user-supplied-2026-artwork"
+  },
+  "opportunities": {
+    "src": "/assets/homepage/energy-opportunities-2026.webp",
+    "width": 850,
+    "height": 567,
+    "alt": "Industry representatives networking at an exhibition stand during the 2026 edition",
+    "edition": 2026,
+    "source": "User supplied Energy-opportunities.png",
+    "status": "user-supplied-2026-artwork"
+  }
 }

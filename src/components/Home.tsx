@@ -55,7 +55,7 @@ export function Home() {
   </section>
 
   <section className="section homepage-partners" aria-labelledby="partners-heading"><div className="wrap">
-   <div className="home-section-heading"><h2 id="partners-heading">Our valued partners</h2><p>Utilities, institutions and technology leaders supporting the 2026 energy community.</p></div>
+   <div className="home-section-heading"><span className="home-partner-eyebrow">OUR NETWORK</span><h2 id="partners-heading">Our valued partners</h2><p>Together, shaping the future of energy.</p></div>
    <HomePartnerGrid groups={allPartnerGroups}/>
    <Link href={paths.partners} className="text-link">Explore all partners <ArrowUpRight size={19} aria-hidden="true"/></Link>
   </div></section>
@@ -73,9 +73,9 @@ export function Home() {
   </div></section>
 
   <section className="section speaker-section" aria-labelledby="speakers-heading"><div className="wrap">
-   <div className="home-section-heading"><h2 id="speakers-heading">Speakers 2025</h2><p>Explore the published 2025 speaker lineup and the expertise behind the event. Roles reflect the historical programme.</p></div>
+   <div className="home-section-heading"><h2 id="speakers-heading">Speakers 2026</h2><p>Meet the industry leaders and experts sharing perspectives on India's energy sector.</p></div>
    <HomePeople items={speakers}/>
-   <Link href={paths.speakers} className="text-link">View Speakers 2025 <ArrowUpRight size={19} aria-hidden="true"/></Link>
+   <Link href={paths.speakers} className="text-link">View all speaker profiles <ArrowUpRight size={19} aria-hidden="true"/></Link>
   </div></section>
 
   <section className="section programme-section" aria-labelledby="programme-heading"><div className="wrap programme-layout">

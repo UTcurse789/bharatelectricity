@@ -1,0 +1,16 @@
+.infinite-card-rail{container-type:inline-size;--rail-card-width:calc((100cqw - 72px)/4);--rail-card-gap:24px}
+.infinite-card-window{overflow-x:auto;overflow-y:hidden;padding:5px 0 22px;scrollbar-width:thin;scrollbar-color:#9aa99f #edf1ee;overscroll-behavior-inline:contain}
+.infinite-card-track{display:flex;width:max-content;animation:directory-card-loop var(--card-loop-duration,90s) linear infinite;animation-play-state:paused}
+.infinite-card-rail[data-running=true] .infinite-card-track{animation-play-state:running}
+.infinite-card-rail:hover .infinite-card-track,.infinite-card-rail:focus-within .infinite-card-track{animation-play-state:paused}
+.infinite-card-group{display:flex;align-items:stretch;flex-shrink:0;gap:var(--rail-card-gap);padding-right:var(--rail-card-gap)}
+.infinite-card-group>*{flex:0 0 var(--rail-card-width);width:var(--rail-card-width);min-width:0}
+.company-rail .infinite-card-group>*{height:380px}
+.council-rail .infinite-card-group>*{height:620px}
+.speaker-rail .infinite-card-group>*{height:520px}
+.infinite-card-rail[data-static=true] .infinite-card-track{animation:none;transform:none}
+.infinite-card-rail[data-static=true] .infinite-card-copy{display:none}
+@keyframes directory-card-loop{to{transform:translateX(-50%)}}
+@media(max-width:1100px){.infinite-card-rail{--rail-card-width:calc((100cqw - 48px)/3)}}
+@media(max-width:767px){.infinite-card-rail{--rail-card-width:82cqw;--rail-card-gap:18px}}
+@media(prefers-reduced-motion:reduce){.infinite-card-track{animation:none;transform:none}.infinite-card-copy{display:none}}

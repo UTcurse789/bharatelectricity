@@ -27,7 +27,7 @@ try{
   const startHeight=await region.evaluate(e=>e.offsetHeight);
   const before=await readX(track);await page.waitForTimeout(500);const after=await readX(track);assert(after<before-20,'Automatic leftward movement');
   const box=await region.locator('.logoloop').boundingBox();await page.mouse.move(box.x+box.width/2,box.y+box.height/2);
-  const hoverBefore=await readX(track);await page.waitForTimeout(600);const hoverAfter=await readX(track);assert(hoverAfter<hoverBefore-25,'Continues on hover');
+  await page.waitForTimeout(1200);const hoverBefore=await readX(track);await page.waitForTimeout(600);const hoverAfter=await readX(track);assert(Math.abs(hoverAfter-hoverBefore)<2,'Pauses on hover');
   await expect(region.locator('button,a')).toHaveCount(0);
   await expect(page.locator('.video-hero-media-controls,.video-hero-playback,.video-hero-open-film')).toHaveCount(0);
   await expect(page.locator('.video-hero').getByText('Archive footage',{exact:true})).toHaveCount(0);
@@ -38,7 +38,7 @@ try{
   await page.emulateMedia({reducedMotion:'reduce'});await expect(region).toHaveAttribute('data-reduced-motion','true');await expect(region.locator('.logoloop__list:visible')).toHaveCount(1);
   const reducedBefore=await readX(track);await page.waitForTimeout(500);assert.equal(await readX(track),reducedBefore,'Reduced motion is static');
   const viewport=region.locator('.logoloop');await viewport.focus();await page.keyboard.press('ArrowRight');await expect.poll(()=>viewport.evaluate(e=>e.scrollLeft)).toBeGreaterThan(0);
-  checks.push({width,partners:count,belowVideo:true,hoverKeepsMoving:true,stableHeight:true,reducedMotion:true});await context.close();
+  checks.push({width,partners:count,belowVideo:true,hoverPause:true,stableHeight:true,reducedMotion:true});await context.close();
  }
  assert.deepEqual(errors,[]);await fs.writeFile(folder+(mobileOnly?'/final-mobile-results.json':'/results.json'),JSON.stringify({checks,errors},null,2));console.log(JSON.stringify({checks,errors}));
 }finally{await browser.close();}

@@ -10,7 +10,7 @@ import {ArrowLeft, ArrowRight, Pause, Play} from '@phosphor-icons/react';
 import './EventCarousel.css';
 
 const slides = [
- {label: '2025 post-show report', background: images.reportBackground, report: true, description: 'Request the report for a review of the 2025 exhibition and conference.', lines: ['2025 Post-show Report'], actions: [{label: 'Request the report', href: paths.report}]},
+ {label: '2026 post-show report', background: images.reportBackground, report: true, description: 'Request the report for a review of the 2026 exhibition and conference.', lines: ['2026 Post-show Report'], actions: [{label: 'Request the report', href: paths.report}]},
  {label: 'Powering India Awards', background: images.awardsBackground, report: false, description: 'Recognising outstanding contributions to the future of Indian energy.', lines: ['Celebrating excellence', 'in Indian energy.'], actions: [{label: 'Explore the awards', href: paths.awards}]},
  {label: 'Power & energy solutions', background: images.powerBackground, report: false, description: 'From generation to the grid. Discover the technologies powering a more resilient energy future.', lines: ['Power & energy', 'solutions.', 'One connected ecosystem.'], actions: [{label: 'Explore solutions', href: paths.about}, {label: 'Talk to the team', href: paths.contact}]},
  {label: 'Energy opportunities', background: images.opportunitiesBackground, report: false, description: 'Meet the utilities, innovators and decision-makers moving the industry forward.', lines: ['The right people.', 'New possibilities.'], actions: [{label: 'Meet the participants', href: paths.exhibitors}]},
@@ -29,6 +29,7 @@ export function EventCarousel() {
  const slide = slides[active];
  const awards = active === 1;
  const power = active === 2;
+ const opportunities = active === 3;
  const rotating = playing && !reducedMotion && !focused && visible;
 
  useEffect(() => {
@@ -92,7 +93,7 @@ export function EventCarousel() {
   else if (event.key === 'Home') {event.preventDefault(); choose(0);}
   else if (event.key === 'End') {event.preventDefault(); choose(slides.length - 1);}
  }}>
-  {!awards && !power && <div key={slide.background.src} className="carousel-background" aria-hidden="true">
+  {!awards && !power && !opportunities && <div key={slide.background.src} className="carousel-background" aria-hidden="true">
    <Image src={slide.background.src} alt="" fill sizes="100vw" loading="lazy" className="carousel-background-image"/>
    <div className="carousel-background-wash"/>
   </div>}
@@ -100,7 +101,7 @@ export function EventCarousel() {
    <div className="carousel-stage" onPointerDown={event => {if (event.pointerType === 'touch' && !(event.target as Element).closest('a,button')) start.current = {x: event.clientX, y: event.clientY};}} onPointerUp={finishSwipe} onPointerCancel={() => {start.current = null;}}>
     <div key={active} id="event-carousel-slide" className={'carousel-slide' + (slide.report ? ' carousel-slide-report' : '') + (awards ? ' carousel-slide-awards' : '')} role="group" aria-roledescription="slide" aria-label={`${active + 1} of ${slides.length}: ${slide.label}`}>
      <div className="carousel-copy">
-      <p className="carousel-awards-label">{slide.report?'2025 edition archive':awards?'Powering India Awards '+media.awards.edition:power?media.power.edition+' exhibition archive':site.edition.year+' edition'}</p>
+      <p className="carousel-awards-label">{slide.report?'2026 edition report':awards?'Powering India Awards '+media.awards.edition:power?media.power.edition+' exhibition archive':site.edition.year+' edition'}</p>
       <h2 className="carousel-title">{slide.lines.map((line, index) => <span className={power && index === 1 ? 'power-neon-text' : ''} key={line}>{line}</span>)}</h2>
       {slide.description && <p className="carousel-description">{slide.description}</p>}
       <div className="carousel-actions">{slide.actions.map((action, index) => <a key={action.href} href={action.href} className={'button' + (index > 0 ? ' secondary' : '')}>{action.label}<ArrowRight size={18} aria-hidden="true"/></a>)}</div>
@@ -110,8 +111,12 @@ export function EventCarousel() {
       <figcaption>{media.awards.edition} awards archive</figcaption>
      </figure>}
      {power && <figure className="carousel-feature-photo carousel-power-photo">
-      <Image src={media.power.src} alt={media.power.alt} width={1800} height={1200} sizes="(max-width:767px) 90vw, 48vw"/>
+      <Image src={media.power.src} alt={media.power.alt} width={media.power.width} height={media.power.height} sizes="(max-width:767px) 90vw, 48vw"/>
       <figcaption>{media.power.edition} exhibition archive</figcaption>
+     </figure>}
+     {opportunities && <figure className="carousel-feature-photo carousel-opportunities-photo">
+      <Image src={media.opportunities.src} alt={media.opportunities.alt} width={media.opportunities.width} height={media.opportunities.height} sizes="(max-width:767px) 90vw, 48vw"/>
+      <figcaption>Networking at the {media.opportunities.edition} exhibition</figcaption>
      </figure>}
      {slide.report && <div className="carousel-report-art">
       <ReportCover/>

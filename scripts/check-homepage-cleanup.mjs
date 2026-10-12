@@ -102,17 +102,19 @@ try {
   await carousel.screenshot({path: `${directory}/report-${width}.png`});
 
   const partners = page.locator('.homepage-partners');
-  const logos = partners.locator('.home-partner-box img');
+  const logos = partners.locator('.home-partner-logo-list:not([aria-hidden]) .home-partner-box img');
   assert(await logos.count() > 75, 'All partner groups are rendered once with their roles');
   await partners.getByRole('heading', {name: 'Focus States', exact: true}).first().scrollIntoViewIfNeeded();
   const logo = logos.first();
   await logo.scrollIntoViewIfNeeded();
   await expect.poll(() => logo.evaluate(img => img.naturalWidth)).toBeGreaterThan(0);
-  const before = await logo.boundingBox();
   await logo.hover();
+  await page.waitForTimeout(50);
+  const before = await logo.boundingBox();
   await page.waitForTimeout(350);
-  assert.deepEqual(await logo.boundingBox(), before, 'Partner hover leaves the artwork stationary');
-  assert(await partners.evaluate(el => el.getAnimations({subtree: true}).length === 0), 'Partner display has no ongoing animations');
+  assert.deepEqual(await logo.boundingBox(), before, 'Partner hover pauses the artwork without scaling');
+  if (width !== 1440) assert(await partners.evaluate(el => el.getAnimations({subtree: true}).length === 0), 'Reduced-motion partner display is static');
+  await expect(partners.locator('button,input[type=range]')).toHaveCount(0);
   if (width === 1440) {
    await page.mouse.move(10, 600);
    await page.mouse.wheel(0, 600);
@@ -143,7 +145,7 @@ try {
   await page.locator('.company-rail').scrollIntoViewIfNeeded();
   await expect.poll(() => page.locator('.company-rail .company-card').count()).toBeGreaterThan(8);
   await page.getByRole('button', {name: 'Next participating companies'}).click();
-  await expect.poll(() => page.locator('.company-rail .rail-track').evaluate(el => el.scrollLeft)).toBeGreaterThan(0);
+  await expect.poll(() => page.locator('.company-rail .infinite-card-window').evaluate(el => el.scrollLeft)).toBeGreaterThan(0);
   if (width === 1440 || width === 375) {
    const axe = await new AxeBuilder({page}).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
    assert.deepEqual(axe.violations.map(v => ({id: v.id, nodes: v.nodes.map(n => n.target)})), [], `${width}px accessibility`);

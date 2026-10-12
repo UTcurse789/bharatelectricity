@@ -4,7 +4,7 @@
 .carousel-stage{height:480px;display:grid;align-items:center;touch-action:pan-y}
 .carousel-slide{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:center;gap:48px;width:100%;height:100%;padding:36px 0}
 .carousel-copy{min-width:0}
-.carousel-slide:not(.carousel-slide-report):not(.carousel-slide-awards):not(:has(.carousel-power-photo)) .carousel-copy{grid-column:1/-1;max-width:780px}
+.carousel-slide:not(.carousel-slide-report):not(:has(.carousel-feature-photo)) .carousel-copy{grid-column:1/-1;max-width:780px}
 .home-page .event-carousel .carousel-title{font-size:clamp(2rem,3.2vw,3rem);font-weight:600;line-height:1.2;letter-spacing:-.025em;color:#14231a;margin:0 0 22px}
 .carousel-title>span{display:block}
 .carousel-description{font-size:1rem;color:#4b5a51;line-height:1.8;margin:0;max-width:48ch}
@@ -12,7 +12,7 @@
 .carousel-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
 .carousel-report-art{width:100%;max-width:520px;justify-self:center}
 .carousel-feature-photo{margin:0;min-width:0;width:100%;align-self:center}
-.carousel-feature-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.carousel-feature-photo img{display:block;width:100%;height:auto;max-height:340px;object-fit:contain}
 .carousel-feature-photo figcaption{font-size:.8125rem;line-height:1.6;margin-top:12px;color:#4b5a51}
 .carousel-title .power-neon-text{color:#08752c}
 .event-carousel[data-power=true] .carousel-title>span:last-child{font-size:1.125rem;letter-spacing:0;line-height:1.6;margin-top:18px}
@@ -32,13 +32,13 @@
 @media(max-width:767px){
  .carousel-stage{height:720px}
  .carousel-slide{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto;align-content:center;gap:24px;padding:32px 0}
- .carousel-slide:not(.carousel-slide-report):not(.carousel-slide-awards):not(:has(.carousel-power-photo)) .carousel-copy{grid-column:1;grid-row:1/-1}
+ .carousel-slide:not(.carousel-slide-report):not(:has(.carousel-feature-photo)) .carousel-copy{grid-column:1;grid-row:1/-1}
  .home-page .event-carousel .carousel-title{font-size:clamp(1.75rem,7vw,2.5rem);margin-bottom:18px}
  .carousel-description{font-size:.9375rem;line-height:1.75}
  .carousel-actions{margin-top:22px;gap:10px}
  .home-page .event-carousel .button{font-size:.875rem;padding:12px 17px;min-height:48px}
  .carousel-report-art,.carousel-feature-photo{max-width:480px;justify-self:center}
- .carousel-feature-photo img,.report-cover>img{max-height:240px;object-fit:cover}
+ .carousel-feature-photo img,.report-cover>img{max-height:240px;object-fit:contain}
  .carousel-feature-photo figcaption,.report-cover figcaption{font-size:.75rem}
  .carousel-controls{grid-template-columns:minmax(0,1fr);gap:8px}
  .carousel-transport{justify-self:end}

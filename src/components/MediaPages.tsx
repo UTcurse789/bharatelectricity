@@ -3,6 +3,7 @@ import Link from 'next/link';
 import {paths,site} from '@/content/site';
 import {mediaEnquiriesPath,mediaPageTitles,mediaSectionLinks,mediaPartnershipBenefits,postShowReportForm} from '@/content/media-pages';
 import {ZohoEnquiry} from './ZohoEnquiry';
+import media from '@/content/homepage-media.json';
 import './ExhibitionPages.css';
 import './MediaPages.css';
 
@@ -37,10 +38,10 @@ function MediaEnquiries(){
 }
 
 function PostShowReport(){return <section className="wrap media-section media-report-layout">
- <div className="media-report-copy"><p className="media-eyebrow">2025 edition report</p><h2>Explore the event in review.</h2>
-  <p>Bharat Electricity, POWERGEN India and Indian Utility Week 2025 brought the power and utility community together around technology, industry challenges and the transition to a low-carbon future.</p>
+ <div className="media-report-copy"><p className="media-eyebrow">2026 edition report</p><h2>Explore the event in review.</h2>
+  <p>Bharat Electricity, POWERGEN India and Indian Utility Week 2026 brought the power and utility community together around technology, industry challenges and the transition to a low-carbon future.</p>
   <p>Request the post-show report to revisit the exhibition and the conversations connecting the energy industry.</p>
-  <figure className="media-report-cover"><Image src="/assets/site-refresh/ca0d85554f7cd7.webp" alt="The published 2025 Post Show Report cover for Bharat Electricity, POWERGEN India and Indian Utility Week" width={1600} height={974} sizes="(max-width:767px) 90vw, 45vw" priority/><figcaption>Published 2025 Post Show Report artwork</figcaption></figure>
+  <figure className="media-report-cover"><Image src={media.report.src} alt={media.report.alt} width={media.report.width} height={media.report.height} sizes="(max-width:767px) 90vw, 45vw" priority/><figcaption>2026 Post-show Report artwork</figcaption></figure>
   <figure className="media-report-photograph"><Image src="/assets/site-refresh/4e88971c387554.webp" alt="Energy industry professionals speaking together at an exhibition stand" width={1600} height={1066} sizes="(max-width:767px) 90vw, 45vw"/><figcaption>Exhibition archive</figcaption></figure>
   <Link className="text-link" href={paths.gallery}>Explore the event photographs <span aria-hidden="true">↗</span></Link>
  </div>

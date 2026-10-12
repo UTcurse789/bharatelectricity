@@ -13,7 +13,7 @@ try{
   const context=await browser.newContext({viewport:{width,height:1000},reducedMotion:'reduce'}),page=await context.newPage();
   page.on('pageerror',e=>errors.push(e.message));
   await page.route('https://forms.zohopublic.in/**',r=>r.fulfill({status:200,contentType:'text/html',body:'<!doctype html><html><body>Hosted form placeholder for local layout checks.</body></html>'}));
-  for(const [path,title] of [['/media-hub/media/','Media Enquiries'],['/media-hub/postshowreport/','Post Show Report']]){
+  for(const [path,title] of [['/media-hub/media/','Media Enquiries'],['/media-hub/postshowreport/','2026 Post-show Report']]){
    const response=await page.goto(origin+path,{waitUntil:'networkidle'});assert.equal(response.status(),200);
    await expect(page.locator('main h1')).toHaveCount(1);await expect(page.locator('main h1')).toHaveText(title);
    await expect(page.locator('.media-navigation a[aria-current=page]')).toHaveAttribute('href',new RegExp('^'+path.replace(/\/$/,'')+'/?$'));
@@ -29,7 +29,7 @@ try{
    }else{
     const iframe=page.locator('#report-request iframe');await expect(iframe).toHaveCount(1);await expect(iframe).toHaveAttribute('src',form);assert.equal((await iframe.boundingBox()).height,1200);
     await expect(page.locator('#report-request a[target="_blank"]')).toHaveAttribute('href',form);
-    await expect(page.locator('.media-report-cover img')).toHaveAttribute('src','/assets/site-refresh/ca0d85554f7cd7.webp');
+    await expect(page.locator('.media-report-cover img')).toHaveAttribute('src','/assets/homepage/post-show-report-2026.webp');
     await expect(page.locator('main form')).toHaveCount(0);
     await page.getByRole('link',{name:'Request the report',exact:true}).click();await expect(page).toHaveURL(/#report-request$/);
     await expect(iframe).toBeVisible();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
