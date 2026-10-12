@@ -1,0 +1,66 @@
+.registration-page{background:#fff;color:#202822}
+.registration-hero{background:#101b17;color:#fff;padding:24px 0 52px;border-bottom:3px solid #ff8b16}
+.registration-hero nav{display:flex;flex-wrap:wrap;gap:10px;font-size:.8125rem;line-height:1.7;color:#e0e7e2;margin-bottom:30px}
+.registration-hero nav a{text-decoration:underline;text-underline-offset:4px}
+.registration-hero h1{font-size:clamp(2rem,4vw,3.5rem);line-height:1.2;letter-spacing:-.025em;color:#fff;text-align:center;margin:0}
+.registration-page h2{font-size:clamp(1.65rem,2.5vw,2.25rem);line-height:1.3;letter-spacing:-.025em;color:#202822;margin-bottom:18px}
+.registration-page h3{font-size:1.2rem;line-height:1.4;letter-spacing:-.015em}
+.registration-page p{line-height:1.8}
+.registration-page .button.button{font-size:.875rem;min-height:48px;white-space:normal;text-align:center;padding:12px 20px;gap:10px;box-shadow:none}
+.registration-page .button.button:not(.secondary){color:#171e18;background:#ff8b16;border-color:#ff8b16}
+.registration-page .button.button:not(.secondary):hover{color:#171e18;background:#ffa33e;border-color:#ffa33e}
+.registration-navigation{background:#232724;padding:22px 0}
+.registration-navigation>.wrap{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:14px}
+.registration-booking-link{display:inline-flex;align-items:center;gap:10px;min-height:48px;color:#fff;font-size:.875rem;font-weight:600;text-decoration:underline;text-underline-offset:4px;padding:10px}
+.registration-navigation a[aria-current]{outline:2px solid #fff;outline-offset:4px}
+.registration-meeting{padding-block:52px;background:#f0f3f0;text-align:center}
+.registration-meeting h2{max-width:33ch;margin-inline:auto}
+.registration-meeting p{max-width:88ch;margin-inline:auto;font-size:1rem;color:#445248}
+.registration-page .registration-eyebrow{font-size:.75rem;letter-spacing:.08em;font-weight:600;color:#166337;text-transform:uppercase}
+.registration-inline-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:28px}
+.registration-page .registration-edition-note{font-size:.875rem;line-height:1.7;margin-top:20px;color:#46554b}
+.registration-highlights,.registration-help{padding-block:56px}
+.registration-highlights>h2,.registration-help>h2{text-align:center}
+.registration-section-note{text-align:center;font-size:.8125rem;color:#536359;margin-bottom:30px}
+.registration-highlight-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.registration-highlight-grid article{background:#222a25;color:#fff;display:flex;flex-direction:column}
+.registration-highlight-grid article:nth-child(even){background:#e8ede8;color:#202822}
+.registration-highlight-grid img,.registration-help-grid img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.registration-highlight-grid article>div{padding:24px 22px;text-align:center}
+.registration-highlight-grid h3{font-size:1.125rem;margin:0 0 14px;color:inherit}
+.registration-highlight-grid p{font-size:.875rem;margin:0;color:inherit}
+.registration-help{border-top:1px solid #dce4dd}
+.registration-help-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:30px}
+.registration-help-grid article{background:#ff8b16;display:flex;flex-direction:column}
+.registration-help-grid article:nth-child(2){background:#232724;color:#fff}
+.registration-help-grid article>div{padding:28px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;flex:1}
+.registration-help-grid h3{margin:0 0 16px;color:inherit}
+.registration-help-grid p{font-size:.9375rem;color:inherit;margin-bottom:22px}
+.registration-help-grid a{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;font-size:.875rem;font-weight:600;text-decoration:underline;text-underline-offset:4px;color:inherit;margin-top:auto}
+.registration-bottom{background:#232724;padding:24px 0}
+.registration-bottom>.wrap{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.registration-visitor,.registration-delegates{padding-block:52px}
+.registration-section-heading{text-align:center;max-width:900px;margin:0 auto 32px}
+.registration-section-heading>p{font-size:1rem;color:#536359}
+.registration-audiences{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-bottom:40px}
+.registration-audience{padding:26px 24px;border:1px solid #dce4dd;border-top:3px solid #08752c;display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.registration-audience.international{border-top-color:#ff8b16;background:#f8faf8}
+.registration-audience h3{margin:0 0 12px;color:#202822}
+.registration-audience p{font-size:.9375rem;color:#536359;margin-bottom:22px}
+.registration-audience .button{margin-top:auto}
+.registration-delegate-categories{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.registration-delegate-categories .registration-audience{padding:24px 20px;border:1px solid #ff8b16}
+.registration-audience .registration-availability{font-size:.8125rem;font-weight:600;color:#536359}
+.registration-widget{scroll-margin-top:var(--scroll-header-offset,140px)}
+.registration-widget h2{text-align:center;margin-bottom:24px}
+.registration-widget iframe{display:block;width:100%;height:700px;border:1px solid #dce4dd;background:#fff}
+.registration-widget>.text-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-top:14px}
+.registration-enquiry{position:relative;max-width:860px;margin-inline:auto;padding-top:32px;border-top:1px solid #dce4dd;scroll-margin-top:var(--scroll-header-offset,140px)}
+.registration-category-target{position:absolute;top:0;display:block;height:0;scroll-margin-top:var(--scroll-header-offset,140px)}
+.registration-enquiry>p{color:#536359;max-width:65ch}
+.registration-audience-select{display:block;width:min(100%,400px);margin-bottom:24px;font-size:.9375rem;font-weight:600}
+.registration-audience-select>span{display:block;margin-bottom:10px}
+.registration-audience-select select{width:100%;background:#fff;border:1px solid #9aa99f;padding:12px 14px;min-height:48px;color:#17271d}
+@media(max-width:1023px){.registration-highlight-grid,.registration-delegate-categories{grid-template-columns:repeat(2,minmax(0,1fr))}.registration-help-grid{gap:18px}.registration-help-grid article>div{padding:24px 18px}}
+@media(max-width:767px){.registration-hero{padding:20px 0 36px}.registration-hero nav{margin-bottom:24px}.registration-navigation>.wrap{display:grid;grid-template-columns:1fr 1fr;gap:12px}.registration-navigation .button{padding:12px;font-size:.8125rem}.registration-booking-link{font-size:.8125rem;justify-content:center;text-align:center;padding:6px}.registration-meeting,.registration-highlights,.registration-help,.registration-visitor,.registration-delegates{padding-block:36px}.registration-page .registration-eyebrow{font-size:.6875rem}.registration-meeting p,.registration-section-heading>p{font-size:.9375rem}.registration-help-grid,.registration-audiences{grid-template-columns:1fr;gap:24px}.registration-highlight-grid{gap:14px}.registration-highlight-grid article>div{padding:20px 14px}.registration-highlight-grid h3{font-size:1rem}.registration-highlight-grid p{font-size:.8125rem}.registration-delegate-categories{grid-template-columns:1fr 1fr;gap:14px}.registration-delegate-categories .registration-audience{padding:20px 14px}.registration-delegate-categories h3{font-size:1rem}.registration-delegate-categories p{font-size:.8125rem}.registration-delegate-categories .button{font-size:.8125rem;padding:10px 12px}.registration-widget h2{font-size:1.5rem}.registration-bottom>.wrap{gap:12px}}
+@media(max-width:374px){.registration-highlight-grid,.registration-delegate-categories{grid-template-columns:1fr}.registration-navigation>.wrap{grid-template-columns:1fr}}

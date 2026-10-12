@@ -18,12 +18,9 @@ function Search({label, query, setQuery, count, total}: {label: string; query: s
 export function HomeCompanies({items}: {items: Exhibitor[]}) {
  const [query, setQuery] = useState('');
  const results = items.filter(item => (item.name + ' ' + (item.stand || '')).toLowerCase().includes(query.trim().toLowerCase()));
- return <><Search label="companies" query={query} setQuery={setQuery} count={results.length} total={items.length}/>{results.length ? <ContentRail key={query} label="participating companies" className="company-rail">{results.map(item => <ExhibitorCard item={item} key={item.id}/>)}</ContentRail> : <p className="home-directory-empty">No matching companies. Try another name or clear your search.</p>}</>;
+ return <><Search label="companies" query={query} setQuery={setQuery} count={results.length} total={items.length}/>{results.length ? <ContentRail key={query} label="participating companies" className="company-rail" deferUntilVisible>{results.map(item => <ExhibitorCard item={item} key={item.id}/>)}</ContentRail> : <p className="home-directory-empty">No matching companies. Try another name or clear your search.</p>}</>;
 }
 
 export function HomePeople({items, council = false}: {items: Member[]; council?: boolean}) {
- const [query, setQuery] = useState('');
- const label = council ? 'council members' : 'speakers';
- const results = items.filter(item => (item.name + ' ' + item.designation).toLowerCase().includes(query.trim().toLowerCase()));
- return <><Search label={label} query={query} setQuery={setQuery} count={results.length} total={items.length}/>{results.length ? <ContentRail key={query} label={council ? 'governing council members' : 'speakers'} className={council ? 'council-rail' : 'speaker-rail'}>{results.map(person => <Link className="person-card" href={'/speakers/' + person.id} key={person.id}><Portrait src={person.photo} name={person.name}/><p className="person-role">{person.edition} / {person.role}</p><h3>{person.name}</h3><p>{person.designation}</p><span className="person-link">View profile ↗</span></Link>)}</ContentRail> : <p className="home-directory-empty">No matching {label}. Try another name or clear your search.</p>}</>;
+ return <ContentRail label={council ? 'governing council members' : 'speakers'} className={council ? 'council-rail' : 'speaker-rail'} deferUntilVisible>{items.map(person => <Link className="person-card" href={'/speakers/' + person.id} key={person.id}><Portrait src={person.photo} name={person.name}/><p className="person-role">{person.edition} / {person.role}</p><h3>{person.name}</h3><p>{person.designation}</p><span className="person-link">View profile ↗</span></Link>)}</ContentRail>;
 }

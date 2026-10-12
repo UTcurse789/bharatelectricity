@@ -1,0 +1,67 @@
+{
+  "verifiedDate": "2026-10-12",
+  "sourceForms": [
+    {
+      "path": "/exhibit-at-powergen-india/request-the-event-prospectus",
+      "status": 200,
+      "form": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Brochure%20Download"
+    },
+    {
+      "path": "/exhibit-at-powergen-india/view-the-floor-plan-92u6",
+      "status": 200,
+      "form": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Floor%20Plan%20Download"
+    },
+    {
+      "path": "/exhibit-at-powergen-india/make-a-stand-enquiry",
+      "status": 200,
+      "form": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Exhibit"
+    },
+    {
+      "path": "/request-the-partnership-brochure",
+      "status": 200,
+      "form": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Partnership%20Brochure%20Download"
+    },
+    {
+      "path": "/space-application-form-secondary",
+      "status": 200
+    }
+  ],
+  "brochureUrlSuppliedByUser": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Brochure%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+  "documentSource": {
+    "filename": "Request the Event Brochure.docx",
+    "forms": [
+      {
+        "title": "Request the Event Brochure",
+        "src": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Brochure%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+        "height": 600
+      },
+      {
+        "title": "Request the Floor Plan",
+        "src": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Floor%20Plan%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+        "height": 600
+      },
+      {
+        "title": "Make a Stand Enquiry",
+        "src": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Exhibit&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+        "height": 600
+      },
+      {
+        "title": "Space Application Form (Indian Companies)",
+        "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormDomesticNEWLE/formperma/33wuOjGw7kOE_3AZRiHT-8-e2mZtEb0QAGqGagtLeg8?gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+        "height": 650
+      },
+      {
+        "title": "Space Application Form (internatinal Companies)",
+        "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormInternational/formperma/BwQAtt-xJxbF6mukw4y_FZizeMgC5Y1KVNv6IULlo6o?gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+        "height": 600
+      },
+      {
+        "title": "Space Application Form (Startup's)",
+        "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormStartups/formperma/6E7E2hoFz218JCc_TrZFwdNNxLWRxHQtO1fhjXktBh4?gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+        "height": 600
+      }
+    ],
+    "orderForms": 15,
+    "orderLinks": 19
+  }
+}

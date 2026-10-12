@@ -1,0 +1,1933 @@
+{
+  "sourceFile": "Request the Event Brochure.docx",
+  "edition": 2026,
+  "forms": [
+    {
+      "title": "Request the Event Brochure",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Brochure%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "height": 600
+    },
+    {
+      "title": "Request the Floor Plan",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Floor%20Plan%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "height": 600
+    },
+    {
+      "title": "Make a Stand Enquiry",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Exhibit&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "height": 600
+    },
+    {
+      "title": "Space Application Form (Indian Companies)",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormDomesticNEWLE/formperma/33wuOjGw7kOE_3AZRiHT-8-e2mZtEb0QAGqGagtLeg8?gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "height": 650
+    },
+    {
+      "title": "Space Application Form (internatinal Companies)",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormInternational/formperma/BwQAtt-xJxbF6mukw4y_FZizeMgC5Y1KVNv6IULlo6o?gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "height": 600
+    },
+    {
+      "title": "Space Application Form (Startup's)",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormStartups/formperma/6E7E2hoFz218JCc_TrZFwdNNxLWRxHQtO1fhjXktBh4?gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "height": 600
+    }
+  ],
+  "introduction": [
+    {
+      "index": 27,
+      "text": "Welcome to all exhibitors! We are thrilled to have you at the event. This exhibitor manual provides all necessary information, rules, and guidelines to ensure a smooth and successful event.",
+      "bullet": false,
+      "heading": false,
+      "images": []
+    },
+    {
+      "index": 28,
+      "text": "Timing and planning are key to a successful trade show! Use this simple planning timeline and checklist to stay organized and on track every step of the way!",
+      "bullet": false,
+      "heading": false,
+      "images": []
+    }
+  ],
+  "schedules": [
+    {
+      "id": "schedule-29",
+      "title": "OPENING HOURS",
+      "paragraphs": [
+        {
+          "index": 30,
+          "text": "The exhibition will be open to all exhibitors during the following hours:",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 31,
+          "text": "Day 1: 10:00 AM - 6:00 PM",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 32,
+          "text": "Day 2: 10:00 AM - 6:00 PM",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 33,
+          "text": "Day 3: 10:00 AM - 5:00 PM ",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "schedule-34",
+      "title": "STALL POSSESSION SCHEDULE",
+      "paragraphs": [
+        {
+          "index": 35,
+          "text": "Exhibitors can take possession of their stalls according to the following schedule:",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 36,
+          "text": "Exhibition Hall-1: One day before the event, 8:00 AM - 5:00 PM",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 37,
+          "text": "Ensure all booth materials are ready for setup during this period.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "schedule-38",
+      "title": "BUILD-UP PERIOD (MOVE-IN) – EXHIBITION HALL-1",
+      "paragraphs": [
+        {
+          "index": 39,
+          "text": "The build-up period for Exhibition Hall-1 is as follows:",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 40,
+          "text": "Build Up period - 30th to 31st August 2026",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 41,
+          "text": "Freight forwarders start moving in heavy exhibits of exhibitors - 30th August 2026 1000 Hrs. to 31st August 2026 1400 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 42,
+          "text": "Vehicle move in for exhibits - 30th August 2026 | 1000 Hrs. to 30th August 2026 | 2000 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 43,
+          "text": "Possession for Bare Space exhibitors - 30th August 2026 | 1000 Hrs. to 31st August 2026 | 1400 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 44,
+          "text": "Stop of Work for all the Contractors / Stall Fabricators - 31st August 2026 | 2000 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 45,
+          "text": "Possession for the Shell Stall Exhibitors - 31st August 2026 | 1400 Hrs. to 2000 Hrs. ",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 46,
+          "text": "Exhibitors to Vacate the hall 31st August 2026 | 2100 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 47,
+          "text": "Final Hall Cleaning 31st August 2026 | 2100 Hrs. to 2200 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 48,
+          "text": "Laying of Carpet in Aisles & Finishing 31st August 2026 | 2200 Hrs. to 2400 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 49,
+          "text": "Hall vacated & sealed for security and sanitation 31st August 2026 | 2400 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "schedule-50",
+      "title": "Stall Dismantling Schedule – Exhibition Hall-1",
+      "paragraphs": [
+        {
+          "index": 51,
+          "text": "Dismantling of stalls in Exhibition Hall-1 must follow this schedule:",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 52,
+          "text": "Taking out Hand Carried Material | 03rd September 2026 | 1700 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 53,
+          "text": "Disconnection of all utilities | 03rd September 2026 | 1700 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 54,
+          "text": "Collection of all rented items by official Contractors | 03rd September 2026 | 1700 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 55,
+          "text": "Freight Vehicle entry for move out of heavy exhibits | 03rd September 2026 | 1900 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 56,
+          "text": "Dismantling of Shell Scheme Stalls & Auxiliary areas | 03rd September 2026 | 1730 Hrs. to 2400 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 57,
+          "text": "Stalls Dismantling Period | 03rd September 2026 | 1730 Hrs. to 2400 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 58,
+          "text": "Vehicle entry for stall contractors | 03rd September 2026 | 1830 Hrs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "title": "Exhibitors Please Note - Important Information:",
+    "paragraphs": [
+      {
+        "index": 60,
+        "text": "The exhibition halls will remain open all 24 hours for stall construction from 30th August to 31st August 2026. All exhibitors must complete construction before 2000 hrs on 31st August 2026.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 61,
+        "text": "On exhibition days, exhibitors are permitted to enter the exhibition halls one hour before opening of Exhibition (i.e. from 0900 hours) and remain up to half an hour after closing of exhibition (i.e. till 1830 hours) to service their stalls. For security reasons, exhibitors who want to stay beyond closing time must obtain permission in advance from the Organiser.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 62,
+        "text": "In case your exhibits are arriving earlier or later than the date specified, please liaise with the official freight clearing and forwarding agent for movement or storage at its respective warehouse.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 63,
+        "text": "In case of exhibits which require a crane or forklift, exhibitors should intimate the Official Clearing & Fright Forwarder at least 1 month in advance.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 64,
+        "text": "Truck/Tempo carrying the exhibition material is required to be parked in the allotted parking area only.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 65,
+        "text": "The concerned in charge of the stall construction will have to report the arrival of their material along with a copy of delivery challan & vehicle number to the Organiser, who will in turn issue a unique token number for the vehicle to move inside the hall.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 66,
+        "text": "Based on the traffic situation within hall, Organiser will call for unique token numbers and only those vehicles will deliver the exhibition material to the respective stall.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 67,
+        "text": "Small, portable, costly and attractive exhibit items are mostly at risk of theft, usually after the closing time of the exhibition each day. Exhibitors are therefore advised to keep such items under lock each day before leaving the exhibition halls. While adequate security arrangements will be made, Organisers cannot be held responsible for misplacement / loss of exhibits.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 68,
+        "text": "Only small and portable items (hand Carried)  can be removed on 03rd September 2026 from 1600 hours.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 69,
+        "text": "Removal of non-portable and heavy exhibits will be permitted only after 1730 hours on 03rd September 2026.",
+        "bullet": true,
+        "heading": false,
+        "images": []
+      },
+      {
+        "index": 70,
+        "text": "(Organiser reserves all rights to alter/amend the above schedule without assigning any reason. This schedule is correct at the time of printing. Should there be any amendment to the above timetable; an updated copy will be uploaded online on the Bharat Electricity co-located with Powergen India & Indian Utility Week 2026 website)",
+        "bullet": false,
+        "heading": false,
+        "images": []
+      }
+    ]
+  },
+  "contacts": [
+    {
+      "title": "Exhibitor services",
+      "paragraphs": [
+        {
+          "index": 73,
+          "text": "Hansika Gupta\nE: hansika@itenmedia.in | M: +9990401916",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 74,
+          "text": "Amit Kumar Gupta\nE: amit@itenmedia.in | M: +91 9821283870",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "title": "Official freight forwarder",
+      "paragraphs": [
+        {
+          "index": 76,
+          "text": "Sushil Upadhyay\nCountry Head-Sales & Operations\nR. E. Rogers India Pvt. Ltd.\nMobile: +91-9818451472\nDirect: 91-11-30889831\nEmail: sushil@rogersworldwideindia.com",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 77,
+          "text": "Puneet Sekhri\nSr. Dy. General Manager - Sales\nR.E. Rogers India Pvt. Ltd.\nMobile: +91 9810553944\nEmail:  puneet@rogersworldwideindia.com",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "title": "Official stand construction Agency",
+      "paragraphs": [
+        {
+          "index": 79,
+          "text": "Prafful Agrahari\nDeputy Manger, Pavilions and Interiors\nMobile: +91 8470009928\nEmail: prafful.agrahari@pavilionsinteriors.com",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 80,
+          "text": "Sazid Khan\nDeputy Manger, Zealous Events\nMobile: +91 9971458084\nEmail: sazid@zealousevents.com",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "title": "Official travel partner",
+      "paragraphs": [
+        {
+          "index": 82,
+          "text": "Pawan Chetri\nFounder\nThe Indian Travel Lab\nMobile: +91-6280317065\nE-Mail: sales@theindiantravellab.in",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    }
+  ],
+  "construction": [
+    {
+      "id": "construction-1",
+      "title": "General Guidelines",
+      "paragraphs": [
+        {
+          "index": 86,
+          "text": "To achieve uniformity in display and appearance of the entire exhibition and to ensure proper presentation of all exhibits, Exhibitors are advised to strictly follow the guidelines for stall construction, decoration and display specified by the Organisers.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 87,
+          "text": "The exhibitor is responsible for safety at the stall and for ensuring that industrial safety and accident prevention regulations are complied with. The exhibitor is liable for any damage that results from the construction or running of its stall or the exhibits displayed in it. Throughout the construction and dismantling period, conditions inside and outside the halls as well as at the open-air site are like those at a building site. The personnel working in this environment must be made aware of the dangers that exist.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 88,
+          "text": "Exhibitors are required to submit stall layout plan, elevation and 3D artist's impression, online (Stall Design Approval Form) for its approval positively before 29th July 2026.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 89,
+          "text": "An exhibitor, whose design has been approved by the fair architect appointed by Organiser, can commence erection after taking official possession of the stall area. No exhibitor shall be allowed to start work on their stands without prior approval of the layout plan. The decision of the fair architect as regards to the approval of the plan shall be final and binding upon exhibitors and the work must be carried out as per the approved drawing only.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 90,
+          "text": "The stall contractor should be approved by the Organisers and should obtain NOC from the Organisers to carry out the work of stall construction within the premises of Exhibition space.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 91,
+          "text": "Such contractor must submit a list of his workers, working on site and should obtain official passes from the Organisers for hall entry during construction and break-down period.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 92,
+          "text": "Workers below 18 years will not be permitted to enter the premises and undertake any work at the venue. Exhibitors to ensure that this rule is strictly adhered to by their contractors.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 93,
+          "text": "Any worker, contractor, exhibitor's representative, material supplier wanting to enter the exhibition halls must have an official badge issued by the Organiser.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 94,
+          "text": "There would be general lighting within the hall. Temporary electrical connection would be provided to carry on the construction work on chargeable basis. Aisles in the halls must always be kept clear, even during the construction and dismantling periods, since they the rescue and escape routes. Construction material, empty packaging and exhibits are not allowed to be stored in the aisles.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 95,
+          "text": "Digging, grouting or cutting of floor and hanging of stall structure from the ceiling of the halls is not permitted in any Hall.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 96,
+          "text": "Exhibitors should leave minimum 30% of the stall area free for movement of visitors.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 97,
+          "text": "To ensure safety of stall personnel and visitors, there should be no loose wiring or hanging wires. All wiring must be carried out in PVC, Elastomeric or other plastic sheathed cables. No exposed cable joints are permitted.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 98,
+          "text": "The panels adjacent to other stall areas and the ceilings of the stall areas that are visible from above must be properly finished. Electric wires must be covered by proper casing. If this is not done, Organiser will carry out the necessary work and charge all expenses to the defaulting exhibitors account.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 99,
+          "text": "The main supply points and electrical installations in the stall should be easily accessible and should not be concealed /covered by the panels / partitions or even by the exhibits. Access also needs to be provided to such Fire Hydrants and/or Electrical Panels falling within or behind the Stall area, if any.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 100,
+          "text": "Wall, if any, along the aisles should not carry any projections, texts, other than name of the exhibitor and his logo on the side facing the aisles.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 101,
+          "text": "Use of suitable floor covering inside the stall, without damaging the floor is recommended.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 102,
+          "text": "Use of loudspeakers, musical instruments etc. in the stalls is prohibited. Films, multimedia presentations, video or slide shows on products, systems and services may however be conducted within the stalls, provided the sound level is kept sufficiently low to avoid causing disturbance to others. Information headphones are allowed, provided these are set up inside the stall at least 1 meter away from the aisles. Noisy demonstrations that may annoy other exhibitors are forbidden. The noise level should not be more than 60 decibels, measured at the stall limits.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 103,
+          "text": "Cellulose paints should not be sprayed on any type of object within the Exhibition Halls. Use of exhibit materials that are dangerous, inflammable, explosive, unhealthy, foul-smelling or which may, in general, annoy other Exhibitors or visitors is not permitted. Use of spray painting for stall decoration is not permitted within any hall. Organisers advise exhibitors to bring in prefabricated stall to avoid delay in completion of stalls as well as inconvenience to other exhibitors.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 104,
+          "text": "Use of bright and/or colored lights, neon signs of any size, shape or colour or any other electrical decorative material is not allowed. Depicting exhibitors name or logo on flickering/ off-on type light is also not permitted. Use of cloth banner inside and outside the stall is not allowed. Use of all types of publicity materials such as posters, banners, hanging decorations made of any material is not allowed outside the stall area of the exhibitors. Suspending of display items from the Hall ceiling or any other structure falling within the stalls is also not permitted.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 105,
+          "text": "Posters, banners, and advertisement boards including LED displays will be put up by the Organisers and will be available to the exhibitors for advertising on payment basis.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 106,
+          "text": "Use of potted plants is allowed only inside the stall area of the exhibitor.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 107,
+          "text": "Exhibitors are requested to note that it is the responsibility of their appointed stall construction contractors to clean the stalls upon completion of construction, before handing it over to them. Thereafter, the official cleaning contractor will clean the aisles only.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 108,
+          "text": "The guidelines for bare space stalls (given below) are also applicable to the contractors/ exhibitors carrying out interior decoration for the stalls under shell scheme.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 109,
+          "text": "Exhibitors are advised to take insurance policy covering their machinery/exhibits, transit, loading and unloading of machines, their exhibition personnel and third parties (visitors).",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "construction-2",
+      "title": "Shell Scheme",
+      "paragraphs": [
+        {
+          "index": 111,
+          "text": "Shell scheme package booths are available to the exhibitors by 1400 hrs. on the  31st of August 2026 for decoration of the stand which is to be completed in all respects by 2000 hrs. on the 31st of August 2026. All passage must be kept clear of crates, boxes, packing material etc. A standard stall will consist of the following:",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 112,
+          "text": "Stall walls in laminated panels 2.5m height.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 113,
+          "text": "Spotlights, reception counter, chairs, waste paper basket, power socket as per the application form. ",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 114,
+          "text": "Fascia with the company name in white letters in standard letter size.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 115,
+          "text": "Carpet",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 116,
+          "text": "",
+          "bullet": false,
+          "heading": false,
+          "images": [
+            "rId5"
+          ]
+        },
+        {
+          "index": 117,
+          "text": "Anything required extra will be charged. The hiring rates are given in Form no. 09 & 10.\nNo nails or glue may be used for hanging / displaying posters / photo panels etc. These should be hung by ﬁshing line (available in local market) or system hooks, which will be provided by the ofﬁcial Stand Construction Agency at a nominal cost on request. Photographs, posters etc. can be displayed by using double-sided tape. The sound emanating from your TV / Audio System if used must be controlled. Please ensure that it does not disturb your neighbors. Use of Vinyl on Fascia Board is strictly prohibited.\nTechnical Specification of Stands\nThe structure of the stand is made of the Octanorm system with following specifications: -",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 118,
+          "text": "",
+          "bullet": false,
+          "heading": false,
+          "images": [
+            "rId6"
+          ]
+        },
+        {
+          "index": 119,
+          "text": "Maximum height of the stand : 2.50 m\nClearance under fascia : 2.20 m\nThe axial distance between vertical aluminum columns : 0.99 m\nWidth of panel : 0.95 m\nOverall width of the fascia : 0.30 m\nDiameter of the vertical aluminum column : 0.04 m",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 120,
+          "text": "SHELL SCHEME STALL WHO WISH TO CONVERT THEIR STALLS TO CUSTOMIZED DESIGN OF THEIR CHOICE:",
+          "bullet": false,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 121,
+          "text": "Logo's and single branding signage up to maximum surface area of 1 sq. meter can be displayed up to a height of 4 meter, provided they are away from adjacent stall by minimum distance of 1 meter.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 122,
+          "text": "Height of panel and common wall between two neighboring stalls should not be more than 2.5 meters and should have smooth surface on both sides.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 123,
+          "text": "Exhibitor need to submit their request to organiser before 29th July 2026.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "construction-3",
+      "title": "Bare Space Construction",
+      "paragraphs": [
+        {
+          "index": 128,
+          "text": "Approval of Stall Design:",
+          "bullet": false,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 129,
+          "text": "Exhibitors are requested to submit for approval scaled stand layout plan, elevation with dimensions, artist's impression (3D views) and electrical single line drawing to the Organiser on Form 06 within the stipulated deadline. Clearance / alterations that may be necessary will be intimated Before 29th July 2026. No stand on bare space shall be built without the prior written approval of the Organiser.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 130,
+          "text": "The exhibitors must keep one copy of the approved drawing at the worksite at all the times during the show.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 131,
+          "text": "Approval of stand designs will be at the sole discretion of the organizers (official Architect).",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 132,
+          "text": "Stand Constructions Guidelines",
+          "bullet": false,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 133,
+          "text": "All electrical equipment should be tested and approved by the organiser's appointed licensed electrical engineers before turning on the electrical supply.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 134,
+          "text": "All electrical installation work at the exhibition must be carried out to the satisfaction with the organiser's ofﬁcial coordination agency.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 135,
+          "text": "The height of all ﬁttings / exhibits should be restricted to 2.5mts. The rear and side walls can be up to 2.5 mts high. Structures / exhibits (mounted or otherwise) between 2.5mts & 4mts in height must be approved by the organisers and placed at a minimum distance of 1mt from all sides within the stand.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 136,
+          "text": "No partitions / structures / features shall be placed in such a way / location that it obstructs the aisles or aesthetics of the overall exhibition or view of other stands surrounding it.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 137,
+          "text": "All the material used in the construction of the stand, features and displays, including signs and fascia's, shall be non-combustible, inherently non-ﬂammable or durably ﬂame proofed.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 138,
+          "text": "For stands with 2 or 3 open sides or island stands, there shall be no partitions on the open sides. The inside partitions shall also be such that they do not obstruct the view or aesthetics of adjoining stand(s). In case these are found to be obstructive, such partitions shall have to be changed with clear glass / acrylic above a height of 1.2mts. Individual stand(s) number(s) as allocated by the organisers should be displayed on the stand in such a manner that it is clearly visible to all visitors.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 139,
+          "text": "Exhibitors requiring different voltages and frequency or special connections to equipment must arrange for their own transformers, converters, boosters, etc.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 140,
+          "text": "Except for island booths, a back wall must be installed for every stand. Stands with immediate neighbor(s) should also be provided with necessary sidewall(s).",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 141,
+          "text": "All stands in the exhibition, irrespective of height, must have at least half of any frontage facing an aisle open and unblocked.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 142,
+          "text": "Equipment with the height more than 4.5 meters may be displayed outside the exhibition hall, subject to the speciﬁc approval from IICC and payment of extra charges. All requests for this must be forwarded to the organiser.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 143,
+          "text": "In case any pre-fabrication is done by an exhibitor before the approval of the design by the Organiser, the exhibitor shall be bound by the changes /modiﬁcations advised at the time of approval of the design and will have to change the said pre-fabricated structure or any other feature so as to adhere to the basic design guidelines.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 144,
+          "text": "Covering materials laid directly on the ﬂoor is prohibited as the use of ﬂoorboard underneath is required. If necessary, use of 2-sided tape is possible with prior permission from the organisers. If permitted, removal of the tape and polishing of the ﬂoor to return it to the same condition as before is required.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 145,
+          "text": "All stands in the exhibition are recommended, irrespective of height, to have at least half of the open sides (frontage / sides) open or ﬁtted with the transparent material to the underside of the fascia. Advisable to keep at least 30% of the ﬂoor area free for smooth movement of visitors ensuring equal access & information to all.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 146,
+          "text": "No Welding or Cutting that may be ﬂammable or Sawing is allowed in the halls.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 147,
+          "text": "Artiﬁcial plants and ﬂowers are combustible and give off toxic fumes therefore they may not be used for stand decor.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 148,
+          "text": "No suspensions are to be made from the trusses of the exhibition Hall. No fitting attached, Nailed, Screwed, or Drilled on the floor, Columns, Wall or any part of the hall. If this instruction is ignored, the Exhibitor/ Contractor concerned will be penalized for the damage caused.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 149,
+          "text": "Design And Construction Must Concern Safety First. Use of proper and strong material or equipment is a deﬁnite requirement. Workmen employed for assembling / dismantling stands should be compulsorily above 18 years of age and skilled / suitably trained in their respective job functions & areas.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 150,
+          "text": "Debris or stain from ﬂammable material (like thinner) must be kept away from the working areas at the end of each working day.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 151,
+          "text": "Do not knock, nail nor sharpen on the surface, wall or any part of the building.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 152,
+          "text": "No glue, 2-sided foam tape or any material will be allowed to be pasted or stuck on the wall or any structure of the building.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 153,
+          "text": "Pulling sling or wire rope (hanging of any kind) against any structure of the building is strictly prohibited.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 154,
+          "text": "In the interests of the exhibition & safety aspects, the organiser reserves the right to close down / discontinue fabrication works of such exhibitors who fail to comply with the rules & regulations of the show and as advised by the organisers.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 155,
+          "text": "Structures of special designs should remain within the boundaries of the space allotted and should not protrude into adjacent stands or aisle spaces.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 156,
+          "text": "No aisle space may be obstructed by any exhibits or structures thus ensuring free ﬂow of public /viewers.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 157,
+          "text": "Cooking of any kind inside the stand / exhibition halls is strictly prohibited. Neon or ﬂashing lights / signs shall not be permitted unless they form an integral part of an exhibitor's product. Cloth / synthetic banners will not be permitted.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 158,
+          "text": "All the exhibitors and their respective special stand design contractors are requested to complete the stand fabrication work by 2000 hrs. of 31st August 2026, after which no work would be allowed to continue in their stands.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 159,
+          "text": "MEZZANINE CONSTRUCTION",
+          "bullet": false,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 160,
+          "text": "Approval of Stall Design:",
+          "bullet": false,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 161,
+          "text": "Mezzanine Floor: Subject to the prior approval of the stall layout from official architect and in accordance with Organisers Rules and Regulations, exhibitors may be permitted to create a mezzanine floor up to 40% of the bare space area at an additional charge of 50% over and above the applicable rates of that respective area booked, only at specific locations marked in the layout. ",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 162,
+          "text": "Bare space exhibitors eligible and desiring to construct Mezzanine floor in these halls must restrict the total height of their stall with Mezzanine to 4.5 meters including the logo height.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 163,
+          "text": "(Permission to construct mezzanine floor is subject to approval of official architect of the exhibition)",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "construction-4",
+      "title": "Electricity Guidelines",
+      "paragraphs": [
+        {
+          "index": 167,
+          "text": "Electric power supply is available in the Exhibition Halls as under:",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 168,
+          "text": "           A.C. 3 Phase: 415 volts ± 10%\n           A.C. 1 Phase: 230 volts ± 10% Frequency: 50 Hz ± 3% No D.C. supply is available.",
+          "bullet": false,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 169,
+          "text": "Fluctuations mentioned above are only for reference large variations could be expected on some occasions. For precision instruments exhibitors are advised to use stabilizers spike guards to protect their equipment. Energy Meters to measure the electricity consumption, wherever applicable will be installed at the exhibitor's cost.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 170,
+          "text": "To ensure safety of stall personnel and visitors there should be no loose wiring or hanging wires. All wiring must be carried out in XLPE/PVC, Elastomeric or other plastic sheathed cables. No exposed cable joints are permitted.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 171,
+          "text": "Exhibitors are required to apply for electric power supply and pay any additional requirement  other than already billed in their contract, charges based on Maximum Demand of connected load, including lighting load. Exhibitors should inform their power requirement before 31st July 2026. 3 phase power supply can also be provided, if required, at extra cost, which can be obtained from the exhibitor manual, which will be uploaded in due course.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 172,
+          "text": "Exhibitors under shell scheme package would be provided with a plug point socket and a switch for a 220 V 5 Amp A.C. supply. Consumption of power through this plug point for the connected load up to 1 Kw (Per 9 Sqm.) is included in the cost of shell scheme package. However, additional power would be made available based on maximum demand of connected load, including lighting load. Exhibitors should inform their power requirement before 31st July 2026.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 173,
+          "text": "Organisers will provide electric power at one main point to all exhibitors depending on their total requirement of power. Exhibitors must install separate and independent switch connections for each machine/exhibit. Exhibitors should use Fuse, Distribution Boards for feeding power to their equipment/machines. Exhibitors should use armored cables or insulated wires for connecting power supply to machines. These insulated wires should pass through conduits. Alternate connections or throw-over switches are not allowed. All machines should be earthed firmly at two places through bare copper earthing wire of the size appropriate to the load connected to the machines.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 174,
+          "text": "Drawing of power from the main point provided for individual stall and connecting it to machines/exhibits is to be carried out by the exhibitors at their own cost. Connecting power more than the specified load is not permitted.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 175,
+          "text": "Exhibitors are advised to exercise highest level of safety precautions and engage services of only qualified personnel for electrical wiring and installations. Exhibitors are advised to engage services of the licensed electrical contractor for cabling work inside their stalls. Exhibitor may engage their own personnel for this work subject to the condition that they are duly licensed to undertake electrical work. Name and contact details of the electrical contractor are to be intimated to the Organisers before the commencement of work.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 176,
+          "text": "In case power is supplied to the stall from two or more main points, exhibitors must distribute the load as per the capacity of the respective switchboards in consultation with the Organisers.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 177,
+          "text": "After completing the electric wiring work, exhibitors must obtain a completion report from the electrician or contractor engaged by them and files the same with the Electrical consultant/inspector appointed by the Organisers. On approval of the wiring work by the appointed inspector, the mains will be switched on. Actual connected load for individual machines/exhibits is to be mentioned in the report.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 178,
+          "text": "The main electrical supply point must be kept easily accessible for operation and repairs in the event of emergency. These should not be concealed or covered with any partition wall/stored material. In case of emergencies these should be easily accessible for switching off.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 179,
+          "text": "Power will be supplied only after the wiring work is carried out to the satisfaction of the Organisers and duly inspected by authorized representatives.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 180,
+          "text": "Exhibitors are advised to install equipment like Voltage Stabilizers/UPS for their sophisticated machines/exhibits. If the machines are sensitive to the floor alignment, placement of steel plates underneath is recommended.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 181,
+          "text": "Temporary power supply for erection and testing of machines can be made available from 30th August 2026 onwards. However, no temporary connections will be given after 31st August 2026. Exhibitors may apply for temporary power connection before 31st July 2026.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 182,
+          "text": "Exhibitors must ensure the proper distribution of poly-phase load while their electrical contractor is connecting the load.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "construction-5",
+      "title": "Show Policies And Regulations",
+      "paragraphs": [
+        {
+          "index": 186,
+          "text": "Bharat Electricity, POWERGEN India & Indian Utility Week ",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 187,
+          "text": "The words \"Bharat Electricity, POWERGEN India & Indian Utility Week\" as used herein shall mean the Organisers of Bharat Electricity, POWERGEN India &  Indian Utility Week.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 188,
+          "text": "Event",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 189,
+          "text": "The word \"Event\" as used herein shall mean Bharat Electricity, POWERGEN India & Indian Utility Week.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 190,
+          "text": "Terms and Conditions for Exhibitor Participation and Space Reservation",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 191,
+          "text": "Payment Schedule:",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 192,
+          "text": "Full payment of exhibit space rental & associated charges as per contract & Invoices must be paid in advance. Booth possession after 100% payment",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 193,
+          "text": "Defaults:",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 194,
+          "text": "If the Exhibitor fails to make payment as outlined above, the Organiser shall reserve the following rights:",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 195,
+          "text": "To cancel the Exhibitor's participation and / or release the booked exhibit space and are free to provide said space to other exhibitors.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 196,
+          "text": "Any exhibition fees paid shall stand forfeited without any further notice.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 197,
+          "text": "Any outstanding payments as outlined in Section I shall remain due and payable in consideration of having reserved space and provided services to the Exhibitor.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 198,
+          "text": "The cancelled Exhibitor may reapply for the Event participation on a ﬁrst- come, ﬁrst-serve basis. However, the same is subject to the discretion of the                    Organiser.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 199,
+          "text": "Exhibitor Cancellation & Downsizing Policy:    ",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 200,
+          "text": "As per the terms of the contract.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 201,
+          "text": "Space Assignment and Attendees",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 202,
+          "text": "Although the Organiser will attempt to accommodate exhibitor requests for speciﬁc booths, no guarantees can be made that the Exhibitor will be assigned the speciﬁc booth(s) requested. Exhibitor acknowledges that he/she is not contracting for a speciﬁc booth(s), but rather for the right to participate as an Exhibitor in Event.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 203,
+          "text": "Modiﬁcations of stall size and location may be required due to the limitations imposed by IICC.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 204,
+          "text": "The Organiser makes no representations or warranties concerning the demographic nature and /or number of exhibitors and/ or attendees.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 205,
+          "text": "These Exhibition Rules are part of the Contract between the exhibitor and the Organiser. The Organiser shall have the authority to interpret and enforce these rules & regulations. All matters not covered by these Rules are subject to the decision of the Organiser. All decisions so made shall be as binding on all parties as to the original Rules. The Exhibitor or its designated representative is responsible for familiarizing itself with all Rules and Regulations. The Exhibitor or its representative who fails to observe these conditions or the terms of the Exhibitor Contract may be excluded from the event without refund.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 206,
+          "text": "Governing Law Exhibitors are required to observe and comply with all the laws of India.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 207,
+          "text": "Intellectual Property Right/Copyright the Organisers have the right to ask Exhibitors to remove that exhibits that violate intellectual property right or copyright.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 208,
+          "text": "Rules & Guidelines of IICC to be followed by Exhibitors strictly.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 209,
+          "text": "Failure to Hold Bharat Electricity, POWERGEN India & Indian Utility Week.",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 210,
+          "text": "Organiser may terminate the Exhibition when we believe that:",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 211,
+          "text": "The premises in which the exhibition is or is to be conducted has become unﬁt for occupancy.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 212,
+          "text": "The holding of Event's performance under the contract, is substantially or materially prevented or interfered with by a cause or causes not reasonably within Organiser control. The Organiser is not responsible for delays, damage, loss, increased costs or other unfavorable conditions which arise as a result of such termination. Furthermore, in the event of such termination, the Organiser may retain such part of Exhibitor's participation fee as shall be required to compensate event for expenses incurred up to the time of such termination or incident to such termination, with no liability for either party to the Contract. The Exhibitor waives all claims for damages or recovery of payments made except for the return of pro-rated amount paid for exhibit space less expenses incurred by Organiser.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 213,
+          "text": "The above phrase \"a cause or causes not reasonably within Organiser's control\" includes but is not limited to: ﬁre; casualty; ﬂood; epidemic; earthquake; explosion; accident; blockage; embargo; inclement weather; act of public enemy; riot or civil disturbance; strike, lockout, boycott or other labour disturbance; inability to secure necessary labor; technical or personnel failure; lack of or impaired transportation facilities; inability to obtain, condemnation, requisition or commandeering of necessary supplies or equipment or services ; orders or restraints imposed by civil defense, military or other types of governmental authorities; or acts of God.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 214,
+          "text": "Stand Cleaning",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 215,
+          "text": "The Show Management will be responsible for the general cleaning of shell scheme stands and gangways during exhibition days. Cleaning within the stalls shall be the responsibility of the Exhibitor. The Organisers reserves the right to invoice the exhibitor for removal of excessive packing material and discarded crates or cartons.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 216,
+          "text": "Relocation of Exhibits",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 217,
+          "text": "Organiser reserves the right to alter the location of exhibits as shown on the ofﬁcial ﬂoor plan, if deemed, in the sole discretion of the event, to be advisable or in the best interests of the event.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 218,
+          "text": "Subleasing",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 219,
+          "text": "No Exhibitor may assign, sublet, share or apportion all or any part of its exhibit space with or to another business or ﬁrm unless prior written consent has been obtained from the Organiser.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 220,
+          "text": "Exhibitors must show only goods manufactured or dealt with by them in their regular course of business. Should an article of a non-exhibiting ﬁrm be required for operation or demonstration in an Exhibitor's display, identiﬁcation of such article shall be limited to the usual and regular nameplates, imprint or trademark under which same is sold in the general course of business.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 221,
+          "text": "Photography",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 222,
+          "text": "The exhibitor grants permission to the Organiser to use the photographs, video tapes taken by the ofﬁcial photographer of the event brochures, videos and other promotional material. Any individual, whether Exhibitor or attendee is prohibited from taking photographers or electronic images of exhibit displays or their contents without the permission of the Exhibitor involved. Violators will be escorted off the exhibit ﬂoor and will forfeit their credentials and/or ﬁlm.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 223,
+          "text": "Security",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 224,
+          "text": "General hall security will be provided by Show Management during the tenancy period. However, it is impossible to provide complete protection against theft. Exhibitors are advised to incorporate one lockable cabinet in their stand for valuables, telephone handset, etc. and to ensure that exhibits are properly secured.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 225,
+          "text": "Exhibitors are advised to take special care of their belongings like Laptop, Mobile Phones, and Ladies Purses etc. especially during construction/teardown of the exhibition.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 226,
+          "text": "Amendments",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 227,
+          "text": "These Rules and Regulations may be amended at any time by the Organiser, and all amendments so made shall be binding on Exhibitors equally with the original Rules and Regulations.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 228,
+          "text": "Rejection",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 229,
+          "text": "These Exhibition Rules are part of the Contract between the exhibitor and the Organiser. The Organiser shall have the authority to interpret and enforce these rules & regulations. All matters not covered by these Rules are subject to the decision of the Organiser. All decisions so made shall be as binding on all parties as to the original Rules. The Exhibitor or its designated representative is responsible for familiarizing itself with all Rules and Regulations. The Exhibitor or its representative who fails to observe these conditions or the terms of the Exhibitor Contract may be excluded from the event without refund.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 230,
+          "text": "Customs Duty on Goods and Exhibits",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 231,
+          "text": "Following information is a summary of the regulations applicable to the import of exhibits/materials into Delhi, India for exhibition purposes. Under the laws of the Republic of India, all imports including hand carried items into India, whether exhibits, brochures, promotional items, giveaways or stall materials, are subject to payment of appropriate import duty. The Customs and Excise Department of the Republic of India in its role of enforcing these laws requires that all imports must be covered by documentation which shows that either customs and excise duty has been paid on the said imports (wherever applicable) or is being deferred if the said imports are covered by an ATA Carnet or with necessary permissions.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 232,
+          "text": "Terms and Conditions for Import of Exhibits",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 233,
+          "text": "India is a member Country for ATA Carnet. The Indian Customs, therefore, will honor ATA Carnet Documents issued by other member countries. This can cover a large cargo consignment, or a single Exhibitor hand carried item, except for all consumable goods meant for distribution or sale which are not likely to be re-exported. For goods imported through medium of post, transit goods, separate bills of entry will be required to be filled in and has 6 months validity. Exhibitors who wish to use the ATA Carnet should contact the International Chamber of Commerce in their respective countries regarding application procedure.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 234,
+          "text": "Government of India has also issued notifications/instructions facilitating entry of exhibits against bond for re- export and even procedure for sale of such exhibits against payment of appropriate import and other duties. For further information, exhibitors are requested to contact official Freight and Forwarding Agency.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 235,
+          "text": "As Organisers, we strongly recommend that the exhibitor should engage services of the Official Freight Forwarder, who is familiar with the Customs procedures and is also capable of handling exhibits and consignments from arrival in any Indian Port/Airport to final departure from any Indian Port/Airport. Should you use your own freight forwarder, please ensure that your freight forwarder is familiar with the Customs Regulations and is also able to provide Bank Guarantee, if required.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 236,
+          "text": "Applicability of GST Law to Exhibits and Display Material etc.",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 237,
+          "text": "Any person engaged in supply/ movement of goods for the purposes of exhibition is required to fulfil prescribed procedures under the Goods and Services Tax (GST) laws in India, including registration under GST, movement of goods, articles under the cover of prescribed tax documents, generation of E-way Bill before transportation of goods etc. There may be legal requirement of payment of GST in case of non-compliance of procedures or otherwise. Freight paid to foreign shipping lines for transportation of goods into India, may also attract GST. Exhibitors are requested to obtain necessary consultation from their tax consultant to avoid non-compliance under GST laws.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "construction-6",
+      "title": "Safety & Precaution",
+      "paragraphs": [
+        {
+          "index": 239,
+          "text": "Personal Protective Equipment",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 240,
+          "text": "Safety Helmets\nAll stand contractors working in the exhibition centre must wear safety helmets. Safety helmets are imperative in the case of working at height or being in the vicinity of contractors working at height. Please make sure that you wear your safety helmet properly, ﬁtting the chinstrap to avoid the helmet falling off.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 241,
+          "text": "Footwear\nCorrect footwear shoes protecting against nails, debris etc. are required for exhibitors / contractors working in the exhibition centre during build-up and dismantling. No Sleepers are allowed.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 242,
+          "text": "Use of Tools and Equipment\nContractors are required to have any other PPE which are suitable for their work such as gloves, goggles, masks, earplugs.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 243,
+          "text": "Painting\nLarge-scale painting is not permitted in the exhibition centre. All exhibitors carrying out fabrication of their stand space need to neatly ﬁnish the backside up to the complete height of their display. No spray painting of any type is permitted in the exhibition halls. However, small scale \"touch-up\" painting of the exhibits and stands is permitted during the move-in period with all necessary safety precautions in place. These precautions include:\nPainting in a properly ventilated area;\nUse non-toxic, non-aerosol paints;\nNo painting near the exhibition centre's vertical structures (i.e. walls);\nNo washing of painting materials within or surrounding the exhibition centre.\nAll ﬂammable materials (such as thinners) are to be safely placed and removed from the hall immediately after use.\nSpray painting and colours mixed with ﬂammable substances are strictly not permitted, both inside and outside the building.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 244,
+          "text": "Stand Contractors are responsible for any damage to the exhibition centre from painting and liable for the cost of restoring damage",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 245,
+          "text": "Ceiling Hanging Points",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 246,
+          "text": "No hanging object is allowed in the exhibition centre.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 247,
+          "text": "The ceiling cannot be used to ﬁx or stabilize any standing structure connected with the ﬂoor.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 248,
+          "text": "If the stand is located close to the walls, no support of the walls should be taken.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 249,
+          "text": "Precautions",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 250,
+          "text": "Safety of Exhibitors, visitors as well as that of exhibits is of paramount importance. Exhibitors must therefore strictly comply with all relevant fire and safety regulations.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 251,
+          "text": "All electrical wiring and fittings must conform to the appropriate safety norms.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 252,
+          "text": "Exhibitors should also install guards or protectors on machine exhibits during demonstration to avoid injury or damage by spark, heat, fumes etc. Use of inflammable, poisonous, explosive (including gas cylinders), radioactive and other hazardous material is strictly prohibited.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 253,
+          "text": "Use of inflammable material is prohibited. Special mention must be made of the fire resistance level of materials such as those used for covering floors and in the construction of walls and ceiling.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 254,
+          "text": "Decorative elements must be fireproof and should not include materials or products that are easily ignited, such as straw, wood shavings, paper shavings, sawdust, peat, etc.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 255,
+          "text": "Use of gas cylinders /stoves within the stall is strictly prohibited. In order to carry out work, demonstrations that require naked flames, Exhibitors must request the corresponding permit from the Organisers.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 256,
+          "text": "Firefighting equipment will be provided at various points in the exhibition halls by the Organisers. Exhibitors are advised to provide necessary space in their stall, if required to keep this equipment and should take due precaution of such equipment in their stall.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 257,
+          "text": "Exhibitors should also install protecting shielding on machine/ exhibits during the demonstration to avoid injury to visitors.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "construction-7",
+      "title": "Liability, Insurance, Safety",
+      "paragraphs": [
+        {
+          "index": 260,
+          "text": "Liability & Insurance",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 261,
+          "text": "The Organiser, its afﬁliates, contractors the Convention Facility and their ofﬁcers, directors, agents, employees or representatives (hereafter referred to as the indemnities) shall not be responsible for any injury, loss or damage that may occur to the Exhibitor, or to the exhibitor's employees or property, prior, during or subsequent to the period covered by the Exhibit Contract. The Exhibitor expressly releases the indemnities from, and agrees to indemnify same against, all claims for such loss, damage or injury. The Exhibitor also agrees to indemnify the indemnities from any and all liability, costs or damages arising out of or relating to acts or omissions of the Exhibitor, its agents or employees. Exhibitors desiring to carry insurance on their exhibits will place it at their own expense. Exhibitors desiring special security precautions should arrange for private guard service, if desired, or should decide to have locked facilities available in their booth for the storage of display materials or products.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 262,
+          "text": "Liability",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 263,
+          "text": "In no event shall Organiser, its afﬁliates or any of their ofﬁcers, directors, agents or employees be liable to Exhibitors for any amount in excess of the participation fee actually paid by Exhibitor for event with respect to which or in connection with which liability is asserted for any indirect, incidental, consequential or other damages (including but not limited to claims for lost proﬁts) arising out of or relating to an Organiser event, the rental of exhibit space, the conduct of Event, any breach of contract, or any other act, omission oroccurrence.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 264,
+          "text": "Insurance",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 265,
+          "text": "The exhibitor shall, at its sole cost and expense, procure and maintain through the term of this contract, comprehensive general liability insurance against claims for bodily injury or death and property damage occurring in or upon or resulting from the premises leased by Organiser. Such insurance shall include contractual liability and product liability coverage.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 266,
+          "text": "Exhibitor Responsibility, Indemnification",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 267,
+          "text": "Exhibitor agrees to indemnify Organiser against and hold it harmless for any cost, expenses or claims arising out of the acts or omissions of exhibitor, exhibitor's agents, employees or invitees.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 268,
+          "text": "Damage of Property",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 269,
+          "text": "Exhibitors are liable for any damage caused to exhibition building, ﬂoors, walls, columns, or to standard booth equipment, or to other exhibitors' property. Exhibitors may not apply paint, lacquer, adhesive or any other coating to building columns and ﬂoors, or to standard booth equipment.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 270,
+          "text": "Fire, Safety and Health",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 271,
+          "text": "The Exhibitor agrees to accept full responsibility for compliance with local, city and state Fire, Safety and Health Ordinances regarding the installation and operation of equipment or otherwise relating to the Exhibitor or its booth. All exhibit materials and equipment must further be located within the booth and protected by safety guards and devices where necessary to prevent personal accident or injury to spectators or to other Exhibitors. Only ﬁreproof materials will be used in displays, and the necessary ﬁre precautions will be a responsibility of the Exhibitor.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        },
+        {
+          "index": 272,
+          "text": "Hazards and Firearms",
+          "bullet": true,
+          "heading": true,
+          "images": []
+        },
+        {
+          "index": 273,
+          "text": "Equipment with sharp or protruding edges posing a potential danger to attendees and /or exhibit personnel at whatever level, must have protective covering and /or be ﬂagged. No ﬁrearms of any nature may be brought into the Exhibition or Conference.",
+          "bullet": true,
+          "heading": false,
+          "images": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "rId5",
+      "src": "/assets/manual-2026/image1.jpeg",
+      "alt": "Shell scheme furniture and electrical inclusions by stand area"
+    },
+    {
+      "id": "rId6",
+      "src": "/assets/manual-2026/image2.png",
+      "alt": "Shell scheme stand diagram, fascia, wall panels and counter dimensions"
+    }
+  ],
+  "shellSchemeRows": [
+    [
+      9,
+      1,
+      3,
+      3,
+      1,
+      1
+    ],
+    [
+      12,
+      1,
+      3,
+      4,
+      1,
+      1
+    ],
+    [
+      15,
+      1,
+      5,
+      5,
+      1,
+      1
+    ],
+    [
+      18,
+      2,
+      6,
+      6,
+      2,
+      2
+    ],
+    [
+      21,
+      2,
+      6,
+      7,
+      2,
+      2
+    ],
+    [
+      24,
+      2,
+      6,
+      8,
+      2,
+      2
+    ],
+    [
+      27,
+      3,
+      9,
+      9,
+      2,
+      2
+    ],
+    [
+      30,
+      3,
+      9,
+      10,
+      2,
+      2
+    ],
+    [
+      36,
+      4,
+      12,
+      12,
+      3,
+      3
+    ]
+  ],
+  "orderForms": [
+    {
+      "number": 1,
+      "label": "FORM 1: EXHIBITOR CATALOGUE (Show guide) ENTRY FORM",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM1EXHIBITORCATALOGUEShowguideENTRYFORM/formperma/oqqVCIMJKkOu1vFvrZOCi7dIkeH6uOmUHPOHr_ChTXo"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "FORM 2: BUILT-UP SPACE (Shell Scheme) FASCIA NAME",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM2BuiltUpSpaceshellschemeFasciaName/formperma/cAkiBLQXkm42p8bVSCSg1UrqH6gRgs40MERbl6NdrwY"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "FORM 3: EXHIBITOR BADGES",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://zfrmz.in/eUnwMA52L1jrGj52DekI"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "FORM 4: EXHIBITOR COMPLEMENTARY DELEGATE",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM4ExhibitorComplementaryDelegate/formperma/rAHhOTc1-sd9dKJl7S15tM2MiBfnGYYjkm2vGyw3xX0"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "FORM 5: BADGES FOR EXHIBITOR SERVICES/ CONTRACTORS",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM5BadgesforExhibitorServicesContractors/formperma/-pamOMtW_cjiPufLNN_OgvwKCKfARkEFkysTLf6zkUg"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "label": "FORM 6: RAW SPACE APPROVAL",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM6RAWSPACEAPPROVAL/formperma/0BIW3LfX-9fpoG30Zj3n77kC6I3lUPIvGc2ZPGw1v5Q"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "label": "FORM 7: VISA INVITATION",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM7VISAINVITATION/formperma/xlrDkSS48DCMdVI-TtndbF5mW9ecJJtCIpsIH306skk"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "label": "FORM 8: ADDITIONAL POWER REQUIREMENT",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM8ADDITIONALPOWERREQUIREMENT/formperma/XDKnT-UcLJlNyngx9pOx3rAXh6l5fyjHNCc9pEyGOeA"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "label": "FORM 9: STAND FITTING ORDER FORM",
+      "links": [
+        {
+          "label": "DOMESTIC",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM9StandFittingOrderForm/formperma/VTPaKJhxtw2HTKWogMlaiU73wkNFute96Erbskvplt0"
+        },
+        {
+          "label": "INTERNATIONAL",
+          "href": "https://zfrmz.in/YbQVil2lsqR3GHUl4bSd"
+        },
+        {
+          "label": "FURNITURE CATALOGUE",
+          "href": "https://drive.google.com/file/d/1i_dzWG1JIwmM6WzatQ6J3U7hYrICCoe0/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "label": "FORM 10: ELECTRONIC ACCESSORIES ON HIRING BASIS",
+      "links": [
+        {
+          "label": "DOMESTIC",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM10ElectronicAccessoriesonHiringBasis/formperma/NVx_Rnvmj7-0J9_k5X0chRPyVHhgSPQ1vTBYxajWIoQ"
+        },
+        {
+          "label": "INTERNATIONAL",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM10AInternationalElectronicAccessoriesonHiringB/formperma/63g1WVRJ0tKvil9olF_jZc3hH-dBqOIElb2UIGUvMPk"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "label": "FORM 11: EXHIBITION SUPPORT STAFF",
+      "links": [
+        {
+          "label": "DOMESTIC",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM11EXHIBITIONSUPPORTSTAFF/formperma/GJVJ-zZnAJfJWiijI4c1LBTW-UCxiNb1was4BIQeTR8"
+        },
+        {
+          "label": "INTERNATIONAL",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM11AInternationalExhibitionSupportStaff/formperma/PrSsI69ah4B6SAQwGJ8JlxmMqKUOdMMhH3svl0gqbIQ"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "label": "FORM 12: HEAVY & LARGE EXHIBITS",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM12HeavyLargeExhibits/formperma/U6rW_32YMRtIHKKCrJmdObCq7SiMcIRCFoYsaVQhLYg"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "label": "FORM 13: DECLARATION",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM13DECLARATION/formperma/Vp0MqYTwks_9_C6komV9KExJ2ixoWXkJd4a5bnvM92s"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "label": "FORM 14: STAND POSSESSION",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM14STANDPOSSESSION/formperma/jdcKpiZ_0qGDsNO_e7zoh55ndOeOXP43eC7LigHXlrU"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "label": "FORM 15: EXIT PASS",
+      "links": [
+        {
+          "label": "CLICK HERE",
+          "href": "https://forms.zohopublic.in/itenmedia1/form/FORM15EXITPASS/formperma/u75lfA0dGZYnDM_hbqVXc4aSubzfAcDap4yO-bn4dTE"
+        }
+      ]
+    }
+  ]
+}

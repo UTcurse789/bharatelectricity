@@ -1,0 +1,6 @@
+.edition-context{margin:0 0 36px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.edition-context>p{font-size:.9rem;margin-bottom:14px;color:var(--muted)}.edition-context strong{color:var(--text);margin-right:8px}
+.edition-context nav{display:flex;gap:10px;flex-wrap:wrap}
+.edition-context nav a{padding:10px 16px;background:var(--surface);border:1px solid var(--line);font-size:.9rem;font-weight:600;min-height:44px}
+.edition-context nav a[aria-current]{border-color:var(--accent);color:var(--accent);background:#edf6ef}
+@media(max-width:767px){.edition-context nav a{padding:10px 12px;font-size:.8rem}}

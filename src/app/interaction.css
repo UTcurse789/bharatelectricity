@@ -1,0 +1,22 @@
+/* Consistent, visible actions on every route. */
+:root{--accent:#08752c;--accent-hover:#075e24}
+.button.button{font-size:.9375rem;font-weight:600;min-height:48px;line-height:1.5;border-width:1px;box-shadow:none}
+.button.button:not(.secondary){background:#08752c;border-color:#08752c;color:#fff}
+.button.button:not(.secondary):hover{background:#075e24;border-color:#075e24;color:#fff}
+.button.secondary{border-color:#08752c;color:#075e24;background:#fff}
+.text-link,.text-button{font-size:.9375rem;font-weight:600;color:#075e24;line-height:1.6;text-underline-offset:4px}
+main p a[href],main li a[href],.reference-actions a[href],.site-footer a[href]{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+main p a[href],main li a[href]{color:#075e24;font-weight:600}
+a[href]:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex='0']:focus-visible{outline:3px solid #e15e00;outline-offset:4px}
+.nav-dropdown a,.mobile-nav a{min-height:44px}
+.nav-dropdown a:hover,.mobile-nav a:hover{text-decoration:underline;text-underline-offset:4px}
+.company-card:hover,.person-card:hover{outline:1px solid #08752c;outline-offset:3px}
+.government-banner{padding:12px 0 16px}
+.government-desktop-wrap.wrap{width:min(1180px,calc(100% - 64px))}
+.government-desktop-art{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+@media(max-width:767px){
+ .government-banner{padding:8px 0 12px}
+ .government-desktop-wrap.wrap{width:calc(100% - 24px)}
+}
+@media(min-width:768px){.header-main{min-height:80px;padding-block:8px}.brand-crop{width:260px}.header-cta.button{font-size:.875rem;min-height:44px}}
+@media(max-width:767px){.brand-crop{width:min(260px,calc(100vw - 120px))}}

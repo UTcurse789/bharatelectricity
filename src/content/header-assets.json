@@ -1,9 +1,12 @@
 {
   "banner": {
-    "src": "/assets/government-support-banner.webp",
-    "width": 1457,
-    "height": 317,
-    "source": "User supplied government support banner: Screenshot 2026-10-09 111246.png"
+    "src": "/assets/government-header/support.webp",
+    "width": 14314,
+    "height": 2657,
+    "mobileSrc": "/assets/government-header/masthead-mobile.webp",
+    "mobileWidth": 640,
+    "mobileHeight": 404,
+    "source": "User supplied Header For BE.png"
   },
   "favicon": {
     "source": "User supplied Fevicon.png",

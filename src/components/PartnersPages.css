@@ -1,0 +1,20 @@
+.partners-page .page-intro{padding-block:30px 24px}
+.partners-page .page-intro nav{margin-bottom:20px}
+.partners-page .page-intro h1{font-size:clamp(2.25rem,4vw,3.5rem);line-height:1.2;letter-spacing:-.025em;margin-bottom:14px}
+.partners-page .page-intro .lead{font-size:1rem;line-height:1.75}
+.partners-page .page-body{padding-top:24px}
+.partners-page .edition-context{margin-bottom:24px;padding-bottom:20px}
+.partners-page .all-partners .partner-role{border:0;border-top:1px solid var(--line);padding:22px 16px 14px}
+.partners-page .all-partners .partner-role h2{color:#17271d;font-size:1rem;line-height:1.6;font-weight:600;min-height:26px;margin-bottom:16px}
+.partners-page .all-partners .partner-role-logos .partner-logo{padding:12px;border:0;height:144px;min-width:0;background:#fff}
+.partners-page .all-partners .partner-role-logos .partner-logo>img{max-height:100px;width:auto;height:auto;object-fit:contain}
+.partners-page .all-partners .partner-government .partner-role-logos{grid-template-columns:repeat(4,minmax(0,1fr))}
+.partners-page .all-partners .partner-government .partner-logo{height:220px}
+.partners-page .all-partners .partner-government .partner-logo>img{max-height:180px}
+.partners-page .all-partners .partner-government .partner-logo{flex-direction:column;gap:12px;height:auto;min-height:270px}
+.ministry-name{display:block;font-size:.8125rem;line-height:1.6;text-align:center;color:#17271d;max-width:28ch}
+.partners-page .partners-contact{margin-top:40px;padding-top:30px;border-top:1px solid var(--line)}
+.partners-contact h2{font-size:clamp(1.5rem,2.5vw,2rem);line-height:1.3;margin-bottom:16px}.partners-contact p{color:var(--muted);max-width:65ch;line-height:1.8}.partners-contact>div{display:flex;gap:14px;flex-wrap:wrap;margin-top:24px}
+.partner-original-link{margin-top:32px}.partner-original-link a{display:inline-flex;align-items:center;gap:10px;font-size:.9375rem;color:#075e24;min-height:44px;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1023px){.partners-page .all-partners .partner-role-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.partners-page .all-partners .partner-role-wide .partner-role-logos{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:767px){.partners-page .all-partners .partner-role-grid{gap:20px 16px}.partners-page .all-partners .partner-role{padding:18px 6px 10px}.partners-page .all-partners .partner-role h2{font-size:.875rem;min-height:44px}.partners-page .all-partners .partner-role-logos .partner-logo{padding:6px;height:116px}.partners-page .all-partners .partner-role-wide .partner-role-logos,.partners-page .all-partners .partner-government .partner-role-logos{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.partners-page .all-partners .partner-government .partner-logo{height:auto;min-height:230px}.partners-page .all-partners .partner-government .partner-logo>img{max-height:150px}.partners-contact .button{font-size:.875rem;padding:12px 16px}}

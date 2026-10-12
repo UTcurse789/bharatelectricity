@@ -1,0 +1,21 @@
+.nav-dropdown:has(.nav-subgroup){width:280px;overflow:visible;max-height:none}
+.nav-subgroup{position:relative}
+.nav-subgroup>button{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;border:0;background:none;padding:11px 12px;min-height:44px;font-size:.86rem;line-height:1.5;font-weight:400;text-align:left;color:inherit}
+.nav-subgroup>button:hover,.nav-subgroup>button[aria-expanded=true]{background:var(--accent-tint);color:var(--accent)}
+.nav-council-links{position:absolute;left:calc(100% + 8px);top:-8px;width:250px;background:#fff;border:1px solid var(--line);padding:8px;box-shadow:0 10px 26px #08752c0b}
+.nav-council-links a{min-height:44px}
+.mobile-nav .nav-subgroup>button{padding:11px 16px;font-size:.94rem}
+.mobile-nav .nav-council-links{position:static;width:auto;border:0;border-left:2px solid var(--orange);margin:0 0 12px 16px;box-shadow:none;background:var(--accent-tint);padding:4px}
+.mobile-nav .nav-council-links a{font-size:.86rem;padding:12px}
+.nav-subgroup-row{display:flex;align-items:stretch}
+.nav-subgroup-row>a{flex:1;min-width:0}
+.nav-subgroup-row>.nav-submenu-toggle{border:0;background:none;padding:10px;min-width:44px;min-height:44px;display:grid;place-items:center}
+.nav-subgroup-row:hover,.nav-subgroup-row:has(button[aria-expanded=true]){background:var(--accent-tint);color:var(--accent)}
+.nav-dropdown.exhibition-dropdown{width:290px;max-height:var(--dropdown-max-height,calc(100dvh - 180px));overflow:auto}
+.exhibition-dropdown .nav-submenu-links{position:static;width:auto;margin:0 0 8px 12px;padding:4px;border:0;border-left:2px solid var(--orange);box-shadow:none;background:var(--accent-tint)}
+.exhibition-dropdown .nav-submenu-links a{font-size:.81rem}
+@media(max-width:1279px){
+ .site-header .mobile-nav{position:absolute;inset:100% 0 auto;z-index:2;max-height:var(--mobile-nav-height,calc(100dvh - 155px));overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;box-shadow:0 12px 24px #1023181a}
+ .mobile-nav-backdrop{position:fixed;inset:var(--mobile-nav-top,155px) 0 0;z-index:1;border:0;border-radius:0;background:#08140d66;touch-action:none;padding:0;cursor:default}
+ .mobile-nav-backdrop:active{transform:none}
+}

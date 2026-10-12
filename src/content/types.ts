@@ -4,6 +4,6 @@ export interface Person {id:string;name:string;photo:string;source:string}
 export interface Appearance {personId:string;edition:number;kind:string;role:string;designation:string}
 export interface Session {id:string;day:number;time:string;title:string;duration:string;tracks:string[];description:string;source:string}
 export interface Article {id:string;title:string;date:string;summary:string;image:string;source:string}
-export interface Photo {src:string;alt:string;edition:number}
+export interface Photo {src:string;alt:string;edition:number;category?:string;caption?:string}
 export interface Section {title:string;body:string;items?:string[];link?:{label:string;href:string}}
-export interface ContentPage {path:string;title:string;intro:string;category:string;sections:Section[];kind?:string;image?:string}
+export interface ContentPage {path:string;title:string;intro:string;category:string;sections:Section[];kind?:string;image?:string;edition?:number}

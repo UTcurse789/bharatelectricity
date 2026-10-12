@@ -1,0 +1,66 @@
+{
+  "photos": [
+    {
+      "src": "/assets/inaugurations/2024-24.webp",
+      "alt": "Shri Pralhad Joshi and dignitaries at the 2024 inauguration ceremony",
+      "caption": "Shri Pralhad Joshi and dignitaries at the 2024 inauguration ceremony",
+      "edition": 2024,
+      "category": "Inauguration",
+      "width": 1800,
+      "height": 1200,
+      "person": "Shri Pralhad Joshi",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczNPJthnNsjocexgDAkJWP2Q2rFK_Pxgir57fSLmufx8ZOKiPUbMEs1a9t7iUZP72uGkJ0SwEDa7MGw5tX4afyNLk9wlPEZoUWbHK3flnNmaVULRsls=w2000-h1400-no",
+      "sourceAlbum": "https://photos.app.goo.gl/gJk2Wdu3nVE87hFe8",
+      "verifiedAlbumTitle": "Bharat Electricity 2024 - Conference",
+      "verificationDate": "2026-10-12"
+    },
+    {
+      "src": "/assets/inaugurations/2024-26.webp",
+      "alt": "Shri Pralhad Joshi on stage during the 2024 inaugural session",
+      "caption": "Shri Pralhad Joshi on stage during the 2024 inaugural session",
+      "edition": 2024,
+      "category": "Inauguration",
+      "width": 933,
+      "height": 1400,
+      "person": "Shri Pralhad Joshi",
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczMU8cHV_YrQrD_ezHB73RY7ftC_utIFoHrrL-j81MAgOlXuSDcFhXzfRHoduhFB9ALDCstfiwugZSj4c7NoIoLhLxELrsg6phGOGx-si1VHehvuhHk=w2000-h1400-no",
+      "sourceAlbum": "https://photos.app.goo.gl/gJk2Wdu3nVE87hFe8",
+      "verifiedAlbumTitle": "Bharat Electricity 2024 - Conference",
+      "verificationDate": "2026-10-12"
+    },
+    {
+      "src": "/assets/inaugurations/2025-7.webp",
+      "alt": "Ceremonial lamp lighting at the 2025 inauguration",
+      "caption": "Ceremonial lamp lighting at the 2025 inauguration",
+      "edition": 2025,
+      "category": "Inauguration",
+      "width": 1800,
+      "height": 1200,
+      "person": null,
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczMqg0wjyXT9wXz3Kz15q40tVBFiORXx72-DcswotfHSIYB03T32xc82PpywcpKgBlZjIU1bJAXifr7eVRFwNX8JUAS1H6Awu1b9OwPVBLpfBNQ0uPs=w2000-h1400-no",
+      "sourceAlbum": "https://photos.app.goo.gl/LdDGSEzkTrC4wWFc8",
+      "verifiedAlbumTitle": "Bharat Electricity 2025 - Conference",
+      "verificationDate": "2026-10-12"
+    },
+    {
+      "src": "/assets/inaugurations/2025-8.webp",
+      "alt": "Dignitaries at the 2025 inaugural ceremony",
+      "caption": "Dignitaries at the 2025 inaugural ceremony",
+      "edition": 2025,
+      "category": "Inauguration",
+      "width": 1800,
+      "height": 1200,
+      "person": null,
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczMPEJVv3F1pWzCBkAfiRgx437MJmqUC6S5Jd1X1KBewcoSPp0gbeKUvlrQsytJ35_8xgs5dd64TdpJArnaTq_tW6UK1BT8szCztAkBDy1CCHNZsLsU=w2000-h1400-no",
+      "sourceAlbum": "https://photos.app.goo.gl/LdDGSEzkTrC4wWFc8",
+      "verifiedAlbumTitle": "Bharat Electricity 2025 - Conference",
+      "verificationDate": "2026-10-12"
+    }
+  ],
+  "pending": [
+    {
+      "edition": 2026,
+      "reason": "No verified inauguration photograph was available in the organiser albums; only Governing Council meeting photographs are currently supplied."
+    }
+  ]
+}

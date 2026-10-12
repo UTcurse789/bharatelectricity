@@ -1,33 +1,30 @@
 'use client';
+import {Children,useEffect,useRef,useState,type ReactNode,type KeyboardEvent} from 'react';
 
-import {useEffect,useRef,useState,type CSSProperties} from 'react';
-
-export function LegacyYearNavigation({editions}:{editions:{year:number;label:string}[]}){
- const [active,setActive]=useState(editions[0]?.year);
- const [offset,setOffset]=useState(185);
- const nav=useRef<HTMLElement>(null);
+export function LegacyYearNavigation({editions,children}:{editions:{year:number;label:string}[];children:ReactNode}) {
+ const [active,setActive]=useState(0);
+ const tabs=useRef<HTMLDivElement>(null);
  useEffect(()=>{
-  const header=document.querySelector<HTMLElement>('.site-header');
-  const articles=editions.map(edition=>document.getElementById('legacy-'+edition.year)).filter((article):article is HTMLElement=>!!article);
-  let observer:IntersectionObserver|undefined;
-  const measure=()=>{
-   const offset=(header?.getBoundingClientRect().height||160)+20;
-   const top=Math.min(offset+120,innerHeight-2);
-   setOffset(offset);
-   observer?.disconnect();
-   observer=new IntersectionObserver(entries=>{
-    const current=entries.find(entry=>entry.isIntersecting);
-    if(current)setActive(Number(current.target.id.replace('legacy-','')));
-   },{rootMargin:`-${top}px 0px -${Math.max(0,innerHeight-top-1)}px 0px`,threshold:0});
-   articles.forEach(article=>observer?.observe(article));
+  const sync=()=>{
+   const year=Number(window.location.hash.match(/^#legacy-(\d{4})(?:-|$)/)?.[1]);
+   const index=editions.findIndex(edition=>edition.year===year);
+   if(index>=0)setActive(index);
   };
-  measure();
-  const resize=new ResizeObserver(measure);
-  if(header)resize.observe(header);
-  window.addEventListener('resize',measure);
-  return()=>{observer?.disconnect();resize.disconnect();window.removeEventListener('resize',measure);};
+  sync();window.addEventListener('hashchange',sync);
+  return()=>window.removeEventListener('hashchange',sync);
  },[editions]);
- return <nav ref={nav} className="legacy-year-rail" aria-label="Edition year" style={{'--legacy-nav-top':offset+'px'} as CSSProperties}>
-  {editions.map(edition=><a key={edition.year} href={'#legacy-'+edition.year} aria-current={active===edition.year?'location':undefined} onClick={()=>setActive(edition.year)}><strong>{edition.year}</strong><span>{edition.label}</span></a>)}
- </nav>;
+ const select=(index:number)=>{setActive(index);history.replaceState(null,'','#legacy-'+editions[index].year);};
+ const navigate=(event:KeyboardEvent<HTMLButtonElement>,index:number)=>{
+  let next=index;
+  if(event.key==='ArrowRight')next=(index+1)%editions.length;
+  else if(event.key==='ArrowLeft')next=(index+editions.length-1)%editions.length;
+  else if(event.key==='Home')next=0;
+  else if(event.key==='End')next=editions.length-1;
+  else return;
+  event.preventDefault();select(next);tabs.current?.querySelectorAll<HTMLButtonElement>('button')[next]?.focus();
+ };
+ return <>
+  <div ref={tabs} className="legacy-year-tabs" role="tablist" aria-label="Edition year">{editions.map((edition,index)=><button key={edition.year} id={'legacy-year-tab-'+edition.year} role="tab" aria-selected={active===index} aria-controls={'legacy-year-panel-'+edition.year} tabIndex={active===index?0:-1} onClick={()=>select(index)} onKeyDown={event=>navigate(event,index)}>{edition.year}<span>{edition.label}</span></button>)}</div>
+  <div className="legacy-editions">{Children.toArray(children).map((child,index)=><div key={editions[index].year} id={'legacy-year-panel-'+editions[index].year} role="tabpanel" aria-labelledby={'legacy-year-tab-'+editions[index].year} tabIndex={0} hidden={active!==index}>{child}</div>)}</div>
+ </>;
 }

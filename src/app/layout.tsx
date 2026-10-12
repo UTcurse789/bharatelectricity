@@ -1,5 +1,4 @@
 ﻿import {SmoothScroll} from '@/components/SmoothScroll';
-import {ScrollEffects} from '@/components/ScrollEffects';
 import type {Metadata} from 'next';
 import type {ReactNode} from 'react';
 import {Header} from '@/components/Header';
@@ -8,6 +7,7 @@ import {Footer} from '@/components/Footer';
 import {site} from '@/content/site';
 import 'lenis/dist/lenis.css';
 import './globals.css';
+import './interaction.css';
 
 export const metadata: Metadata = {
  metadataBase: new URL(site.origin),
@@ -19,5 +19,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}: {children: ReactNode}) {
- return <html lang="en"><head><link rel="preload" href="/fonts/outfit.woff2" as="font" type="font/woff2" crossOrigin="anonymous"/></head><body suppressHydrationWarning>{/* Browser extensions can add body attributes before React hydrates. */}<SmoothScroll/><ScrollEffects/><a href="#main-content" className="skip-link">Skip to main content</a><GovernmentBanner/><Header/><main id="main-content">{children}</main><Footer/></body></html>;
+ return <html lang="en"><head><link rel="preload" href="/fonts/montserrat.woff2" as="font" type="font/woff2" crossOrigin="anonymous"/></head><body suppressHydrationWarning>{/* Browser extensions can add body attributes before React hydrates. */}<SmoothScroll/><a href="#main-content" className="skip-link">Skip to main content</a><GovernmentBanner/><Header/><main id="main-content">{children}</main><Footer/></body></html>;
 }

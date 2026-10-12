@@ -1,30 +1,39 @@
-/* The footage, scrim, and content form three local layers. */
-/* Preserve the event's Outfit typography. Design variance 6, motion intensity 6, visual density 3. */
-.video-hero{position:relative;isolation:isolate;overflow:hidden;background:#181818;color:#fff8f1;height:clamp(560px,calc(100svh - 160px),860px)}
+.video-hero{position:relative;isolation:isolate;overflow:clip;background:#101b17;color:#fff;min-height:740px}
 .video-hero-footage,.video-hero-shade,.video-hero-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.video-hero-footage{object-fit:cover}
-.video-hero-shade{background:linear-gradient(90deg,rgba(0,0,0,.42),rgba(0,0,0,.16) 75%),linear-gradient(0deg,rgba(0,0,0,.3),transparent 45%);pointer-events:none}
-.video-hero-layout{position:relative;height:100%;padding-block:64px 32px;display:grid;grid-template-columns:1fr auto;grid-template-rows:1fr auto;align-items:end;gap:36px}
-.video-hero-copy{grid-column:1/-1;align-self:center;max-width:1050px}
-.home-page .video-hero h1{color:inherit;font-size:clamp(3.1rem,6.6vw,6.6rem);font-weight:650;letter-spacing:-.045em;line-height:1.04;margin:0 0 26px}
-.video-hero .fold-text{line-height:1.04}
-.video-hero .fold-text-line{display:block}
-.video-hero-title-line{display:block}
-@media(min-width:768px) and (prefers-reduced-motion:no-preference){.video-hero-title-line{animation:hero-title-enter 650ms var(--motion-ease) both}.video-hero-title-line+span{animation-delay:100ms}@keyframes hero-title-enter{from{transform:translate3d(0,14px,0)}to{transform:translate3d(0,0,0)}}}
-.video-hero-tagline{font-size:clamp(.8rem,1.25vw,1.1rem);font-weight:650;letter-spacing:.1em;line-height:1.65;margin:0;max-width:44ch;text-shadow:0 1px 8px #181818}
-.video-hero-announcement{position:relative;width:132px;height:132px;justify-self:start}
-.video-hero .video-hero-circle{position:relative;width:132px;height:132px;margin:0;color:inherit;font-weight:650}
-.video-hero .video-hero-circle span{font-size:13px;font-weight:650;transition:none}
-.video-hero-circle-year{position:absolute;inset:0;display:grid;place-items:center;font-size:1.3rem;font-weight:600;pointer-events:none}
-.video-hero-playback{display:grid;place-items:center;width:48px;height:48px;border:1px solid #ffffff70;background:#181818aa;color:#fff8f1;align-self:end;justify-self:end;cursor:pointer;transition:background 180ms ease}
-.video-hero-playback:hover{background:#181818}
-.video-hero-playback:focus-visible{outline:2px solid #fff8f1;outline-offset:4px}
+.video-hero-shade{background:linear-gradient(90deg,#07110ef2 0%,#07110ec7 58%,#07110e70 100%);pointer-events:none}
+.video-hero-layout{position:relative;min-height:inherit;padding-block:64px;display:flex;align-items:center}
+.video-hero-copy{width:100%;max-width:1000px}
+.home-page .video-hero h1{color:#fff;font-size:clamp(2.5rem,4.6vw,4.25rem);font-weight:700;letter-spacing:-.025em;line-height:1.12;margin:0 0 14px}
+.video-hero-colocated{color:#fff;font-size:1.125rem;font-weight:600;line-height:1.6;margin:0 0 24px}
+.video-hero-colocated span{padding-inline:8px}
+.video-hero-event-info{margin:0 0 32px;color:#fff;line-height:1.7}
+.video-hero-event-info strong,.video-hero-event-info>span{display:block}
+.video-hero-event-info strong{font-size:1.125rem;font-weight:700;letter-spacing:.03em;margin-bottom:4px}
+.video-hero-event-info>span{font-size:.875rem;font-weight:600;letter-spacing:.02em}
+.home-page .video-hero .video-hero-theme{color:#ffad75;font-size:clamp(1.875rem,3vw,2.75rem);font-weight:700;line-height:1.2;letter-spacing:-.025em;margin:0 0 14px;max-width:26ch}
+.video-hero-subtheme{font-size:clamp(1.25rem,2vw,1.625rem);font-weight:600;line-height:1.5;color:#fff;margin:0 0 14px}
+.video-hero-pillars{font-size:1rem;font-weight:600;line-height:1.8;color:#fff;margin:0 0 16px;max-width:65ch}
+.video-hero-positioning{font-size:1rem;line-height:1.8;color:#fff;max-width:65ch;margin:0 0 22px}
+.video-hero-actions{display:flex;flex-wrap:wrap;gap:20px;align-items:center;margin-top:28px}
+.video-hero-cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 28px;font-weight:600;font-size:1rem;line-height:1.5;text-align:center;transition:background-color var(--motion) ease}
+.video-hero-cta svg{flex-shrink:0}
+.video-hero-cta-delegate{background:var(--orange);color:#102318}
+.video-hero-cta-delegate:hover{background:#ff7a2e}
+.video-hero-cta-visitor{background:var(--accent);color:#fff}
+.video-hero-cta-visitor:hover{background:var(--accent-hover)}
+.video-hero-footage{opacity:0;pointer-events:none}.video-hero-footage[data-started=true]{opacity:1}
+.video-hero :focus-visible{outline:3px solid #fff;outline-offset:5px}
+@media(max-width:1023px){.video-hero-copy{max-width:800px}.video-hero-pillars{max-width:58ch}}
 @media(max-width:767px){
- .video-hero{height:clamp(500px,calc(100svh - 145px),700px)}
- .video-hero-layout{padding-block:42px 24px;gap:28px}
- .home-page .video-hero h1{font-size:clamp(2.1rem,9.6vw,4.6rem);margin-bottom:22px}
- .video-hero-tagline{max-width:30ch;letter-spacing:.075em;font-size:.79rem}
- .video-hero-announcement,.video-hero .video-hero-circle{width:112px;height:112px}
- .video-hero .video-hero-circle span{font-size:11px}
- .video-hero-circle-year{font-size:1.1rem}
+ .video-hero{min-height:0}
+ .video-hero-layout{padding-block:44px;min-height:0}
+ .home-page .video-hero h1{font-size:clamp(1.875rem,8vw,3rem);line-height:1.15;margin-bottom:14px}
+ .video-hero-colocated{font-size:.9375rem;line-height:1.8;margin-bottom:20px}.video-hero-colocated span{padding-inline:2px}
+ .video-hero-event-info{margin-bottom:26px}
+ .video-hero-event-info strong{font-size:1rem}.video-hero-event-info>span{font-size:.8125rem;line-height:1.8;max-width:38ch}
+ .home-page .video-hero .video-hero-theme{font-size:clamp(1.625rem,7vw,2.25rem);line-height:1.25;margin-bottom:14px}
+ .video-hero-subtheme{font-size:1.125rem;line-height:1.6}
+ .video-hero-pillars,.video-hero-positioning{font-size:.9375rem;line-height:1.8}
+ .video-hero-actions{flex-direction:column;align-items:stretch;gap:12px;margin-top:24px}
+ .video-hero-cta{width:100%;padding-inline:20px}
 }

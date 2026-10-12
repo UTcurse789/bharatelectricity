@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 
-const LABEL_FONT = '10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace';
+const LABEL_FONT = '400 10px Montserrat, sans-serif';
 const FALLOFF_STEPS = 8;
 const SPRING = 320;
 const DAMPING = 22;

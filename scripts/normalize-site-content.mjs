@@ -12,7 +12,8 @@ function normalize(value,key='') {
  return value;
 }
 for(const file of await fs.readdir('src/content')) {
- if(!file.endsWith('.json'))continue;
+ // Authoritative, archived Word content keeps its original wording and URLs.
+ if(!file.endsWith('.json')||file==='exhibitor-document.json')continue;
  const filename='src/content/'+file;const original=await fs.readFile(filename,'utf8');
  const content=normalize(JSON.parse(original));
  if(file==='reference-pages.json')for(const page of content)for(const section of page.sections){

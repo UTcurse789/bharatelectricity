@@ -1,0 +1,13 @@
+.speaking-page{background:#fff}
+.speaking-section{padding-block:56px 72px}
+.speaking-section>h2{font-size:clamp(1.75rem,2.6vw,2.5rem);color:#173b28;margin:0 0 36px;padding-bottom:24px;border-bottom:1px solid #dce4dd}
+.speaking-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:start}
+.speaking-copy h3{font-size:1.5rem;line-height:1.4;letter-spacing:-.025em;margin:0 0 18px}
+.speaking-copy p{font-size:1rem;line-height:1.8;color:#536359}
+.speaking-copy img{display:block;width:100%;height:auto;margin-top:24px}
+.speaking-page .exhibition-form{min-width:0;padding:24px;border:1px solid #dce4dd;border-top:3px solid #f56a16;background:#fff}
+.speaking-page .exhibition-form h2{font-size:1.25rem;line-height:1.5;letter-spacing:-.02em;margin:0 0 20px}
+.speaking-page .exhibition-form iframe{display:block;width:100%;background:#fff}
+.speaking-page .exhibition-form .text-link{display:inline-flex;gap:10px;align-items:center;min-height:44px;margin-top:16px;font-size:.875rem}
+@media(max-width:1023px){.speaking-layout{gap:28px}}
+@media(max-width:767px){.speaking-section{padding-block:36px 48px}.speaking-layout{grid-template-columns:1fr;gap:32px}.speaking-copy h3{font-size:1.25rem}.speaking-copy p{font-size:.9375rem}.speaking-page .exhibition-form{padding:18px}}

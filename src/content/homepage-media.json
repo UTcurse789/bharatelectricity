@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "videoSrc": "/assets/bharat-electricity-2027.mp4",
+    "poster": "/assets/bharat-electricity-2027-poster.webp",
+    "posterAlt": "The Yashobhoomi convention venue in New Delhi",
+    "title": "Bharat Electricity archive event film",
+    "status": "archive-preview-available; awaiting-verified-2026-full-length-film"
+  },
+  "awards": {
+    "src": "/assets/legacy-2025/awards-12.webp",
+    "width": 800,
+    "height": 533,
+    "alt": "Award recipients at the 2025 Bharat Electricity awards ceremony",
+    "edition": 2025,
+    "sourceAlbum": "https://photos.app.goo.gl/B84DWBDPtEAD4tK57",
+    "status": "awaiting-2026-awards-photograph"
+  },
+  "power": {
+    "src": "/assets/exhibition-2025-082.webp",
+    "alt": "Electrical control and power equipment on the exhibition floor",
+    "edition": 2025
+  },
+  "photos": [
+    {
+      "src": "/assets/edition-2026/council-3.webp",
+      "width": 1800,
+      "height": 1202,
+      "alt": "Energy industry leaders meeting at the 2026 Governing Council gathering",
+      "label": "Connecting the energy community",
+      "edition": 2026,
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczPOREPA_apuRkRyE-Saui1dZUGfu-TmEO7SDJaLgkKiSminVMLxyNIsW3Xz8k6yf2snxKzTjZY6UXpBpIlsJhz4vgA7dqv5IB2t8RA4CLrUTyBVN5I=w2000-h1400-no",
+      "sourceAlbum": "https://photos.app.goo.gl/dkJmB5x7vYMugAsg7"
+    },
+    {
+      "src": "/assets/edition-2026/council-5.webp",
+      "width": 1800,
+      "height": 1202,
+      "alt": "Delegates greeting one another at the 2026 Governing Council meeting",
+      "label": "Building lasting partnerships",
+      "edition": 2026,
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczMp6pKD5gL426ql6u6-Z5o4EL-r0fRfs-gbz7GI559H5uXyxlsnUn9C6NWeOz2iRT16hdnCZNJ4UeccIHR4HI3plO1GInT5tfw_32Oyw-xXzziVDrs=w2000-h1400-no",
+      "sourceAlbum": "https://photos.app.goo.gl/dkJmB5x7vYMugAsg7"
+    },
+    {
+      "src": "/assets/edition-2026/council-6.webp",
+      "width": 1800,
+      "height": 1202,
+      "alt": "The event team discussing the 2026 programme at the Governing Council meeting",
+      "label": "Shaping the conversation",
+      "edition": 2026,
+      "source": "https://lh3.googleusercontent.com/pw/AP1GczNiOd9mC79rLoonsvymCQCd-_MbYE9dZI36LXwx-kDu97d3eaX4DfEqaavcPt_gr4YRP0MhrIZI5RkuwQN0ODYb_14phABMaE0Lhywqd2GZ3518SSc=w2000-h1400-no",
+      "sourceAlbum": "https://photos.app.goo.gl/dkJmB5x7vYMugAsg7"
+    }
+  ]
+}

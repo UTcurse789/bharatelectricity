@@ -438,7 +438,7 @@ const paintFace = (canvas, image, color, fit, label, role) => {
   if (image) drawFitted(ctx, image, width - margin * 2, photoHeight, fit, true);
   else {
     ctx.fillStyle = '#eef5ee'; ctx.fillRect(0, 0, width - margin * 2, photoHeight);
-    ctx.fillStyle = '#08752c'; ctx.font = '700 ' + width * .2 + 'px Outfit, sans-serif';
+    ctx.fillStyle = '#08752c'; ctx.font = '700 ' + width * .2 + 'px Montserrat, sans-serif';
     ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
     ctx.fillText(label.split(' ').map(word => word[0]).join(''), (width - margin * 2) / 2, photoHeight / 2);
   }
@@ -447,12 +447,12 @@ const paintFace = (canvas, image, color, fit, label, role) => {
   const text = (value, y, fontSize, weight, ink) => {
     ctx.fillStyle = ink;
     let size = fontSize;
-    do {ctx.font = weight + ' ' + size + 'px Outfit, sans-serif'; size--;} while (ctx.measureText(value).width > width * .88 && size > 18);
+    do {ctx.font = weight + ' ' + size + 'px Montserrat, sans-serif'; size--;} while (ctx.measureText(value).width > width * .88 && size > 18);
     ctx.fillText(value, width / 2, height * y);
   };
-  text(label, .815, width * .065, 750, '#17251c');
-  text(role || '', .872, width * .039, 500, '#5b665f');
-  text('BHARAT ELECTRICITY', .946, width * .03, 800, '#08752c');
+  text(label, .815, width * .065, 700, '#17251c');
+  text(role || '', .872, width * .039, 400, '#5b665f');
+  text('BHARAT ELECTRICITY', .946, width * .03, 700, '#08752c');
 };
 
 const paintStrap = (canvas, image, color) => {
