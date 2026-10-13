@@ -1,7 +1,7 @@
 import {HomePartnerLogoLoop} from './HomePartnerLogoLoop';
 import Image from 'next/image';
 import Link from 'next/link';
-import {ArrowUpRight} from '@phosphor-icons/react/dist/ssr';
+import {ArrowUpRight, CaretRight} from '@phosphor-icons/react/dist/ssr';
 import {EventCarousel} from './EventCarousel';
 import {VideoHero} from './VideoHero';
 import {EnergyIntroduction} from './EnergyIntroduction';
@@ -9,6 +9,8 @@ import {ContentRail} from './ContentRail';
 import {HomePartnerGrid} from './HomePartnerGrid';
 import {HomeCompanies, HomePeople} from './HomeDirectories';
 import {LogoImage} from './LogoImage';
+import {GlobalVisitors} from './GlobalVisitors';
+import CountUp from './react-bits/CountUp';
 import {paths, site} from '@/content/site';
 import {allPartnerGroups} from '@/content/partners';
 import partnerContent from '@/content/homepage-partners.json';
@@ -30,7 +32,7 @@ export function Home() {
   <EventCarousel/>
 
   <section className="statistics wrap" aria-label="Published promotional statistics">
-   <div className="stats-grid">{site.statistics.map(statistic => <div key={statistic.label}><strong>{statistic.value.toLocaleString('en-IN') + statistic.suffix}</strong><span>{statistic.label}</span></div>)}</div>
+   <div className="stats-grid">{site.statistics.map(statistic => <div key={statistic.label}><strong aria-label={statistic.value.toLocaleString('en-IN') + statistic.suffix}><CountUp to={statistic.value} separator="," duration={2}/><span aria-hidden="true">{statistic.suffix}</span></strong><span>{statistic.label}</span></div>)}</div>
    <p className="small muted">{site.statisticsNote}</p>
   </section>
 
@@ -38,6 +40,16 @@ export function Home() {
    <div className="home-section-heading"><h2 id="moments-heading">2026 Governing Council meeting</h2><p>Photographs from the second Governing Council meeting, bringing together leaders from government, utilities and industry.</p></div>
    <div className="moments-photos">{media.photos.map(photo => <Link href={paths.gallery} key={photo.src}><div><Image src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} sizes="(max-width:767px) 90vw, 30vw"/></div><span>{photo.edition} / {photo.label}<ArrowUpRight size={20} aria-hidden="true"/></span></Link>)}</div>
    <Link className="text-link" href={paths.gallery}>Explore the photo gallery <ArrowUpRight size={19} aria-hidden="true"/></Link>
+  </section>
+
+  <section className="wrap summit-invitation" aria-labelledby="summit-invitation-heading">
+   <div className="summit-invitation-banner">
+    <Image src="/assets/homepage/speaking-opportunities.webp" alt="Industry leaders on stage at a Bharat Electricity summit panel discussion" fill sizes="(max-width:1400px) 92vw, 1280px"/>
+    <div className="summit-invitation-copy">
+     <h2 id="summit-invitation-heading">Be part of the summit</h2>
+     <Link href={paths.speaking} className="button summit-invitation-button">Register now <CaretRight size={20} aria-hidden="true"/></Link>
+    </div>
+   </div>
   </section>
 
   <section className="section event-experience" aria-labelledby="experience-heading"><div className="wrap">
@@ -86,6 +98,8 @@ export function Home() {
   <section className="section wrap global-section" aria-labelledby="global-heading"><div className="home-section-heading"><h2 id="global-heading">A global energy community</h2><p>Explore the organiser's international event portfolio.</p></div>
    <ContentRail label="international events" className="global-rail">{global.logos.map(logo => <Link href="/event/power--energy-series-a-global-portfolio" key={logo.source} className="global-event">{/^POWERGEN/i.test(logo.file) ? <div className="global-event-copy"><strong>{logo.name}</strong><span>18-21 January 2027<br/>Salt Lake City, Utah</span></div> : <LogoImage src={logo.src} alt={logo.name + ': published event artwork'} width={logo.width} height={logo.height} sizes="300px" maxWidth={260} maxHeight={120} loading="lazy"/>}</Link>)}</ContentRail>
   </section>
+
+  <GlobalVisitors/>
 
   <section className="enquiry-cta home-enquiry"><div className="wrap"><div><h2>Exhibition and partnership enquiries</h2><p>Contact the organising team to discuss your participation.</p></div><Link href={paths.contact} className="button">Contact the team <ArrowUpRight size={21} aria-hidden="true"/></Link></div></section>
  </div>;

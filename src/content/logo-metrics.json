@@ -879,6 +879,14 @@
     "contentWidth": 185,
     "contentHeight": 92
   },
+  "/assets/logos/brainstem.webp": {
+    "width": 256,
+    "height": 256,
+    "x": 0,
+    "y": 0,
+    "contentWidth": 256,
+    "contentHeight": 256
+  },
   "/assets/logos/bses-rajdhani-power-limited.webp": {
     "width": 200,
     "height": 200,
@@ -999,6 +1007,14 @@
     "contentWidth": 186,
     "contentHeight": 58
   },
+  "/assets/logos/garuda-pumps.webp": {
+    "width": 315,
+    "height": 121,
+    "x": 7,
+    "y": 0,
+    "contentWidth": 262,
+    "contentHeight": 121
+  },
   "/assets/logos/gautam-solar-ptzl.webp": {
     "width": 200,
     "height": 200,
@@ -1110,6 +1126,14 @@
     "y": 21,
     "contentWidth": 126,
     "contentHeight": 154
+  },
+  "/assets/logos/indigrid.webp": {
+    "width": 179,
+    "height": 49,
+    "x": 0,
+    "y": 0,
+    "contentWidth": 179,
+    "contentHeight": 49
   },
   "/assets/logos/invest-uttar-pradesh-government-uttar-pradesh.webp": {
     "width": 200,

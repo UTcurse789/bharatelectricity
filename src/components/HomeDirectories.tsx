@@ -18,7 +18,7 @@ function Search({label, query, setQuery, count, total}: {label: string; query: s
 export function HomeCompanies({items}: {items: Exhibitor[]}) {
  const [query, setQuery] = useState('');
  const results = items.filter(item => (item.name + ' ' + (item.stand || '')).toLowerCase().includes(query.trim().toLowerCase()));
- return <><Search label="companies" query={query} setQuery={setQuery} count={results.length} total={items.length}/>{results.length ? <InfiniteCardRail key={query} label="participating companies" className="company-rail">{results.map(item => <ExhibitorCard item={item} key={item.id}/>)}</InfiniteCardRail> : <p className="home-directory-empty">No matching companies. Try another name or clear your search.</p>}</>;
+ return <><Search label="companies" query={query} setQuery={setQuery} count={results.length} total={items.length}/>{results.length ? <InfiniteCardRail key={query} label="participating companies" className="company-rail" speed={48}>{results.map(item => <ExhibitorCard item={item} key={item.id}/>)}</InfiniteCardRail> : <p className="home-directory-empty">No matching companies. Try another name or clear your search.</p>}</>;
 }
 
 export function HomePeople({items, council = false}: {items: Member[]; council?: boolean}) {

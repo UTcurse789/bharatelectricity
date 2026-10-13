@@ -1,7 +1,7 @@
 // Source: https://reactbits.dev/r/CountUp-TS-TW.json (MIT). Adapted for visible SSR output and reduced motion.
 'use client';
 
-import { useInView, useMotionValue, useSpring, useReducedMotion } from 'motion/react';
+import { animate, useInView, useMotionValue, useReducedMotion } from 'motion/react';
 import { useCallback, useEffect, useMemo, useRef } from 'react';
 
 interface CountUpProps {
@@ -32,14 +32,6 @@ export default function CountUp({
   const ref = useRef<HTMLSpanElement>(null);
   const reduce = useReducedMotion();
   const motionValue = useMotionValue(direction === 'down' ? to : from);
-
-  const damping = 20 + 40 * (1 / duration);
-  const stiffness = 100 * (1 / duration);
-
-  const springValue = useSpring(motionValue, {
-    damping,
-    stiffness
-  });
 
   const isInView = useInView(ref, { once: true, margin: '0px' });
 
@@ -78,41 +70,33 @@ export default function CountUp({
   }, [from, to, direction, formatValue]);
 
   useEffect(() => {
-    if (reduce && ref.current) ref.current.textContent = formatValue(to);
-    if (isInView && startWhen && !reduce) {
-      if (typeof onStart === 'function') {
-        onStart();
-      }
-
-      const timeoutId = setTimeout(() => {
-        motionValue.set(direction === 'down' ? from : to);
-      }, delay * 1000);
-
-      const durationTimeoutId = setTimeout(
-        () => {
-          if (typeof onEnd === 'function') {
-            onEnd();
-          }
-        },
-        delay * 1000 + duration * 1000
-      );
-
-      return () => {
-        clearTimeout(timeoutId);
-        clearTimeout(durationTimeoutId);
-      };
+    const target = direction === 'down' ? from : to;
+    if (reduce) {
+      if (ref.current) ref.current.textContent = formatValue(target);
+      return;
     }
-  }, [isInView, startWhen, motionValue, direction, from, to, delay, onStart, onEnd, duration, reduce, formatValue]);
+    if (!isInView || !startWhen) return;
 
-  useEffect(() => {
-    const unsubscribe = springValue.on('change', (latest: number) => {
-      if (ref.current && isInView && !reduce) {
-        ref.current.textContent = formatValue(latest);
+    motionValue.set(direction === 'down' ? to : from);
+    if (ref.current) ref.current.textContent = formatValue(motionValue.get());
+    const unsubscribe = motionValue.on('change', latest => {
+      if (ref.current) ref.current.textContent = formatValue(latest);
+    });
+    const animation = animate(motionValue, target, {
+      duration,
+      delay,
+      ease: 'easeOut',
+      onPlay: onStart,
+      onComplete: () => {
+        if (ref.current) ref.current.textContent = formatValue(target);
+        onEnd?.();
       }
     });
-
-    return () => unsubscribe();
-  }, [springValue, formatValue, isInView, reduce]);
+    return () => {
+      animation.stop();
+      unsubscribe();
+    };
+  }, [isInView, startWhen, motionValue, direction, from, to, delay, onStart, onEnd, duration, reduce, formatValue]);
 
   return <span className={className} ref={ref} aria-hidden="true">{formatValue(to)}</span>;
 }

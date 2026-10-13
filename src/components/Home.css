@@ -25,6 +25,15 @@
 .home-page .moments-photos img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}
 .home-page .moments-photos a>span{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:18px;font-size:.9375rem;font-weight:600;line-height:1.5}
 .home-page .moments-photos a:hover>span{text-decoration:underline;text-underline-offset:4px;color:#075e24}
+.home-page .summit-invitation{padding-bottom:76px}
+.home-page .summit-invitation-banner{position:relative;isolation:isolate;overflow:hidden;width:100%;border-radius:8px;background:#14231a;aspect-ratio:1303/423;min-height:360px}
+.home-page .summit-invitation-banner>img{object-fit:cover;object-position:center}
+.home-page .summit-invitation-banner::after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(8,17,24,.86) 0%,rgba(8,17,24,.65) 28%,rgba(8,17,24,.18) 57%,transparent 78%);pointer-events:none}
+.home-page .summit-invitation-copy{position:relative;z-index:2;padding:44px;max-width:560px}
+.home-page .summit-invitation-copy h2{color:#fff;font-size:clamp(2.5rem,4vw,3.5rem);font-weight:500;line-height:1.12;margin:0 0 32px}
+.home-page .summit-invitation .button.summit-invitation-button{background:#fff;color:#075e24;border-color:#fff;border-radius:5px;gap:12px;padding:16px 26px;white-space:nowrap}
+.home-page .summit-invitation .button.summit-invitation-button:hover{background:#edf5ee;color:#075e24;border-color:#edf5ee}
+.home-page .summit-invitation-button:focus-visible{outline:3px solid #fff;outline-offset:5px}
 .home-page .event-experience{background:#f5f7f5}
 .home-page .event-pathways{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
 .home-page .event-pathways>a{display:flex;flex-direction:column;align-items:flex-start;padding:26px 0 0;border-top:3px solid #08752c}
@@ -115,6 +124,7 @@
  .home-page .section{padding-block:48px}.home-page h2{font-size:1.875rem}.home-page .home-section-heading{margin-bottom:28px}.home-page .home-section-heading p{font-size:.9375rem}
  .home-page .statistics{padding-block:32px 0}.home-page .stats-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;padding:0 0 28px}.home-page .stats-grid>div{padding-left:0;border-left:0}.home-page .stats-grid strong{font-size:clamp(1.875rem,8.6vw,2.6rem)}.home-page .stats-grid span:not(strong span){font-size:.8125rem}
  .home-page .moments-photos{grid-template-columns:1fr;gap:28px}.home-page .moments-photos a>span{font-size:.9375rem;padding-top:14px}
+ .home-page .summit-invitation{padding-bottom:48px}.home-page .summit-invitation-banner{display:flex;align-items:flex-end;aspect-ratio:auto;min-height:400px}.home-page .summit-invitation-banner>img{object-position:58% center}.home-page .summit-invitation-banner::after{background:linear-gradient(0deg,rgba(8,17,24,.94),rgba(8,17,24,.7) 32%,rgba(8,17,24,.08) 75%)}.home-page .summit-invitation-copy{padding:28px 24px;max-width:380px}.home-page .summit-invitation-copy h2{font-size:2.125rem;margin-bottom:24px}
  .home-page .event-pathways,.home-page .colocated-event-list{grid-template-columns:1fr;gap:32px}.home-page .event-pathways>a{padding-top:20px}.home-page .event-pathways h3{font-size:1.5rem}.home-page .event-pathways p{margin-bottom:18px}.home-page .colocated-event-list>a{padding-left:18px}
  .home-page .home-initiative-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.home-page .home-initiative-links a{padding:16px 14px;font-size:.9375rem;min-height:60px}
  .logo-loop-controls{align-items:flex-start;font-size:.8125rem}.logo-loop-controls button{flex-shrink:0}.logo-loop-controls>span{max-width:24ch}.logo-loop-item{width:190px;height:110px;padding:14px 18px}.logo-loop-item>img{max-width:154px}.logo-loop-window{padding-block:18px}
@@ -127,6 +137,7 @@
 .home-page .home-government-support .support-logo{min-height:210px}
 .home-page .home-government-support .support-logo>img{max-height:180px}
 .home-page .support-logo-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+@media(min-width:1280px){.home-page .support-logo-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
 .home-page .support-logo{display:flex;align-items:center;justify-content:center;min-width:0;min-height:140px;padding:18px;background:#fff}
 .home-page .support-logo>img{max-width:100%;max-height:110px;width:auto;height:auto;object-fit:contain}
 .home-page .home-focus-states{padding-bottom:32px;border-bottom:1px solid var(--home-line);margin-bottom:32px}
@@ -151,8 +162,8 @@
 .home-page .company-rail .rail-track{grid-auto-rows:380px}
 .home-page .council-rail .rail-track{grid-auto-rows:620px}
 .home-page .speaker-rail .rail-track{grid-auto-rows:520px}
-.home-page .council-rail .infinite-card-window,.home-page .speaker-rail .infinite-card-window,.home-page .global-rail .rail-track{scrollbar-width:none;padding-bottom:8px}
-.home-page .council-rail .infinite-card-window::-webkit-scrollbar,.home-page .speaker-rail .infinite-card-window::-webkit-scrollbar,.home-page .global-rail .rail-track::-webkit-scrollbar{display:none}
+.home-page .company-rail .infinite-card-window,.home-page .council-rail .infinite-card-window,.home-page .speaker-rail .infinite-card-window,.home-page .global-rail .rail-track{scrollbar-width:none;padding-bottom:8px}
+.home-page .company-rail .infinite-card-window::-webkit-scrollbar,.home-page .council-rail .infinite-card-window::-webkit-scrollbar,.home-page .speaker-rail .infinite-card-window::-webkit-scrollbar,.home-page .global-rail .rail-track::-webkit-scrollbar{display:none}
 .home-page .person-card h3,.home-page .company-card h3{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
 .home-page .person-card>p:not(.person-role){display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
 .home-page .person-card .person-role{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}

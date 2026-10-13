@@ -2,8 +2,9 @@ import fs from 'node:fs/promises';
 import sharp from 'sharp';
 const read=async name=>JSON.parse(await fs.readFile('src/content/'+name+'.json','utf8'));
 const [reference,imported,home,roster]=await Promise.all(['reference-pages','imported','homepage-partners','reference-rosters'].map(read));
+const additions=await read('exhibitor-additions');
 const sources=new Set(reference.flatMap(p=>p.sections.flatMap(s=>s.images.filter(i=>i.kind==='logo'&&!i.unavailable).map(i=>i.src))));
-for(const company of [...imported.companies,...imported.partnerCompanies])if(company.logo)sources.add(company.logo);
+for(const company of [...imported.companies,...imported.partnerCompanies,...additions.companies])if(company.logo)sources.add(company.logo);
 for(const row of roster)if(row.image)sources.add(row.image);
 function collect(value){if(Array.isArray(value))value.forEach(collect);else if(value&&typeof value==='object'){if(value.src?.startsWith('/assets/'))sources.add(value.src);Object.values(value).forEach(collect);}}
 collect(home);

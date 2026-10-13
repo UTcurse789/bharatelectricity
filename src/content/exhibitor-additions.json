@@ -1,0 +1,147 @@
+{
+  "note": "2026 participation supplied by the user. Stand, sector and country allocations were not supplied. Knifedge Lab already appears under BETTER DRONES (Knifedge Lab Technologies).",
+  "companies": [
+    {
+      "id": "brainstem",
+      "name": "Brainstem Technologies",
+      "logo": "/assets/logos/brainstem.webp",
+      "source": "https://images.yourstory.com/cs/images/companies/8258b3dfb7e2-BrainstemLogo-1620201442918.jpg"
+    },
+    {
+      "id": "coal-india",
+      "name": "Coal India",
+      "logo": "/assets/homepage/energy-security-partner-20261-2382379bdb.webp",
+      "source": "https://www.coalindia.in/",
+      "website": "https://www.coalindia.in/"
+    },
+    {
+      "id": "edf",
+      "name": "Électricité de France (EDF)",
+      "logo": "/assets/homepage/web-nuclearx-partner-edf-2-2c7d74b0ce.webp",
+      "source": "https://india.edf.com/en",
+      "website": "https://india.edf.com/en"
+    },
+    {
+      "id": "maharashtra-state",
+      "name": "Maharashtra State (Government of Maharashtra)",
+      "logo": "/assets/homepage/maharstra-1-17c9fce111.webp",
+      "source": "https://energy.maharashtra.gov.in/en/",
+      "website": "https://energy.maharashtra.gov.in/en/"
+    },
+    {
+      "id": "karnataka-state",
+      "name": "Karnataka State (Government of Karnataka)",
+      "logo": "/assets/homepage/5-focus-state-partner-2026-8721c8c615.webp",
+      "source": "https://karnataka.gov.in/english",
+      "website": "https://karnataka.gov.in/english"
+    },
+    {
+      "id": "garuda-pumps",
+      "name": "Garuda Pumps",
+      "logo": "/assets/logos/garuda-pumps.webp",
+      "source": "https://www.garudapumps.com/",
+      "website": "https://www.garudapumps.com/"
+    },
+    {
+      "id": "indigrid",
+      "name": "IndiGrid",
+      "logo": "/assets/logos/indigrid.webp",
+      "source": "https://www.indigrid.co.in/",
+      "website": "https://www.indigrid.co.in/"
+    },
+    {
+      "id": "nasscom",
+      "name": "NASSCOM",
+      "logo": "/assets/homepage/digital-skilling-partner-dc0fc81673.webp",
+      "source": "https://www.sscnasscom.com/",
+      "website": "https://www.sscnasscom.com/"
+    },
+    {
+      "id": "nlc-india",
+      "name": "NLC India",
+      "logo": "/assets/homepage/web-integrated-energy-security-partner-c8153ab989.webp",
+      "source": "https://www.nlcindia.in/",
+      "website": "https://www.nlcindia.in/"
+    }
+  ],
+  "participations": [
+    {
+      "companyId": "brainstem",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "coal-india",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "edf",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "maharashtra-state",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "karnataka-state",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "garuda-pumps",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "indigrid",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "nasscom",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    },
+    {
+      "companyId": "nlc-india",
+      "edition": 2026,
+      "stand": null,
+      "sector": null,
+      "country": null
+    }
+  ],
+  "artworkSources": [
+    {
+      "id": "brainstem",
+      "source": "User-supplied Brainstem Technologies logo URL",
+      "url": "https://images.yourstory.com/cs/images/companies/8258b3dfb7e2-BrainstemLogo-1620201442918.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=256&q=85"
+    },
+    {
+      "id": "garuda-pumps",
+      "url": "https://www.garudapumps.com/images/top-left-logo-1.jpg"
+    },
+    {
+      "id": "indigrid",
+      "url": "https://www.indigrid.co.in/wp-content/themes/indigrid/assets/images/logo.png"
+    }
+  ]
+}

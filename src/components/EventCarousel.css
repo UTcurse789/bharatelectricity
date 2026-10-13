@@ -38,7 +38,7 @@
  .carousel-actions{margin-top:22px;gap:10px}
  .home-page .event-carousel .button{font-size:.875rem;padding:12px 17px;min-height:48px}
  .carousel-report-art,.carousel-feature-photo{max-width:480px;justify-self:center}
- .carousel-feature-photo img,.report-cover>img{max-height:240px;object-fit:contain}
+ .carousel-feature-photo img{max-height:240px;object-fit:contain}
  .carousel-feature-photo figcaption,.report-cover figcaption{font-size:.75rem}
  .carousel-controls{grid-template-columns:minmax(0,1fr);gap:8px}
  .carousel-transport{justify-self:end}

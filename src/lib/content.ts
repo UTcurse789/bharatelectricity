@@ -1,10 +1,11 @@
 import imported from '@/content/imported.json';
+import additions from '@/content/exhibitor-additions.json';
 import type {Company,Participation,Person,Appearance,Session,Article} from '@/content/types';
-export const companies=imported.companies as Company[];
-export const participations=imported.participations as Participation[];
+export const companies=[...imported.companies,...additions.companies] as Company[];
+export const participations=[...imported.participations,...additions.participations] as Participation[];
 export const people=imported.people as Person[];
 export const appearances=imported.appearances as Appearance[];
 export const sessions=imported.sessions as Session[];
 export const articles=imported.articles as Article[];
-export const getExhibitors=()=>participations.map(p=>({...companies.find(c=>c.id===p.companyId)!,...p}));
+export const getExhibitors=()=>participations.map(p=>({...companies.find(c=>c.id===p.companyId)!,...p})).sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}));
 export const getPeople=(kind:string)=>appearances.filter(a=>a.kind===kind).map(a=>({...people.find(p=>p.id===a.personId)!,...a}));

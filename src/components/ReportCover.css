@@ -1,3 +1,5 @@
 .report-cover{margin:0;width:100%;color:#4b5a51}
-.report-cover>img{display:block;width:100%;height:auto;max-height:340px;object-fit:contain}
-.report-cover figcaption{margin-top:12px;font-size:.8125rem;line-height:1.6}
+/* Frame the supplied artwork tightly, excluding its transparent outer margins. */
+.report-cover-artwork{position:relative;width:min(100%,460px);aspect-ratio:398/323;margin-inline:auto;overflow:hidden}
+.report-cover-artwork>img{position:absolute;display:block;width:144.975%;height:134.056%;left:-22.362%;top:-18.266%;max-width:none;max-height:none}
+.report-cover figcaption{margin-top:12px;font-size:.8125rem;line-height:1.6;text-align:center}

@@ -4,7 +4,7 @@ import {Children,useEffect,useRef,useState,type ReactNode} from 'react';
 import {ArrowLeft,ArrowRight,Pause,Play} from '@phosphor-icons/react';
 import './InfiniteCardRail.css';
 
-export function InfiniteCardRail({label,children,className=''}:{label:string;children:ReactNode;className?:string}) {
+export function InfiniteCardRail({label,children,className='',speed=32}:{label:string;children:ReactNode;className?:string;speed?:number}) {
  const root=useRef<HTMLDivElement>(null);
  const windowRef=useRef<HTMLDivElement>(null);
  const track=useRef<HTMLDivElement>(null);
@@ -38,13 +38,13 @@ export function InfiniteCardRail({label,children,className=''}:{label:string;chi
    if(!sequence.current||!windowRef.current||!root.current)return;
    const width=sequence.current.offsetWidth;
    setOverflow(width>windowRef.current.clientWidth+24);
-   root.current.style.setProperty('--card-loop-duration',Math.max(10,width/32)+'s');
+   root.current.style.setProperty('--card-loop-duration',Math.max(10,width/Math.max(1,speed))+'s');
   };
   const observer=new ResizeObserver(update);
   if(sequence.current)observer.observe(sequence.current);
   if(windowRef.current)observer.observe(windowRef.current);
   update();return()=>observer.disconnect();
- },[activated,items.length]);
+ },[activated,items.length,speed]);
  useEffect(()=>{
   duplicate.current?.querySelectorAll<HTMLElement>('a,button,input,[tabindex]').forEach(item=>{item.tabIndex=-1;});
  },[activated,items.length,overflow]);
