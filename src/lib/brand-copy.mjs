@@ -5,5 +5,6 @@ export function brandCopy(text) {
   .replace(/POWERGEN\s+International/gi,'International power generation event')
   .replace(/POWERGEN\s+(Asia|Europe|Africa)/gi,'$1 energy event')
   .replace(/POWERGEN(?:\s+India)?|\bPGID\b/gi,'Bharat Electricity')
+  .replace(/(?:,|&|and)?\s*Indian Utility Week/gi,'')
   .replace(/Bharat Electricity\s*(?:,|·|&|and)\s*Bharat Electricity/gi,'Bharat Electricity');
 }

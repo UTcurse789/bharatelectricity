@@ -55,7 +55,7 @@ export function VideoHero() {
   <div className="video-hero-layout wrap">
    <div className="video-hero-copy">
     <h1 id="video-hero-heading">BHARAT ELECTRICITY</h1>
-    <p className="video-hero-event-info"><strong>{edition.dates.toUpperCase()}</strong><span>{edition.venue.toUpperCase()}, {edition.location.toUpperCase()}</span></p>
+    <p className="video-hero-event-info"><span>{edition.venue.toUpperCase()}, {edition.location.toUpperCase()}</span></p>
     <h2 className="video-hero-theme">INDIA'S NEXT ENERGY ADVANTAGE</h2>
     <p className="video-hero-subtheme">From Capacity to Capability</p>
     <p className="video-hero-pillars">Integrated Systems • State-Led Execution • Global Competitiveness</p>

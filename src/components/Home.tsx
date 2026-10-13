@@ -67,7 +67,7 @@ export function Home() {
   </section>
 
   <section className="section homepage-partners" aria-labelledby="partners-heading"><div className="wrap">
-   <div className="home-section-heading"><span className="home-partner-eyebrow">OUR NETWORK</span><h2 id="partners-heading">Our valued partners</h2><p>Together, shaping the future of energy.</p></div>
+   <div className="home-section-heading"><h2 id="partners-heading">Our valued partners</h2></div>
    <HomePartnerGrid groups={allPartnerGroups}/>
    <Link href={paths.partners} className="text-link">Explore all partners <ArrowUpRight size={19} aria-hidden="true"/></Link>
   </div></section>

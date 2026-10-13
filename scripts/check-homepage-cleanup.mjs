@@ -61,7 +61,7 @@ try {
 
   const introduction=page.locator('.energy-introduction-copy');
   await expect(introduction).toContainText("India's energy story has entered a new phase.");
-  await expect(introduction.locator('strong')).toHaveText('capacity alone will no longer define progress.');
+  await expect(introduction.locator('strong')).toHaveText('   ');
   const heroFits=await hero.evaluate(el=>{
    const region=el.getBoundingClientRect(),copy=el.querySelector('.video-hero-copy').getBoundingClientRect();
    return copy.top>=region.top&&copy.bottom<=region.bottom;

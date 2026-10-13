@@ -53,3 +53,27 @@
  .home-page .home-partner-label{font-size:.8125rem;min-height:52px;margin-bottom:10px}
  .home-page .home-partner-category-half .home-partner-label{font-size:1rem}
 }
+
+/* Formal event-partner board: grouped logos without cards or motion. */
+.home-page .section.homepage-partners{padding-block:44px 64px}
+.home-page .homepage-partners>.wrap{max-width:1060px}
+.home-page .homepage-partners .home-section-heading{margin-bottom:30px}
+.home-page #partners-heading{font-size:.875rem;text-transform:uppercase;letter-spacing:.04em;color:#111;margin:0}
+.home-page .homepage-partners .home-section-heading::after{display:none}
+.home-page .home-partner-grid{gap:34px 28px;margin:0}
+.home-page .home-partner-category{grid-column:span 4;--partner-logo-slot:132px;--partner-logo-gap:18px;background:transparent;border:0;border-radius:0;padding:0;min-height:0}
+.home-page .home-partner-category-featured{grid-column:span 6;box-shadow:none}
+.home-page .home-partner-category-wide{grid-column:1/-1}
+.home-page .home-partner-category-half{grid-column:span 6}
+.home-page .home-partner-category-publication{grid-column:4/10}
+.home-page .home-partner-focus{background:transparent;border:0;margin:0}
+.home-page .home-partner-label,.home-page .home-partner-category-featured .home-partner-label,.home-page .home-partner-category-wide .home-partner-label,.home-page .home-partner-category-publication .home-partner-label,.home-page .home-partner-category-half .home-partner-label{color:#111;font-size:.75rem;font-weight:700;letter-spacing:0;line-height:1.35;min-height:0;margin:0 0 12px}
+.home-page .home-partner-label::after{display:none}
+.home-page .home-partner-logos{overflow:visible}
+.home-page .home-partner-logo-list{gap:var(--partner-logo-gap);flex-wrap:wrap!important;width:100%!important;justify-content:center}
+.home-page .home-partner-box{flex:0 0 var(--partner-logo-slot);height:92px;padding:4px}
+.home-page .home-partner-box>img{max-height:78px}
+.home-page .home-partner-category[data-partner-role="Focus States"]{grid-column:1/-1;--partner-logo-slot:126px}
+.home-page .home-partner-category[data-partner-role="Energy Security Partner"]{grid-column:1/-1;--partner-logo-slot:126px}
+.home-page .home-partner-category[data-partner-role="Host Publication"]{margin-top:4px}
+@media(max-width:767px){.home-page .section.homepage-partners{padding-block:36px 48px}.home-page .home-partner-grid{gap:26px 16px}.home-page .home-partner-category,.home-page .home-partner-category-featured,.home-page .home-partner-category-half{grid-column:span 3;--partner-logo-slot:104px;--partner-logo-gap:12px}.home-page .home-partner-category-wide,.home-page .home-partner-category[data-partner-role="Focus States"],.home-page .home-partner-category[data-partner-role="Energy Security Partner"],.home-page .home-partner-category-publication{grid-column:1/-1}.home-page .home-partner-box{height:74px}.home-page .home-partner-box>img{max-height:62px}.home-page .home-partner-label{font-size:.6875rem}}

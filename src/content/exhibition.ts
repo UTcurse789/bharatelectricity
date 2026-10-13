@@ -32,7 +32,7 @@ export const exhibitionTitles:Record<string,{title:string;intro:string;visitor?:
  [exhibitionPaths.enquiry]:{title:'Make a Stand Enquiry',intro:'Tell the exhibition team about your products, preferred stand format and participation goals.'},
  [exhibitionPaths.reserve]:{title:'Reserve Your Space',intro:'Start a conversation about exhibition space and discuss your requirements with the sales team.'},
  [exhibitionPaths.floor]:{title:'Request the Floor Plan',intro:'Ask the team for the latest approved floor plan and discuss a location that works for your business.'},
- [exhibitionPaths.brochure]:{title:'Request the Event Brochure',intro:'Explore the exhibition, summit and participation opportunities across Bharat Electricity, POWERGEN India and Indian Utility Week.'},
+ [exhibitionPaths.brochure]:{title:'Request the Event Brochure',intro:'Explore exhibition, summit and participation opportunities with Bharat Electricity.'},
  [exhibitionPaths.partnership]:{title:'Request the Partnership Brochure',intro:'Explore brand visibility, thought leadership and opportunities to connect with the energy community.'},
  [paths.manual]:{title:'Exhibitor Manual',intro:'Revisit the published 2026 exhibitor guidance, schedules and stand planning information.'},
  [paths.exhibitors]:{title:'Participants 2026',intro:'Explore the published companies and stand allocations from the completed 2026 edition.'},

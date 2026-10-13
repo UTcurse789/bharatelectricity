@@ -29,7 +29,7 @@ function MediaEnquiries(){
  return <>
   <section className="wrap media-section media-partnerships"><div>
    <p className="media-eyebrow">Reach the energy community</p><h2>Media & association partnerships</h2>
-   <p>Bharat Electricity, POWERGEN India and Indian Utility Week connect decision makers across power generation and the utility industries. Explore opportunities to reach relevant audiences for your advertisers, subscribers and members.</p>
+   <p>Bharat Electricity connects decision makers across power generation and utility industries. Explore opportunities to reach relevant audiences for your advertisers, subscribers and members.</p>
    <h3>How can we help you?</h3><ul>{mediaPartnershipBenefits.map(item=><li key={item}>{item}</li>)}</ul>
    <a className="button" href={enquiryMail(partnership.email,'Media and association partnership enquiry')}>Discuss a media partnership <span aria-hidden="true">↗</span></a>
   </div><figure><Image src="/assets/site-refresh/a35d100fb76894.webp" alt="A media professional filming at an energy exhibition" width={1600} height={1066} sizes="(max-width:767px) 90vw, 45vw" priority/><figcaption>Archive event photography</figcaption></figure></section>
@@ -39,7 +39,7 @@ function MediaEnquiries(){
 
 function PostShowReport(){return <section className="wrap media-section media-report-layout">
  <div className="media-report-copy"><p className="media-eyebrow">2026 edition report</p><h2>Explore the event in review.</h2>
-  <p>Bharat Electricity, POWERGEN India and Indian Utility Week 2026 brought the power and utility community together around technology, industry challenges and the transition to a low-carbon future.</p>
+  <p>Bharat Electricity 2026 brought the power and utility community together around technology, industry challenges and the transition to a low-carbon future.</p>
   <p>Request the post-show report to revisit the exhibition and the conversations connecting the energy industry.</p>
   <figure className="media-report-cover"><Image src={media.report.src} alt={media.report.alt} width={media.report.width} height={media.report.height} sizes="(max-width:767px) 90vw, 45vw" priority/><figcaption>2026 Post-show Report artwork</figcaption></figure>
   <figure className="media-report-photograph"><Image src="/assets/site-refresh/4e88971c387554.webp" alt="Energy industry professionals speaking together at an exhibition stand" width={1600} height={1066} sizes="(max-width:767px) 90vw, 45vw"/><figcaption>Exhibition archive</figcaption></figure>
