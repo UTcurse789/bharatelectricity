@@ -155,9 +155,9 @@ export const legacyEditions:LegacyEdition[]=[{
   ]}
  ],
  days:[
-  {id:'day-1',label:'Day 1',tabLabel:'DAY-1 KEY THEMES',themes:[],sessions:[],images:[]},
-  {id:'day-2',label:'Day 2',tabLabel:'DAY-2 KEY THEMES',themes:[],sessions:[],images:[]},
-  {id:'day-3',label:'Day 3',tabLabel:'DAY-3 KEY THEMES',themes:[],sessions:[],images:[]}
+  {id:'day-1',label:'Day 1',tabLabel:'DAY-1 KEY THEMES',themes:[],sessions:[],images:[{src:'/assets/exhibition-2025-014.webp',alt:'2025 energy event participants on Day 1'},{src:'/assets/exhibition-2025-029.webp',alt:'2025 industry discussions on Day 1'}]},
+  {id:'day-2',label:'Day 2',tabLabel:'DAY-2 KEY THEMES',themes:[],sessions:[],images:[{src:'/assets/exhibition-2025-046.webp',alt:'2025 energy technology showcase on Day 2'},{src:'/assets/exhibition-2025-063.webp',alt:'2025 conference visitors on Day 2'}]},
+  {id:'day-3',label:'Day 3',tabLabel:'DAY-3 KEY THEMES',themes:[],sessions:[],images:[{src:'/assets/exhibition-2025-082.webp',alt:'2025 exhibition conversations on Day 3'},{src:'/assets/exhibition-2025-087.webp',alt:'2025 participants connecting on Day 3'}]}
  ],
  pavilions:[],
  voices:[

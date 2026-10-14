@@ -29,7 +29,7 @@ export function EditionGallery() {
  };
  const selected=allPhotos.filter(photo=>photo.edition===year);
  return <>
-  <div ref={tabs} className="edition-photo-tabs" role="tablist" aria-label="Photo edition">{editionRecords.map((edition,index)=><button key={edition.year} id={'photo-tab-'+edition.year} role="tab" tabIndex={year===edition.year?0:-1} aria-selected={year===edition.year} aria-controls="edition-photo-panel" onClick={()=>select(edition.year)} onKeyDown={event=>navigate(event,index)}>{edition.year}{edition.year===site.edition.year?' · Latest':' · Archive'}</button>)}</div>
+  <div ref={tabs} className="edition-photo-tabs" role="tablist" aria-label="Photo edition">{editionRecords.map((edition,index)=><button key={edition.year} id={'photo-tab-'+edition.year} role="tab" tabIndex={year===edition.year?0:-1} aria-selected={year===edition.year} aria-controls="edition-photo-panel" onClick={()=>select(edition.year)} onKeyDown={event=>navigate(event,index)}>{edition.year}{edition.year===site.edition.year?' · Latest':''}</button>)}</div>
   <div id="edition-photo-panel" role="tabpanel" aria-labelledby={'photo-tab-'+year} tabIndex={0}>
    <h2>{year} photographs</h2>
    {year===2026&&<p>The available photographs show the 2026 Governing Council meetings. Inauguration photographs will be added when available.</p>}

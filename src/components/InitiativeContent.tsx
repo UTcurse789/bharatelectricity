@@ -16,7 +16,6 @@ export function InitiativeContent({path}:{path:string}) {
  const current=initiatives.find(item=>path===paths.initiatives+'/'+item.slug);
  const overview=path===paths.initiatives;
  return <>
-  <nav className="initiative-navigation" aria-label="New Initiatives"><Link href={paths.initiatives} aria-current={overview?'page':undefined}>All initiatives</Link>{initiatives.map(item=><Link key={item.slug} href={paths.initiatives+'/'+item.slug} aria-current={current?.slug===item.slug?'page':undefined}>{item.name}</Link>)}<Link href={paths.startups} aria-current={path===paths.startups?'page':undefined}>Startup participation</Link></nav>
   {overview&&<>
    <p className="initiatives-context">{initiativeOverview}</p>
    <div className="initiative-platforms">{initiatives.map(item=><article className="initiative-platform" key={item.slug}>

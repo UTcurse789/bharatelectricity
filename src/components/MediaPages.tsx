@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {paths,site} from '@/content/site';
-import {mediaEnquiriesPath,mediaPageTitles,mediaSectionLinks,mediaPartnershipBenefits,postShowReportForm} from '@/content/media-pages';
+import {mediaEnquiriesPath,mediaPageTitles,mediaPartnershipBenefits,postShowReportForm} from '@/content/media-pages';
 import {ZohoEnquiry} from './ZohoEnquiry';
 import media from '@/content/homepage-media.json';
 import './ExhibitionPages.css';
@@ -18,7 +18,6 @@ export function MediaPage({path}:{path:string}){
    <p className="media-eyebrow">Bharat Electricity / Media</p><h1>{page.title}</h1><p className="media-hero-intro">{page.intro}</p>
    {path===paths.report&&<a className="button" href="#report-request">Request the report <span aria-hidden="true">↓</span></a>}
   </div></header>
-  <nav className="media-navigation" aria-label="Media section"><div className="wrap">{mediaSectionLinks.map(([label,href])=><Link key={href} href={href} aria-current={path===href?'page':undefined}>{label}</Link>)}</div></nav>
   {path===paths.report?<PostShowReport/>:<MediaEnquiries/>}
  </div>;
 }

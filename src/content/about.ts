@@ -1,4 +1,4 @@
-export const globalEvents=[
+const removedGlobalEvents=[
  {name:'Enlit Asia',dates:'22–24 September 2026',location:'ICE, BSD City, Indonesia',logo:'/assets/site-refresh/7a9434c614d0b6.webp',width:1266,height:299,href:'https://www.enlit-asia.com/'},
  {name:'DTECH Northeast',dates:'1–3 November 2026',location:'Boston, Massachusetts, USA',logo:'/assets/site-refresh/0bdb4dcb4b935b.webp',width:1200,height:513,href:'https://dtech-events.com/northeast/'},
  {name:'Enlit Europe',dates:'10–12 November 2026',location:'Vienna, Austria',logo:'/assets/site-refresh/3289eefade2fac.webp',width:1283,height:276,href:'https://www.enlit-europe.com/'},
@@ -10,6 +10,4 @@ export const globalEvents=[
 export const organisers=[
  {name:'The Energy & Climate Initiatives Society',short:'ENCIS',role:'Organised by',logo:'/assets/site-refresh/a44dea5da236d3.webp',width:1205,height:325,image:'/assets/site-refresh/367fb85690c48d.webp',imageWidth:1600,imageHeight:1067,alt:'Industry professionals in conversation at the exhibition',heading:'Research, collaboration and sustainable energy.',body:'ENCIS is a non-profit society supporting research and collaboration across energy and climate. Its work brings policy and industry expertise together to advance cleaner, safer and more equitable energy solutions.',href:'https://www.encis.in/'},
  {name:'ITEN Media',short:'ITEN',role:'Organised by',logo:'/assets/site-refresh/95d2e8dcf39879.webp',width:1205,height:325,image:'/assets/site-refresh/32489ff0a81fcc.webp',imageWidth:1000,imageHeight:667,alt:'Exhibitors and visitors at an energy technology stand',heading:'Strategic intelligence. Industry impact.',body:'Founded in 2009, ITEN works across policy, trade and sustainability. Its knowledge platforms and partnerships connect industry innovation with India’s energy transition, enabling dialogue, investment and informed action.',href:'https://www.itenmedia.in/'},
- {name:'Clarion Events',short:'Clarion',role:'International partner',logo:'/assets/site-refresh/2256c74a3eb5c1.webp',width:1205,height:485,image:'/assets/site-refresh/200a21927e06c8.webp',imageWidth:1600,imageHeight:1066,alt:'Visitors exploring an international energy exhibition',heading:'An international portfolio of energy events.',body:'Clarion Events brings a global event portfolio and international industry connections to the platform. Established in 1947, the group connects specialist communities through exhibitions and conferences.',href:'https://clarionevents.com/'}
 ];
-export const clarionForm='https://www.clarion-events-group.com/l/339341/2019-08-05/s9qlbj';

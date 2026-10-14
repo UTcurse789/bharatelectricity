@@ -9,7 +9,7 @@ const reference=referenceData as {path:string;sections:ReferenceSection[]}[];
 import archive2025 from '@/content/participants-2025.json';
 import {getExhibitors} from '@/lib/content';
 import {siteHref} from '@/lib/site-links';
-import {ExhibitionHero,ExhibitionNavigation,ExhibitionActions,ExhibitionCTA} from './ExhibitionShell';
+import {ExhibitionHero,ExhibitionActions,ExhibitionCTA} from './ExhibitionShell';
 import {ExhibitionCompanies} from './ExhibitionCompanies';
 import {ZohoEnquiry} from './ZohoEnquiry';
 import {SpaceApplicationForms} from './SpaceApplicationForms';
@@ -23,7 +23,7 @@ export function ExhibitionPage({path}:{path:string}){
  const page=exhibitionTitles[path];
  const participant=participantYears.find(y=>y.href===path);
  const request=[route.brochure,route.floor,route.enquiry,route.reserve,route.partnership].includes(path);
- return <div className="exhibition-page"><ExhibitionHero {...page}/><ExhibitionNavigation active={path} visitor={page.visitor}/>
+ return <div className="exhibition-page"><ExhibitionHero {...page}/>
   {!page.visitor&&path!==paths.contact&&<ExhibitionActions active={path}/>}
   {participant?<ParticipantPage year={participant.year}/>:request?<RequestPage path={path}/>:path===route.why?<WhyExhibit/>:path===route.who?<WhoExhibits/>:path===route.previous?<PreviousAttendees/>:path===route.stands?<div className="wrap exhibition-section exhibition-stands"><StandOptions/></div>:path===paths.manual?<ExhibitorManual/>:path===paths.contact?<ContactPage/>:path===paths.registration?<RegistrationPage/>:path===paths.venue?<VenuePage/>:path===route.network?<NetworkingPage/>:<VisitPage/>}
   {path!==paths.contact&&<ExhibitionCTA/>}

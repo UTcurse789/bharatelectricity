@@ -4,24 +4,23 @@ import {paths,site,albums} from '@/content/site';
 import {getPeople} from '@/lib/content';
 import council2025 from '@/content/council-2025.json';
 import council2024 from '@/content/council-2024.json';
-import {clarionForm,globalEvents,organisers} from '@/content/about';
-import {AboutHero,AboutNavigation,AboutCTA} from './AboutShell';
+import {organisers} from '@/content/about';
+import {AboutHero,AboutCTA} from './AboutShell';
 import {LogoImage} from './LogoImage';
 
 const marketPath='/event/market-opportunities-in-india',globalPath='/event/power--energy-series-a-global-portfolio',organiserPath='/event/organiser';
 const councilYears=[{year:2026,href:paths.council},{year:2025,href:'/governing-council-2025'},{year:2024,href:'/governing-council-2024'}];
-export const isAboutPage=(path:string)=>[paths.about,paths.council,'/governing-council-2025','/meet-our-confirm-advisory-committee',marketPath,globalPath,organiserPath].includes(path);
+export const isAboutPage=(path:string)=>[paths.about,paths.council,'/governing-council-2025','/meet-our-confirm-advisory-committee',marketPath,organiserPath].includes(path);
 const pageDescriptions:Record<string,{title:string;intro:string}>={
  [paths.about]:{title:'About the Events',intro:'Three co-located platforms. One meeting place for India’s power and energy community.'},
  [marketPath]:{title:'Market Opportunities in India',intro:'Discover the opportunities connecting a growing electricity system with a cleaner, more resilient energy future.'},
- [globalPath]:{title:'Global Series',intro:'Explore the international events connecting power generation, utilities and energy communities around the world.'},
  [organiserPath]:{title:'Organiser',intro:'Meet the organisations bringing policy, industry and the international energy community together.'}
 };
 export function AboutPage({path}:{path:string}){
  const council=/council|advisory-committee/.test(path);const year=path===paths.council?2026:path.includes('2025')?2025:2024;
  const content=council?{title:'Governing Council '+year,intro:'Industry leaders and policy experts helping shape the conversations across Bharat Electricity.'}:pageDescriptions[path];
- return <div className="about-page"><AboutHero {...content} eyebrow={council?year+' edition / Governing Council':undefined}/><AboutNavigation active={path}/>
-  {path===paths.about?<EventOverview/>:council?<CouncilPage year={year}/>:path===marketPath?<MarketPage/>:path===globalPath?<GlobalPage/>:<OrganiserPage/>}
+ return <div className="about-page"><AboutHero {...content} eyebrow={council?year+' edition / Governing Council':undefined}/>
+  {path===paths.about?<EventOverview/>:council?<CouncilPage year={year}/>:path===marketPath?<MarketPage/>:<OrganiserPage/>}
   <AboutCTA/>
  </div>;
 }
@@ -64,8 +63,8 @@ function MarketPage(){
   <section className="about-market-community wrap about-section"><figure><Image src="/assets/site-refresh/8840cae48ada89.webp" alt="Delegates listening to an industry conference session" width={1000} height={667} sizes="(max-width:767px) 90vw, 45vw" loading="lazy"/></figure><div><p className="about-eyebrow">Knowledge meets business</p><h2>Meet the people moving the sector forward.</h2><p>Explore the published summit programme and participating companies to see the breadth of expertise represented across the platform.</p><div className="about-actions"><Link className="text-link" href={paths.agenda}>Explore the programme <span aria-hidden="true">↗</span></Link><Link className="text-link" href={paths.exhibitors}>Participating companies <span aria-hidden="true">↗</span></Link></div></div></section>
  </>;
 }
-function GlobalPage(){return <>
+function GlobalPage(){return null;/*
  <section className="about-global wrap about-section"><div className="about-section-heading"><p className="about-eyebrow">Clarion Energy portfolio</p><h2>A global energy community.</h2><p>Connect with specialist events across Asia, Europe, Africa and North America.</p></div><div className="about-event-grid">{globalEvents.map((event,i)=><article className={'about-global-event'+(i===6?' about-specialist-event':'')} key={event.name}><div className="about-logo"><LogoImage src={event.logo} alt={event.name} width={event.width} height={event.height} maxWidth={230} maxHeight={76}/></div><h3>{event.name}</h3><p className="about-event-date">{event.dates}</p><p className="about-event-location">{event.location}</p><a className="text-link" href={event.href} target="_blank" rel="noreferrer">Visit event website <span aria-hidden="true">↗</span></a></article>)}</div><p className="about-note">Dates shown as published in the organiser’s global portfolio. Find the latest event details on each event website.</p></section>
  <section className="about-global-enquiry" id="global-enquiry"><div className="wrap"><div className="about-section-heading"><p className="about-eyebrow">International participation</p><h2>Explore your next market.</h2><p>Share your details and the regions you’re interested in with the Clarion team.</p></div><div className="about-enquiry-layout"><div className="about-form"><iframe src={clarionForm} title="Clarion Energy international event participation enquiry" width="100%" height="600" loading="lazy" style={{border:0}}/><a className="text-link" href={clarionForm} target="_blank" rel="noreferrer">Open the enquiry form in a new tab <span aria-hidden="true">↗</span></a></div><aside className="about-global-photos" aria-label="International event photographs"><figure><Image src="/assets/site-refresh/ddc5b530eed496.webp" alt="Business discussions at an international energy event" width={750} height={500} sizes="(max-width:767px) 90vw, 40vw" loading="lazy"/></figure><figure><Image src="/assets/site-refresh/de5db6c12bdae6.webp" alt="Visitors exploring the international exhibition" width={750} height={500} sizes="(max-width:767px) 90vw, 40vw" loading="lazy"/></figure></aside></div></div></section>
- </>;}
+ */}
 function OrganiserPage(){return <section className="about-organisers wrap about-section">{organisers.map((o,i)=><article className={'about-organiser'+(i%2?' is-reversed':'')} key={o.short}><figure><Image src={o.image} alt={o.alt} width={o.imageWidth} height={o.imageHeight} sizes="(max-width:767px) 90vw, 45vw" priority={i===0}/></figure><div><p className="about-eyebrow">{o.role}</p><div className="about-logo"><LogoImage src={o.logo} alt={o.name} width={o.width} height={o.height} maxWidth={300} maxHeight={95}/></div><h2>{o.name}</h2><h3>{o.heading}</h3><p>{o.body}</p><a className="text-link" href={o.href} target="_blank" rel="noreferrer">Visit {o.short} website <span aria-hidden="true">↗</span></a>{o.short==='Clarion'&&<Link className="text-link" href={globalPath}>Explore the Global Series <span aria-hidden="true">↗</span></Link>}</div></article>)}</section>;}
