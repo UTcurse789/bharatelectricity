@@ -13,6 +13,7 @@ import './globals.css';
 import './interaction.css';
 
 const googleTagManagerId = 'GTM-PVRQL6FP';
+const salesIqWidgetUrl = 'https://salesiq.zohopublic.in/widget?wc=siqfdad8146939a2fe0ac86a3f3f5275e73a5f1330db4a90a72f548a7ac5c7a8ea4';
 
 export const metadata: Metadata = defaultMetadata;
 
@@ -32,6 +33,17 @@ export default function RootLayout({children}: {children: ReactNode}) {
    <JsonLd id="site-structured-data" data={siteStructuredData()}/>
    <SmoothScroll/><a href="#main-content" className="skip-link">Skip to main content</a><GovernmentBanner/><Header/>
    <main id="main-content">{children}</main><Footer/>
+   <Script id="zoho-salesiq-bootstrap" strategy="afterInteractive">{`
+    window.$zoho = window.$zoho || {};
+    window.$zoho.salesiq = window.$zoho.salesiq || {ready:function(){}};
+    if (!document.getElementById('zsiqscript')) {
+     var salesIqScript = document.createElement('script');
+     salesIqScript.id = 'zsiqscript';
+     salesIqScript.src = '${salesIqWidgetUrl}';
+     salesIqScript.defer = true;
+     document.body.appendChild(salesIqScript);
+    }
+   `}</Script>
   </body>
  </html>;
 }
