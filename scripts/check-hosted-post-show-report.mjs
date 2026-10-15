@@ -14,7 +14,7 @@ try{
   await page.waitForTimeout(2000);
   const metrics=await frame.locator('body').evaluate(body=>({visibleInputs:[...body.querySelectorAll('input')].filter(i=>i.getBoundingClientRect().width>0).length,innerWidth,scrollWidth:document.documentElement.scrollWidth}));
   assert(metrics.visibleInputs>0);assert(metrics.scrollWidth<=metrics.innerWidth,'Hosted report form fits at '+width);assert.equal((await iframe.boundingBox()).height,1200);
-  const src=await iframe.getAttribute('src');assert(src.includes('QueryType=Post%20Show%20Report%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral'));
+  const src=await iframe.getAttribute('src');assert(src.includes('/BharatElectricity2027/formperma/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk?QueryType=Post%20Show%20Report%20Download'));
   await page.screenshot({path:folder+'/hosted-report-'+width+'.png'});
   results.push({width,iframeHeight:1200,...metrics});console.log(JSON.stringify(results.at(-1)));await context.close();
  }

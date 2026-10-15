@@ -31,14 +31,14 @@ try{
   }
   await page.goto(origin+base+'/request-the-event-prospectus',{waitUntil:'networkidle'});
   const iframe=page.locator('.exhibition-form iframe');
-  await expect(iframe).toHaveAttribute('src',/QueryType=Brochure%20Download&gclid=undefined&utm_source=www\.powergen-india\.com&utm_medium=referral$/);
+  await expect(iframe).toHaveAttribute('src',/QueryType=Brochure%20Download$/);
   await expect(iframe).toHaveAttribute('title','Request the event brochure — Zoho enquiry form');assert.equal((await iframe.boundingBox()).height,600);
   await page.locator('.exhibition-form').scrollIntoViewIfNeeded();
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Form fits at '+width);
   await page.goto(origin+base+'/stand-options',{waitUntil:'networkidle'});
   await page.getByRole('link',{name:'Enquire about Raw Space',exact:true}).click();
   await expect(page.locator('.exhibition-stand-preference')).toContainText('Raw Space');
-  await expect(page.locator('.exhibition-form iframe')).toHaveAttribute('src',/QueryType=Exhibit&gclid=undefined&utm_source=www\.powergen-india\.com&utm_medium=referral$/);
+  await expect(page.locator('.exhibition-form iframe')).toHaveAttribute('src',/QueryType=Exhibit$/);
   await page.goto(origin+'/participants-2025',{waitUntil:'networkidle'});
   await expect(page.getByRole('status')).toHaveText('99 companies');await expect(page.locator('.exhibition-company-card')).toHaveCount(24);
   await page.getByRole('button',{name:'Show more companies',exact:true}).click();await expect(page.locator('.exhibition-company-card')).toHaveCount(48);

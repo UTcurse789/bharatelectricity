@@ -22,7 +22,7 @@ try {
   const url=new URL(await frame.getAttribute('src'));
   assert.equal(url.hostname,'forms.zohopublic.in');
   assert.equal(url.searchParams.get('QueryType'),'Speaking Opportunities');
-  assert(url.pathname.endsWith('/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w'));
+  assert(url.pathname.endsWith('/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk'));
   await frame.scrollIntoViewIfNeeded();
   assert.equal((await frame.boundingBox()).height,600);
   await expect.poll(()=>page.locator('.speaking-copy img').evaluate(img=>img.naturalWidth)).toBeGreaterThan(0);

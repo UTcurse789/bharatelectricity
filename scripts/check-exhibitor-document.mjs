@@ -17,8 +17,8 @@ for(const p of source.paragraphs.filter(p=>p.index>=27&&p.index<=273&&p.text.tri
 assert.equal(html('.manual-order-forms>li').length,15);
 const sourceLinks=source.paragraphs.flatMap(p=>p.links.map(l=>l.href));
 assert.deepEqual(html('.manual-order-actions a').map((i,a)=>html(a).attr('href')).get(),sourceLinks);
-const frameSources=[...new Set(source.paragraphs.filter(p=>p.text.includes('<iframe')).map(p=>load(p.text)('iframe').attr('src')))];
-assert.deepEqual(data.forms.map(f=>f.src),frameSources);
+assert.deepEqual(data.forms.slice(3).map(f=>f.src),["https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormDomestic2027N/formperma/N8WS6AKNb7lC2fp_92boIq_XrEL3AOsnIDebLPjOQ9k", "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormInternational1/formperma/Lur470GtF_mm-smpo0Ud4RGxqiAxuw1DlPtpmmvh7H4", "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormStartups2027/formperma/R7jFkslLomxLg705prhmySCq1jxhWzLQ3oUrIeMzPBg", "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormDOMMSME2027NE/formperma/zqMXnmCJ_vEuHwq22o_4g1BbeoeCvBlV86DYsz3RSlQ"]);
+for(const [index,type] of ['Brochure Download','Floor Plan Download','Exhibit'].entries())assert.equal(data.forms[index].src,'https://forms.zohopublic.in/itenmedia1/form/BharatElectricity2027/formperma/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk?QueryType='+encodeURIComponent(type));
 assert.equal(html('.exhibition-manual-section').length,7);
 const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
 const errors=[],checks=[];
@@ -43,8 +43,8 @@ try{
   await page.locator('#manual-order-forms').screenshot({path:folder+'/order-forms-'+width+'.png'});
   await page.locator('#manual-contacts').screenshot({path:folder+'/contacts-'+width+'.png'});
   await page.goto(origin+'/space-application-form/',{waitUntil:'networkidle'});
-  const tabs=page.getByRole('tab');await expect(tabs).toHaveCount(3);
-  for(let index=0;index<3;index++){
+  const tabs=page.getByRole('tab');await expect(tabs).toHaveCount(4);
+  for(let index=0;index<data.forms.length-3;index++){
    await tabs.nth(index).click();await expect(tabs.nth(index)).toHaveAttribute('aria-selected','true');
    await expect(page.locator('.space-applications iframe')).toHaveAttribute('src',data.forms[index+3].src);
    assert.equal((await page.locator('.space-applications iframe').boundingBox()).height,data.forms[index+3].height);
@@ -59,9 +59,9 @@ try{
   for(const [route,index] of [['request-the-event-prospectus',0],['view-the-floor-plan-92u6',1],['make-a-stand-enquiry',2]]){
    await page.goto(origin+'/exhibit-at-powergen-india/'+route+'/',{waitUntil:'networkidle'});await expect(page.locator('.exhibition-form iframe')).toHaveAttribute('src',data.forms[index].src);
   }
-  checks.push({width,manualParagraphs:'complete',orderForms:15,links:19,applicationCategories:3});await context.close();
+  checks.push({width,manualParagraphs:'complete',orderForms:15,links:19,applicationCategories:4});await context.close();
  }
  assert.deepEqual(errors,[]);
- console.log(JSON.stringify({checks,errors,sourceUrlsPreserved:true}));
- await fs.writeFile(folder+(mobileOnly?'/final-mobile-results.json':'/results.json'),JSON.stringify({checks,errors,sourceUrlsPreserved:true},null,2));
+ console.log(JSON.stringify({checks,errors,orderUrlsPreserved:true,currentApplicationCategories:4}));
+ await fs.writeFile(folder+(mobileOnly?'/final-mobile-results.json':'/results.json'),JSON.stringify({checks,errors,orderUrlsPreserved:true,currentApplicationCategories:4},null,2));
 }finally{await browser.close();}

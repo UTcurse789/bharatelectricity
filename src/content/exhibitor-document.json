@@ -4,32 +4,37 @@
   "forms": [
     {
       "title": "Request the Event Brochure",
-      "src": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Brochure%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricity2027/formperma/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk?QueryType=Brochure%20Download",
       "height": 600
     },
     {
       "title": "Request the Floor Plan",
-      "src": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Floor%20Plan%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricity2027/formperma/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk?QueryType=Floor%20Plan%20Download",
       "height": 600
     },
     {
       "title": "Make a Stand Enquiry",
-      "src": "https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Exhibit&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricity2027/formperma/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk?QueryType=Exhibit",
       "height": 600
     },
     {
       "title": "Space Application Form (Indian Companies)",
-      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormDomesticNEWLE/formperma/33wuOjGw7kOE_3AZRiHT-8-e2mZtEb0QAGqGagtLeg8?gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormDomestic2027N/formperma/N8WS6AKNb7lC2fp_92boIq_XrEL3AOsnIDebLPjOQ9k",
       "height": 650
     },
     {
-      "title": "Space Application Form (internatinal Companies)",
-      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormInternational/formperma/BwQAtt-xJxbF6mukw4y_FZizeMgC5Y1KVNv6IULlo6o?gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "title": "Space Application Form (International Companies)",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormInternational1/formperma/Lur470GtF_mm-smpo0Ud4RGxqiAxuw1DlPtpmmvh7H4",
       "height": 600
     },
     {
-      "title": "Space Application Form (Startup's)",
-      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormStartups/formperma/6E7E2hoFz218JCc_TrZFwdNNxLWRxHQtO1fhjXktBh4?gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral",
+      "title": "Space Application Form (Startups)",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormStartups2027/formperma/R7jFkslLomxLg705prhmySCq1jxhWzLQ3oUrIeMzPBg",
+      "height": 600
+    },
+    {
+      "title": "Space Application Form (MSMEs)",
+      "src": "https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormDOMMSME2027NE/formperma/zqMXnmCJ_vEuHwq22o_4g1BbeoeCvBlV86DYsz3RSlQ",
       "height": 600
     }
   ],

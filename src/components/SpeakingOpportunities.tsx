@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import {PageIntro} from './Shared';
 import {ZohoEnquiry} from './ZohoEnquiry';
+import {zohoFormUrls} from '@/content/zoho-forms';
 import './SpeakingOpportunities.css';
 
-export const speakingFormUrl='https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Speaking%20Opportunities';
+export const speakingFormUrl=zohoFormUrls.speaking;
 
 export function SpeakingOpportunities() {
  return <div className="speaking-page">

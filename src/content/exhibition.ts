@@ -1,5 +1,5 @@
 import {paths} from './site';
-import exhibitorDocument from './exhibitor-document.json';
+import {zohoFormUrls} from './zoho-forms';
 
 export const exhibitionPaths={
  why:paths.exhibit,who:'/exhibit-at-powergen-india/who-exhibits-at-powergen-india',previous:'/exhibit-at-powergen-india/previous-attendees',stands:paths.stands,
@@ -17,12 +17,11 @@ export const exhibitSectors=[
 ];
 export const attendeeTypes=['Utilities','Municipalities','Power producers','EPCs','Commercial & industrial energy users','Developers','Investors & financiers','Consultancies','Policymakers','Regulators','Distributors & resellers','OEMs','Solution providers'];
 
-const zohoBase='https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w';
 export const zohoForms={
- brochure:exhibitorDocument.forms[0].src,
- floor:exhibitorDocument.forms[1].src,
- exhibit:exhibitorDocument.forms[2].src,
- partnership:zohoBase+'?QueryType=Partnership%20Brochure%20Download'
+ brochure:zohoFormUrls.brochure,
+ floor:zohoFormUrls.floor,
+ exhibit:zohoFormUrls.exhibit,
+ partnership:zohoFormUrls.partnershipBrochure
 };
 export const exhibitionTitles:Record<string,{title:string;intro:string;visitor?:boolean}>={
  [exhibitionPaths.why]:{title:'Why Exhibit?',intro:'Bring your technology, expertise and business to the people shaping India’s power and utility sector.'},

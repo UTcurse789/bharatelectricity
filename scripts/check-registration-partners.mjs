@@ -43,49 +43,28 @@ try {
   await expect.poll(()=>page.locator('.registration-help-grid img').evaluateAll(images=>images.every(img=>img.naturalWidth>0))).toBe(true);
   if(width===1440||width===375)await page.locator('.registration-page').screenshot({path:`${directory}/register-${width}.png`,style:'.site-header,.skip-link{visibility:hidden!important}'});
 
-  for(const [path,noun,title] of [['/visitor-registration/','visitor','Visitor Registration 2026'],['/summit-overview/register/','delegate','Delegate Registration']]) {
+  for(const [path,noun,title] of [['/visitor-registration/','visitor','Visitor Registration 2027'],['/summit-overview/register/','delegate','Delegate Registration']]) {
    await page.goto(origin+path,{waitUntil:'domcontentloaded'});
    await expect(page.locator('main h1')).toHaveText(title);
-   await expect(page.locator('.registration-audience')).toHaveCount(noun==='visitor'?2:4);
-   if(noun==='visitor') {
-    await page.locator('.registration-audience').last().getByRole('link',{name:'View visitor form'}).click();
-    const widget=page.locator('#konfhub-widget');
-    await expect(widget).toHaveAttribute('allow','payment');
-    await expect(widget).toHaveAttribute('height','700');
-    const src=new URL(await widget.getAttribute('src'));
-    assert.equal(src.hostname,'konfhub.com');
-    assert.equal(src.searchParams.get('tickets'),'114966');
-    assert.equal(src.searchParams.get('ticketId'),'114966|0');
-    await expect(page.getByRole('link',{name:'Open visitor form in a new tab'})).toHaveAttribute('href',src.href);
-    await expect(page.frameLocator('#konfhub-widget').getByText('Expired',{exact:true})).toBeVisible({timeout:25000});
-   } else {
-    await page.locator('.registration-audience').last().getByRole('link',{name:'Enquire about this pass'}).click();
-    await expect(page.getByRole('combobox',{name:'Delegate category'})).toHaveValue('International student delegate');
-    const form=page.locator('.registration-enquiry form');
-    await form.getByRole('button',{name:'Check enquiry'}).click();
-    await expect(form.getByRole('alert')).toBeVisible();
-    await form.getByRole('textbox',{name:'Full name'}).fill('Registration QA');
-    await form.getByRole('textbox',{name:'Email address'}).fill('registration@example.com');
-    await form.getByRole('textbox',{name:'Organisation'}).fill('QA Organisation');
-    await form.getByRole('textbox',{name:'Your enquiry'}).fill('Please share approved registration information for the next edition.');
-    await form.getByRole('checkbox').check();
-    await form.getByRole('button',{name:'Check enquiry'}).click();
-    const email=form.getByRole('link',{name:'Prepare email'});
-    await expect(email).toHaveAttribute('href',/^mailto:/);
-    assert(decodeURIComponent(await email.getAttribute('href')).includes('International student delegate registration enquiry'),'Pass category included in prepared email');
-    await expect(form.getByRole('status')).toContainText('has not been sent');
-   }
+   await expect(page.locator('.registration-audience')).toHaveCount(noun==='visitor'?0:4);
+   const src='https://forms.zohopublic.in/itenmedia1/form/BharatElectricity2027/formperma/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk'+ '?QueryType='+(noun==='visitor'?'Visit':'Delegate%20Registration');
+   const widget=page.locator(noun==='visitor'?'#visitor-registration-form iframe':'.registration-enquiry iframe');
+   await expect(widget).toHaveAttribute('src',src);
+   await expect(widget).toHaveAttribute('height','700');
+   await expect(page.getByRole('link',{name:'Open the form in a new tab'})).toHaveAttribute('href',src);
+   await expect(page.locator('main form')).toHaveCount(0);
+   if(noun==='delegate')for(const link of await page.locator('.registration-audience a').all())await expect(link).toHaveAttribute('href',src);
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),path+' fits '+width+'px');
    if(width===1440||width===375) {
-    await page.locator('.registration-audiences').screenshot({path:`${directory}/${noun}-options-${width}.png`});
+    if(noun==='delegate')await page.locator('.registration-audiences').screenshot({path:`${directory}/${noun}-options-${width}.png`});
     if(noun==='visitor')await page.locator('.registration-widget').screenshot({path:`${directory}/visitor-widget-${width}.png`});
-    const scan=await new AxeBuilder({page}).exclude('#konfhub-widget').withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
+    const scan=await new AxeBuilder({page}).exclude('iframe').withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
     assert.deepEqual(scan.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})),[],title+' local accessibility');
    }
   }
 
   if(process.argv.includes('--registration-only')) {
-   results.push({width,registrationNavigation:true,visitorWidget:'loads; 2026 ticket expired',delegateCategories:4,preparedEmails:true});
+   results.push({width,registrationNavigation:true,visitorForm:'2027 Zoho',delegateCategories:4,hostedDelegateForm:true});
    await context.close();
    continue;
   }
@@ -129,7 +108,7 @@ try {
    await expect.poll(()=>page.locator('.exhibition-company-logo img').evaluateAll(images=>images.every(img=>img.complete&&img.naturalWidth>0)),{timeout:20000}).toBe(true);
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' fits '+width+'px');
   }
-  results.push({width,registrationNavigation:true,audienceForms:true,preparedEmails:true,partnerLogosLoaded:true,exhibitorLogos:198});
+  results.push({width,registrationNavigation:true,audienceForms:true,hostedRegistrationForms:true,partnerLogosLoaded:true,exhibitorLogos:198});
   await context.close();
  }
  assert.deepEqual(errors,[],'No browser exceptions');

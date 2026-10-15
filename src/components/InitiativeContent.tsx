@@ -2,7 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {initiatives,initiativeOverview} from '@/content/initiatives';
 import {paths} from '@/content/site';
-import {EnquiryForm} from './EnquiryForm';
+import {ZohoEnquiry} from './ZohoEnquiry';
+import {zohoFormUrls} from '@/content/zoho-forms';
 import './InitiativeContent.css';
 
 function InitiativeArtwork({initiative}:{initiative:typeof initiatives[number]}) {
@@ -36,6 +37,6 @@ export function InitiativeContent({path}:{path:string}) {
  </>;
 }
 
-export function OpportunityEnquiry({topic,request}:{topic:string;request:string}) {
- return <section className="opportunity-enquiry" id="enquiry"><h2>{request}</h2><p>Tell the team about your organisation, area of expertise and the opportunity you are interested in.</p><EnquiryForm initialTopic={topic} request={request}/></section>;
+export function OpportunityEnquiry({request}:{topic:string;request:string}) {
+ return <section className="opportunity-enquiry" id="enquiry"><p>Tell the team about your organisation, area of expertise and the opportunity you are interested in.</p><ZohoEnquiry src={zohoFormUrls.partnership} title={request}/></section>;
 }

@@ -133,9 +133,7 @@ a.exhibition-company-card:hover{border-color:#62866d;background:#f8faf7}
 .exhibition-contact-people p{font-size:.88rem;color:var(--exhibition-muted);margin-bottom:20px}
 .exhibition-contact-people a{display:flex;align-items:center;min-height:44px;width:fit-content;color:#075e24;text-decoration:underline;text-underline-offset:4px;font-size:.95rem;overflow-wrap:anywhere}
 .exhibition-contact-actions{display:flex;gap:16px;flex-wrap:wrap;border-top:1px solid var(--exhibition-line);padding-top:28px;margin-top:20px}
-.exhibition-email-enquiry{margin-top:46px;border:1px solid var(--exhibition-line);max-width:850px}
-.exhibition-email-enquiry summary{padding:20px 24px;font-size:1rem;font-weight:600;cursor:pointer;min-height:64px}
-.exhibition-email-enquiry>div{padding:24px;border-top:1px solid var(--exhibition-line)}
+.exhibition-contact>.exhibition-form{margin-top:46px;max-width:850px}
 .exhibition-cta{background:var(--exhibition-green);color:#fff;padding-block:44px}
 .exhibition-cta>.wrap{display:flex;align-items:center;justify-content:space-between;gap:36px}
 .exhibition-cta .exhibition-eyebrow{color:#d1ecbe}

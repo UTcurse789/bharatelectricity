@@ -6,8 +6,8 @@ const results=[],folder='research/qa/exhibitor-document';
 try{
  for(const width of [1440,375]){
   const context=await browser.newContext({viewport:{width,height:1000},reducedMotion:'reduce'}),page=await context.newPage();
-  await page.goto('http://localhost:4174/space-application-form/',{waitUntil:'domcontentloaded'});
-  for(let index=0;index<3;index++){
+  await page.goto((process.env.CHECK_ORIGIN||'http://localhost:4173')+'/space-application-form/',{waitUntil:'domcontentloaded'});
+  for(let index=0;index<await page.getByRole('tab').count();index++){
    await page.getByRole('tab').nth(index).click();
    const iframe=page.locator('.space-applications iframe');await iframe.scrollIntoViewIfNeeded();
    const frame=page.frameLocator('.space-applications iframe');

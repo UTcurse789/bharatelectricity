@@ -1,18 +1,19 @@
 'use client';
 import {useEffect,useId,useState} from 'react';
 import type {KeyboardEvent} from 'react';
-import documentContent from '@/content/exhibitor-document.json';
+import {spaceApplicationForms} from '@/content/zoho-forms';
 import {ZohoEnquiry} from './ZohoEnquiry';
 import './ExhibitorManual.css';
 
-const applications=documentContent.forms.slice(3);
-const categories=['Indian companies','International companies','Startups'];
+const applications=spaceApplicationForms;
+const categories=applications.map(form=>form.category);
 export function SpaceApplicationForms({initialCategory=0}:{initialCategory?:number}){
  const [selected,setSelected]=useState(initialCategory);
  useEffect(()=>{if(location.pathname.replace(/\/$/,'')==='/space-application-form-secondary')setSelected(1);},[]);
  const id=useId();
  function navigate(event:KeyboardEvent<HTMLButtonElement>,index:number){
-  const next=event.key==='ArrowRight'?(index+1)%3:event.key==='ArrowLeft'?(index+2)%3:event.key==='Home'?0:event.key==='End'?2:-1;
+  const count=applications.length;
+  const next=event.key==='ArrowRight'?(index+1)%count:event.key==='ArrowLeft'?(index+count-1)%count:event.key==='Home'?0:event.key==='End'?count-1:-1;
   if(next<0)return;
   event.preventDefault();setSelected(next);
   document.getElementById(id+'-tab-'+next)?.focus();

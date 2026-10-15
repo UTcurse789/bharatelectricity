@@ -4,7 +4,7 @@ import {chromium,expect} from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
 const origin=process.env.CHECK_ORIGIN||'http://localhost:4173';
-const form='https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Post%20Show%20Report%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral';
+const form='https://forms.zohopublic.in/itenmedia1/form/BharatElectricity2027/formperma/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk?QueryType=Post%20Show%20Report%20Download';
 const folder='research/qa/media';await fs.mkdir(folder,{recursive:true});
 const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
 const checks=[],errors=[];

@@ -4,6 +4,8 @@ import Link from 'next/link';
 import {ArrowUpRight,Play} from '@phosphor-icons/react/dist/ssr';
 import reference from '@/content/reference-pages.json';
 import {EnquiryForm} from './EnquiryForm';
+import {ZohoEnquiry} from './ZohoEnquiry';
+import {zohoFormUrls} from '@/content/zoho-forms';
 import {ReferenceRoster} from './ReferenceRoster';
 import {ReportCover} from './ReportCover';
 import {LogoImage} from './LogoImage';
@@ -39,6 +41,7 @@ function SectionBody({section}:{section:Section}){
  return <><div className="reference-prose"><Blocks blocks={section.blocks}/></div>{images.length>0&&<div className={'reference-images '+(logos?'reference-logo-grid':artwork?'reference-artwork-grid':'reference-photo-grid')}>{images.map((image,i)=><figure className={image.kind==='logo'?'reference-logo':undefined} key={image.src+'-'+i}>{image.kind==='logo'?<LogoImage {...image} sizes="(max-width:767px) 42vw, 220px"/>:<Image src={image.src} alt={image.alt} width={image.width} height={image.height} sizes={artwork?'(max-width:767px) 45vw, 300px':'(max-width:767px) 100vw, 55vw'} loading="lazy"/>}</figure>)}</div>}{section.links.length>0&&<div className="reference-actions">{section.links.filter(link=>!link.href.includes('zfrmz')&&!/registration|register now|submit your nomination/i.test(link.label)).map(link=><Link className="text-link" href={siteHref(link.href)} key={link.href}>{link.label}<ArrowUpRight size={16} aria-hidden="true"/></Link>)}</div>}</>;
 }
 export function ReferenceContent({path,edition}:{path:string;edition?:number}){
+ if(path==='/request_a_call_back')return <ZohoEnquiry src={zohoFormUrls.callback} title="Request a call back"/>;
  const page=(reference as ReferencePage[]).find(item=>item.path===path);if(!page)return null;
  const request=requests[path];const historicalCouncil=/governing-council-2025|meet-our-confirm-advisory-committee/.test(path);const manual=path==='/exhibitor-guide';
  const displayedSections=historicalCouncil?page.sections.filter(section=>section.blocks.some(block=>block.type==='paragraph'&&block.text?.trim())||section.title==='MEMBERS'):page.sections.filter(section=>!(path==='/media-hub/postshowreport'&&/2026 Edition/.test(section.title)));
@@ -48,6 +51,6 @@ export function ReferenceContent({path,edition}:{path:string;edition?:number}){
   {path==='/media-hub/postshowreport'&&<ReportCover/>}
   {path==='/exhibitor-list'?<ReferenceRoster/>:path==='/video-gallery'?<div className="video-library">{page.videos.map((video,i)=><a href={'https://www.youtube.com/watch?v='+video.id} target="_blank" rel="noreferrer" className="video-library-card" key={video.id}><div className="video-library-preview">{video.thumbnail&&<Image src={video.thumbnail} alt="" width={480} height={360} sizes="(max-width:767px) 100vw, 50vw"/>}<span><Play size={25} weight="fill" aria-hidden="true"/></span><p>{i<2?'2025':i<5?'2024':'Event archive'}</p></div><h2>{video.title}</h2><span className="text-link">Watch on YouTube<ArrowUpRight size={17} aria-hidden="true"/></span></a>)}</div>:
   <div className={'reference-sections'+(historicalCouncil?' reference-profiles':'')}>{displayedSections.map((section,i)=>(section.collapsible||(manual&&i>0))?<details className="reference-accordion" key={section.id} open={i===1}><summary>{section.title||section.blocks.find(b=>b.type==='paragraph')?.text?.slice(0,100)||'Event information'}</summary><SectionBody section={section}/></details>:<section className={'reference-section '+(historicalCouncil&&section.images.length===1?'reference-profile':section.images.length===1&&section.blocks.length?'reference-section-feature':'')} key={section.id}>{section.title&&<h2>{section.title}</h2>}<SectionBody section={section}/></section>)}</div>}
-  {request&&<section className="reference-request" id="enquiry"><h2>{request.request}</h2><p>Prepare a message for the event team. For a call back, include your phone number and preferred time.</p><EnquiryForm initialTopic={request.topic} request={request.request}/></section>}
+  {request&&<section className="reference-request" id="enquiry">{path==='/become-a-sponsor'?<ZohoEnquiry src={zohoFormUrls.partnership} title={request.request}/>:<><h2>{request.request}</h2><p>Prepare a message for the event team. For a call back, include your phone number and preferred time.</p><EnquiryForm initialTopic={request.topic} request={request.request}/></>}</section>}
  </div>;
 }

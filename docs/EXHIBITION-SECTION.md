@@ -12,19 +12,19 @@ The pages share Montserrat regular, semibold and bold, dark green mastheads, whi
 - `/exhibit-at-powergen-india/stand-options`: Raw Space and Shell Scheme, with stand enquiry links and planning actions.
 - `/exhibitors`, `/participants-2025`, `/2024-exhibitors`: edition-specific participant directories. The 2026/2025 records have searchable names. The 2024 source publishes 104 logo images without verified text company names, so the artwork is retained without inventing a searchable roster.
 - `/exhibit-at-powergen-india/make-a-stand-enquiry`: Zoho exhibition enquiry, retaining the selected Raw Space/Shell Scheme preference in a visible website note.
-- `/space-application-form`: Indian, international and startup space applications supplied in the user's Word document. Submitting an application does not confirm a reservation.
+- `/space-application-form`: Indian, international, startup and MSME space application forms supplied by the organiser. Submitting an application does not confirm a reservation.
 - `/exhibit-at-powergen-india/view-the-floor-plan-92u6`: floor plan request form.
-- `/exhibit-at-powergen-india/request-the-event-prospectus`: event brochure request, including the exact supplied Zoho URL and referral parameters.
+- `/exhibit-at-powergen-india/request-the-event-prospectus`: event brochure request, using the current organiser-supplied 2027 Zoho URL.
 - `/request-the-partnership-brochure`: partnership brochure request.
 - `/exhibitor-guide`: the complete user-supplied 2026 manual, including schedules, onsite contacts, seven construction disclosures, original diagrams and 15 order forms with 19 original links. Completed-edition schedules are labelled as an archive.
 - `/why-visit`, `/visiting/networking`, `/registration-options`, `/venue`: visitor pages in the shared design. The completed 2026 registration status is retained.
-- `/about-powergen-india/contact-us`: the three verified team contacts with email/phone links, enquiry actions and the existing optional email preparation form.
+- `/about-powergen-india/contact-us`: the three verified team contacts with email/phone links, enquiry actions and the organiser-hosted Request a call back form.
 
 `/why-exhibit`, `/stand-options` and `/contact` remain available as static aliases with canonical URLs pointing to the new primary routes. The exact five slugs supplied by the user are available locally. No HTTP redirects are claimed for the static export.
 
 ## Forms and content
 
-The [brochure](https://www.powergen-india.com/exhibit-at-powergen-india/request-the-event-prospectus), [floor plan](https://www.powergen-india.com/exhibit-at-powergen-india/view-the-floor-plan-92u6), [stand enquiry](https://www.powergen-india.com/exhibit-at-powergen-india/make-a-stand-enquiry) and [partnership brochure](https://www.powergen-india.com/request-the-partnership-brochure) pages use the published Zoho enquiry form with distinct `QueryType` values. The first three now use the exact URLs and referral parameters from the Word document. Space applications use the separate domestic, international and startup forms supplied in that document. See [the document integration record](EXHIBITOR-DOCUMENT.md) for coverage, source handling and verification.
+The [brochure](https://www.powergen-india.com/exhibit-at-powergen-india/request-the-event-prospectus), [floor plan](https://www.powergen-india.com/exhibit-at-powergen-india/view-the-floor-plan-92u6), [stand enquiry](https://www.powergen-india.com/exhibit-at-powergen-india/make-a-stand-enquiry) and [partnership brochure](https://www.powergen-india.com/request-the-partnership-brochure) pages use the published Zoho enquiry form with distinct `QueryType` values. All four enquiry destinations use the 2027 URLs supplied on 15 October 2026; see [current forms](ZOHO-FORMS.md). Space applications use the current Indian, international, startup and MSME URLs supplied by the organiser. See [the document integration record](EXHIBITOR-DOCUMENT.md) for coverage, source handling and verification.
 
 The supplied Zoho form returned HTTP 200 with form markup and no `X-Frame-Options` restriction. Each embed has a descriptive title, 600px height and an alternative new-tab link. The website cannot restyle the cross-origin form; its typography and submission behaviour are managed by Zoho/ITEN Media. With network access enabled, browser QA confirmed visible form fields at 1440px and 375px with no horizontal overflow inside the embedded form. Submission was not tested. No enquiries were sent.
 

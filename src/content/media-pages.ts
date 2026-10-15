@@ -1,7 +1,8 @@
 import {paths} from './site';
+import {zohoFormUrls} from './zoho-forms';
 
 export const mediaEnquiriesPath='/media-hub/media';
-export const postShowReportForm='https://forms.zohopublic.in/itenmedia1/form/ITENMediaBharatElectricity/formperma/7yd-z5A5Z-NpJ5xZa0scRFP94W_P41_v2Qob4QIEW1w?QueryType=Post%20Show%20Report%20Download&gclid=undefined&utm_source=www.powergen-india.com&utm_medium=referral';
+export const postShowReportForm=zohoFormUrls.postShowReport;
 export const mediaPageTitles:Record<string,{title:string;intro:string}>={
  [mediaEnquiriesPath]:{title:'Media Enquiries',intro:'Connect with the team for media partnerships, press accreditation, interviews and event information.'},
  [paths.report]:{title:'2026 Post-show Report',intro:'Revisit the technology, business conversations and industry connections from the 2026 event.'}
