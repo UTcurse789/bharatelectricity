@@ -18,5 +18,17 @@ export const navigation:NavigationGroup[]=[
  {label:'Partners',links:[['All Partners',paths.partners],['Partnership Opportunities',paths.partnership],['Partnership Enquiry','/become-a-sponsor'],['Request Partnership Brochure','/request-the-partnership-brochure']]},
  {label:'Media',links:[['News & Press',paths.news],['Photo Gallery',paths.gallery],['Video Gallery',paths.video],['Post-show Report',paths.report],['Media Enquiries','/media-hub/media']]}
 ];
-export const albums=[{title:'2025 Governing Council meeting',edition:2025,url:'https://photos.app.goo.gl/zctLo6HfVHakZTu26'},{title:'2025 Knowledge Hub',edition:2025,url:'https://photos.app.goo.gl/wSJaixTAcBodvusx7'},{title:'2024 Governing Council meeting',edition:2024,url:'https://photos.app.goo.gl/Q1VTQAy29cxhjt8Z6'},{title:'2024 Awards & Gala',edition:2024,url:'https://photos.app.goo.gl/gq133LtdgFeRMj319'},{title:'2026 Governing Council: first meeting',edition:2026,url:'https://photos.app.goo.gl/eqpzZ29AhxfmEjJC9'},{title:'2026 Governing Council: second meeting',edition:2026,url:'https://photos.app.goo.gl/dkJmB5x7vYMugAsg7'},{title:'2025 Conference',edition:2025,url:'https://photos.app.goo.gl/LdDGSEzkTrC4wWFc8'},{title:'2025 Exhibition',edition:2025,url:'https://photos.app.goo.gl/pzzYYy8HeN9nVXsy8'},{title:'2025 Awards & Gala',edition:2025,url:'https://photos.app.goo.gl/B84DWBDPtEAD4tK57'},{title:'2024 Conference',edition:2024,url:'https://photos.app.goo.gl/gJk2Wdu3nVE87hFe8'},{title:'2024 Exhibition',edition:2024,url:'https://photos.app.goo.gl/VSb7ZLnTzF4oQtx56'}];
+export const albums=[
+ {title:'1st Governing Council 2026',edition:2026,url:'https://photos.app.goo.gl/eqpzZ29AhxfmEjJC9'},
+ {title:'2nd Governing Council 2026',edition:2026,url:'https://photos.app.goo.gl/dkJmB5x7vYMugAsg7'},
+ {title:'Governing Council Meet 2025',edition:2025,url:'https://photos.app.goo.gl/zctLo6HfVHakZTu26'},
+ {title:'Bharat Electricity, PGID & IUW Conference 2025',edition:2025,url:'https://photos.app.goo.gl/LdDGSEzkTrC4wWFc8'},
+ {title:'Bharat Electricity, PGID & IUW Exhibition 2025',edition:2025,url:'https://photos.app.goo.gl/pzzYYy8HeN9nVXsy8'},
+ {title:'Awards & Gala Night 2025',edition:2025,url:'https://photos.app.goo.gl/B84DWBDPtEAD4tK57'},
+ {title:'Bharat Electricity, PGID & IUW 2025 Knowledge Hub Photos',edition:2025,url:'https://photos.app.goo.gl/wSJaixTAcBodvusx7'},
+ {title:'Governing Council Meet 2024',edition:2024,url:'https://photos.app.goo.gl/Q1VTQAy29cxhjt8Z6'},
+ {title:'Bharat Electricity, PGID & IUW Conference 2024',edition:2024,url:'https://photos.app.goo.gl/gJk2Wdu3nVE87hFe8'},
+ {title:'Bharat Electricity, PGID & IUW Exhibition 2024',edition:2024,url:'https://photos.app.goo.gl/VSb7ZLnTzF4oQtx56'},
+ {title:'Awards & Gala Night 2024',edition:2024,url:'https://photos.app.goo.gl/gq133LtdgFeRMj319'}
+];
 export const editionLabel=site.edition.status==='completed'?'Latest edition: '+site.edition.year+' · Complete':site.edition.year+' edition';
