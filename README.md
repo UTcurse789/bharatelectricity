@@ -2,6 +2,8 @@
 
 # BHARAT ELECTRICITY website
 
+The SEO update was deployed to `https://www.bharat-electricity.com` on 15 October 2026. Configuration, public verification results and remaining Search Console/indexing steps are documented in [docs/SEO-AND-INDEXING.md](docs/SEO-AND-INDEXING.md).
+
 Next.js 16 App Router, TypeScript and Tailwind CSS. All event content is local; there is no database, Strapi or admin panel.
 
 ## Run
@@ -14,6 +16,7 @@ Use Node.js 22.19+ and npm.
 - npm run preview (serves the production export on http://localhost:4173)
 - npm run typecheck
 - npm run check
+- npm run check:seo (validates metadata, canonical URLs, crawler files, sharing assets and structured data in out/)
 - node scripts/check-motion.mjs (production preview: scrolling, anchors, keyboard focus, reduced motion, mobile gestures and scroll locks)
 - node scripts/check-homepage.mjs (production preview: homepage typography, artwork, partner tabs, participant rails, accessibility and 320-1440px layouts)
 

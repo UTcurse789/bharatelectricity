@@ -5,24 +5,19 @@ import Script from 'next/script';
 import {Header} from '@/components/Header';
 import {GovernmentBanner} from '@/components/GovernmentBanner';
 import {Footer} from '@/components/Footer';
-import {site} from '@/content/site';
+import {defaultMetadata} from '@/lib/seo';
+import {siteStructuredData} from '@/lib/structured-data';
+import {JsonLd} from '@/components/JsonLd';
 import 'lenis/dist/lenis.css';
 import './globals.css';
 import './interaction.css';
 
 const googleTagManagerId = 'GTM-PVRQL6FP';
 
-export const metadata: Metadata = {
- metadataBase: new URL(site.origin),
- title: {default: 'BHARAT ELECTRICITY', template: '%s | BHARAT ELECTRICITY'},
- description: 'Explore the completed 2026 energy exhibition and summit: participating companies, published programme, industry leaders and event archives.',
- openGraph: {type: 'website', siteName: site.name, locale: 'en_IN', images: [{url: '/assets/exhibition-2025-014.webp', width: 1800, height: 1200, alt: '2025 exhibition archive'}]},
- twitter: {card: 'summary_large_image'},
- icons: {icon: [{url: '/favicon-32.png', sizes: '32x32', type: 'image/png'}, {url: '/favicon-48.png', sizes: '48x48', type: 'image/png'}], apple: [{url: '/favicon-180.png', sizes: '180x180', type: 'image/png'}]}
-};
+export const metadata: Metadata = defaultMetadata;
 
 export default function RootLayout({children}: {children: ReactNode}) {
- return <html lang="en">
+ return <html lang="en-IN">
   <head><link rel="preload" href="/fonts/montserrat.woff2" as="font" type="font/woff2" crossOrigin="anonymous"/></head>
   <body suppressHydrationWarning>
    <noscript><iframe src={'https://www.googletagmanager.com/ns.html?id='+googleTagManagerId} title="Google Tag Manager" height="0" width="0" style={{display:'none',visibility:'hidden'}}/></noscript>
@@ -34,6 +29,7 @@ export default function RootLayout({children}: {children: ReactNode}) {
     })(window,document,'script','dataLayer','${googleTagManagerId}');
    `}</Script>
    {/* Browser extensions can add body attributes before React hydrates. */}
+   <JsonLd id="site-structured-data" data={siteStructuredData()}/>
    <SmoothScroll/><a href="#main-content" className="skip-link">Skip to main content</a><GovernmentBanner/><Header/>
    <main id="main-content">{children}</main><Footer/>
   </body>

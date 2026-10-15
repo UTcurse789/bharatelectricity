@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit",
     "preview": "node scripts/serve.mjs",
     "check": "node scripts/check-content.mjs",
+    "check:seo": "node scripts/check-seo.mjs",
     "postbuild": "node scripts/finalize-export.mjs"
   },
   "dependencies": {

@@ -1,6 +1,6 @@
 export const site = {
  name: 'BHARAT ELECTRICITY',
- origin: process.env.NEXT_PUBLIC_SITE_URL || 'https://bharat-electricity-energy.cocoasquid2.chatgpt.site',
+ origin: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.bharat-electricity.com').origin,
  edition: {year:2026,status:'completed' as 'completed'|'upcoming',start:'2026-09-01',end:'2026-09-03',dates:'1-3 September 2026',venue:'Yashobhoomi (IICC)',location:'Dwarka, New Delhi'},
  nextEdition: {year:2027,status:'upcoming',start:'2027-09-01',end:'2027-09-03',dates:'1–3 September 2027',venue:'Yashobhoomi, IICC',location:'Dwarka, New Delhi'}, submissionEndpoint: null as string|null,
  contacts:[{name:'Siddhartha Mishra',role:'Director - Projects',email:'siddhartha@encis.in',phone:'+91 9999913164'},{name:'Hansika Gupta',role:'Deputy Director - Projects',email:'hansika@itenmedia.in',phone:'+91 9990401916'},{name:'Amit Kumar Gupta',role:'Project Head',email:'amit@itenmedia.in',phone:'+91 9821283870'}],

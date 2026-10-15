@@ -1,1 +1,10 @@
-import type {MetadataRoute} from 'next';import {pages} from '@/content/pages';import {companies,people,articles} from '@/lib/content';import {site} from '@/content/site';export const dynamic='force-static';export default function sitemap():MetadataRoute.Sitemap{return ['/',...pages.map(p=>p.path),...companies.map(c=>'/exhibitors/'+c.id),...people.map(p=>'/speakers/'+p.id),...articles.map(a=>'/industry-news/'+a.id)].map(path=>({url:site.origin+path,changeFrequency:'monthly',priority:path==='/'?1:0.6}));}
+import type {MetadataRoute} from 'next';
+import {pages} from '@/content/pages';
+import {companies,people,articles} from '@/lib/content';
+import {canonicalUrl} from '@/lib/seo';
+
+export const dynamic='force-static';
+export default function sitemap():MetadataRoute.Sitemap {
+ const paths=['/',...pages.map(page=>page.path),...companies.map(company=>'/exhibitors/'+company.id),...people.map(person=>'/speakers/'+person.id),...articles.map(article=>'/industry-news/'+article.id)];
+ return [...new Set(paths.map(canonicalUrl))].map(url=>({url}));
+}

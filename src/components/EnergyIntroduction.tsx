@@ -23,7 +23,7 @@ export function EnergyIntroduction() {
      <span className="energy-introduction-orbit energy-introduction-orbit-top" aria-hidden="true"/>
      <span className="energy-introduction-orbit energy-introduction-orbit-right" aria-hidden="true"/>
      <span className="energy-introduction-orbit energy-introduction-orbit-bottom" aria-hidden="true"/>
-     <Image src="/assets/homepage/about-bharat-electricity.png" alt="Delegates attending the Bharat Electricity Global Energy Forum" width={720} height={480} sizes="(max-width:900px) 90vw, 45vw" unoptimized/>
+     <Image src="/assets/homepage/about-bharat-electricity.webp" alt="Delegates attending the Bharat Electricity Global Energy Forum" width={720} height={480} sizes="(max-width:900px) 90vw, 45vw" unoptimized/>
      <div className="energy-introduction-badge" aria-hidden="true"><ArrowsClockwise className="energy-introduction-badge-cycle" weight="light"/><Lightning className="energy-introduction-badge-bolt" weight="light"/></div>
     </div>
     <figcaption>Bharat Electricity Global Energy Forum</figcaption>

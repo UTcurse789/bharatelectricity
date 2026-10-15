@@ -1,4 +1,4 @@
 import type {Metadata} from 'next';
-import {Home} from '@/components/Home';
-export const metadata:Metadata={alternates:{canonical:'/'}};
-export default function Welcome(){return <Home/>;}
+import {metadata as homeMetadata} from '../page';
+export {default} from '../page';
+export const metadata:Metadata={...homeMetadata,robots:{index:false,follow:true,googleBot:{index:false,follow:true}}};

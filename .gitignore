@@ -7,3 +7,6 @@ out/
 research/
 playwright-report/
 test-results/
+
+.vercel
+.env*

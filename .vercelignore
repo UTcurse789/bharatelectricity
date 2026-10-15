@@ -1,0 +1,14 @@
+# Upload the reproducible application source and build inputs.
+/*
+!public
+!src
+!scripts
+!/package.json
+!/package-lock.json
+!/next.config.ts
+!/postcss.config.mjs
+!/tsconfig.json
+!/next-env.d.ts
+!/components.json
+!/.gitignore
+!/.vercelignore

@@ -1,4 +1,8 @@
-import {Home} from '@/components/Home';import {site} from '@/content/site';import type {Metadata} from 'next';
-const description="Bharat Electricity 2027: India's Next Energy Advantage. From Capacity to Capability. 1–3 September 2027 at Yashobhoomi, IICC, Dwarka, New Delhi.";
-export const metadata:Metadata={title:'BHARAT ELECTRICITY',description,alternates:{canonical:'/'},openGraph:{title:site.name+' 2027',url:'/',description}};
-export default function Page(){const edition=site.nextEdition;const event={'@context':'https://schema.org','@type':'ExhibitionEvent',name:site.name+' '+edition.year,startDate:edition.start,endDate:edition.end,eventStatus:'https://schema.org/EventScheduled',eventAttendanceMode:'https://schema.org/OfflineEventAttendanceMode',location:{'@type':'Place',name:edition.venue,address:{'@type':'PostalAddress',addressLocality:edition.location,addressCountry:'IN'}},url:site.origin,description};return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(event).replace(/</g,'\u003c')}}/><Home/></>}
+import type {Metadata} from 'next';
+import {Home} from '@/components/Home';
+import {JsonLd} from '@/components/JsonLd';
+import {pageMetadata,seoTitle,seoDescription} from '@/lib/seo';
+import {homeStructuredData} from '@/lib/structured-data';
+
+export const metadata:Metadata={...pageMetadata({path:'/',title:seoTitle,description:seoDescription}),title:{absolute:seoTitle}};
+export default function Page(){return <><JsonLd id="page-structured-data" data={homeStructuredData()}/><Home/></>;}

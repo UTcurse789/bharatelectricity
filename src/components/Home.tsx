@@ -1,4 +1,5 @@
 import {HomePartnerLogoLoop} from './HomePartnerLogoLoop';
+import {EventFAQ} from './EventFAQ';
 import Image from 'next/image';
 import Link from 'next/link';
 import {ArrowUpRight, CaretRight} from '@phosphor-icons/react/dist/ssr';
@@ -91,7 +92,7 @@ export function Home() {
   </div></section>
 
   <section className="section programme-section" aria-labelledby="programme-heading"><div className="wrap programme-layout">
-   <div><h2 id="programme-heading">Conference programme</h2><p>Explore the discussions across India's power and energy value chain.</p><Link href={paths.agenda} className="button secondary">Explore the programme <ArrowUpRight size={19} aria-hidden="true"/></Link></div>
+   <div><h2 id="programme-heading">2026 conference programme</h2><p>Explore the published 2026 discussions across India's power and energy value chain.</p><Link href={paths.agenda} className="button secondary">Explore the programme <ArrowUpRight size={19} aria-hidden="true"/></Link></div>
    <div className="programme-sessions">{programme.map(session => <Link key={session.id} href={paths.agenda}><span>1 September 2026 / {session.time} IST</span><h3>{session.title}</h3><ArrowUpRight size={23} aria-hidden="true"/></Link>)}</div>
   </div></section>
 
@@ -100,6 +101,7 @@ export function Home() {
   </section>
 
   <GlobalVisitors/>
+  <EventFAQ/>
 
   <section className="enquiry-cta home-enquiry"><div className="wrap"><div><h2>Exhibition and partnership enquiries</h2><p>Contact the organising team to discuss your participation.</p></div><Link href={paths.contact} className="button">Contact the team <ArrowUpRight size={21} aria-hidden="true"/></Link></div></section>
  </div>;
