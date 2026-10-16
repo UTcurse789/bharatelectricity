@@ -3,7 +3,7 @@ import type {ContentPage} from './types';
 import {zohoFormUrls} from './zoho-forms';
 
 export const registrationPaths = {hub:paths.registration,visitor:'/visitor-registration',delegate:'/summit-overview/register',booking:'/space-application-form'};
-export const registrationThankYouPath='/Thankyou-For-Registrating-in-BharatElectricity2027';
+export const registrationThankYouPath='/thankyou-for-registrating-in-bharatelectricity2027';
 export const visitorRegistrationFormUrl=zohoFormUrls.visitor;
 export const registrationFormLinks:{indianVisitor:string|null;internationalVisitor:string|null;indianDelegate:string|null;internationalDelegate:string|null;indianStudentDelegate:string|null;internationalStudentDelegate:string|null;exhibition:string|null} = {
  indianVisitor:zohoFormUrls.visitor,internationalVisitor:zohoFormUrls.visitor,indianDelegate:zohoFormUrls.delegate,internationalDelegate:zohoFormUrls.delegate,indianStudentDelegate:zohoFormUrls.delegate,internationalStudentDelegate:zohoFormUrls.delegate,exhibition:zohoFormUrls.exhibit

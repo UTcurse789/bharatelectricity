@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/Thankyou-For-Registrating-in-BharatElectricity2027/",
+      "destination": "/thankyou-for-registrating-in-bharatelectricity2027/",
+      "permanent": true
+    },
+    {
+      "source": "/Thankyou-For-Registrating-in-BharatElectricity2027",
+      "destination": "/thankyou-for-registrating-in-bharatelectricity2027/",
+      "permanent": true
+    }
+  ]
+}

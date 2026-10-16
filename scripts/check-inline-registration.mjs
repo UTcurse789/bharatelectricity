@@ -6,7 +6,7 @@ import AxeBuilder from '@axe-core/playwright';
 const origin=process.env.CHECK_ORIGIN||'http://localhost:4173';
 const folder='research/qa/inline-registration';
 const formId='CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk';
-const thanks='/Thankyou-For-Registrating-in-BharatElectricity2027/';
+const thanks='/thankyou-for-registrating-in-bharatelectricity2027/';
 const categories=['Domestic delegate','International delegate','Domestic student delegate','International student delegate'];
 await fs.mkdir(folder,{recursive:true});
 const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});

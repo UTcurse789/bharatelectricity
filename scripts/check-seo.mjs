@@ -59,7 +59,7 @@ async function scan(folder){
   const robots=$('head meta[name="robots"]').attr('content')||'';
   const googlebot=$('head meta[name="googlebot"]').attr('content')||'';
   const noindex=/\bnoindex\b/.test(robots);
-  assert.equal(noindex,['/welcome/','/Thankyou-For-Registrating-in-BharatElectricity2027/'].includes(route),file+' intentional indexability');
+  assert.equal(noindex,['/welcome/','/thankyou-for-registrating-in-bharatelectricity2027/'].includes(route),file+' intentional indexability');
   assert.equal(/\bnoindex\b/.test(googlebot),noindex,file+' Googlebot agrees with robots');
   const nodes=[];
   for(const script of $('script[type="application/ld+json"]')){
