@@ -1,12 +1,26 @@
-import {ArrowRight} from '@phosphor-icons/react/dist/ssr';
+'use client';
+import {useEffect,useId,useRef,useState} from 'react';
+import {ArrowRight,Check} from '@phosphor-icons/react';
 import {registrationFormLinks} from '@/content/registration';
-import {zohoFormUrls} from '@/content/zoho-forms';
 import {ZohoEnquiry} from './ZohoEnquiry';
 
-const delegateCategories=['Domestic delegate','International delegate','Domestic student delegate','International student delegate'];
-const categoryAnchor=(name:string)=>'delegate-registration-enquiry-'+name.toLowerCase().replaceAll(' ','-');
-
 export function RegistrationOptions({delegate=false}:{delegate?:boolean}) {
+ const [selected,setSelected]=useState<number|null>(null);
+ const panel=useRef<HTMLElement>(null);
+ const id=useId();
+ const panelId=id+'-form';
+ function focusForm(){
+  panel.current?.focus({preventScroll:true});
+  panel.current?.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+ }
+ function reveal(index:number){
+  setSelected(index);
+  if(index===selected)focusForm();
+ }
+ useEffect(()=>{
+  if(selected===null)return;
+  focusForm();
+ },[selected]);
  const groups=delegate?[
   {name:'Domestic delegate',description:'For professionals based in India.',url:registrationFormLinks.indianDelegate},
   {name:'International delegate',description:'For professionals travelling from outside India.',url:registrationFormLinks.internationalDelegate},
@@ -20,8 +34,8 @@ export function RegistrationOptions({delegate=false}:{delegate?:boolean}) {
   <div className={'registration-audiences'+(delegate?' registration-delegate-categories':'')}>{groups.map((group,index)=><section key={group.name} className={'registration-audience '+(index%2?'international':'domestic')}>
    <h3>{group.name}</h3><p>{group.description}</p>
    {delegate&&<p className="registration-availability">{group.url?'Registration form available':'Registration details coming soon'}</p>}
-   <a className="button" href={delegate?(group.url||'#'+categoryAnchor(group.name)):'#visitor-registration-form'} {...(delegate&&group.url?{target:'_blank',rel:'noreferrer'}:{})}>{delegate?(group.url?'Open registration form':'Enquire about this pass'):'View visitor form'}<ArrowRight size={18} aria-hidden="true"/></a>
+   {delegate?<button type="button" className="button" aria-expanded={selected===index} aria-controls={panelId} onClick={()=>reveal(index)}>{selected===index?'Form selected':'Open registration form'}{selected===index?<Check size={18} aria-hidden="true"/>:<ArrowRight size={18} aria-hidden="true"/>}</button>:<a className="button" href="#visitor-registration-form">View visitor form<ArrowRight size={18} aria-hidden="true"/></a>}
   </section>)}</div>
-  {delegate&&<section id="delegate-registration-enquiry" className="registration-enquiry" aria-label="Delegate registration form">{delegateCategories.map(name=><span key={name} id={categoryAnchor(name)} className="registration-category-target" aria-hidden="true"/>)}<p>Complete the organiser’s form for delegate registration and summit participation.</p><ZohoEnquiry src={zohoFormUrls.delegate} title="Delegate registration" height={700}/></section>}
+  {delegate&&<section ref={panel} id={panelId} className="registration-enquiry" aria-label="Delegate registration form" tabIndex={-1} hidden={selected===null}>{selected!==null&&<><p className="registration-selected-category" role="status">Selected category: <strong>{groups[selected].name}</strong></p><p>Complete your delegate registration below. You can fill in and submit the form here on the Bharat Electricity website.</p>{groups[selected].url&&<ZohoEnquiry src={groups[selected].url} title={groups[selected].name+' registration'} height={700}/>}</>}</section>}
  </>;
 }

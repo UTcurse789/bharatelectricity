@@ -24,7 +24,8 @@ const routes=[
  ['/summit-overview/speaking-opportunities','Speaking Opportunities'],
  ['/summit-overview/speaking-opportunities-indian-utility-week','Speaking Opportunities']
 ];
-const urlFor=type=>formBase+'?QueryType='+encodeURIComponent(type);
+const embedUrl=src=>{const url=new URL(src);url.searchParams.set('zf_rszfm','1');return url.href;};
+const urlFor=type=>embedUrl(formBase+'?QueryType='+encodeURIComponent(type));
 const spaceApplications=[
  ['Indian companies','https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormDomestic2027N/formperma/N8WS6AKNb7lC2fp_92boIq_XrEL3AOsnIDebLPjOQ9k'],
  ['International companies','https://forms.zohopublic.in/itenmedia1/form/BharatElectricitySpaceApplicationFormInternational1/formperma/Lur470GtF_mm-smpo0Ud4RGxqiAxuw1DlPtpmmvh7H4'],
@@ -34,23 +35,26 @@ const spaceApplications=[
 for(const [route,type] of routes){
  const $=load(await fs.readFile('out'+route+'/index.html','utf8'));
  const url=urlFor(type);
- assert.equal($('main iframe').length,1,route+' has one hosted form');
- assert.equal($('main iframe').attr('src'),url,route+' enquiry type');
- assert($('main a[target="_blank"]').toArray().some(link=>$(link).attr('href')===url),route+' direct fallback');
+ assert.equal($('main iframe').length,type==='Delegate Registration'?0:1,route+' form appears on selection');
+ if(type!=='Delegate Registration'){
+  assert.equal($('main iframe').attr('data-form-src'),url,route+' enquiry type');
+  assert.equal($('main iframe').attr('scrolling'),'no',route+' uses page scrolling');
+ }
+ assert(!$('main').text().includes('Open the form in a new tab'),route+' has no external form fallback');
  if(type==='Visit'){assert.equal($('main h1').text(),'Visitor Registration 2027');assert.equal($('.registration-audience').length,0);}
  if(type==='Delegate Registration'){
-  assert.equal($('.registration-audience a').length,4);
-  assert($('.registration-audience a').toArray().every(link=>$(link).attr('href')===url));
+  assert.equal($('.registration-audience button[aria-expanded="false"]').length,4);
+  assert.equal($('.registration-audience a[target="_blank"]').length,0);
  }
  assert.equal($('main form').length,0,route+' uses the hosted submission form');
 }
 const booking=load(await fs.readFile('out/space-application-form/index.html','utf8'));
 assert.deepEqual(booking('.space-application-tabs button').toArray().map(button=>booking(button).text()),spaceApplications.map(([category])=>category));
-assert.equal(booking('.space-applications iframe').attr('src'),spaceApplications[0][1]);
+assert.equal(booking('.space-applications iframe').attr('data-form-src'),embedUrl(spaceApplications[0][1]));
 for(const route of ['/new-initiatives/startups','/space-application-form-startups']){
  const $=load(await fs.readFile('out'+route+'/index.html','utf8'));
- assert.equal($('main iframe').attr('src'),spaceApplications[2][1],route+' startup application');
- assert($('main a[target="_blank"]').toArray().some(link=>$(link).attr('href')===spaceApplications[2][1]));
+ assert.equal($('main iframe').attr('data-form-src'),embedUrl(spaceApplications[2][1]),route+' startup application');
+ assert.equal($('main iframe').attr('scrolling'),'no');
 }
 let htmlPages=0;
 async function scan(dir){
@@ -59,8 +63,8 @@ async function scan(dir){
   if(entry.isDirectory())await scan(file);
   else if(entry.name.endsWith('.html')){
    const $=load(await fs.readFile(file,'utf8'));htmlPages++;
-   for(const el of $('iframe[src],a[href]')){
-    const url=$(el).attr('src')||$(el).attr('href');
+   for(const el of $('iframe[src],iframe[data-form-src],a[href]')){
+    const url=$(el).attr('data-form-src')||$(el).attr('src')||$(el).attr('href');
     assert(!url?.includes('/ITENMediaBharatElectricity/'),file+' has an old enquiry URL');
     assert(!url?.includes('konfhub.com/widget'),file+' has the old visitor widget');
     for(const oldId of ['33wuOjGw7kOE_3AZRiHT-8-e2mZtEb0QAGqGagtLeg8','BwQAtt-xJxbF6mukw4y_FZizeMgC5Y1KVNv6IULlo6o','6E7E2hoFz218JCc_TrZFwdNNxLWRxHQtO1fhjXktBh4'])assert(!url?.includes(oldId),file+' has an old space application URL');
@@ -83,10 +87,16 @@ if(process.argv.includes('--browser')){
   for(const width of [1440,375,320]){
    const context=await browser.newContext({viewport:{width,height:1000},reducedMotion:'reduce'}),page=await context.newPage();
    page.on('pageerror',error=>errors.push(error.message));
-   await page.route('https://forms.zohopublic.in/**',route=>route.fulfill({status:200,contentType:'text/html',body:'<!doctype html><html lang="en"><head><title>Form layout check</title></head><body>Hosted form placeholder for local layout checks.</body></html>'}));
+   await page.route('**/*',route=>new URL(route.request().url()).hostname==='127.0.0.1'?route.continue():route.abort());
+   await page.route('https://forms.zohopublic.in/**',route=>{
+    const id=new URL(route.request().url()).pathname.split('/formperma/')[1];
+    return route.fulfill({status:200,contentType:'text/html',body:`<!doctype html><html lang="en"><head><title>Form layout check</title></head><body style="margin:0;height:900px">Hosted form sizing fixture.<script>parent.postMessage('${id}|900','*')</script></body></html>`});
+   });
    for(const [route,type] of process.argv.includes('--space-only')?[]:routes.slice(0,10)){
     assert.equal((await page.goto('http://127.0.0.1:4175'+route+'/',{waitUntil:'networkidle'})).status(),200);
+    if(type==='Delegate Registration')await page.locator('.registration-audience button').first().click();
     const iframe=page.locator('main iframe');await expect(iframe).toHaveAttribute('src',urlFor(type));
+    await iframe.scrollIntoViewIfNeeded();await expect(iframe).toHaveAttribute('height','920');
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),route+' fits '+width);
     const scan=await new AxeBuilder({page}).include('#main-content').exclude('iframe').withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
     assert.deepEqual(scan.violations.map(v=>({id:v.id,targets:v.nodes.map(n=>n.target)})),[],route+' accessibility');
@@ -99,12 +109,17 @@ if(process.argv.includes('--browser')){
    await page.goto('http://127.0.0.1:4175/space-application-form/',{waitUntil:'networkidle'});
    const tabs=page.getByRole('tab');await expect(tabs).toHaveCount(4);
    for(const [index,[category,url]] of spaceApplications.entries()){
+    await tabs.nth(index).scrollIntoViewIfNeeded();
+    await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
     await tabs.nth(index).click();await expect(tabs.nth(index)).toHaveAttribute('aria-selected','true');
-    await expect(page.locator('.space-applications iframe')).toHaveAttribute('src',url);
-    await expect(page.locator('.space-applications a[target="_blank"]')).toHaveAttribute('href',url);
+    await expect(page.locator('.space-applications iframe')).toHaveAttribute('src',embedUrl(url));
+    await page.locator('.space-applications iframe').scrollIntoViewIfNeeded();
+    await expect(page.locator('.space-applications iframe')).toHaveAttribute('height','920');
+    await expect(page.locator('.space-applications iframe')).toHaveAttribute('scrolling','no');
+    await expect(page.locator('.space-applications a[target="_blank"]')).toHaveCount(0);
     await expect(page.getByRole('tabpanel')).toHaveAttribute('aria-labelledby',await tabs.nth(index).getAttribute('id'));
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),category+' fits '+width);
-    checks.push({width,category,embedAndFallback:true});
+    checks.push({width,category,inlineEmbed:true});
    }
    await tabs.nth(3).press('ArrowRight');await expect(tabs.nth(0)).toBeFocused();
    await tabs.nth(0).press('ArrowLeft');await expect(tabs.nth(3)).toBeFocused();
@@ -116,10 +131,10 @@ if(process.argv.includes('--browser')){
    if(width!==320)await page.locator('.space-applications').screenshot({path:folder+'/space-applications-'+width+'.png'});
    await page.goto('http://127.0.0.1:4175/space-application-form-secondary/',{waitUntil:'networkidle'});
    await expect(page.getByRole('tab',{name:'International companies',exact:true})).toHaveAttribute('aria-selected','true');
-   await expect(page.locator('.space-applications iframe')).toHaveAttribute('src',spaceApplications[1][1]);
+   await expect(page.locator('.space-applications iframe')).toHaveAttribute('src',embedUrl(spaceApplications[1][1]));
    checks.push({width,alias:'international',correctForm:true});
    await page.goto('http://127.0.0.1:4175/space-application-form-startups/',{waitUntil:'networkidle'});
-   await expect(page.locator('main iframe')).toHaveAttribute('src',spaceApplications[2][1]);
+   await expect(page.locator('main iframe')).toHaveAttribute('src',embedUrl(spaceApplications[2][1]));
    checks.push({width,alias:'startup',correctForm:true});
    await context.close();
   }

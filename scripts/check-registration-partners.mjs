@@ -38,7 +38,7 @@ try {
   await expect(page.locator('main h1')).toHaveText('Register');
   await expect(page.locator('.registration-highlight-grid article')).toHaveCount(4);
   await expect(page.locator('.registration-help-grid article')).toHaveCount(3);
-  await expect(page.locator('.registration-navigation').getByRole('link',{name:'Make a stand enquiry',exact:true})).toHaveAttribute('href',/^\/exhibit-at-powergen-india\/make-a-stand-enquiry\/?$/);
+  await expect(page.locator('.registration-navigation').getByRole('link',{name:'Delegate registration',exact:true})).toHaveAttribute('href',/^\/summit-overview\/register\/?$/);
   await page.locator('.registration-help').scrollIntoViewIfNeeded();
   await expect.poll(()=>page.locator('.registration-help-grid img').evaluateAll(images=>images.every(img=>img.naturalWidth>0))).toBe(true);
   if(width===1440||width===375)await page.locator('.registration-page').screenshot({path:`${directory}/register-${width}.png`,style:'.site-header,.skip-link{visibility:hidden!important}'});
@@ -48,12 +48,15 @@ try {
    await expect(page.locator('main h1')).toHaveText(title);
    await expect(page.locator('.registration-audience')).toHaveCount(noun==='visitor'?0:4);
    const src='https://forms.zohopublic.in/itenmedia1/form/BharatElectricity2027/formperma/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk'+ '?QueryType='+(noun==='visitor'?'Visit':'Delegate%20Registration');
+   const embedSrc=new URL(src);embedSrc.searchParams.set('zf_rszfm','1');
+   if(noun==='delegate')await page.locator('.registration-audience button').first().click();
    const widget=page.locator(noun==='visitor'?'#visitor-registration-form iframe':'.registration-enquiry iframe');
-   await expect(widget).toHaveAttribute('src',src);
+   await expect(widget).toHaveAttribute('src',embedSrc.href);
    await expect(widget).toHaveAttribute('height','700');
-   await expect(page.getByRole('link',{name:'Open the form in a new tab'})).toHaveAttribute('href',src);
+   await expect(page.getByRole('link',{name:'Open the form in a new tab'})).toHaveCount(0);
+   await expect(widget).toHaveAttribute('scrolling','no');
    await expect(page.locator('main form')).toHaveCount(0);
-   if(noun==='delegate')for(const link of await page.locator('.registration-audience a').all())await expect(link).toHaveAttribute('href',src);
+   if(noun==='delegate')await expect(page.locator('.registration-audience button')).toHaveCount(4);
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),path+' fits '+width+'px');
    if(width===1440||width===375) {
     if(noun==='delegate')await page.locator('.registration-audiences').screenshot({path:`${directory}/${noun}-options-${width}.png`});
@@ -99,7 +102,7 @@ try {
 
   await page.goto(origin+'/space-application-form/',{waitUntil:'networkidle'});
   await expect(page.locator('main iframe')).toHaveCount(1);
-  await expect(page.getByRole('link',{name:'Open the form in a new tab'})).toHaveAttribute('href',/^https:\/\/forms.zohopublic.in\//);
+  await expect(page.getByRole('link',{name:'Open the form in a new tab'})).toHaveCount(0);
   for(const route of ['/exhibitors/','/participants-2025/']) {
    await page.goto(origin+route,{waitUntil:'networkidle'});
    while(await page.getByRole('button',{name:'Show more companies'}).count())await page.getByRole('button',{name:'Show more companies'}).click();

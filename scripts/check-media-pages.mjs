@@ -5,6 +5,7 @@ import AxeBuilder from '@axe-core/playwright';
 
 const origin=process.env.CHECK_ORIGIN||'http://localhost:4173';
 const form='https://forms.zohopublic.in/itenmedia1/form/BharatElectricity2027/formperma/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk?QueryType=Post%20Show%20Report%20Download';
+const embedForm=new URL(form);embedForm.searchParams.set('zf_rszfm','1');
 const folder='research/qa/media';await fs.mkdir(folder,{recursive:true});
 const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
 const checks=[],errors=[];
@@ -27,8 +28,9 @@ try{
     await expect(page.locator('main a[href^="tel:"]')).toHaveAttribute('href','tel:+919990401916');
     await expect(page.locator('main form')).toHaveCount(0);
    }else{
-    const iframe=page.locator('#report-request iframe');await expect(iframe).toHaveCount(1);await expect(iframe).toHaveAttribute('src',form);assert.equal((await iframe.boundingBox()).height,1200);
-    await expect(page.locator('#report-request a[target="_blank"]')).toHaveAttribute('href',form);
+    const iframe=page.locator('#report-request iframe');await expect(iframe).toHaveCount(1);await expect(iframe).toHaveAttribute('src',embedForm.href);assert.equal((await iframe.boundingBox()).height,1200);
+    await expect(iframe).toHaveAttribute('scrolling','no');
+    await expect(page.locator('#report-request a[target="_blank"]')).toHaveCount(0);
     await expect(page.locator('.media-report-cover img')).toHaveAttribute('src','/assets/homepage/post-show-report-2026.webp');
     await expect(page.locator('main form')).toHaveCount(0);
     await page.getByRole('link',{name:'Request the report',exact:true}).click();await expect(page).toHaveURL(/#report-request$/);

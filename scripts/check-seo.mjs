@@ -59,7 +59,7 @@ async function scan(folder){
   const robots=$('head meta[name="robots"]').attr('content')||'';
   const googlebot=$('head meta[name="googlebot"]').attr('content')||'';
   const noindex=/\bnoindex\b/.test(robots);
-  assert.equal(noindex,route==='/welcome/',file+' intentional indexability');
+  assert.equal(noindex,['/welcome/','/Thankyou-For-Registrating-in-BharatElectricity2027/'].includes(route),file+' intentional indexability');
   assert.equal(/\bnoindex\b/.test(googlebot),noindex,file+' Googlebot agrees with robots');
   const nodes=[];
   for(const script of $('script[type="application/ld+json"]')){
@@ -94,7 +94,7 @@ for(const [url,record] of records){
  const target=records.get(record.canonical);
  assert(target,url+' canonical target exists');
  assert.equal(target.canonical,record.canonical,url+' avoids canonical chains');
- assert(!target.noindex,url+' canonical target is indexable');
+ if(!record.noindex)assert(!target.noindex,url+' canonical target is indexable');
 }
 const sitemap=load(await fs.readFile(path.join(root,'sitemap.xml'),'utf8'),{xmlMode:true});
 const sitemapUrls=sitemap('url>loc').toArray().map(node=>sitemap(node).text());
@@ -118,4 +118,5 @@ const og=await sharp(path.join(root,'opengraph-image.png')).metadata();
 assert.deepEqual([og.width,og.height],[1200,630]);
 const apple=await sharp(path.join(root,'apple-icon.png')).metadata();
 assert.deepEqual([apple.width,apple.height],[180,180]);
-console.log(JSON.stringify({origin,htmlPages:records.size,canonicalPages:sitemapUrls.length,aliasPages:records.size-sitemapUrls.length-1,noindexPages:1,sharingAssets:assetPaths.size,structuredDataTypes:Object.fromEntries(types),serverRenderedFaqs:6}));
+const noindexPages=[...records.values()].filter(record=>record.noindex).length;
+console.log(JSON.stringify({origin,htmlPages:records.size,canonicalPages:sitemapUrls.length,aliasPages:records.size-sitemapUrls.length-noindexPages,noindexPages,sharingAssets:assetPaths.size,structuredDataTypes:Object.fromEntries(types),serverRenderedFaqs:6}));

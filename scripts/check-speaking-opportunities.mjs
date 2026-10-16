@@ -24,10 +24,11 @@ try {
   assert.equal(url.searchParams.get('QueryType'),'Speaking Opportunities');
   assert(url.pathname.endsWith('/CaEO_SoMUJ1Tlv-mISKv8t9jJWMKdg-vXOfIhl2oLQk'));
   await frame.scrollIntoViewIfNeeded();
-  assert.equal((await frame.boundingBox()).height,600);
+  await expect(frame).toHaveAttribute('scrolling','no');
+  assert.equal(url.searchParams.get('zf_rszfm'),'1');
   await expect.poll(()=>page.locator('.speaking-copy img').evaluate(img=>img.naturalWidth)).toBeGreaterThan(0);
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Speaking layout fits the viewport');
-  await expect(page.getByRole('link',{name:'Open the form in a new tab'})).toHaveAttribute('href',url.href);
+  await expect(page.getByRole('link',{name:'Open the form in a new tab'})).toHaveCount(0);
   if(width===1440||width===375) {
    await page.locator('.speaking-section').screenshot({path:`${directory}/speaking-${width}.png`});
    const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
@@ -38,7 +39,7 @@ try {
   await page.goto(origin+'/speaking-opportunities/',{waitUntil:'domcontentloaded'});
   await expect(page.locator('.speaking-page iframe')).toHaveAttribute('src',url.href);
   await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href',new RegExp('/summit-overview/speaking-opportunities-bharat-electricity/?$'));
-  results.push({width,alias:'works',form:'600px embedded Zoho form with direct fallback',layout:'no overflow'});
+  results.push({width,alias:'works',form:'automatically sized embedded Zoho form',layout:'no overflow'});
   await context.close();
  }
  assert.deepEqual(errors,[],'Local page JavaScript errors');
