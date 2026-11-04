@@ -2,12 +2,12 @@ import {paths} from './site';
 import {zohoFormUrls} from './zoho-forms';
 
 export const exhibitionPaths={
- why:paths.exhibit,who:'/exhibit-at-powergen-india/who-exhibits-at-powergen-india',previous:'/exhibit-at-powergen-india/previous-attendees',stands:paths.stands,
- enquiry:'/exhibit-at-powergen-india/make-a-stand-enquiry',reserve:'/space-application-form',floor:'/exhibit-at-powergen-india/view-the-floor-plan-92u6',brochure:'/exhibit-at-powergen-india/request-the-event-prospectus',partnership:'/request-the-partnership-brochure',network:'/visiting/networking'
+ why:paths.exhibit,who:'/exhibit-at-bharat-electricity/who-exhibits',previous:'/exhibit-at-bharat-electricity/previous-attendees',stands:paths.stands,
+ enquiry:'/exhibit-at-bharat-electricity/make-a-stand-enquiry',reserve:'/space-application-form',floor:'/exhibit-at-bharat-electricity/request-the-floor-plan',brochure:'/exhibit-at-bharat-electricity/request-the-event-brochure',partnership:'/request-the-partnership-brochure',network:'/visiting/networking'
 };
-export const exhibitionLinks=[['Why Exhibit',exhibitionPaths.why],['Who Exhibits',exhibitionPaths.who],['Previous Attendees',exhibitionPaths.previous],['Stand Options',exhibitionPaths.stands],['Participants',paths.exhibitors],['Exhibitor Manual',paths.manual]];
-export const visitorLinks=[['Why Visit',paths.visit],['Participants',paths.exhibitors],['Networking',exhibitionPaths.network],['Register',paths.registration],['Venue & Travel',paths.venue]];
-export const participantYears=[{year:2026,href:paths.exhibitors},{year:2025,href:'/participants-2025'},{year:2024,href:'/2024-exhibitors'}];
+export const exhibitionLinks=[['Why Exhibit',exhibitionPaths.why],['Who Exhibits',exhibitionPaths.who],['Previous Attendees',exhibitionPaths.previous],['Stand Options',exhibitionPaths.stands],['Participants',paths.exhibitors]];
+export const visitorLinks=[['Why Visit',paths.visit],['Networking',exhibitionPaths.network],['Register',paths.registration],['Venue & Travel',paths.venue]];
+export const participantYears=[{year:2026,href:paths.exhibitors+'?year=2026'},{year:2025,href:paths.exhibitors+'?year=2025'},{year:2024,href:paths.exhibitors+'?year=2024'}];
 
 export const exhibitSectors=[
  {name:'Generation & equipment',items:['Turbines, boilers & steam generator suppliers','Generation technology & component vendors','Diesel / gas engine manufacturers','CSP equipment companies','Nuclear plant equipment & services','Hydro turbines & component vendors','Wind turbines & component providers','Biomass application & equipment suppliers','PV equipment providers','Back-up power systems & inverter suppliers']},
@@ -34,12 +34,12 @@ export const exhibitionTitles:Record<string,{title:string;intro:string;visitor?:
  [exhibitionPaths.brochure]:{title:'Request the Event Brochure',intro:'Explore exhibition, summit and participation opportunities with Bharat Electricity.'},
  [exhibitionPaths.partnership]:{title:'Request the Partnership Brochure',intro:'Explore brand visibility, thought leadership and opportunities to connect with the energy community.'},
  [paths.manual]:{title:'Exhibitor Manual',intro:'Revisit the published 2026 exhibitor guidance, schedules and stand planning information.'},
- [paths.exhibitors]:{title:'Participants 2026',intro:'Explore the published companies and stand allocations from the completed 2026 edition.'},
+ [paths.exhibitors]:{title:'Participants List',intro:'Explore the participating companies by edition.'},
  '/participants-2025':{title:'Participants 2025',intro:'Explore the complete published participant archive for the 2025 edition.'},
  '/2024-exhibitors':{title:'Participants 2024',intro:'Browse the participant logos published for the 2024 exhibition.'},
  [paths.visit]:{title:'Why Visit?',intro:'Discover energy technology, meet industry professionals and explore the ideas connecting the power and utility sectors.',visitor:true},
  [paths.registration]:{title:'Register',intro:'Find registration information for visitors and summit delegates.',visitor:true},
- [paths.venue]:{title:'Venue & Travel',intro:'Yashobhoomi (IICC), Dwarka, New Delhi hosted the completed 2026 edition.',visitor:true},
+ [paths.venue]:{title:'Venue & Travel',intro:'Plan your visit to Yashobhoomi (IICC), New Delhi, from 1-3 September 2027. Main entrance: Gate No. 6.',visitor:true},
  [exhibitionPaths.network]:{title:'Networking',intro:'Make connections across the energy community, from the exhibition floor to industry conversations.',visitor:true},
  [paths.contact]:{title:'Contact Us',intro:'Talk to the team about exhibiting, partnerships, speaking or your next visit.'}
 };

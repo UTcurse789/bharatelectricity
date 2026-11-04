@@ -169,3 +169,15 @@ export const legacyEditions:LegacyEdition[]=[{
  awards:{heading:'Celebrating excellence',subheading:'Bharat Electricity – Powering India Awards 2025',description:'Original photographs from the 2025 awards and gala.',images:edition2025Assets.awards.map(({src,alt})=>({src,alt})),galleryUrl:'https://photos.app.goo.gl/B84DWBDPtEAD4tK57'},
  albums:[{label:'2025 conference photographs',url:'https://photos.app.goo.gl/LdDGSEzkTrC4wWFc8'},{label:'2025 exhibition photographs',url:'https://photos.app.goo.gl/pzzYYy8HeN9nVXsy8'}]
 }];
+
+// The 2026 archive uses supplied edition imagery without assigning undated images to a day.
+legacyEditions.push({
+ year:2026,names:'Bharat Electricity',eyebrow:'THE 2026 EDITION',references:{},
+ recap:['Bharat Electricity brought the power and energy community to Yashobhoomi (IICC), New Delhi, from 1-3 September 2026. Explore the participating companies, Governing Council, summit programme and photographs from the edition.'],
+ themes:['Power generation','Transmission & distribution','Clean energy','Digital utilities'],
+ statistics:[{value:'1-3',label:'September 2026'},{value:'3',label:'Programme days',icon:'time'},{value:'48',label:'Governing Council members',icon:'speakers'}],
+ demographics:[],sectors:[],feedback:[],pavilions:[],
+ days:[{id:'day-1',label:'Day 1',images:[]},{id:'day-2',label:'Day 2',images:[]},{id:'day-3',label:'Day 3',images:[]}],
+ awards:{heading:'Celebrating excellence',subheading:'Bharat Electricity - Powering India Awards 2026',description:'The 2026 Awards & Gala celebrates contributions across India’s power and energy sector.',images:[]},
+ albums:[{label:'2026 Governing Council photographs',url:'https://photos.app.goo.gl/eqpzZ29AhxfmEjJC9'}]
+});

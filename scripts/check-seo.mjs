@@ -107,7 +107,7 @@ assert(!/Disallow:\s*\/\s*(?:\r?\n|$)/i.test(robots),'Crawlers can fetch public 
 assert(robots.includes('Sitemap: '+origin+'/sitemap.xml'));
 const homepage=load(await fs.readFile(path.join(root,'index.html'),'utf8'));
 assert.equal(homepage('.event-faq details').length,6,'Questions and answers are present in initial HTML');
-assert.match(homepage('.event-faq').text(),/1–3 September 2027/);
+assert.match(homepage('.event-faq').text(),/1[-–]3 September 2027/);
 assert.match(homepage('.event-faq').text(),/Yashobhoomi/);
 const event=records.get(origin+'/').nodes.find(node=>node['@type']==='Event');
 assert.equal(event.startDate,'2027-09-01');assert.equal(event.endDate,'2027-09-03');

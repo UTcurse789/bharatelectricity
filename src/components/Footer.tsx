@@ -15,14 +15,14 @@ export function Footer() {
       <section aria-labelledby="footer-organisers">
        <h3 id="footer-organisers">Organisers</h3>
        <div className="footer-organiser-logos">
-        <Image src="/assets/footer/iten.webp" alt="ITEN" width={280} height={81} sizes="110px" unoptimized/>
-        <Image src="/assets/footer/encis.webp" alt="ENCIS — The Energy & Climate Initiatives Society" width={560} height={139} sizes="210px" unoptimized/>
+        <Image src="/assets/footer/iten.webp" alt="ITEN" width={280} height={81} sizes="81px" unoptimized/>
+        <Image src="/assets/footer/encis.webp" alt="ENCIS — The Energy & Climate Initiatives Society" width={560} height={139} sizes="153px" unoptimized/>
        </div>
       </section>
       <hr className="footer-partner-separator"/>
       <section aria-labelledby="footer-host-publication">
        <h3 id="footer-host-publication">Host publication</h3>
-       <Image className="footer-publication-logo" src="/assets/footer/energdive.webp" alt="ENERGDIVE — Insights and Market Intelligence" width={660} height={103} sizes="260px" unoptimized/>
+       <Image className="footer-publication-logo" src="/assets/footer/energdive.webp" alt="ENERGDIVE — Insights and Market Intelligence" width={660} height={103} sizes="200px" unoptimized/>
       </section>
      </div>
     </div>
@@ -48,7 +48,7 @@ export function Footer() {
     </div>
    </div>
    <div className="wrap footer-bottom">
-    <span>© {site.edition.year} BHARAT ELECTRICITY</span>
+    <span>© {site.nextEdition.year} BHARAT ELECTRICITY</span>
     <div><Link href={paths.privacy}>Privacy Policy</Link><Link href={paths.terms}>Terms & Conditions</Link></div>
    </div>
   </footer>

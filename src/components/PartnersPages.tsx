@@ -23,7 +23,7 @@ for(const section of archive.sections.slice(4)) {
  archivedGroups.push({title,logos:section.images.filter(image=>!('unavailable' in image&&image.unavailable)).map((image,index)=>({name:title+' artwork '+(index+1),src:image.src,width:image.width,height:image.height,source:image.source,href:null,file:image.source}))});
 }
 const mainRoleOrder=['Energy Security Partner','Cybersecurity Partner','Technology Partner','Host Utilities','Co-Host Utility','Partner Utility'];
-const currentGroups=[...allPartnerGroups].sort((a,b)=>{
+const currentGroups=allPartnerGroups.filter(group=>group.title!=='GOVERNMENT SUPPORT').sort((a,b)=>{
  const aIndex=mainRoleOrder.indexOf(a.title),bIndex=mainRoleOrder.indexOf(b.title);
  return (aIndex<0?mainRoleOrder.length:aIndex)-(bIndex<0?mainRoleOrder.length:bIndex);
 });

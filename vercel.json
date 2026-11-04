@@ -10,6 +10,156 @@
       "source": "/Thankyou-For-Registrating-in-BharatElectricity2027",
       "destination": "/thankyou-for-registrating-in-bharatelectricity2027/",
       "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/who-exhibits-at-powergen-india",
+      "destination": "/exhibit-at-bharat-electricity/who-exhibits/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/who-exhibits-at-powergen-india/",
+      "destination": "/exhibit-at-bharat-electricity/who-exhibits/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/previous-attendees",
+      "destination": "/exhibit-at-bharat-electricity/previous-attendees/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/previous-attendees/",
+      "destination": "/exhibit-at-bharat-electricity/previous-attendees/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/stand-options",
+      "destination": "/exhibit-at-bharat-electricity/stand-options/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/stand-options/",
+      "destination": "/exhibit-at-bharat-electricity/stand-options/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/make-a-stand-enquiry",
+      "destination": "/exhibit-at-bharat-electricity/make-a-stand-enquiry/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/make-a-stand-enquiry/",
+      "destination": "/exhibit-at-bharat-electricity/make-a-stand-enquiry/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/view-the-floor-plan-92u6",
+      "destination": "/exhibit-at-bharat-electricity/request-the-floor-plan/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/view-the-floor-plan-92u6/",
+      "destination": "/exhibit-at-bharat-electricity/request-the-floor-plan/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/request-the-event-prospectus",
+      "destination": "/exhibit-at-bharat-electricity/request-the-event-brochure/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/request-the-event-prospectus/",
+      "destination": "/exhibit-at-bharat-electricity/request-the-event-brochure/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india",
+      "destination": "/exhibit-at-bharat-electricity/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/",
+      "destination": "/exhibit-at-bharat-electricity/",
+      "permanent": true
+    },
+    {
+      "source": "/summit-overview/2026-summit-agenda",
+      "destination": "/summit-overview/summit-agenda/",
+      "permanent": true
+    },
+    {
+      "source": "/summit-overview/2026-summit-agenda/",
+      "destination": "/summit-overview/summit-agenda/",
+      "permanent": true
+    },
+    {
+      "source": "/summit-overview/speaking-opportunities-bharat-electricity",
+      "destination": "/summit-overview/speaking-opportunities/",
+      "permanent": true
+    },
+    {
+      "source": "/summit-overview/speaking-opportunities-bharat-electricity/",
+      "destination": "/summit-overview/speaking-opportunities/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibitors",
+      "destination": "/participants/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibitors/",
+      "destination": "/participants/",
+      "permanent": true
+    },
+    {
+      "source": "/participants-2026",
+      "destination": "/participants/?year=2026",
+      "permanent": true
+    },
+    {
+      "source": "/participants-2026/",
+      "destination": "/participants/?year=2026",
+      "permanent": true
+    },
+    {
+      "source": "/participants-2025",
+      "destination": "/participants/?year=2025",
+      "permanent": true
+    },
+    {
+      "source": "/participants-2025/",
+      "destination": "/participants/?year=2025",
+      "permanent": true
+    },
+    {
+      "source": "/exhibitor-list",
+      "destination": "/participants/?year=2025",
+      "permanent": true
+    },
+    {
+      "source": "/exhibitor-list/",
+      "destination": "/participants/?year=2025",
+      "permanent": true
+    },
+    {
+      "source": "/2024-exhibitors",
+      "destination": "/participants/?year=2024",
+      "permanent": true
+    },
+    {
+      "source": "/2024-exhibitors/",
+      "destination": "/participants/?year=2024",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/make-stand-enquiry-indian-utility-week",
+      "destination": "/exhibit-at-bharat-electricity/make-stand-enquiry-indian-utility-week/",
+      "permanent": true
+    },
+    {
+      "source": "/exhibit-at-powergen-india/make-stand-enquiry-indian-utility-week/",
+      "destination": "/exhibit-at-bharat-electricity/make-stand-enquiry-indian-utility-week/",
+      "permanent": true
     }
   ]
 }

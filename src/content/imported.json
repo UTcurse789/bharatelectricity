@@ -516,8 +516,8 @@
     },
     {
       "id": "tranter-india-pvt",
-      "name": "Tranter India Pvt Ltd",
-      "logo": "/assets/logos/tranter-india-pvt.webp",
+      "name": "Tranter India Pvt. Ltd.",
+      "logo": "/assets/2027-refresh/tranter-india.webp",
       "source": "https://www.powergen-india.com/exhibitors/tranter-india-pvt"
     },
     {
@@ -1912,324 +1912,15 @@
       "name": "Shri Sunil Nair",
       "photo": "/assets/speakers-2025/8b6a667fbe3d-portrait.webp",
       "source": "https://www.powergen-india.com/2025-speakers"
+    },
+    {
+      "id": "shri-p-c-garg",
+      "name": "Shri P. C. Garg",
+      "photo": "/assets/2027-refresh/council-p-c-garg.webp",
+      "source": "Governing Council 2026.pdf, page 2, final row"
     }
   ],
   "appearances": [
-    {
-      "personId": "shri-bhupinder-singh-bhalla-ias-retd",
-      "edition": 2026,
-      "kind": "council",
-      "role": "Honorary Chairperson",
-      "designation": "Former Secretary, MNRE, Government of India"
-    },
-    {
-      "personId": "shri-alok-kumar-ias-retd",
-      "edition": 2026,
-      "kind": "council",
-      "role": "Honorary Co-chairman",
-      "designation": "Director General, All India Discom Association"
-    },
-    {
-      "personId": "shri-gaurav-gupta-ias",
-      "edition": 2026,
-      "kind": "council",
-      "role": "Honorary Co-chairman",
-      "designation": "ACS, Department of Energy, Govt. of Karnataka"
-    },
-    {
-      "personId": "shri-ghanshyam-prasad",
-      "edition": 2026,
-      "kind": "council",
-      "role": "Honorary Co-chairman",
-      "designation": "Chairperson, Central Electricity Authority"
-    },
-    {
-      "personId": "shri-arun-goyal-ias-retd",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Former Member, CERC"
-    },
-    {
-      "personId": "shri-samir-chandra-saxena",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chairman & Managing Director, Grid Controller of India"
-    },
-    {
-      "personId": "shri-ravindra-kumar",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Director (Operations), NTPC Limited"
-    },
-    {
-      "personId": "shri-saurav-kumar-shah-ips",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Executive Director - RDSS, Power Finance Corporation"
-    },
-    {
-      "personId": "shri-jeevan-kumar-jethani",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Executive Director, AREAS"
-    },
-    {
-      "personId": "shri-ashish-khanna",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Director General, Internatational Solar Alliance"
-    },
-    {
-      "personId": "shri-sanjay-sharma",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Director-Solar, SECI"
-    },
-    {
-      "personId": "shri-atul-kumar-bali",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMEBR",
-      "designation": "Director, National Smart Grid Mission"
-    },
-    {
-      "personId": "shri-vinod-kumar-n",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Senior Director, Austrade"
-    },
-    {
-      "personId": "shri-pratik-agarwal",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chairman, Serentica Renewables, &, MD, Sterlite Electric Ltd."
-    },
-    {
-      "personId": "shri-sanjay-banga",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "CEO & MD, Tata Power Renewables"
-    },
-    {
-      "personId": "dr-kalirajan-sivagnana",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Managing Director, EDF Nuclear Projects India Ltd."
-    },
-    {
-      "personId": "shri-brajesh-singh",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "MD (Generation), CESC Ltd."
-    },
-    {
-      "personId": "shri-abhishek-ranjan",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chief Executive Officer, BSES Rajdhani Power Ltd"
-    },
-    {
-      "personId": "shri-sandeep-kashyap",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "CEO, Purvah Green Power, Private Limited"
-    },
-    {
-      "personId": "shri-akshay-hiranandani",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "CEO, Serentica Renewables, India Pvt. Ltd."
-    },
-    {
-      "personId": "shri-vijay-joshi",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Deputy CEO, Rosatom South Asia, International Marketing Ltd."
-    },
-    {
-      "personId": "shri-sanil-c-namboodiripad",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chief Operating Officer, Indigrid"
-    },
-    {
-      "personId": "shri-manish-karna",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chief Project Officer, Adani Green Energy Ltd"
-    },
-    {
-      "personId": "shri-vikram-kapur",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Group President, ReNew"
-    },
-    {
-      "personId": "shri-derek-m-shah",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "CEO & MD, L&T Energy GreeTech"
-    },
-    {
-      "personId": "shri-venu-nuguri",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "MD and CEO, Hitachi Energy, India & South Asia"
-    },
-    {
-      "personId": "shri-rpv-prasad",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "MD - India Region, Envision Energy"
-    },
-    {
-      "personId": "shri-rajesh-k-mediratta",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "CEO & MD, India Gas Exchange"
-    },
-    {
-      "personId": "shri-anurag-johri",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "MD & Lead - Utilities, Accenture in India"
-    },
-    {
-      "personId": "shri-rohit-bajaj",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Joint Managing Director, Indian Energy Exchange (IEX)"
-    },
-    {
-      "personId": "shri-prashant-sinha",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chief Executive Officer, Resonia"
-    },
-    {
-      "personId": "shri-amit-kumar",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "VP & Head Metering & Protection Systems, Schneider Electric India Pvt. Ltd."
-    },
-    {
-      "personId": "shri-abhishek-srivastava",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "India Leader - Grid System, Integration, GE Vernova"
-    },
-    {
-      "personId": "shri-anup-bhargava",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Senior Vice President, Invest India"
-    },
-    {
-      "personId": "shri-sunil-singhvi",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Group Head - Public Policy, Secure Meters Ltd."
-    },
-    {
-      "personId": "dr-r-k-malhotra",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "President, Hydrogen Association of India"
-    },
-    {
-      "personId": "dr-vibha-dhawan",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Director General, TERI"
-    },
-    {
-      "personId": "shri-rahul-sharma",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Managing Director, USIBC"
-    },
-    {
-      "personId": "shri-madhav-pai",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chief Executive Officer, WRI India"
-    },
-    {
-      "personId": "dr-abhilasha-gaur",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chief Executive Officer - SSC, NASSCOM"
-    },
-    {
-      "personId": "shri-aditya-pyasi",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chief Executive Officer, IWTMA"
-    },
-    {
-      "personId": "shri-subrahmanyam-pulipaka",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chief Executive Officer, NSEFI"
-    },
-    {
-      "personId": "shri-francis-jayasurya",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "India Head, Global Wind Energy Council"
-    },
-    {
-      "personId": "shri-jagjeet-sareen",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "India Head, Dalberg Advisors"
-    },
-    {
-      "personId": "shri-nishaanth-balashanmugam",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "CEO and Director, Gh2, India"
-    },
     {
       "personId": "shri-bhupinder-singh-bhalla-ias-retd",
       "edition": 2025,
@@ -2285,34 +1976,6 @@
       "kind": "speaker",
       "role": "Speaker",
       "designation": "Director & Co-founder, Carbon U Turn Pvt. Ltd."
-    },
-    {
-      "personId": "ms-suman-chandra-ias",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Director, Ministry of New & Renewable Energy"
-    },
-    {
-      "personId": "mr-rasmus-wendt",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Energy Counsellor, Danish Energy Agency"
-    },
-    {
-      "personId": "ms-praveena-rai",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Managing Director & CEO, MCX India Ltd."
-    },
-    {
-      "personId": "ms-mashal-dhawan",
-      "edition": 2026,
-      "kind": "council",
-      "role": "MEMBER",
-      "designation": "Chief Executive Officer - Asia, SEW.AI"
     },
     {
       "personId": "dr-tripta-thakur",
@@ -2761,6 +2424,342 @@
       "kind": "speaker",
       "role": "Speaker",
       "designation": "Group CIO and Senior Vice President, Suzlon Energy"
+    },
+    {
+      "personId": "shri-bhupinder-singh-bhalla-ias-retd",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Honorary Chairman",
+      "designation": "Former Secretary, MNRE, Government of India"
+    },
+    {
+      "personId": "shri-gaurav-gupta-ias",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Honorary Co-chairman",
+      "designation": "ACS, Department of Energy, Govt. of Karnataka"
+    },
+    {
+      "personId": "shri-ghanshyam-prasad",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Honorary Co-chairman",
+      "designation": "Chairperson, Central Electricity Authority"
+    },
+    {
+      "personId": "shri-arun-goyal-ias-retd",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Former Member, CERC"
+    },
+    {
+      "personId": "shri-samir-chandra-saxena",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chairman & Managing Director, Grid Controller of India"
+    },
+    {
+      "personId": "shri-ravindra-kumar",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Director (Operations), NTPC Limited"
+    },
+    {
+      "personId": "shri-saurav-kumar-shah-ips",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Executive Director - RDSS, Power Finance Corporation"
+    },
+    {
+      "personId": "shri-jeevan-kumar-jethani",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Executive Director, AREAS"
+    },
+    {
+      "personId": "ms-suman-chandra-ias",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Director, Ministry of New & Renewable Energy"
+    },
+    {
+      "personId": "shri-ashish-khanna",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Director General, International Solar Alliance"
+    },
+    {
+      "personId": "shri-sanjay-sharma",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Director-Solar, SECI"
+    },
+    {
+      "personId": "shri-atul-kumar-bali",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Director, National Smart Grid Mission"
+    },
+    {
+      "personId": "mr-rasmus-wendt",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Energy Counsellor, Danish Energy Agency"
+    },
+    {
+      "personId": "shri-vinod-kumar-n",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Senior Director, Austrade"
+    },
+    {
+      "personId": "shri-pratik-agarwal",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chairman, Serentica Renewables, &, MD, Sterlite Electric Ltd."
+    },
+    {
+      "personId": "shri-sanjay-banga",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "CEO & MD, Tata Power Renewables"
+    },
+    {
+      "personId": "dr-kalirajan-sivagnana",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Managing Director, EDF Nuclear Projects India Ltd."
+    },
+    {
+      "personId": "shri-brajesh-singh",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "MD (Generation), CESC Ltd."
+    },
+    {
+      "personId": "shri-abhishek-ranjan",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chief Executive Officer, BSES Rajdhani Power Ltd"
+    },
+    {
+      "personId": "shri-sandeep-kashyap",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "CEO, Purvah Green Power, Private Limited"
+    },
+    {
+      "personId": "shri-akshay-hiranandani",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "CEO, Serentica Renewables, India Pvt. Ltd."
+    },
+    {
+      "personId": "shri-vijay-joshi",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Deputy CEO, Rosatom South Asia, International Marketing Ltd."
+    },
+    {
+      "personId": "shri-sanil-c-namboodiripad",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chief Operating Officer, Indigrid"
+    },
+    {
+      "personId": "shri-manish-karna",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chief Project Officer, Adani Green Energy Ltd"
+    },
+    {
+      "personId": "shri-vikram-kapur",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Group President, ReNew"
+    },
+    {
+      "personId": "shri-derek-m-shah",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "CEO & MD, L&T Energy GreeTech"
+    },
+    {
+      "personId": "shri-venu-nuguri",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "MD and CEO, Hitachi Energy, India & South Asia"
+    },
+    {
+      "personId": "shri-rpv-prasad",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "MD - India Region, Envision Energy"
+    },
+    {
+      "personId": "ms-praveena-rai",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Managing Director & CEO, MCX India Ltd."
+    },
+    {
+      "personId": "shri-rajesh-k-mediratta",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "CEO & MD, India Gas Exchange"
+    },
+    {
+      "personId": "shri-anurag-johri",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "MD & Lead - Utilities, Accenture in India"
+    },
+    {
+      "personId": "shri-rohit-bajaj",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Joint Managing Director, Indian Energy Exchange (IEX)"
+    },
+    {
+      "personId": "ms-mashal-dhawan",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chief Executive Officer - Asia, Smart Energy Water"
+    },
+    {
+      "personId": "shri-prashant-sinha",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chief Executive Officer, Resonia"
+    },
+    {
+      "personId": "shri-amit-kumar",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "VP & Head Metering & Protection Systems, Schneider Electric India Pvt. Ltd."
+    },
+    {
+      "personId": "shri-abhishek-srivastava",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "India Leader - Grid System, Integration, GE Vernova"
+    },
+    {
+      "personId": "shri-anup-bhargava",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Senior Vice President, Invest India"
+    },
+    {
+      "personId": "shri-sunil-singhvi",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Group Head - Public Policy, Secure Meters Ltd."
+    },
+    {
+      "personId": "dr-r-k-malhotra",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "President, Hydrogen Association of India"
+    },
+    {
+      "personId": "dr-vibha-dhawan",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Director General, TERI"
+    },
+    {
+      "personId": "shri-rahul-sharma",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Managing Director, USIBC"
+    },
+    {
+      "personId": "shri-madhav-pai",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chief Executive Officer, WRI India"
+    },
+    {
+      "personId": "dr-abhilasha-gaur",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chief Executive Officer - SSC, NASSCOM"
+    },
+    {
+      "personId": "shri-aditya-pyasi",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Chief Executive Officer, IWTMA"
+    },
+    {
+      "personId": "shri-p-c-garg",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "Principal Advisor, NSEFI"
+    },
+    {
+      "personId": "shri-francis-jayasurya",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "India Head, Global Wind Energy Council"
+    },
+    {
+      "personId": "shri-jagjeet-sareen",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "India Head, Dalberg Advisors"
+    },
+    {
+      "personId": "shri-nishaanth-balashanmugam",
+      "edition": 2026,
+      "kind": "council",
+      "role": "Member",
+      "designation": "CEO and Director, Gh2, India"
     }
   ],
   "sessions": [

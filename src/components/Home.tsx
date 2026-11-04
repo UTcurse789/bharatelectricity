@@ -6,7 +6,6 @@ import { ArrowUpRight, CaretRight } from '@phosphor-icons/react/dist/ssr';
 import { EventCarousel } from './EventCarousel';
 import { VideoHero } from './VideoHero';
 import { EnergyIntroduction } from './EnergyIntroduction';
-import { ContentRail } from './ContentRail';
 import { HomePartnerGrid } from './HomePartnerGrid';
 import { HomeCompanies, HomePeople } from './HomeDirectories';
 import { LogoImage } from './LogoImage';
@@ -14,7 +13,6 @@ import { GlobalVisitors } from './GlobalVisitors';
 import CountUp from './react-bits/CountUp';
 import { paths, site } from '@/content/site';
 import { allPartnerGroups } from '@/content/partners';
-import partnerContent from '@/content/homepage-partners.json';
 import media from '@/content/homepage-media.json';
 import { getExhibitors, getPeople, sessions } from '@/lib/content';
 import './Home.css';
@@ -23,7 +21,6 @@ export function Home() {
     const council = getPeople('council').sort((a, b) => Number(!a.role.toLowerCase().includes('honorary')) - Number(!b.role.toLowerCase().includes('honorary')));
     const speakers = getPeople('speaker');
     const exhibitors = getExhibitors();
-    const global = partnerContent.groups.find(group => group.title === 'Global Footprint')!;
     const partners = allPartnerGroups.filter(group => !['Global Footprint', 'GOVERNMENT SUPPORT'].includes(group.title)).flatMap(group => group.logos.map(logo => ({ name: logo.name, src: logo.src, width: logo.width, height: logo.height, role: group.title }))).filter((logo, index, all) => all.findIndex(item => item.src === logo.src) === index);
     const programme = sessions.filter(session => session.day === 1 && !/Tea|Lunch|Awards/.test(session.title)).slice(0, 3);
     return <div className="home-page">
@@ -96,9 +93,7 @@ export function Home() {
             <div className="programme-sessions">{programme.map(session => <Link key={session.id} href={paths.agenda}><span>1 September 2026 / {session.time} IST</span><h3>{session.title}</h3><ArrowUpRight size={23} aria-hidden="true" /></Link>)}</div>
         </div></section>
 
-        {/* <section className="section wrap global-section" aria-labelledby="global-heading"><div className="home-section-heading"><h2 id="global-heading">A global energy community</h2><p>Explore the organiser's international event portfolio.</p></div>
-            <ContentRail label="international events" className="global-rail">{global.logos.map(logo => <Link href="/event/power--energy-series-a-global-portfolio" key={logo.source} className="global-event">{/^POWERGEN/i.test(logo.file) ? <div className="global-event-copy"><strong>{logo.name}</strong><span>18-21 January 2027<br />Salt Lake City, Utah</span></div> : <LogoImage src={logo.src} alt={logo.name + ': published event artwork'} width={logo.width} height={logo.height} sizes="300px" maxWidth={260} maxHeight={120} loading="lazy" />}</Link>)}</ContentRail>
-        </section> */}
+
 
         <GlobalVisitors />
         <EventFAQ />

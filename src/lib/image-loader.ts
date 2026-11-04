@@ -1,5 +1,6 @@
 import type {ImageLoaderProps} from 'next/image';
 export default function imageLoader({src, width}: ImageLoaderProps) {
+ if (/^\/assets\/2027-refresh\/(exhibition-floor|community-conversations|community-performance|event-brochure-2027|partnership-brochure-2027)\.webp$/.test(src)) return src.replace('.webp', '-' + width + '.webp');
  if (src === '/assets/government-header/support.webp') return src.replace('.webp', '-' + width + '.webp');
  if (/^\/assets\/edition-2026\/council-\d+\.webp$/.test(src)) return src.replace('.webp', '-' + width + '.webp');
  if (/^\/assets\/site-refresh\/(raw-space|shell-scheme)\.webp$/.test(src)) return src.replace('.webp', '-' + width + '.webp');

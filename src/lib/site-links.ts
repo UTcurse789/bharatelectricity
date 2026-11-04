@@ -1,8 +1,13 @@
 import {paths} from '@/content/site';
 import {consolidatedRoutes} from '@/content/initiatives';
+import urlMigrations from '@/content/url-migrations.json';
 
 const legacyDestinations:Record<string,string> = {
  '/event':paths.about,
+ '/exhibitors':paths.exhibitors,
+ '/exhibitor-list':paths.exhibitors+'?year=2025',
+ '/participants-2025':paths.exhibitors+'?year=2025',
+ '/2024-exhibitors':paths.exhibitors+'?year=2024',
  '/why-exhibit':paths.exhibit,
  '/stand-options':paths.stands,
  '/contact':paths.contact,
@@ -11,7 +16,7 @@ const legacyDestinations:Record<string,string> = {
  '/visitor-registration-2026':'/visitor-registration',
  '/summit-overview/submit-abstract-powergen-india':paths.speaking,
  '/summit-overview/submit-abstract-indian-utility-week':paths.speaking,
- '/exhibit-at-powergen-india/request-a-call-back':'/request_a_call_back'
+ '/exhibit-at-bharat-electricity/request-a-call-back':'/request_a_call_back'
 };
 
 export function siteHref(href:string) {
@@ -19,7 +24,7 @@ export function siteHref(href:string) {
  if(href.startsWith('/')&&!href.startsWith('//')) {
   const url=new URL(href,'https://bharat.local');
   const path=url.pathname.replace(/\/$/,'')||'/';
-  return (consolidatedRoutes[path]||legacyDestinations[path]||path)+url.search+url.hash;
+  return ((urlMigrations as Record<string,string>)[path]||consolidatedRoutes[path]||legacyDestinations[path]||path)+url.search+url.hash;
  }
  try {
   const url=new URL(href);

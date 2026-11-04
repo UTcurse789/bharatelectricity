@@ -192,3 +192,17 @@
 .legacy-page .inauguration-section .photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
 .legacy-page .inauguration-section .photo-tile{grid-column:auto}.legacy-page .inauguration-section .photo-tile img{height:360px;object-fit:contain;background:#fff}
 @media(max-width:767px){.legacy-page .inauguration-section .photo-grid{grid-template-columns:1fr}.legacy-page .inauguration-section .photo-tile img{height:280px}}
+
+/* Still, full-colour photo collections with a full-size viewer. */
+.legacy-page{--legacy-paper:#fff;background:#fff}
+.legacy-photo-pending{padding:22px 24px;border-left:3px solid var(--orange);background:#f6f8f5;color:#4a554e;font-size:.95rem;line-height:1.8}
+.legacy-day-panel{padding-top:24px}.legacy-edition-highlights{margin-bottom:38px}.legacy-edition-highlights>h3{margin-bottom:22px;font-size:1.3rem}
+.legacy-page .legacy-awards{display:block;background:#fff;border:1px solid var(--legacy-line);padding:32px}
+.legacy-page .legacy-awards-copy{max-width:720px;margin-bottom:28px}.legacy-page .legacy-awards h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+.legacy-page .legacy-awards-gallery .photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.legacy-page .readable-photo-grid .photo-tile img,.legacy-page .readable-photo-grid .photo-tile:first-child img{height:auto;max-height:450px;object-fit:contain;filter:none}
+@media(max-width:767px){.legacy-page .legacy-awards{padding:24px 18px}.legacy-page .legacy-awards-gallery .photo-grid{grid-template-columns:1fr}.legacy-photo-pending{padding:18px}}
+
+.legacy-edition[data-year="2026"] .legacy-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}
+.legacy-page .legacy-awards h2{color:#1b1d1c}.legacy-page .legacy-awards h3{color:#08752c}.legacy-page .legacy-awards-copy>p{color:#4a554e}.legacy-page .legacy-awards-copy>.legacy-awards-edition{color:#a93e00}
+@media(max-width:600px){.legacy-edition[data-year="2026"] .legacy-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}

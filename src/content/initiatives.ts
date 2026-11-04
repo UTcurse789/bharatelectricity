@@ -52,8 +52,7 @@ export const initiativePages:ContentPage[] = [
 // Consolidated pages remain available at earlier URLs in the static export.
 export const consolidatedRoutes:Record<string,string> = {
  '/speaking-opportunities':paths.speaking,
- '/summit-overview/speaking-opportunities':paths.speaking,
- '/summit-overview/speaking-opportunities-bharat-electricity':paths.speaking,
+
  '/summit-overview/speaking-opportunities-indian-utility-week':paths.speaking,
  '/become-sponsor-indian-utility-week':paths.partnership,
 };

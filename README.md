@@ -1,5 +1,7 @@
 > Latest update — 9 October 2026: The complete 9 October website refresh is documented in docs/WEBSITE-REFRESH.md. It includes full reference editorial pages, exhibitor manual and awards material, older participant/council/partner archives, all 19 news bodies, 26 video cards and all 11 official albums. The supplied stand images are integrated with format-specific enquiry links.
 
+The 2027 website updates were deployed to https://www.bharat-electricity.com on 4 November 2026. See [the update record](docs/2027-WEBSITE-UPDATES.md) for changes, verification and remaining photo requirements.
+
 # BHARAT ELECTRICITY website
 
 The SEO update was deployed to `https://www.bharat-electricity.com` on 15 October 2026. Configuration, public verification results and remaining Search Console/indexing steps are documented in [docs/SEO-AND-INDEXING.md](docs/SEO-AND-INDEXING.md).

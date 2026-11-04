@@ -30,7 +30,7 @@ function DocumentBlocks({paragraphs}:{paragraphs:Paragraph[]}){
  }
  return elements;
 }
-const otherOptions=referencePages.find(p=>p.path===paths.manual)!.sections.slice(-3);
+const otherOptions=referencePages.find(p=>p.path==='/exhibitor-guide')!.sections.slice(-3);
 export function ExhibitorManual(){return <div className="wrap exhibition-section exhibition-manual">
  <div className="exhibition-archive-note"><strong>2026 edition archive</strong><p>This manual records the schedules and operating requirements for the completed 2026 event. Contact the team for guidance for the next edition.</p><Link className="text-link" href={paths.contact}>Request the current manual <span aria-hidden="true">↗</span></Link></div>
  <div className="manual-introduction"><DocumentBlocks paragraphs={documentContent.introduction}/></div>

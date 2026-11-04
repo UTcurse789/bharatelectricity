@@ -1,17 +1,22 @@
 import {consolidatedRoutes} from '@/content/initiatives';
 import {paths} from '@/content/site';
+import urlMigrations from '@/content/url-migrations.json';
 
 export const routeAliases: Record<string,string> = {
+ ...urlMigrations,
  ...consolidatedRoutes,
  '/space-application-form-secondary':'/space-application-form',
  '/space-application-form-startups':paths.startups,
- '/exhibitor-list':'/participants-2025',
+ '/exhibitor-list':paths.exhibitors,
+ '/exhibitors':paths.exhibitors,
+ '/participants-2025':paths.exhibitors,
+ '/2024-exhibitors':paths.exhibitors,
  '/participants-2026':paths.exhibitors,
  '/governing-council-2024':'/meet-our-confirm-advisory-committee',
  '/event':paths.about,'/about-the-events':paths.about,'/about':paths.about,'/about-the-event':paths.about,
  '/legacy':paths.legacy,'/speakers':paths.speakers,'/agenda':paths.agenda,'/gallery':paths.gallery,
  '/partners':paths.partners,'/news':paths.news,'/terms':paths.terms,'/visit':paths.visit,
- '/exhibit-at-powergen-india':paths.exhibit,'/exhibit-at-powergen-india/stand-options':paths.stands,
+ '/exhibit-at-bharat-electricity':paths.exhibit,'/exhibit-at-bharat-electricity/stand-options':paths.stands,
  '/why-exhibit':paths.exhibit,'/stand-options':paths.stands,'/contact':paths.contact
 };
 

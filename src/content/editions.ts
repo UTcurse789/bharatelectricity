@@ -2,9 +2,9 @@ import {paths,site} from './site';
 import type {ContentPage} from './types';
 
 export const editionRecords=[
- {year:2026,dates:site.edition.dates,council:paths.council,participants:paths.exhibitors,speakers:'/2026-speakers',partners:paths.partners},
- {year:2025,dates:'2-4 September 2025',council:'/governing-council-2025',participants:'/participants-2025',speakers:paths.speakers,partners:'/partners-2025'},
- {year:2024,dates:'4-6 September 2024',council:'/meet-our-confirm-advisory-committee',participants:'/2024-exhibitors',speakers:'/2024-speakers',partners:'/partner/partner-e6vb'}
+ {year:2026,dates:site.edition.dates,council:paths.council,participants:paths.exhibitors+'?year=2026',speakers:'/2026-speakers',partners:paths.partners},
+ {year:2025,dates:'2-4 September 2025',council:'/governing-council-2025',participants:paths.exhibitors+'?year=2025',speakers:paths.speakers,partners:'/partners-2025'},
+ {year:2024,dates:'4-6 September 2024',council:'/meet-our-confirm-advisory-committee',participants:paths.exhibitors+'?year=2024',speakers:'/2024-speakers',partners:'/partner/partner-e6vb'}
 ];
 export const editionStatus=(year:number)=>year===site.edition.year?'Latest edition'+(site.edition.status==='completed'?' · Complete':''):'Previous edition archive';
 export const editionPages:ContentPage[]=[

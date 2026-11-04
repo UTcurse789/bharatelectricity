@@ -1,4 +1,20 @@
 {
+  "/assets/2027-refresh/brainstem-technologies.webp": {
+    "width": 1000,
+    "height": 1000,
+    "x": 90,
+    "y": 67,
+    "contentWidth": 820,
+    "contentHeight": 813
+  },
+  "/assets/2027-refresh/tranter-india.webp": {
+    "width": 1600,
+    "height": 381,
+    "x": 0,
+    "y": 0,
+    "contentWidth": 1600,
+    "contentHeight": 381
+  },
   "/assets/homepage/3-dtech-data-center-bf08746b27.webp": {
     "width": 640,
     "height": 318,
@@ -878,14 +894,6 @@
     "y": 54,
     "contentWidth": 185,
     "contentHeight": 92
-  },
-  "/assets/logos/brainstem.webp": {
-    "width": 256,
-    "height": 256,
-    "x": 0,
-    "y": 0,
-    "contentWidth": 256,
-    "contentHeight": 256
   },
   "/assets/logos/bses-rajdhani-power-limited.webp": {
     "width": 200,
@@ -2806,14 +2814,6 @@
     "y": 73,
     "contentWidth": 229,
     "contentHeight": 54
-  },
-  "/assets/logos/tranter-india-pvt.webp": {
-    "width": 200,
-    "height": 200,
-    "x": 23,
-    "y": 23,
-    "contentWidth": 153,
-    "contentHeight": 153
   },
   "/assets/logos/turbo-engineering-services-tes-private-limited-1.webp": {
     "width": 200,

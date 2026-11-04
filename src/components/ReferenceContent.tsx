@@ -15,13 +15,13 @@ type Artwork={src:string;source:string;alt:string;width:number;height:number;una
 type Section={id:string;title:string;blocks:Block[];images:Artwork[];links:{label:string;href:string}[];collapsible:boolean};
 type ReferencePage={path:string;sourcePath:string;source:string;title:string;sections:Section[];videos:{id:string;title:string;thumbnail?:string}[]};
 const requests:Record<string,{topic:string;request:string}>={
- '/exhibit-at-powergen-india/make-a-stand-enquiry':{topic:'Exhibiting',request:'Stand enquiry'},
- '/exhibit-at-powergen-india/make-stand-enquiry-indian-utility-week':{topic:'Exhibiting',request:'Utility Week stand enquiry'},
+ '/exhibit-at-bharat-electricity/make-a-stand-enquiry':{topic:'Exhibiting',request:'Stand enquiry'},
+ '/exhibit-at-bharat-electricity/make-stand-enquiry-indian-utility-week':{topic:'Exhibiting',request:'Utility Week stand enquiry'},
  '/space-application-form':{topic:'Exhibiting',request:'Reserve exhibition space'},
- '/exhibit-at-powergen-india/view-the-floor-plan-92u6':{topic:'Exhibiting',request:'Request the floor plan'},
- '/exhibit-at-powergen-india/request-the-event-prospectus':{topic:'Exhibiting',request:'Request the event prospectus'},
- '/summit-overview/speaking-opportunities-bharat-electricity':{topic:'Conference & speaking',request:'Bharat Electricity speaking enquiry'},
- '/summit-overview/speaking-opportunities':{topic:'Conference & speaking',request:'Power generation speaking enquiry'},
+ '/exhibit-at-bharat-electricity/request-the-floor-plan':{topic:'Exhibiting',request:'Request the floor plan'},
+ '/exhibit-at-bharat-electricity/request-the-event-brochure':{topic:'Exhibiting',request:'Request the event prospectus'},
+ '/summit-overview/speaking-opportunities':{topic:'Conference & speaking',request:'Bharat Electricity speaking enquiry'},
+
  '/summit-overview/speaking-opportunities-indian-utility-week':{topic:'Conference & speaking',request:'Utility Week speaking enquiry'},
  '/become-a-sponsor':{topic:'Partnership',request:'Partnership enquiry'},
  '/become-sponsor-indian-utility-week':{topic:'Partnership',request:'Utility Week partnership enquiry'},
